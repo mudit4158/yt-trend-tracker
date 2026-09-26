@@ -1,0 +1,292 @@
+{
+ "watchlist_discovery": {
+  "ok": true,
+  "detail": "221 channels kept",
+  "count": 221
+ },
+ "youtube_popular_errors": {
+  "ok": true,
+  "detail": "cat 19: videos 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"; cat 27: videos 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"; ",
+  "count": 0
+ },
+ "youtube_popular": {
+  "ok": true,
+  "detail": "1123 unique videos",
+  "count": 1123
+ },
+ "youtube_watchlist": {
+  "ok": true,
+  "detail": "2640 videos from 221 channels",
+  "count": 2640
+ },
+ "youtube_search": {
+  "ok": true,
+  "detail": "371 videos",
+  "count": 371
+ },
+ "youtube_autocomplete": {
+  "ok": true,
+  "detail": "58/58 keywords",
+  "count": 58
+ },
+ "google_trends": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "gnews:DEV:mandir": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:DEV:festival puja vidhi": {
+  "ok": true,
+  "detail": "",
+  "count": 8
+ },
+ "gnews:DEV:navratri": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:DEV:diwali": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:KID:CBSE": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:KID:school holidays": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:KID:children education India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:RBI": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:SEBI": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:income tax": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:UPI": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:mutual fund": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:smartphone launch India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:AI India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:cyber fraud": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:gold price": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:GENERAL:India trending": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:GENERAL:viral video India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "rss:TechCrunch": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:The Verge": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "rss:Ars Technica": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:Wired": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Hacker News": {
+  "ok": true,
+  "detail": "",
+  "count": 5
+ },
+ "rss:SCMP Tech": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:TechNode": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Pandaily": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:KrASIA": {
+  "ok": false,
+  "detail": "not well-formed (invalid token): line 15, column 58",
+  "count": null
+ },
+ "rss:Rest of World": {
+  "ok": true,
+  "detail": "",
+  "count": 12
+ },
+ "rss:Reuters Tech (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Gadgets360": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Moneycontrol Tech": {
+  "ok": true,
+  "detail": "",
+  "count": 2
+ },
+ "rss:Moneycontrol Personal Finance": {
+  "ok": false,
+  "detail": "503 Server Error: Service Unavailable for url: https://www.moneycontrol.com/rss/personalfinance.xml",
+  "count": null
+ },
+ "rss:Economic Times Wealth": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:RBI Press Releases": {
+  "ok": false,
+  "detail": "418 Client Error: Unknown Code for url: https://www.rbi.org.in/pressreleases_rss.xml",
+  "count": null
+ },
+ "rss:RBI Notifications": {
+  "ok": false,
+  "detail": "418 Client Error: Unknown Code for url: https://www.rbi.org.in/notifications_rss.xml",
+  "count": null
+ },
+ "rss:SEBI": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:PIB (English)": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:PIB Fact Check (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 7
+ },
+ "rss:BOOM": {
+  "ok": false,
+  "detail": "404 Client Error: Not Found for url: https://www.boomlive.in/feeds/fact-check.xml",
+  "count": null
+ },
+ "rss:Alt News": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "rss:Vishvas News": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "reddit:IndiaInvestments": {
+  "ok": true,
+  "detail": "",
+  "count": 1
+ },
+ "reddit:personalfinanceindia": {
+  "ok": false,
+  "detail": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/personalfinanceindia/top/.rss?t=day",
+  "count": null
+ },
+ "reddit:india": {
+  "ok": false,
+  "detail": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/india/top/.rss?t=day",
+  "count": null
+ },
+ "reddit:developersIndia": {
+  "ok": false,
+  "detail": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/developersIndia/top/.rss?t=day",
+  "count": null
+ },
+ "reddit:IndianGaming": {
+  "ok": false,
+  "detail": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/IndianGaming/top/.rss?t=day",
+  "count": null
+ },
+ "reddit:technology": {
+  "ok": false,
+  "detail": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/technology/top/.rss?t=day",
+  "count": null
+ },
+ "reddit:indianparents": {
+  "ok": false,
+  "detail": "429 Client Error: Too Many Requests for url: https://www.reddit.com/r/indianparents/top/.rss?t=day",
+  "count": null
+ },
+ "x_trends": {
+  "ok": true,
+  "detail": "",
+  "count": 80
+ },
+ "kworb": {
+  "ok": true,
+  "detail": "",
+  "count": 100
+ },
+ "_meta": {
+  "date": "2026-09-26",
+  "finished_ist": "2026-09-26T10:39+05:30",
+  "youtube_quota_units": 3943
+ }
+}

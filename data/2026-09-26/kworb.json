@@ -1,0 +1,802 @@
+[
+ {
+  "pos": "1",
+  "track": "Sadhu Tiwari - Parvati",
+  "weeks": "3",
+  "peak": "1",
+  "weekly_views": "51,253,022",
+  "change": "+29,795,563"
+ },
+ {
+  "pos": "2",
+  "track": "ARJN - KALYANI (Remix)",
+  "weeks": "28",
+  "peak": "1",
+  "weekly_views": "39,964,451",
+  "change": "+3,433,975"
+ },
+ {
+  "pos": "3",
+  "track": "Prabha Bangarigalla - Yeshanagula",
+  "weeks": "3",
+  "peak": "1",
+  "weekly_views": "29,334,007",
+  "change": "+1,975,626"
+ },
+ {
+  "pos": "4",
+  "track": "G.V. Prakash Kumar - Mallepoola Pallaki",
+  "weeks": "5",
+  "peak": "4",
+  "weekly_views": "26,844,251",
+  "change": "+6,599,840"
+ },
+ {
+  "pos": "5",
+  "track": "G.V. Prakash Kumar - Irumudi Kattu",
+  "weeks": "5",
+  "peak": "4",
+  "weekly_views": "23,058,645",
+  "change": "+124,225"
+ },
+ {
+  "pos": "6",
+  "track": "Banjaare - Barsaat",
+  "weeks": "7",
+  "peak": "4",
+  "weekly_views": "22,745,566",
+  "change": "+4,107,863"
+ },
+ {
+  "pos": "7",
+  "track": "Shreya Ghoshal - Jai Jai Ram",
+  "weeks": "1",
+  "peak": "7",
+  "weekly_views": "19,157,650",
+  "change": ""
+ },
+ {
+  "pos": "8",
+  "track": "G.V. Prakash Kumar -  YAALALO YAALALO",
+  "weeks": "4",
+  "peak": "8",
+  "weekly_views": "17,431,277",
+  "change": "+5,709,018"
+ },
+ {
+  "pos": "9",
+  "track": "Swamy Naresh - Basinga Balaalu",
+  "weeks": "11",
+  "peak": "5",
+  "weekly_views": "16,937,245",
+  "change": "+1,789,287"
+ },
+ {
+  "pos": "10",
+  "track": "Shashwat Sachdev - Shararat",
+  "weeks": "41",
+  "peak": "1",
+  "weekly_views": "16,715,363",
+  "change": "+89,171"
+ },
+ {
+  "pos": "11",
+  "track": "G.V. Prakash Kumar - Neno Butterfly",
+  "weeks": "8",
+  "peak": "8",
+  "weekly_views": "16,176,133",
+  "change": "-654,750"
+ },
+ {
+  "pos": "12",
+  "track": "Shashwat Sachdev - Gehra Hua",
+  "weeks": "42",
+  "peak": "1",
+  "weekly_views": "15,837,346",
+  "change": "-148,118"
+ },
+ {
+  "pos": "13",
+  "track": "Vishal Mishra - Chhathi Maiya",
+  "weeks": "1",
+  "peak": "13",
+  "weekly_views": "13,975,501",
+  "change": ""
+ },
+ {
+  "pos": "14",
+  "track": "Shilpi Raj - Barbadi Hoi",
+  "weeks": "10",
+  "peak": "1",
+  "weekly_views": "13,787,957",
+  "change": "-986,948"
+ },
+ {
+  "pos": "15",
+  "track": "Anand Bhaskar - Vaaroon Forever",
+  "weeks": "3",
+  "peak": "15",
+  "weekly_views": "13,582,424",
+  "change": "+4,817,081"
+ },
+ {
+  "pos": "16",
+  "track": "Banjaare - Bairan",
+  "weeks": "28",
+  "peak": "1",
+  "weekly_views": "12,354,515",
+  "change": "-386,468"
+ },
+ {
+  "pos": "17",
+  "track": "Jyotica Tangri - Ishq de Fanniyar",
+  "weeks": "18",
+  "peak": "6",
+  "weekly_views": "12,148,877",
+  "change": "+1,176,175"
+ },
+ {
+  "pos": "18",
+  "track": "Mithoon - Tera Mera Rishta",
+  "weeks": "6",
+  "peak": "2",
+  "weekly_views": "11,970,691",
+  "change": "-1,670,400"
+ },
+ {
+  "pos": "19",
+  "track": "Sai Abhyankkar - Radhimaa",
+  "weeks": "3",
+  "peak": "13",
+  "weekly_views": "11,748,523",
+  "change": "+249,384"
+ },
+ {
+  "pos": "20",
+  "track": "Krsna - Boom Shaka",
+  "weeks": "16",
+  "peak": "9",
+  "weekly_views": "11,504,106",
+  "change": "+723,309"
+ },
+ {
+  "pos": "21",
+  "track": "Madhur Sharma - Sanson ki Mala (Live)",
+  "weeks": "2",
+  "peak": "21",
+  "weekly_views": "11,395,596",
+  "change": "+7,753,941"
+ },
+ {
+  "pos": "22",
+  "track": "Raj Mawar - Fortuner (feat. Gulshan Music & Jaat Nia)",
+  "weeks": "50",
+  "peak": "2",
+  "weekly_views": "9,522,738",
+  "change": "-356,535"
+ },
+ {
+  "pos": "23",
+  "track": "Sai Abhyankkar - Pavazha Malli (Unplugged)",
+  "weeks": "28",
+  "peak": "6",
+  "weekly_views": "9,474,572",
+  "change": "+232,367"
+ },
+ {
+  "pos": "24",
+  "track": "Mitta Ror - Sheesha (Aakhya Mai Aakh Ghali Jo Bairan)",
+  "weeks": "34",
+  "peak": "4",
+  "weekly_views": "9,277,013",
+  "change": "-419,476"
+ },
+ {
+  "pos": "25",
+  "track": "Shashwat Sachdev - Jaiye Sajana",
+  "weeks": "26",
+  "peak": "3",
+  "weekly_views": "8,453,256",
+  "change": "-313,696"
+ },
+ {
+  "pos": "26",
+  "track": "Alka Yagnik - Dil Laga Liya",
+  "weeks": "41",
+  "peak": "12",
+  "weekly_views": "7,825,282",
+  "change": "+652,347"
+ },
+ {
+  "pos": "27",
+  "track": "Navjot Ahuja - Khat",
+  "weeks": "33",
+  "peak": "20",
+  "weekly_views": "7,587,678",
+  "change": "+1,337,197"
+ },
+ {
+  "pos": "28",
+  "track": "Raushan Rohi - Nach Nagin Jaisan",
+  "weeks": "32",
+  "peak": "2",
+  "weekly_views": "7,352,688",
+  "change": "-282,519"
+ },
+ {
+  "pos": "29",
+  "track": "Anirudh Ravichander - Aaya Sher",
+  "weeks": "25",
+  "peak": "7",
+  "weekly_views": "7,314,138",
+  "change": "+650,130"
+ },
+ {
+  "pos": "30",
+  "track": "Sai Abhyankkar - Alaakaa Loova",
+  "weeks": "7",
+  "peak": "27",
+  "weekly_views": "7,284,719",
+  "change": "+436,346"
+ },
+ {
+  "pos": "31",
+  "track": "Shankar Mahadevan - MOURYA RE",
+  "weeks": "6",
+  "peak": "31",
+  "weekly_views": "6,993,823",
+  "change": ""
+ },
+ {
+  "pos": "32",
+  "track": "Dhanda Nyoliwala - Do Numbari (From âMirzapur The Movieâ)",
+  "weeks": "3",
+  "peak": "32",
+  "weekly_views": "6,883,109",
+  "change": "+1,828,897"
+ },
+ {
+  "pos": "33",
+  "track": "G.V. Prakash Kumar - Mutta Kalakki",
+  "weeks": "30",
+  "peak": "3",
+  "weekly_views": "6,808,845",
+  "change": "+409,130"
+ },
+ {
+  "pos": "34",
+  "track": "Bintu Pabra - Kabze",
+  "weeks": "16",
+  "peak": "28",
+  "weekly_views": "6,778,279",
+  "change": "+1,059,121"
+ },
+ {
+  "pos": "35",
+  "track": "Masoom Sharma - Mithe Tere Bol Pari",
+  "weeks": "33",
+  "peak": "10",
+  "weekly_views": "6,749,809",
+  "change": "+75,097"
+ },
+ {
+  "pos": "36",
+  "track": "Sai Abhyankkar - Karuppa Kooda Va",
+  "weeks": "18",
+  "peak": "12",
+  "weekly_views": "6,725,872",
+  "change": "+958,506"
+ },
+ {
+  "pos": "37",
+  "track": "Khesari Lal Yadav - à¤ªà¤²à¤à¤ à¤¸à¤¾à¤à¤µà¤¾à¤¨ à¤à¥",
+  "weeks": "55",
+  "peak": "5",
+  "weekly_views": "6,693,252",
+  "change": "+361,987"
+ },
+ {
+  "pos": "38",
+  "track": "Arijit Singh - Sitaare",
+  "weeks": "36",
+  "peak": "10",
+  "weekly_views": "6,654,223",
+  "change": "+898,578"
+ },
+ {
+  "pos": "39",
+  "track": "Mohammed Irfan - Banjaara",
+  "weeks": "47",
+  "peak": "15",
+  "weekly_views": "6,601,840",
+  "change": "+642,709"
+ },
+ {
+  "pos": "40",
+  "track": "Suneel Lodhi - Maine Tere Hi Bharose",
+  "weeks": "3",
+  "peak": "28",
+  "weekly_views": "6,240,890",
+  "change": "-443,858"
+ },
+ {
+  "pos": "41",
+  "track": "Arijit Singh - Zaalima",
+  "weeks": "25",
+  "peak": "2",
+  "weekly_views": "6,083,671",
+  "change": ""
+ },
+ {
+  "pos": "42",
+  "track": "Amir Jamal - Kaho Na Kaho",
+  "weeks": "43",
+  "peak": "28",
+  "weekly_views": "6,026,813",
+  "change": "+1,681,680"
+ },
+ {
+  "pos": "43",
+  "track": "Karan Aujla - Boyfriend",
+  "weeks": "48",
+  "peak": "19",
+  "weekly_views": "5,870,414",
+  "change": "-346,159"
+ },
+ {
+  "pos": "44",
+  "track": "Noor - Aarzu",
+  "weeks": "14",
+  "peak": "22",
+  "weekly_views": "5,756,137",
+  "change": "+204,314"
+ },
+ {
+  "pos": "45",
+  "track": "Farhan Saeed - Thodi Der",
+  "weeks": "11",
+  "peak": "11",
+  "weekly_views": "5,697,954",
+  "change": ""
+ },
+ {
+  "pos": "46",
+  "track": "Tuntun Yadav - à¤¤à¥à¤°à¤¾ à¤²à¥à¤à¤¾ à¤¬à¤¦à¤®à¤¾à¤¶ à¤à¥ à¤®à¥à¤ à¤¦à¥ à¤à¥à¤¸à¤°à¤¿à¤¯à¤¾ à¤§à¤¾à¤à¤¸ à¤à¥",
+  "weeks": "6",
+  "peak": "27",
+  "weekly_views": "5,646,836",
+  "change": "-693,270"
+ },
+ {
+  "pos": "47",
+  "track": "Kamal Khan - Ishq Sufiyana",
+  "weeks": "27",
+  "peak": "25",
+  "weekly_views": "5,580,096",
+  "change": "+370,742"
+ },
+ {
+  "pos": "48",
+  "track": "Virat Jayal - Bairi",
+  "weeks": "10",
+  "peak": "15",
+  "weekly_views": "5,515,679",
+  "change": "-456,538"
+ },
+ {
+  "pos": "49",
+  "track": "Anirudh Ravichander - Thalapathy Kacheri",
+  "weeks": "24",
+  "peak": "4",
+  "weekly_views": "5,493,199",
+  "change": "+26,215"
+ },
+ {
+  "pos": "50",
+  "track": "D Naveen - 80 Lakh",
+  "weeks": "17",
+  "peak": "35",
+  "weekly_views": "5,408,978",
+  "change": "-84,058"
+ },
+ {
+  "pos": "51",
+  "track": "Asrar - Afghan Jalebi (Ya Baba)",
+  "weeks": "40",
+  "peak": "2",
+  "weekly_views": "5,362,369",
+  "change": ""
+ },
+ {
+  "pos": "52",
+  "track": "Atif Aslam - Jeene Laga Hoon",
+  "weeks": "33",
+  "peak": "38",
+  "weekly_views": "5,248,292",
+  "change": "+63,397"
+ },
+ {
+  "pos": "53",
+  "track": "Jakes Bejoy - Asalayavale",
+  "weeks": "4",
+  "peak": "40",
+  "weekly_views": "5,187,523",
+  "change": "-441,943"
+ },
+ {
+  "pos": "54",
+  "track": "Kumar Sanu - Mujhse Mohabbat Ka",
+  "weeks": "33",
+  "peak": "28",
+  "weekly_views": "5,138,111",
+  "change": "+37,447"
+ },
+ {
+  "pos": "55",
+  "track": "Aneesh - Udi Udi",
+  "weeks": "16",
+  "peak": "23",
+  "weekly_views": "5,088,333",
+  "change": "-92,097"
+ },
+ {
+  "pos": "56",
+  "track": "Anand Bhaskar - Vaaroon (feat. Romy & Ginny Diwan)",
+  "weeks": "2",
+  "peak": "56",
+  "weekly_views": "5,084,635",
+  "change": "+708,588"
+ },
+ {
+  "pos": "57",
+  "track": "Manish Sonipat Aala - Kamar DJ Pe",
+  "weeks": "10",
+  "peak": "17",
+  "weekly_views": "5,003,683",
+  "change": "-677,026"
+ },
+ {
+  "pos": "58",
+  "track": "Madhur Sharma - Andaaz e Karam",
+  "weeks": "22",
+  "peak": "54",
+  "weekly_views": "4,932,897",
+  "change": "+498,669"
+ },
+ {
+  "pos": "59",
+  "track": "Shaarib Toshi - Saanson Ko",
+  "weeks": "5",
+  "peak": "49",
+  "weekly_views": "4,877,328",
+  "change": "+256,400"
+ },
+ {
+  "pos": "60",
+  "track": "Anirudh Ravichander - Bum Baa Diga Diga",
+  "weeks": "3",
+  "peak": "60",
+  "weekly_views": "4,814,722",
+  "change": "+434,914"
+ },
+ {
+  "pos": "61",
+  "track": "Dhanda Nyoliwala - Maruti",
+  "weeks": "2",
+  "peak": "61",
+  "weekly_views": "4,777,572",
+  "change": "+1,099,586"
+ },
+ {
+  "pos": "62",
+  "track": "Arijit Singh - ISHQ MUBARAK",
+  "weeks": "12",
+  "peak": "13",
+  "weekly_views": "4,754,635",
+  "change": ""
+ },
+ {
+  "pos": "63",
+  "track": "YUNG DSA - YEDA YUNG",
+  "weeks": "10",
+  "peak": "15",
+  "weekly_views": "4,608,187",
+  "change": ""
+ },
+ {
+  "pos": "64",
+  "track": "Pritam -  Tera Mera Rishta Purana",
+  "weeks": "11",
+  "peak": "17",
+  "weekly_views": "4,433,007",
+  "change": "-1,294,610"
+ },
+ {
+  "pos": "65",
+  "track": "Khesari Lal Yadav - à¤à¤«à¥à¤®",
+  "weeks": "3",
+  "peak": "25",
+  "weekly_views": "4,378,100",
+  "change": "-1,975,857"
+ },
+ {
+  "pos": "66",
+  "track": "Akhil Sachdeva - O Sanam",
+  "weeks": "12",
+  "peak": "54",
+  "weekly_views": "4,344,300",
+  "change": "+27,203"
+ },
+ {
+  "pos": "67",
+  "track": "Vin WRLD - No Snitching",
+  "weeks": "1",
+  "peak": "67",
+  "weekly_views": "4,260,166",
+  "change": ""
+ },
+ {
+  "pos": "68",
+  "track": "Alka Yagnik - à¤à¤à¤à¤¾ à¤®à¥à¥à¥à¤¾ à¤¬à¤°à¤¸à¤¾à¤¤ à¤à¤¾",
+  "weeks": "14",
+  "peak": "26",
+  "weekly_views": "4,162,040",
+  "change": "-239,109"
+ },
+ {
+  "pos": "69",
+  "track": "Sadhana Sargam - Saat Samunder",
+  "weeks": "29",
+  "peak": "21",
+  "weekly_views": "4,121,568",
+  "change": ""
+ },
+ {
+  "pos": "70",
+  "track": "Sadhu Tiwari - Aavagaman",
+  "weeks": "2",
+  "peak": "65",
+  "weekly_views": "4,084,235",
+  "change": "-261,610"
+ },
+ {
+  "pos": "71",
+  "track": "Shubham Raj - Nachiab Hathiyar Se",
+  "weeks": "11",
+  "peak": "43",
+  "weekly_views": "4,074,591",
+  "change": "+522,920"
+ },
+ {
+  "pos": "72",
+  "track": "G.V. Prakash Kumar - Karthika Maasam",
+  "weeks": "1",
+  "peak": "72",
+  "weekly_views": "4,073,805",
+  "change": ""
+ },
+ {
+  "pos": "73",
+  "track": "Khesari Lal Yadav -  à¤à¤µà¤¨ à¤°à¥à¤à¥ à¤°à¤à¤à¤¦à¤¾à¤°à¥",
+  "weeks": "1",
+  "peak": "73",
+  "weekly_views": "4,012,513",
+  "change": ""
+ },
+ {
+  "pos": "74",
+  "track": "Pawan Singh - Lahanga Se Mahanga (feat. Niharica Raizada)",
+  "weeks": "4",
+  "peak": "74",
+  "weekly_views": "3,990,596",
+  "change": "+311,322"
+ },
+ {
+  "pos": "75",
+  "track": "jal - Aadat",
+  "weeks": "3",
+  "peak": "75",
+  "weekly_views": "3,988,492",
+  "change": ""
+ },
+ {
+  "pos": "76",
+  "track": "Sai Abhyankkar - Nallaru Po",
+  "weeks": "7",
+  "peak": "60",
+  "weekly_views": "3,946,893",
+  "change": "-4,536"
+ },
+ {
+  "pos": "77",
+  "track": "Shaan - Chand Sifarish",
+  "weeks": "21",
+  "peak": "77",
+  "weekly_views": "3,935,661",
+  "change": ""
+ },
+ {
+  "pos": "78",
+  "track": "Neelkamal Singh - à¤§à¤°S à¤à¤®à¤° à¤°à¤¾à¤à¤¾ à¤à¥",
+  "weeks": "42",
+  "peak": "15",
+  "weekly_views": "3,917,830",
+  "change": "+319,105"
+ },
+ {
+  "pos": "79",
+  "track": "Daler Mehndi - Katto Gilehri",
+  "weeks": "16",
+  "peak": "57",
+  "weekly_views": "3,912,571",
+  "change": "+94,123"
+ },
+ {
+  "pos": "80",
+  "track": "Anirudh Ravichander - Raga of Revenge",
+  "weeks": "10",
+  "peak": "17",
+  "weekly_views": "3,865,653",
+  "change": "-287,378"
+ },
+ {
+  "pos": "81",
+  "track": "Arijit Singh - Teri Meri Kahaani",
+  "weeks": "18",
+  "peak": "6",
+  "weekly_views": "3,816,969",
+  "change": "+540,901"
+ },
+ {
+  "pos": "82",
+  "track": "Iqbal Afzal Sabri - Teri Jawani Badi Mast Mast Hai",
+  "weeks": "21",
+  "peak": "82",
+  "weekly_views": "3,799,287",
+  "change": ""
+ },
+ {
+  "pos": "83",
+  "track": "A. R. Rahman - Hellallallo",
+  "weeks": "17",
+  "peak": "6",
+  "weekly_views": "3,770,441",
+  "change": "+257,091"
+ },
+ {
+  "pos": "84",
+  "track": "Jasmine Sandlas - LAAVAN",
+  "weeks": "10",
+  "peak": "47",
+  "weekly_views": "3,736,965",
+  "change": "-15,148"
+ },
+ {
+  "pos": "85",
+  "track": "Udit Narayan - Bheed Mein",
+  "weeks": "21",
+  "peak": "43",
+  "weekly_views": "3,705,908",
+  "change": "+301,802"
+ },
+ {
+  "pos": "86",
+  "track": "Kishore Kumar - Pal Pal Dil Ke Paas",
+  "weeks": "18",
+  "peak": "54",
+  "weekly_views": "3,676,496",
+  "change": "+287,978"
+ },
+ {
+  "pos": "87",
+  "track": "Masoom Sharma - TATVDARSHI",
+  "weeks": "3",
+  "peak": "42",
+  "weekly_views": "3,670,208",
+  "change": "-1,013,970"
+ },
+ {
+  "pos": "88",
+  "track": "Dhanda Nyoliwala - Russian Bandana",
+  "weeks": "45",
+  "peak": "11",
+  "weekly_views": "3,629,998",
+  "change": ""
+ },
+ {
+  "pos": "89",
+  "track": "Masoom Sharma - Filmy Babe",
+  "weeks": "2",
+  "peak": "87",
+  "weekly_views": "3,625,139",
+  "change": "+145,741"
+ },
+ {
+  "pos": "90",
+  "track": "Khesari Lal Yadav - Case Teri Rani Ladegi",
+  "weeks": "12",
+  "peak": "29",
+  "weekly_views": "3,585,131",
+  "change": "-86,805"
+ },
+ {
+  "pos": "91",
+  "track": "B Praak - Narak",
+  "weeks": "9",
+  "peak": "46",
+  "weekly_views": "3,565,634",
+  "change": "+47,548"
+ },
+ {
+  "pos": "92",
+  "track": "Aseema Panda - Tame Mo Riban Fita",
+  "weeks": "1",
+  "peak": "92",
+  "weekly_views": "3,551,101",
+  "change": ""
+ },
+ {
+  "pos": "93",
+  "track": "Dev Negi - Aankhon Se Tune 2.0",
+  "weeks": "8",
+  "peak": "15",
+  "weekly_views": "3,548,476",
+  "change": "-258,767"
+ },
+ {
+  "pos": "94",
+  "track": "Raushan Rohi -  Vardi Ke Power",
+  "weeks": "1",
+  "peak": "94",
+  "weekly_views": "3,525,384",
+  "change": ""
+ },
+ {
+  "pos": "95",
+  "track": "Miss Pooja, Gagandeep - Sohnea (feat. Millind Gaba)",
+  "weeks": "1",
+  "peak": "95",
+  "weekly_views": "3,514,903",
+  "change": ""
+ },
+ {
+  "pos": "96",
+  "track": "Pramod Premi - PAGLE BANA DELU",
+  "weeks": "20",
+  "peak": "25",
+  "weekly_views": "3,490,195",
+  "change": "-341,153"
+ },
+ {
+  "pos": "97",
+  "track": "Kishore Kumar - Mere Mehboob Qayamat Hogi",
+  "weeks": "2",
+  "peak": "19",
+  "weekly_views": "3,485,526",
+  "change": ""
+ },
+ {
+  "pos": "98",
+  "track": "Anand Raj Anand - Kiya Kiya",
+  "weeks": "5",
+  "peak": "89",
+  "weekly_views": "3,474,908",
+  "change": ""
+ },
+ {
+  "pos": "99",
+  "track": "Cheema Y - Jackpot",
+  "weeks": "17",
+  "peak": "32",
+  "weekly_views": "3,454,980",
+  "change": "+158,621"
+ },
+ {
+  "pos": "100",
+  "track": "Kalpana Patowary - Jhumka Jhulaniya",
+  "weeks": "1",
+  "peak": "100",
+  "weekly_views": "3,437,149",
+  "change": ""
+ }
+]
