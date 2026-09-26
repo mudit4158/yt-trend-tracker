@@ -1,11 +1,135 @@
 {
- "blocked": [],
- "open": [],
+ "blocked": [
+  {
+   "cluster": "rbi-mpc-oct-2026",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "bilingual-varnamala-abc",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "upi-mdr-oct-2026",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "good-habits-handwash-song",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "hanuman-chalisa-calm-lyrics",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "navratri-navdurga-series",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "epfo-wage-ceiling-25000",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "ai-deepfake-investment-scam",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "mahalaya-devi-stuti",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "gandhi-jayanti-kids-story",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  },
+  {
+   "cluster": "pitru-paksha-mantra-jaap",
+   "reason": "already suggested 2026-09-26 (still open)",
+   "until": "open"
+  }
+ ],
+ "open": [
+  {
+   "id": "TFN-2026-09-26-04",
+   "status": "Suggested",
+   "title": "RBI Policy 7 October: Your EMI Explained"
+  },
+  {
+   "id": "KID-2026-09-26-02",
+   "status": "Suggested",
+   "title": "A for Apple, अ से अनार | ABC + Varnamala Song"
+  },
+  {
+   "id": "TFN-2026-09-26-01",
+   "status": "Suggested",
+   "title": "UPI Charges from 15 October: Do YOU Pay? Truth"
+  },
+  {
+   "id": "KID-2026-09-26-03",
+   "status": "Suggested",
+   "title": "Wash Your Hands Song | Good Habits for Kids"
+  },
+  {
+   "id": "DEV-2026-09-26-04",
+   "status": "Suggested",
+   "title": "Hanuman Chalisa | Clear Pronunciation with Lyrics"
+  },
+  {
+   "id": "DEV-2026-09-26-01",
+   "status": "Suggested",
+   "title": "Navratri 2026 Day-wise Mantra | 9 Devi Roop | नवरात्रि"
+  },
+  {
+   "id": "TFN-2026-09-26-02",
+   "status": "Suggested",
+   "title": "EPFO New Rule: ₹25,000 Wage Ceiling Explained"
+  },
+  {
+   "id": "TFN-2026-09-26-03",
+   "status": "Suggested",
+   "title": "Fake FM Video Scam: How to Spot AI Deepfakes"
+  },
+  {
+   "id": "DEV-2026-09-26-02",
+   "status": "Suggested",
+   "title": "Ya Devi Sarvabhuteshu | Mahalaya 2026 Durga Stuti"
+  },
+  {
+   "id": "KID-2026-09-26-01",
+   "status": "Suggested",
+   "title": "Gandhi Jayanti Story for Kids | Bapu ki Kahani"
+  },
+  {
+   "id": "DEV-2026-09-26-03",
+   "status": "Suggested",
+   "title": "Pitru Paksha 2026 | 108 Mantra Jaap for Ancestors"
+  }
+ ],
  "expire": [],
  "learning": {
   "rejected": [],
   "published": []
  },
- "total_ideas": 0,
- "existing_ids": []
+ "total_ideas": 11,
+ "existing_ids": [
+  "DEV-2026-09-26-01",
+  "DEV-2026-09-26-02",
+  "DEV-2026-09-26-03",
+  "DEV-2026-09-26-04",
+  "KID-2026-09-26-01",
+  "KID-2026-09-26-02",
+  "KID-2026-09-26-03",
+  "TFN-2026-09-26-01",
+  "TFN-2026-09-26-02",
+  "TFN-2026-09-26-03",
+  "TFN-2026-09-26-04"
+ ]
 }
