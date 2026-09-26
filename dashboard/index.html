@@ -35,6 +35,8 @@ nav.tabs{display:flex;gap:4px;overflow-x:auto;margin-top:12px;scrollbar-width:no
 nav.tabs button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;color:var(--ink-2);white-space:nowrap;font-weight:600}
 nav.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
 main{padding-top:20px}
+.exp{padding:0 6px;font-size:12px;line-height:20px} tr.lcard td{background:var(--sunk);padding:12px} tr.lcard .card{max-width:820px}
+details.refine summary{cursor:pointer;color:var(--accent);font-size:14px;font-weight:600} details.refine textarea{width:100%}
 #mi-form{align-content:start} #mi-form textarea,#mi-form input{width:100%} textarea{resize:vertical;font-family:var(--body)}
 .chip{display:inline-flex;align-items:center;gap:5px;font:500 12px/1 var(--body);padding:4px 8px;border-radius:99px;background:var(--sunk);color:var(--ink-2);white-space:nowrap;letter-spacing:.02em}
 .chip.ok{background:var(--ok-soft);color:var(--ok)} .chip.warn{background:var(--warn-soft);color:var(--warn)} .chip.bad{background:var(--bad-soft);color:var(--bad)}
@@ -175,7 +177,7 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
 const CH = {DEV:"Devotional", KID:"Kids", TFN:"Tech + Finance"};
 const STATUS = ["Suggested","Accepted","In production","Published","Rejected","Expired"];
 const TRIGGER_ID = "trig_01Ty8RSQjvVLoNjbyzBsyi8J", MCP_SERVER = "Claude Code Remote";
-const S = {mcp:null, requests:[], lastReq:null, db:null, meta:null, date:null, ideas:[], day:{}, calendar:null, tab:"brief", chan:"DEV", pscope:"tracker_top500",
+const S = {lopen:new Set(), mcp:null, requests:[], lastReq:null, db:null, meta:null, date:null, ideas:[], day:{}, calendar:null, tab:"brief", chan:"DEV", pscope:"tracker_top500",
            tf:{q:"",cat:"",lang:"",fmt:"",len:""}, lf:{ch:"",st:"open"}};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -259,52 +261,70 @@ document.addEventListener("click", e => {
     setStatus(id,"Rejected",{reject_reason:r}); }
   if(act==="copy"){ const txt=b.dataset.text; navigator.clipboard?.writeText(txt).then(()=>toast("Copied"),()=>toast("Copy blocked. Select the text and copy it.")); }
   if(act==="chan"){ S.chan=b.dataset.v; render(); }
+  if(act==="lexp"){ const id=b.dataset.id; S.lopen.has(id)?S.lopen.delete(id):S.lopen.add(id); renderLedger(); }
   if(act==="pscope"){ S.pscope=b.dataset.v; render(); }
 });
 
 /* ---------- renderers ---------- */
 function render(){
-  const t=S.tab;
-  if(t==="brief") renderBrief(); if(t==="tracker") renderTracker(); if(t==="channels") renderChannels();
-  if(t==="web") renderWeb(); if(t==="calendar") renderCalendar(); if(t==="ledger") renderLedger(); if(t==="mine") renderMine(); if(t==="patterns") renderPatterns();
+  const t=S.tab, fns={brief:renderBrief,tracker:renderTracker,channels:renderChannels,web:renderWeb,calendar:renderCalendar,ledger:renderLedger,mine:renderMine,patterns:renderPatterns};
+  try{ fns[t]?.(); }
+  catch(err){ console.error(err); const el=$("#tab-"+t); if(el) el.innerHTML=`<div class="empty">This view hit a display error (${esc(err.message)}). Your data is safe — tell Claude so it can fix the page.</div>`; }
 }
 const vchip = v => v==="Verified" ? `<span class="chip ok">✓ Verified</span>` : v==="Avoid" ? `<span class="chip bad">⛔ Avoid</span>` : `<span class="chip warn">⚠ Needs check</span>`;
 const schip = s => `<span class="chip ${s==="Published"?"ok":s==="Rejected"?"bad":s==="Suggested"?"":"warn"}">${esc(s||"Suggested")}</span>`;
-function list(a){ return (a&&a.length) ? `<ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>` : `<span class="muted">–</span>`; }
+/* tolerate the shapes different runs write: array, single string, or object */
+const arr = x => Array.isArray(x) ? x : (x==null || x==="" ? [] : (typeof x==="object" ? Object.values(x) : [x]));
+const txt = x => typeof x==="string" ? x : (x==null ? "" : (x.title || x.text || JSON.stringify(x)));
+function list(a){ a=arr(a); return a.length ? `<ul>${a.map(x=>`<li>${esc(txt(x))}</li>`).join("")}</ul>` : `<span class="muted">–</span>`; }
 function actions(i){
   const s=i.status||"Suggested", id=esc(i._id);
+  const refine=`<details class="refine"><summary>Refine & research again</summary>
+    <div class="actions" style="margin-top:8px"><textarea id="ref-${id}" rows="3" aria-label="What should change" placeholder="What's off, and what do you want instead? e.g. 'Aim at first-time salaried users, focus on the in-hand salary change, skip pension math'"></textarea></div>
+    <div class="actions"><button data-act="refine" data-id="${id}">Research again</button><span class="small muted">Updates this same card; the old version is kept in its history.</span></div></details>`;
+  const open=S.requests.find(r=>r.type==="refine" && r.idea_id===i._id && ["Queued","Researching"].includes(r.status));
+  const refState=open?`<div class="small"><span class="chip warn">Refining…</span> <span class="muted">${esc(open.instructions||"")}</span></div>`:refine;
   if(s==="Published") return `<div class="actions small"><span class="muted">Published</span> ${i.published_url?`<a href="${esc(i.published_url)}" target="_blank" rel="noopener">video ↗</a>`:""}</div>`;
-  if(s==="Rejected") return `<div class="actions small"><span class="muted">Reason: ${esc(i.reject_reason||"–")}</span><button data-act="reopen" data-id="${id}">Reopen</button></div>`;
+  if(s==="Rejected") return `<div class="actions small"><span class="muted">Reason: ${esc(i.reject_reason||"–")}</span><button data-act="reopen" data-id="${id}">Reopen</button></div>${refState}`;
   return `<div class="actions">
     ${s==="Suggested"?`<button class="primary" data-act="accept" data-id="${id}">Accept</button>`:""}
     ${s!=="In production"?`<button data-act="prod" data-id="${id}">In production</button>`:""}
     <input type="url" id="pub-${id}" placeholder="YouTube link (after publishing)" aria-label="Published video link">
     <button data-act="publish" data-id="${id}">Mark published</button>
   </div>
-  <div class="actions"><input type="text" id="rej-${id}" placeholder="Why reject? (short reason)" aria-label="Reject reason"><button data-act="reject" data-id="${id}">Reject</button></div>`;
+  <div class="actions"><input type="text" id="rej-${id}" placeholder="Why reject? (short reason)" aria-label="Reject reason"><button data-act="reject" data-id="${id}">Reject</button></div>
+  ${refState}`;
 }
 function ideaCard(i){
+  try{ return ideaCardInner(i); }
+  catch(err){ console.error(err); return `<article class="card"><div class="ttl">${esc(txt(arr(i.titles)[0])||i.topic||i._id)}</div><div class="small muted">Part of this card couldn't be shown (${esc(err.message)}). ID ${esc(i._id)}</div>${actions(i)}</article>`; }
+}
+function ideaCardInner(i){
   const f=i.format||{}, k=i.keywords||{};
-  return `<article class="card" style="--c:var(--${(i.channel||"").toLowerCase()})">
-    <div class="row"><span class="chip ${esc(i.channel)}">${esc(i.channel)}</span>${vchip(i.verification)}${schip(i.status)}<span class="score" title="Priority score">${esc(i.priority)}/100</span>${i.origin==="Mudit"?`<span class="chip mine">Your idea</span>`:""}</div>
-    <div class="ttl">${esc((i.titles||[])[0]||i.topic)}</div>
+  const comp = Array.isArray(i.competition) ? i.competition : arr(i.competition?.videos);
+  const gap = i.gap || i.competition?.gap;
+  const revs = arr(i.refinements);
+  return `<article class="card" style="--c:var(--${String(i.channel||"").toLowerCase()})">
+    <div class="row"><span class="chip ${esc(i.channel)}">${esc(i.channel)}</span>${vchip(i.verification)}${schip(i.status)}<span class="score" title="Priority score">${esc(i.priority)}/100</span>${i.origin==="Mudit"?`<span class="chip mine">Your idea</span>`:""}${revs.length?`<span class="chip" title="Refined ${revs.length} time(s)">Refined ×${revs.length}</span>`:""}</div>
+    <div class="ttl">${esc(txt(arr(i.titles)[0])||i.topic)}</div>
     <div class="small muted">${esc(f.type||"")}${f.length?" · "+esc(f.length):""} · Publish by <b>${esc(i.publish_by||"–")}</b> · ${esc(i.upload_slot||"")}</div>
     <details class="more"><summary>Full card</summary>
       <div class="kv">
         <div><span class="label">Why now (evidence)</span>${list(i.why_now)}</div>
         <div><span class="label">Hook (first 5 sec)</span>${esc(f.hook||"–")}</div>
-        <div><span class="label">Outline</span>${(f.outline||[]).length?`<ol>${f.outline.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`:"–"}</div>
+        <div><span class="label">Outline</span>${arr(f.outline).length?`<ol>${arr(f.outline).map(x=>`<li>${esc(txt(x))}</li>`).join("")}</ol>`:"–"}</div>
         ${f.shorts?`<div><span class="label">Shorts</span>${list(f.shorts)}</div>`:""}
-        <div><span class="label">Title options</span>${(i.titles||[]).map(t=>`<div class="row">${esc(t)} <button class="copy" data-act="copy" data-text="${esc(t)}">Copy</button></div>`).join("")}</div>
-        <div><span class="label">Thumbnail brief</span>${esc(i.thumbnail||"–")}</div>
-        <div><span class="label">Keywords</span>Primary: ${esc((k.primary||[]).join(", "))}<br>Secondary: ${esc((k.secondary||[]).join(", "))}</div>
-        <div><span class="label">Description draft</span><pre>${esc(i.description||"–")}</pre><button class="copy" data-act="copy" data-text="${esc(i.description||"")}">Copy description</button></div>
-        <div><span class="label">Tags</span>${esc((i.tags||[]).join(", "))} <button class="copy" data-act="copy" data-text="${esc((i.tags||[]).join(", "))}">Copy</button></div>
-        <div><span class="label">Verification sources</span>${(i.sources||[]).length?`<ul>${i.sources.map(s=>`<li><a href="${esc(s.url||s)}" target="_blank" rel="noopener">${esc(s.title||s.url||s)}</a></li>`).join("")}</ul>`:"–"}</div>
-        ${i.competition?`<div><span class="label">Competition (top videos)</span><ul>${i.competition.map(c=>`<li>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>`:esc(c.title)} <span class="muted small">· ${esc(c.channel||"")} · ${esc(c.views||"")}${c.age?" · "+esc(c.age):""}</span></li>`).join("")}</ul>${i.gap?`<div class="small"><b>Gap:</b> ${esc(i.gap)}</div>`:""}</div>`:""}
+        <div><span class="label">Title options</span>${arr(i.titles).map(t=>`<div class="row">${esc(txt(t))} <button class="copy" data-act="copy" data-text="${esc(txt(t))}">Copy</button></div>`).join("")}</div>
+        <div><span class="label">Thumbnail brief</span>${esc(txt(i.thumbnail)||"–")}</div>
+        <div><span class="label">Keywords</span>Primary: ${esc(arr(k.primary).join(", "))}<br>Secondary: ${esc(arr(k.secondary).join(", "))}</div>
+        <div><span class="label">Description draft</span><pre>${esc(txt(i.description)||"–")}</pre><button class="copy" data-act="copy" data-text="${esc(txt(i.description))}">Copy description</button></div>
+        <div><span class="label">Tags</span>${esc(arr(i.tags).join(", "))} <button class="copy" data-act="copy" data-text="${esc(arr(i.tags).join(", "))}">Copy</button></div>
+        <div><span class="label">Verification sources</span>${arr(i.sources).length?`<ul>${arr(i.sources).map(s=>{const u=typeof s==="string"?s:s.url; return `<li>${u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(txt(s))}</a>`:esc(txt(s))}</li>`}).join("")}</ul>`:"–"}</div>
+        ${comp.length||gap?`<div><span class="label">Competition (top videos)</span>${comp.length?`<ul>${comp.map(c=>`<li>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(txt(c))}</a>`:esc(txt(c))} <span class="muted small">${c.channel?"· "+esc(c.channel):""}${c.views!=null?" · "+(typeof c.views==="number"?fmt(c.views)+" views":esc(c.views)):""}${c.age?" · "+esc(c.age):""}</span></li>`).join("")}</ul>`:""}${gap?`<div class="small"><b>Gap:</b> ${esc(gap)}</div>`:""}</div>`:""}
         ${i.idea_original?`<div><span class="label">Your original idea</span>${esc(i.idea_original)}</div>`:""}
-        <div><span class="label">Risk flags</span>${esc(i.risk_flags||"none")}</div>
-        <div class="small muted">ID ${esc(i._id)} · Topic cluster: ${esc(i.topic_cluster)}</div>
+        ${revs.length?`<div><span class="label">Refinement history</span><ul>${revs.map(r=>`<li><span class="small muted num">${esc(String(r.at||"").slice(0,16).replace("T"," "))}</span> <b>You asked:</b> ${esc(r.instructions||"")}${r.changes?`<br><span class="small"><b>Changed:</b> ${esc(r.changes)}</span>`:""}</li>`).join("")}</ul></div>`:""}
+        <div><span class="label">Risk flags</span>${esc(txt(i.risk_flags)||"none")}</div>
+        <div class="small muted">ID ${esc(i._id)} · Topic cluster: ${esc(i.topic_cluster)}${i.revision?` · Revision ${esc(i.revision)}`:""}</div>
       </div>
     </details>
     ${actions(i)}
@@ -413,10 +433,10 @@ function renderLedger(){
     <select id="lch" aria-label="Channel"><option value="">All channels</option>${Object.entries(CH).map(([k,v])=>`<option value="${k}" ${f.ch===k?"selected":""}>${v}</option>`).join("")}</select>
     <select id="lst" aria-label="Status"><option value="open" ${f.st==="open"?"selected":""}>Open (suggested + in progress)</option><option value="" ${f.st===""?"selected":""}>All</option>${STATUS.map(s=>`<option ${f.st===s?"selected":""}>${s}</option>`).join("")}</select>
     <span class="small muted">${counts.map(([s,n])=>`${s}: <b class="num">${n}</b>`).join(" · ")}</span></div>
-    ${rows.length?`<div class="tablebox"><table><thead><tr><th>Date</th><th>ID</th><th>Idea</th><th>Status</th><th class="r">Score</th><th>Cooldown until</th></tr></thead><tbody>
-    ${rows.map(i=>`<tr><td class="num small">${esc(i.date)}</td><td class="num small">${esc(i._id)}</td><td class="tt"><b>${esc((i.titles||[])[0]||i.topic)}</b>${i.origin==="Mudit"?" <span class='chip mine'>Your idea</span>":""}<div class="small muted">${esc(i.topic_cluster)}</div></td>
-    <td>${schip(i.status)} ${vchip(i.verification)}</td><td class="r num">${esc(i.priority)}</td><td class="num small">${esc(i.cooldown_until||"–")}</td></tr>`).join("")}</tbody></table></div>`:`<div class="empty">No ideas.</div>`}
-    <p class="small muted">Change status from the cards in Today's Brief. Published and rejected ideas are not suggested again until their cooldown ends.</p>`;
+    ${rows.length?`<div class="tablebox"><table><thead><tr><th>Date</th><th>ID</th><th>Idea <span class="small muted" style="text-transform:none;letter-spacing:0">(▸ for the full card)</span></th><th>Status</th><th class="r">Score</th><th>Cooldown until</th></tr></thead><tbody>
+    ${rows.map(i=>{const o=S.lopen.has(i._id); return `<tr class="lrow"><td class="num small"><button class="exp" data-act="lexp" data-id="${esc(i._id)}" aria-expanded="${o}" aria-label="${o?"Hide":"Show"} full card for ${esc(i._id)}">${o?"▾":"▸"}</button> ${esc(i.date)}</td><td class="num small">${esc(i._id)}</td><td class="tt"><b>${esc((i.titles||[])[0]||i.topic)}</b>${i.origin==="Mudit"?" <span class='chip mine'>Your idea</span>":""}<div class="small muted">${esc(i.topic_cluster)}</div></td>
+    <td>${schip(i.status)} ${vchip(i.verification)}</td><td class="r num">${esc(i.priority)}</td><td class="num small">${esc(i.cooldown_until||"–")}</td></tr>${o?`<tr class="lcard"><td colspan="6">${ideaCard(i)}</td></tr>`:""}`}).join("")}</tbody></table></div>`:`<div class="empty">No ideas.</div>`}
+    <p class="small muted">Open any row (▸) to see the full card, change its status or refine it. Published and rejected ideas are not suggested again until their cooldown ends.</p>`;
   $("#lor").onchange=e=>{S.lf.or=e.target.value;renderLedger()}; $("#lch").onchange=e=>{S.lf.ch=e.target.value;renderLedger()}; $("#lst").onchange=e=>{S.lf.st=e.target.value;renderLedger()};
 }
 function renderPatterns(){
@@ -469,7 +489,7 @@ function renderMine(){
      ${reqs.length?reqs.map(r=>{ const card=r.idea_id && S.ideas.find(i=>i._id===r.idea_id);
        return `<div class="panel">
          <div class="row" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="chip ${RSTAT[r.status]||""}">${esc(r.status)}</span>${r.channel&&r.channel!=="ANY"?`<span class="chip ${esc(r.channel)}">${esc(r.channel)}</span>`:""}<span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span></div>
-         <div><b>${esc(r.idea)}</b>${r.angle?`<div class="small muted">${esc(r.angle)}</div>`:""}</div>
+         <div>${r.type==="refine"?`<span class="label">Refine ${esc(r.idea_id)}</span><br>`:""}<b>${esc(r.idea)}</b>${r.instructions?`<div class="small">“${esc(r.instructions)}”</div>`:""}${r.angle?`<div class="small muted">${esc(r.angle)}</div>`:""}</div>
          ${r.summary?`<div class="small">${esc(r.summary)}</div>`:""}
          ${r.status==="Failed"?`<div class="small" style="color:var(--bad)">${esc(r.error||"Research failed.")}</div>`:""}
          ${r.dispatch_note?`<div class="small muted">${esc(r.dispatch_note)}</div>`:""}
@@ -494,11 +514,11 @@ async function submitIdea(e){
   ["#mi-idea","#mi-angle","#mi-links","#mi-date"].forEach(s=>{ const el=$(s); if(el) el.value=""; });
   toast("Idea saved"); await startResearch(id);
 }
-async function startResearch(id){
+async function startResearch(id, kind="Research"){
   const ref=S.db.doc("requests/"+id);
   if(!S.mcp){ await ref.update({dispatch_note:"Will be researched in the next morning brief."}).catch(()=>{}); return; }
   try{
-    await S.mcp.callTool(MCP_SERVER,"fire_trigger",{trigger_id:TRIGGER_ID, text:`Research request ${id}`});
+    await S.mcp.callTool(MCP_SERVER,"fire_trigger",{trigger_id:TRIGGER_ID, text:`${kind} request ${id}`});
     await ref.update({dispatch_note:"Research started — you'll get a notification when the card is ready."}).catch(()=>{});
     toast("Research started");
   }catch(err){
@@ -513,6 +533,17 @@ async function startResearch(id){
   }
 }
 document.addEventListener("click", e=>{ const b=e.target.closest('[data-act="req-run"]'); if(!b) return; b.disabled=true; startResearch(b.dataset.id); });
+document.addEventListener("click", async e=>{
+  const b=e.target.closest('[data-act="refine"]'); if(!b) return;
+  const ideaId=b.dataset.id, box=document.getElementById("ref-"+ideaId), instructions=(box?.value||"").trim();
+  if(instructions.length<8){ toast("Tell Claude what to change first"); box?.focus(); return; }
+  const idea=S.ideas.find(i=>i._id===ideaId); b.disabled=true;
+  const id=reqId();
+  try{ await S.db.doc("requests/"+id).set({type:"refine", idea_id:ideaId, idea:txt(arr(idea?.titles)[0])||idea?.topic||ideaId,
+        channel:idea?.channel||"ANY", instructions, status:"Queued", created_at:new Date().toISOString()}); }
+  catch(err){ toast(err.code==="invalid_argument"?"You don't have edit access":"Could not save. Try again."); b.disabled=false; return; }
+  toast("Refinement saved"); await startResearch(id, "Refine");
+});
 
 /* ---------- Menu drawer: sources, logic, guardrails ---------- */
 const FEEDS = {"tech_usa": {"TechCrunch": "https://techcrunch.com/feed/", "The Verge": "https://www.theverge.com/rss/index.xml", "Ars Technica": "https://feeds.arstechnica.com/arstechnica/index", "Wired": "https://www.wired.com/feed/rss", "Hacker News": "https://hnrss.org/frontpage?points=200"}, "tech_china": {"SCMP Tech": "https://www.scmp.com/rss/36/feed", "TechNode": "https://technode.com/feed/", "Pandaily": "https://pandaily.com/feed/", "KrASIA (via Google News)": "https://news.google.com/rss/search?q=site:kr-asia.com+when:2d&hl=en-IN&gl=IN&ceid=IN:en"}, "tech_global": {"Rest of World": "https://restofworld.org/feed/latest/", "Reuters Tech (via Google News)": "https://news.google.com/rss/search?q=site:reuters.com+technology+when:1d&hl=en-IN&gl=IN&ceid=IN:en"}, "tech_india": {"Gadgets360": "https://feeds.feedburner.com/gadgets360-latest", "Moneycontrol Tech": "https://www.moneycontrol.com/rss/technology.xml", "Economic Times Wealth": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms", "Moneycontrol Personal Finance (via Google News)": "https://news.google.com/rss/search?q=site:moneycontrol.com/news/business/personal-finance+when:2d&hl=en-IN&gl=IN&ceid=IN:en"}, "official": {"SEBI": "https://www.sebi.gov.in/sebirss.xml", "PIB (English)": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", "RBI (via Google News)": "https://news.google.com/rss/search?q=site:rbi.org.in+when:3d&hl=en-IN&gl=IN&ceid=IN:en", "NPCI / UPI (via Google News)": "https://news.google.com/rss/search?q=NPCI+UPI+when:3d&hl=en-IN&gl=IN&ceid=IN:en"}, "fact_check": {"PIB Fact Check (via Google News)": "https://news.google.com/rss/search?q=%22PIB+Fact+Check%22+when:2d&hl=en-IN&gl=IN&ceid=IN:en", "Alt News": "https://www.altnews.in/feed/", "Vishvas News": "https://www.vishvasnews.com/feed/", "BOOM (via Google News)": "https://news.google.com/rss/search?q=site:boomlive.in+when:2d&hl=en-IN&gl=IN&ceid=IN:en"}};

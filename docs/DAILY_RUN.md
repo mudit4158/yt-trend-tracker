@@ -66,6 +66,13 @@ Stable `topic_cluster` ids matter: reuse the same id for the same subject across
 
 Titles, thumbnails, descriptions, tags, length, upload slot: follow playbook Section 10, adjusted by today's `patterns` (e.g. if 8–15 min clearly beats other lengths in that channel's area, say so in the card).
 
+## 4b. Mudit's queued ideas and refinements
+ArtifactData `query` collection `requests` where `status` == `Queued` (instant research didn't start for these). For each, follow `docs/ADHOC_IDEA.md` — new ideas via steps 1–3, `type: "refine"` requests via its Refinements section — and include the result in the notification ("Your idea: …" / "Refined …").
+
+**Learn from refinements:** `ledger.json` → `learning.refinements` lists what Mudit asked to change on cards in the last 30 days. Treat recurring requests (e.g. "shorter", "for first-time investors", "no pension math") as standing preferences when writing today's cards.
+
+**Card shapes:** keep list fields as JSON arrays of strings (`why_now`, `titles`, `tags`, `format.outline`, `format.shorts`), `sources` as `[{"title","url"}]`, and `competition` (when present) as `{"videos": [...], "gap": "..."}`.
+
 ## 5. Run summary
 Write `data/$DATE/out/run.json`:
 ```json

@@ -52,8 +52,11 @@ def ledger(ideas_dir: str, date: str) -> None:
         doc = doc.get("data", doc) if isinstance(doc, dict) else doc
         doc.setdefault("id", p.stem)
         ideas.append(doc)
-    blocked, open_, expire, learning = [], [], [], {"rejected": [], "published": []}
+    blocked, open_, expire, learning = [], [], [], {"rejected": [], "published": [], "refinements": []}
     for i in ideas:
+        for r in i.get("refinements") or []:
+            if isinstance(r, dict) and (_d(r.get("at")) or today) >= today - dt.timedelta(days=30):
+                learning["refinements"].append({"id": i["id"], "channel": i.get("channel"), "asked": r.get("instructions"), "on": str(r.get("at", ""))[:10]})
         st = i.get("status", "Suggested")
         cl = i.get("topic_cluster")
         when = _d(i.get("published_at") or i.get("updated_at") or i.get("date"))
