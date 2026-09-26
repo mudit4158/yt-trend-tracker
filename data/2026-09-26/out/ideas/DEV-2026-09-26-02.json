@@ -1,0 +1,74 @@
+{
+ "channel": "DEV",
+ "priority": 78,
+ "verification": "Verified",
+ "kind": "festival",
+ "topic": "Mahalaya — Ya Devi Sarvabhuteshu",
+ "topic_cluster": "mahalaya-devi-stuti",
+ "publish_by": "2026-10-08",
+ "upload_slot": "Thu 8 Oct 5:00 AM IST (Mahalaya listening starts pre-dawn)",
+ "why_now": [
+  "Mahalaya 10 Oct marks the end of Pitru Paksha and the Durga Puja countdown",
+  "Durga Puja pandal Shorts rising (~8K views/hour)",
+  "Every year Mahalaya searches spike in Bengal/East India in the final 3 days"
+ ],
+ "format": {
+  "type": "Long-form",
+  "length": "12–15 min (loop-friendly)",
+  "hook": "Mahalaya ki bhor mein, Maa Durga ka aahvaan — Ya Devi Sarvabhuteshu, with meaning.",
+  "outline": [
+   "Short intro: what Mahalaya is (30 sec)",
+   "'Ya Devi Sarvabhuteshu' verses from Devi Mahatmya, clear recitation",
+   "On-screen Sanskrit + Roman + simple English meaning",
+   "Close with Durga stuti and 'Shubho Mahalaya' greeting"
+  ],
+  "shorts": [
+   "60-sec 'Ya Devi Sarvabhuteshu' with lyrics",
+   "'What is Mahalaya?' 30-sec explainer"
+  ]
+ },
+ "titles": [
+  "Ya Devi Sarvabhuteshu | Mahalaya 2026 Durga Stuti",
+  "Mahalaya 2026 | Durga Stuti with Meaning | महालया",
+  "Shubho Mahalaya 2026 | Ya Devi Sarvabhuteshu Lyrics"
+ ],
+ "thumbnail": "Maa Durga face close-up at dawn light (original/licensed art), text 'MAHALAYA 2026' in white on saffron band.",
+ "keywords": {
+  "primary": [
+   "mahalaya 2026",
+   "ya devi sarvabhuteshu",
+   "durga stuti"
+  ],
+  "secondary": [
+   "shubho mahalaya",
+   "mahalaya date 2026",
+   "durga puja 2026",
+   "महालया"
+  ]
+ },
+ "description": "Shubho Mahalaya 2026 (10 October) — 'Ya Devi Sarvabhuteshu' from the Devi Mahatmya, with Sanskrit, Roman lyrics and meaning.\n\nChapters, lyrics below.\nText: Devi Mahatmya (Markandeya Purana), traditional.\n\n#Mahalaya2026 #DurgaPuja #YaDeviSarvabhuteshu",
+ "tags": [
+  "mahalaya 2026",
+  "ya devi sarvabhuteshu",
+  "durga stuti",
+  "shubho mahalaya",
+  "durga puja 2026",
+  "mahalaya",
+  "महालया"
+ ],
+ "sources": [
+  {
+   "title": "Pitru Paksha 2026 dates (ends 10 Oct, Mahalaya) — SmartPuja",
+   "url": "https://www.smartpuja.com/blog/pitru-paksha-2026-dates-shradh-rituals-tithi/"
+  }
+ ],
+ "risk_flags": "Do not use the AIR 'Mahishasura Mardini' recording (copyrighted). Record your own recitation.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

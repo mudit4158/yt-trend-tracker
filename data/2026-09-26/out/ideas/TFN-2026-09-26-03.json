@@ -1,0 +1,77 @@
+{
+ "channel": "TFN",
+ "priority": 76,
+ "verification": "Verified",
+ "kind": "evergreen",
+ "topic": "AI deepfake investment scams",
+ "topic_cluster": "ai-deepfake-investment-scam",
+ "publish_by": "2026-10-03",
+ "upload_slot": "Sat 3 Oct 11:00 AM IST",
+ "why_now": [
+  "PIB Fact Check flagged a fake AI video of FM Nirmala Sitharaman promoting an investment scheme",
+  "Same scam format repeats every few months (Jan, Apr, Jul 2026)",
+  "Festive season = more money-related scams"
+ ],
+ "format": {
+  "type": "Long-form + Shorts",
+  "length": "8–9 min",
+  "hook": "Finance Minister khud bol rahi hain ₹70,000 roz kamao? That video is fake — here's how to spot it in 10 seconds.",
+  "outline": [
+   "The fake FM video: what it claimed, PIB's fact check",
+   "5 signs of a deepfake (lip sync, voice, too-good returns, urgency, unknown links)",
+   "How to verify: PIB Fact Check, SEBI-registered check",
+   "What to do if you invested: cybercrime.gov.in / 1930",
+   "Recap card"
+  ],
+  "shorts": [
+   "'5 signs of a deepfake' Short",
+   "'Guaranteed returns = red flag' Short"
+  ]
+ },
+ "titles": [
+  "Fake FM Video Scam: How to Spot AI Deepfakes",
+  "AI Deepfake Investment Scam | 5 Signs to Check",
+  "Nirmala Sitharaman Viral Video is FAKE | Stay Safe"
+ ],
+ "thumbnail": "Split face with glitch effect, red 'FAKE' stamp, text 'AI SCAM'. Do not show the real deepfake frame large.",
+ "keywords": {
+  "primary": [
+   "deepfake scam",
+   "investment scam india"
+  ],
+  "secondary": [
+   "pib fact check",
+   "ai video scam",
+   "cyber fraud 1930",
+   "online fraud"
+  ]
+ },
+ "description": "A viral AI video shows the Finance Minister promoting a high-return scheme — PIB says it's fake. Learn 5 signs of a deepfake and what to do if you are targeted.\n\nReport fraud: 1930 or cybercrime.gov.in\nSources: PIB Fact Check via AIR News.\n\n#CyberSafety #Deepfake #ScamAlert",
+ "tags": [
+  "deepfake scam",
+  "investment scam",
+  "pib fact check",
+  "ai scam",
+  "cyber fraud",
+  "1930 helpline"
+ ],
+ "sources": [
+  {
+   "title": "AIR News: PIB Fact Check debunks fake AI video of FM",
+   "url": "https://newsonair.gov.in/pib-fact-check-debunks-fake-ai-generated-video-claiming-endorsement-by-fm-nirmala-sitharaman/"
+  },
+  {
+   "title": "Gulf News: viral AI video of FM is fake",
+   "url": "https://gulfnews.com/world/asia/india/viral-ai-video-of-indias-fm-sitharaman-offering-huge-returns-is-fake-1.500510156"
+  }
+ ],
+ "risk_flags": "Don't replay the deepfake at length (it spreads the scam); blur links/phone numbers.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

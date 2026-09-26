@@ -1,0 +1,69 @@
+{
+ "channel": "DEV",
+ "priority": 64,
+ "verification": "Verified",
+ "kind": "festival",
+ "topic": "Pitru Paksha mantra jaap",
+ "topic_cluster": "pitru-paksha-mantra-jaap",
+ "publish_by": "2026-09-29",
+ "upload_slot": "Tue 29 Sep 5:30 AM IST",
+ "why_now": [
+  "Pitru Paksha runs 27 Sep–10 Oct 2026",
+  "'mantra jaap 108' and 'mantra jaap kaise kare' in autocomplete",
+  "Plays daily for 14 days (repeat viewing)"
+ ],
+ "format": {
+  "type": "Long-form",
+  "length": "20–25 min (108 jaap)",
+  "hook": "Pitru Paksha ke 15 din — apne purvajon ko yaad karne ke liye, 108 baar shant mantra jaap.",
+  "outline": [
+   "30-sec respectful intro: Pitru Paksha dates",
+   "108 recitations, calm tanpura, counter on screen",
+   "Close: simple prayer for peace"
+  ],
+  "shorts": [
+   "Pitru Paksha 2026 dates Short (27 Sep–10 Oct)"
+  ]
+ },
+ "titles": [
+  "Pitru Paksha 2026 | 108 Mantra Jaap for Ancestors",
+  "Pitru Paksha Mantra 108 Times | पितृ पक्ष 2026",
+  "Shradh 2026 | Calm Mantra Jaap 108"
+ ],
+ "thumbnail": "Diya and tulsi on dark background, soft gold light, text 'PITRU PAKSHA 108 JAAP'. Muted, respectful palette.",
+ "keywords": {
+  "primary": [
+   "pitru paksha 2026",
+   "pitru mantra",
+   "mantra jaap 108"
+  ],
+  "secondary": [
+   "shradh 2026",
+   "pitra dosh",
+   "पितृ पक्ष"
+  ]
+ },
+ "description": "Pitru Paksha 2026 (27 September – 10 October): a calm 108-times mantra jaap to remember our ancestors.\n\nCounter on screen. Traditional mantra.\n\n#PitruPaksha2026 #Shradh #MantraJaap",
+ "tags": [
+  "pitru paksha 2026",
+  "shradh 2026",
+  "pitru mantra",
+  "mantra jaap 108",
+  "पितृ पक्ष"
+ ],
+ "sources": [
+  {
+   "title": "Pitru Paksha 2026 dates — SmartPuja",
+   "url": "https://www.smartpuja.com/blog/pitru-paksha-2026-dates-shradh-rituals-tithi/"
+  }
+ ],
+ "risk_flags": "Solemn period: no 'dosh' fear claims or remedies promising results.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

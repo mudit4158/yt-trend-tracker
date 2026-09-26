@@ -1,0 +1,105 @@
+{
+ "date": "2026-09-26",
+ "DEV": [
+  {
+   "name": "Navratri 2026 (11–19 Oct): 9 Devi aarti / mantra series",
+   "score": 90,
+   "evidence": "Event T-15; 'Navratri coming soon 2026' Shorts at 8K views/hr; 'navratri bhajan' autocomplete active"
+  },
+  {
+   "name": "Mahalaya / Durga Puja countdown (10 Oct)",
+   "score": 78,
+   "evidence": "Mahalaya T-14; Durga Puja pandal Shorts rising (8K views/hr); Bengal search demand every year"
+  },
+  {
+   "name": "Pitru Paksha 27 Sep–10 Oct (mantra jaap)",
+   "score": 66,
+   "evidence": "Starts tomorrow; 'mantra jaap 108' autocomplete; news on Shani + Pitru worship"
+  },
+  {
+   "name": "Ganesh aarti / Ganpati songs (post-Visarjan tail)",
+   "score": 55,
+   "evidence": "Top outliers 110–400x are Ganesh songs, but Visarjan is over, demand now falling"
+  },
+  {
+   "name": "Hanuman Chalisa variants (fast / lofi / live)",
+   "score": 58,
+   "evidence": "Autocomplete: fast, dj, lofi, live; evergreen for Tue/Sat"
+  },
+  {
+   "name": "Radha / Krishna bhajans",
+   "score": 45,
+   "evidence": "Radha Ashtami outlier 45x (event passed)"
+  }
+ ],
+ "KID": [
+  {
+   "name": "Gandhi Jayanti story for kids (2 Oct)",
+   "score": 80,
+   "evidence": "Event T-6 (URGENT, production deadline 27 Sep); yearly school demand"
+  },
+  {
+   "name": "Bilingual varnamala + ABC phonics (A se Anaar / A for Apple)",
+   "score": 74,
+   "evidence": "Outlier 42x within 18h; 'hindi varnamala' + 'phonics song' autocomplete; fast_new 6K views/hr"
+  },
+  {
+   "name": "Good habits songs (hand washing, sharing)",
+   "score": 72,
+   "evidence": "3 of top 6 fast-rising kids videos are good-habit songs (3–10K views/hr)"
+  },
+  {
+   "name": "Animal-wedding / DJ cartoon stories (Hindi)",
+   "score": 50,
+   "evidence": "Outliers 25–29x but low educational value; skip per playbook"
+  },
+  {
+   "name": "Dudi Dudi Dam Dam dance trend",
+   "score": 45,
+   "evidence": "4 channels 23–79x; dance trend, copyright/originality unclear"
+  },
+  {
+   "name": "Navratri / Dussehra story for kids",
+   "score": 60,
+   "evidence": "Dussehra T-24, Watch stage; cards due 6 Oct"
+  }
+ ],
+ "TFN": [
+  {
+   "name": "UPI charges from 15 Oct (0.4% MDR) — who really pays",
+   "score": 92,
+   "evidence": "Outlier 23x 'UPI charge se kaise bache'; 'upi new rules 2026' autocomplete; NPCI rules effective 15 Oct; confusion widespread"
+  },
+  {
+   "name": "EPFO wage ceiling ₹15,000 → ₹25,000",
+   "score": 84,
+   "evidence": "Outlier 55x (69K views); Cabinet approval 16 Sep; 51 lakh newly covered"
+  },
+  {
+   "name": "AI deepfake investment scams (FM video)",
+   "score": 76,
+   "evidence": "PIB Fact Check this week; recurring scam pattern; high trust/safety value"
+  },
+  {
+   "name": "RBI MPC 7 Oct — repo rate & EMI",
+   "score": 74,
+   "evidence": "Event T-11; 'rbi repo rate' autocomplete; forex reserves fall headlines"
+  },
+  {
+   "name": "Gold price moves before Dhanteras",
+   "score": 70,
+   "evidence": "Gold-rate Shorts at 12–60K views/hr; 'Gold & Silver crash' outlier 14x; Dhanteras T-41"
+  },
+  {
+   "name": "Festive sale phones (Amazon GIF live, Vivo V80 6 Oct)",
+   "score": 62,
+   "evidence": "Gadgets360 headlines; 'best smartphone under 20000' autocomplete; iPhone 18 Pro review 23K views/hr"
+  },
+  {
+   "name": "RBI bulk FD rules from 1 Oct",
+   "score": 30,
+   "evidence": "Only affects deposits ≥₹3 crore; low audience fit"
+  }
+ ],
+ "notes": "Avoided: X trend '#OpenChallengeBy_SantRampalJi' and 'सृष्टि रचना' (sectarian campaign); crime headlines in DEV news feed. Day 1 has no 24h deltas yet, so rankings use views-per-hour estimates."
+}

@@ -1,0 +1,72 @@
+{
+ "channel": "TFN",
+ "priority": 74,
+ "verification": "Verified",
+ "kind": "news",
+ "topic": "RBI MPC 7 Oct — repo rate & your EMI",
+ "topic_cluster": "rbi-mpc-oct-2026",
+ "publish_by": "2026-10-07",
+ "upload_slot": "Preview Short: Mon 5 Oct 7 PM; main video Wed 7 Oct 7:30 PM IST (same day as decision)",
+ "why_now": [
+  "RBI MPC meets 5–7 Oct; decision on 7 Oct",
+  "'rbi repo rate' autocomplete active; forex reserves fall in the news",
+  "EMI questions spike on decision day"
+ ],
+ "format": {
+  "type": "Long-form + Short",
+  "length": "8–10 min",
+  "hook": "RBI ne aaj repo rate par faisla liya — here's what it means for your home loan EMI and FD.",
+  "outline": [
+   "Decision in one line (fill on the day)",
+   "What repo rate is, in 60 seconds",
+   "EMI impact: ₹30 lakh loan example",
+   "FD and savings impact",
+   "What to watch next (Dec policy)"
+  ],
+  "shorts": [
+   "Preview: 'RBI policy on 7 Oct — what to expect' (no predictions stated as fact)"
+  ]
+ },
+ "titles": [
+  "RBI Policy 7 October: Your EMI Explained",
+  "Repo Rate Decision Oct 2026 | Home Loan EMI",
+  "RBI MPC Result: EMI, FD par Kya Asar?"
+ ],
+ "thumbnail": "RBI building silhouette + big '%' with arrow (direction filled on the day), text 'YOUR EMI?'.",
+ "keywords": {
+  "primary": [
+   "rbi repo rate",
+   "rbi policy october 2026"
+  ],
+  "secondary": [
+   "home loan emi",
+   "fd rates",
+   "rbi mpc",
+   "repo rate kya hai"
+  ]
+ },
+ "description": "RBI monetary policy, 7 October 2026 — the repo rate decision and what it means for your EMI and FD, with a simple example.\n\nSource: RBI MPC schedule 2026-27.\nEducational only, not financial advice.\n\n#RBI #RepoRate #EMI",
+ "tags": [
+  "rbi repo rate",
+  "rbi policy",
+  "rbi mpc october 2026",
+  "home loan emi",
+  "fd rates",
+  "repo rate kya hai"
+ ],
+ "sources": [
+  {
+   "title": "RBI MPC schedule FY2026-27 — 5paisa",
+   "url": "https://www.5paisa.com/blog/rbi-mpc-meeting-schedule"
+  }
+ ],
+ "risk_flags": "Record the decision part only after RBI announces; no rate predictions stated as fact.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

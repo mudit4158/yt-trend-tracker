@@ -1,0 +1,79 @@
+{
+ "channel": "TFN",
+ "priority": 92,
+ "verification": "Verified",
+ "kind": "news",
+ "topic": "UPI charges from 15 Oct — who really pays",
+ "topic_cluster": "upi-mdr-oct-2026",
+ "publish_by": "2026-09-29",
+ "upload_slot": "Tue 29 Sep 7:30 PM IST",
+ "why_now": [
+  "NPCI rules take effect 15 Oct: 0.4% MDR on merchant payments above ₹2,000 (cap ₹300)",
+  "'UPI charge se kaise bache' video is a 23x outlier; 'upi new rules 2026' in autocomplete",
+  "Lots of confusion — customers think they will pay; they don't"
+ ],
+ "format": {
+  "type": "Long-form + 2 Shorts",
+  "length": "8–10 min",
+  "hook": "15 October se UPI par charge lagega? Short answer: aapko nahi — but here's the catch.",
+  "outline": [
+   "What changes on 15 Oct (0.4% MDR, above ₹2,000, ₹300 cap)",
+   "What stays free: P2P, payments up to ₹2,000, small merchants (up to ₹1 lakh/month via UPI)",
+   "₹5 flat for fuel, railways, telecom, insurance above ₹2,000",
+   "GST 18% on the fee, not on your payment",
+   "Can a shop charge you extra? What to do",
+   "Recap card"
+  ],
+  "shorts": [
+   "'Will I pay UPI charges?' 45-sec myth-buster",
+   "'₹2,000 rule explained' Short"
+  ]
+ },
+ "titles": [
+  "UPI Charges from 15 October: Do YOU Pay? Truth",
+  "UPI New Rules 2026 | 0.4% Charge Explained",
+  "UPI par Charge? New Rule Explained Simply"
+ ],
+ "thumbnail": "Phone with UPI screen, big '0.4%?' in yellow, presenter with raised eyebrow; text 'WHO PAYS?'",
+ "keywords": {
+  "primary": [
+   "upi charges",
+   "upi new rules 2026"
+  ],
+  "secondary": [
+   "upi mdr",
+   "upi charge 15 october",
+   "upi fee",
+   "upi charges kaise bache"
+  ]
+ },
+ "description": "UPI charges from 15 October 2026 — who pays the new 0.4% MDR, what stays free, and what to do if a shop asks you to pay extra.\n\n00:00 What changes\n01:30 What stays free\n03:30 Fuel, rail, telecom\n05:00 GST on the fee\n06:30 If a shop charges you\n\nSources: NPCI via Business Today (22 Sep 2026), Al Jazeera (17 Sep 2026).\nThis video is for education only, not financial advice.\n\n#UPI #UPICharges #DigitalPayments",
+ "tags": [
+  "upi charges",
+  "upi new rules 2026",
+  "upi mdr",
+  "upi fee",
+  "upi 15 october",
+  "npci",
+  "digital payments india"
+ ],
+ "sources": [
+  {
+   "title": "Business Today: NPCI says small merchants and 96% of transactions unaffected from Oct 15",
+   "url": "https://www.businesstoday.in/latest/economy/story/upi-mdr-gst-npci-says-small-merchants-and-96-of-transactions-remain-unaffected-from-october-15-557039-2026-09-22"
+  },
+  {
+   "title": "Al Jazeera: India to impose fee for UPI payments",
+   "url": "https://www.aljazeera.com/features/2026/9/17/india-to-impose-controversial-fee-for-upi-instant-payments-who-benefits"
+  }
+ ],
+ "risk_flags": "Reports differ on which merchants are covered (one says turnover above ₹1,000 crore). Check the NPCI circular itself before recording.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

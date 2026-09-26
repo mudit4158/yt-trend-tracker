@@ -8,11 +8,12 @@
         expire    Suggested ideas older than 7 days -> to be marked Expired
         learning  recent Rejected reasons and Published ideas (feedback for the model)
 
-  python analyzer/dbsync.py plan <date> [meta_json]
+  python analyzer/dbsync.py plan <date> [versions_json]
       Builds data/<date>/out/batches/batch_N.json (<=50 writes each) that set:
         analyzer docs (tracker/areas/pulse/patterns/calendar), topics/<date>,
         ideas/<id> (new cards), ideas/<id> Expired updates, meta/latest,
-        and deletes day documents older than 30 days.
+        runs/<date>. Every document is new each day, so no version pins are needed
+        (except Expired updates, which take versions from the ideas listing).
 """
 from __future__ import annotations
 
@@ -22,7 +23,6 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-KEEP_DAYS = 30
 
 COOLDOWN = {  # days after the idea was Published
     "evergreen": 60,
@@ -86,7 +86,9 @@ def ledger(ideas_dir: str, date: str) -> None:
     print(f"ideas={len(ideas)} blocked={len(blocked)} expire={len(expire)} -> {out/'ledger.json'}")
 
 
-def plan(date: str, meta_path: str | None) -> None:
+def plan(date: str, versions_path: str | None) -> None:
+    """versions_path: optional JSON {"<idea id>": version} copied from the ideas listing (needed only to expire ideas)."""
+    versions = json.loads(Path(versions_path).read_text()) if versions_path and Path(versions_path).exists() else {}
     day = ROOT / "data" / date
     out = day / "out"
     writes = []
@@ -104,29 +106,17 @@ def plan(date: str, meta_path: str | None) -> None:
             p = out / "expire" / f"{iid}.json"
             p.parent.mkdir(parents=True, exist_ok=True)
             p.write_text(json.dumps({"status": "Expired", "updated_at": now}))
-            writes.append({"op": "update", "collection": "ideas", "doc_id": iid, "file_path": str(p)})
-    # meta/latest
-    meta = {}
-    if meta_path and Path(meta_path).exists():
-        m = json.loads(Path(meta_path).read_text())
-        meta = m.get("data", m)
+            w = {"op": "update", "collection": "ideas", "doc_id": iid, "file_path": str(p)}
+            if versions.get(iid):
+                w["if_version"] = versions[iid]
+            writes.append(w)
+    # one run document per day (new documents need no version pin)
     run = json.loads((out / "run.json").read_text()) if (out / "run.json").exists() else {}
     status = json.loads((day / "status.json").read_text()) if (day / "status.json").exists() else {}
     failed = sorted(k for k, v in status.items() if isinstance(v, dict) and v.get("ok") is False)
-    dates = sorted(set(meta.get("dates", [])) | {date})
-    cutoff = (dt.date.fromisoformat(date) - dt.timedelta(days=KEEP_DAYS)).isoformat()
-    old = [d for d in dates if d < cutoff]
-    dates = [d for d in dates if d >= cutoff]
-    runs = {d: r for d, r in (meta.get("runs") or {}).items() if d >= cutoff}
-    runs[date] = {"finished_ist": now[11:16] + " IST", "failed_sources": failed, **run}
-    meta_new = {"dates": dates, "runs": runs, "latest": date, "updated_at": now}
-    (out / "meta.json").write_text(json.dumps(meta_new, ensure_ascii=False, indent=1))
-    writes.append({"op": "set", "collection": "meta", "doc_id": "latest", "file_path": str(out / "meta.json")})
-    for d in old:
-        for coll in ("areas", "pulse", "patterns", "topics"):
-            writes.append({"op": "delete", "collection": coll, "doc_id": d})
-        for n in range(1, 6):
-            writes.append({"op": "delete", "collection": "tracker", "doc_id": f"{d}_{n}"})
+    run_doc = {"date": date, "finished_ist": now[11:16] + " IST", "failed_sources": failed, **run}
+    (out / "run_doc.json").write_text(json.dumps(run_doc, ensure_ascii=False, indent=1))
+    writes.append({"op": "set", "collection": "runs", "doc_id": date, "file_path": str(out / "run_doc.json")})
     bdir = out / "batches"
     bdir.mkdir(parents=True, exist_ok=True)
     for f in bdir.glob("*.json"):

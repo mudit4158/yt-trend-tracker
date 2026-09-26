@@ -1,0 +1,81 @@
+{
+ "channel": "DEV",
+ "priority": 90,
+ "verification": "Verified",
+ "kind": "festival",
+ "topic": "Navratri 2026 Navdurga series",
+ "topic_cluster": "navratri-navdurga-series",
+ "publish_by": "2026-10-09",
+ "upload_slot": "Jukebox: Fri 9 Oct 6:00 PM IST; daily Short each morning 5:30 AM, 11–19 Oct",
+ "why_now": [
+  "Navratri 11–19 Oct is 15 days away; production deadline 6 Oct",
+  "'Navratri coming soon 2026' Shorts already at ~8K views/hour",
+  "'navratri bhajan' autocomplete active (dj, new, bhojpuri variants)"
+ ],
+ "format": {
+  "type": "Compilation + 9 Shorts",
+  "length": "30–40 min jukebox",
+  "hook": "Navratri ke 9 din, 9 roop of Maa Durga — ek hi video mein, day-wise mantra and aarti.",
+  "outline": [
+   "Day 1 Shailaputri (11 Oct, orange) — beej mantra + short stuti",
+   "Day 2 Brahmacharini (12 Oct, white)",
+   "Day 3 Chandraghanta (13 Oct, red)",
+   "Day 4 Kushmanda (14 Oct, royal blue)",
+   "Day 5 Skandamata (15 Oct, yellow)",
+   "Day 6 Katyayani (16 Oct, green)",
+   "Day 7 Kalaratri (17 Oct, grey)",
+   "Day 8 Mahagauri (18 Oct, purple)",
+   "Day 9 Siddhidatri (19 Oct, peacock green)",
+   "Close: Durga aarti 'Jai Ambe Gauri' (traditional)"
+  ],
+  "shorts": [
+   "One 45-sec Short per day: that day's Devi, colour and mantra, posted 5:30 AM",
+   "Colour-of-the-day Short for women's audience (outfit colour)"
+  ]
+ },
+ "titles": [
+  "Navratri 2026 Day-wise Mantra | 9 Devi Roop | नवरात्रि",
+  "Navratri 2026: 9 Days, 9 Devi Mantras & Colours",
+  "Navdurga Mantra Jukebox | Navratri 11–19 Oct 2026"
+ ],
+ "thumbnail": "Nine small Devi tiles in a 3×3 grid on deep red, each tile edged in that day's colour; centre text 'NAVRATRI 2026' and '9 DAYS'. Use original or licensed art only.",
+ "keywords": {
+  "primary": [
+   "navratri 2026",
+   "navratri mantra",
+   "navdurga"
+  ],
+  "secondary": [
+   "navratri colours 2026",
+   "shailputri mantra",
+   "durga aarti",
+   "नवरात्रि 2026"
+  ]
+ },
+ "description": "Navratri 2026 (11–19 October) — all 9 forms of Maa Durga with day-wise mantra, colour and aarti.\nChant along every morning of Navratri.\n\n00:00 Day 1 Shailaputri\n03:30 Day 2 Brahmacharini\n... (chapters per day)\n\nMantras are traditional (public domain). Dates as per panchang; local dates can vary by a day.\n\n#Navratri2026 #Navdurga #DurgaMaa",
+ "tags": [
+  "navratri 2026",
+  "navratri mantra",
+  "navdurga mantra",
+  "navratri colours 2026",
+  "durga aarti",
+  "navratri bhajan",
+  "नवरात्रि",
+  "nav durga"
+ ],
+ "sources": [
+  {
+   "title": "Navratri 2026 day-wise colours and goddesses — Dev Aastha",
+   "url": "https://www.devaastha.com/blogs/festivals/navratri-9-colours-meaning-and-use"
+  }
+ ],
+ "risk_flags": "Use only traditional mantras/aartis or your own compositions; no label-owned recordings. Re-check dates on Drik Panchang before upload.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

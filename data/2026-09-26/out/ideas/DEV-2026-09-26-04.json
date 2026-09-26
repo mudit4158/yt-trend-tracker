@@ -1,0 +1,68 @@
+{
+ "channel": "DEV",
+ "priority": 58,
+ "verification": "Verified",
+ "kind": "evergreen",
+ "topic": "Hanuman Chalisa, clear and calm with lyrics",
+ "topic_cluster": "hanuman-chalisa-calm-lyrics",
+ "publish_by": "2026-10-05",
+ "upload_slot": "Mon 5 Oct 9:00 PM IST (for Tuesday morning)",
+ "why_now": [
+  "Autocomplete: 'hanuman chalisa fast / lofi / live'",
+  "Evergreen weekly demand every Tuesday and Saturday",
+  "Builds the channel's base library before festival season"
+ ],
+ "format": {
+  "type": "Long-form + Shorts",
+  "length": "9–10 min (single) + 1 hr 11-times loop later",
+  "hook": "Hanuman Chalisa — saaf ucharan, har chaupai screen par, sukoon ke saath.",
+  "outline": [
+   "Doha and 40 chaupai with on-screen lyrics (Devanagari + Roman)",
+   "Steady tempo, clear pronunciation",
+   "End doha"
+  ],
+  "shorts": [
+   "One chaupai + meaning per Short (series)"
+  ]
+ },
+ "titles": [
+  "Hanuman Chalisa | Clear Pronunciation with Lyrics",
+  "Hanuman Chalisa Calm Version | हनुमान चालीसा",
+  "Hanuman Chalisa with Lyrics | Tuesday Special"
+ ],
+ "thumbnail": "Hanuman ji (original art) on saffron gradient, text 'HANUMAN CHALISA' + small 'with lyrics'.",
+ "keywords": {
+  "primary": [
+   "hanuman chalisa",
+   "hanuman chalisa lyrics"
+  ],
+  "secondary": [
+   "hanuman chalisa calm",
+   "hanuman chalisa slow",
+   "हनुमान चालीसा"
+  ]
+ },
+ "description": "Hanuman Chalisa by Goswami Tulsidas — clear pronunciation, full lyrics on screen.\n\nLyrics (Devanagari + Roman) below.\n\n#HanumanChalisa #Hanuman #Bhajan",
+ "tags": [
+  "hanuman chalisa",
+  "hanuman chalisa lyrics",
+  "hanuman chalisa calm",
+  "हनुमान चालीसा",
+  "tuesday bhajan"
+ ],
+ "sources": [
+  {
+   "title": "Hanuman Chalisa — Tulsidas (public domain text)",
+   "url": "https://en.wikipedia.org/wiki/Hanuman_Chalisa"
+  }
+ ],
+ "risk_flags": "Very high competition; win on audio clarity and lyrics, not volume.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+[
+ {
+  "op": "set",
+  "collection": "areas",
+  "doc_id": "2026-09-26",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/areas__2026-09-26.json"
+ },
+ {
+  "op": "set",
+  "collection": "calendar",
+  "doc_id": "2026-09-26",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/calendar__2026-09-26.json"
+ },
+ {
+  "op": "set",
+  "collection": "patterns",
+  "doc_id": "2026-09-26",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/patterns__2026-09-26.json"
+ },
+ {
+  "op": "set",
+  "collection": "pulse",
+  "doc_id": "2026-09-26",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/pulse__2026-09-26.json"
+ },
+ {
+  "op": "set",
+  "collection": "tracker",
+  "doc_id": "2026-09-26_1",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/tracker__2026-09-26_1.json"
+ },
+ {
+  "op": "set",
+  "collection": "tracker",
+  "doc_id": "2026-09-26_2",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/tracker__2026-09-26_2.json"
+ },
+ {
+  "op": "set",
+  "collection": "tracker",
+  "doc_id": "2026-09-26_3",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/tracker__2026-09-26_3.json"
+ },
+ {
+  "op": "set",
+  "collection": "tracker",
+  "doc_id": "2026-09-26_4",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/tracker__2026-09-26_4.json"
+ },
+ {
+  "op": "set",
+  "collection": "tracker",
+  "doc_id": "2026-09-26_5",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/db/tracker__2026-09-26_5.json"
+ },
+ {
+  "op": "set",
+  "collection": "topics",
+  "doc_id": "2026-09-26",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/topics.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "DEV-2026-09-26-01",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/DEV-2026-09-26-01.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "DEV-2026-09-26-02",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/DEV-2026-09-26-02.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "DEV-2026-09-26-03",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/DEV-2026-09-26-03.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "DEV-2026-09-26-04",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/DEV-2026-09-26-04.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "KID-2026-09-26-01",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/KID-2026-09-26-01.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "KID-2026-09-26-02",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/KID-2026-09-26-02.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "KID-2026-09-26-03",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/KID-2026-09-26-03.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "TFN-2026-09-26-01",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/TFN-2026-09-26-01.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "TFN-2026-09-26-02",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/TFN-2026-09-26-02.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "TFN-2026-09-26-03",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/TFN-2026-09-26-03.json"
+ },
+ {
+  "op": "set",
+  "collection": "ideas",
+  "doc_id": "TFN-2026-09-26-04",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/ideas/TFN-2026-09-26-04.json"
+ },
+ {
+  "op": "set",
+  "collection": "runs",
+  "doc_id": "2026-09-26",
+  "file_path": "/home/claude/yt-trend-tracker/data/2026-09-26/out/run_doc.json"
+ }
+]

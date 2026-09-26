@@ -42,7 +42,7 @@
    },
    "age_h": 60.1,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "en",
    "views_24h": null,
    "est_24h": 11075694,
@@ -179,7 +179,7 @@
    },
    "age_h": 65.8,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 10213166,
@@ -402,7 +402,7 @@
    },
    "age_h": 162.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "en",
    "views_24h": null,
    "est_24h": 7071177,
@@ -677,7 +677,7 @@
    },
    "age_h": 11.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "ta",
    "views_24h": null,
    "est_24h": 5301729,
@@ -763,7 +763,7 @@
    },
    "age_h": 661.8,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "te",
    "views_24h": null,
    "est_24h": 4987027,
@@ -798,7 +798,7 @@
    },
    "age_h": 18.9,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "pa",
    "views_24h": null,
    "est_24h": 4633716,
@@ -1043,7 +1043,7 @@
    },
    "age_h": 81.8,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "ta",
    "views_24h": null,
    "est_24h": 4257360,
@@ -2299,7 +2299,7 @@
    },
    "age_h": 17.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "ta",
    "views_24h": null,
    "est_24h": 2901044,
@@ -2479,7 +2479,7 @@
    },
    "age_h": 14.1,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 2740843,
@@ -2996,7 +2996,7 @@
    },
    "age_h": 19.5,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "en",
    "views_24h": null,
    "est_24h": 2295290,
@@ -3756,7 +3756,7 @@
    },
    "age_h": 83.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "te",
    "views_24h": null,
    "est_24h": 1895373,
@@ -5521,7 +5521,7 @@
    },
    "age_h": 19.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 1407170,
@@ -5845,7 +5845,7 @@
    },
    "age_h": 19.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "pa",
    "views_24h": null,
    "est_24h": 1325351,
@@ -6648,7 +6648,7 @@
    },
    "age_h": 35.6,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "zxx",
    "views_24h": null,
    "est_24h": 1216588,
@@ -6769,7 +6769,7 @@
    },
    "age_h": 127.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "es",
    "views_24h": null,
    "est_24h": 1199726,
@@ -7313,7 +7313,7 @@
    },
    "age_h": 18.9,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "pa",
    "views_24h": null,
    "est_24h": 1138635,
@@ -10794,7 +10794,7 @@
    },
    "age_h": 262.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 789646,
@@ -12301,7 +12301,7 @@
    },
    "age_h": 84.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "ta",
    "views_24h": null,
    "est_24h": 701676,
@@ -13338,7 +13338,7 @@
    },
    "age_h": 70.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 660904,
@@ -13460,7 +13460,7 @@
    },
    "age_h": 108.8,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 656873,
@@ -15368,7 +15368,7 @@
    },
    "age_h": 310.4,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 554580,
@@ -15485,7 +15485,7 @@
    },
    "age_h": 157.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "te",
    "views_24h": null,
    "est_24h": 548127,
@@ -18110,7 +18110,7 @@
    },
    "age_h": 46.5,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 467350,
@@ -18610,7 +18610,7 @@
    },
    "age_h": 24.0,
    "short": false,
-   "length_bucket": "≤4m",
+   "length_bucket": "3–4m",
    "lang_detected": "hi",
    "views_24h": null,
    "est_24h": 455837,
@@ -21375,7 +21375,7 @@
      "age_h": 1,
      "duration_s": 0,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "hi",
      "engagement": 0.0505,
      "area": "DEV",
@@ -21585,7 +21585,7 @@
      "age_h": 60.1,
      "duration_s": 199,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "en",
      "category": "Film & Animation",
      "engagement": 0.0057,
@@ -21639,7 +21639,7 @@
      "age_h": 81.8,
      "duration_s": 226,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "ta",
      "category": "Music",
      "engagement": 0.0031,
@@ -21729,7 +21729,7 @@
      "age_h": 17.0,
      "duration_s": 194,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "ta",
      "category": "Music",
      "engagement": 0.0032,
@@ -21819,7 +21819,7 @@
      "age_h": 83.0,
      "duration_s": 181,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "te",
      "category": "Film & Animation",
      "engagement": 0.0036,
@@ -21855,7 +21855,7 @@
      "age_h": 19.0,
      "duration_s": 197,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "hi",
      "category": "Music",
      "engagement": 0.0149,
@@ -21947,6 +21947,10 @@
       "share": 0.075,
       "median_24h": 2706
      },
+     "3–4m": {
+      "share": 0.048,
+      "median_24h": 4703
+     },
      "4–8m": {
       "share": 0.148,
       "median_24h": 6049
@@ -21962,10 +21966,6 @@
      "Short (≤3m)": {
       "share": 0.535,
       "median_24h": 18729
-     },
-     "≤4m": {
-      "share": 0.048,
-      "median_24h": 4703
      }
     },
     "shorts_share": 0.535,
@@ -22849,7 +22849,7 @@
      "age_h": 12.0,
      "duration_s": 233,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "en",
      "engagement": 0.0029,
      "area": "KID",
@@ -23074,6 +23074,10 @@
       "share": 0.075,
       "median_24h": 26957
      },
+     "3–4m": {
+      "share": 0.052,
+      "median_24h": 1078
+     },
      "4–8m": {
       "share": 0.133,
       "median_24h": 5971
@@ -23089,10 +23093,6 @@
      "Short (≤3m)": {
       "share": 0.434,
       "median_24h": 15845
-     },
-     "≤4m": {
-      "share": 0.052,
-      "median_24h": 1078
      }
     },
     "shorts_share": 0.434,
@@ -23154,7 +23154,7 @@
      "age_h": 11.5,
      "duration_s": 225,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "hi",
      "engagement": 0.0017,
      "outlier": 72.47,
@@ -23509,7 +23509,7 @@
      "age_h": 82.5,
      "duration_s": 193,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "hi",
      "engagement": 0.012,
      "outlier": 9.77,
@@ -24404,7 +24404,7 @@
      "age_h": 35.6,
      "duration_s": 215,
      "short": false,
-     "length_bucket": "≤4m",
+     "length_bucket": "3–4m",
      "lang_detected": "zxx",
      "category": "Entertainment",
      "engagement": 0.0178,
@@ -24442,6 +24442,10 @@
       "share": 0.039,
       "median_24h": 12140
      },
+     "3–4m": {
+      "share": 0.035,
+      "median_24h": 2680
+     },
      "4–8m": {
       "share": 0.084,
       "median_24h": 13763
@@ -24457,10 +24461,6 @@
      "Short (≤3m)": {
       "share": 0.442,
       "median_24h": 12339
-     },
-     "≤4m": {
-      "share": 0.035,
-      "median_24h": 2680
      }
     },
     "shorts_share": 0.442,
@@ -29554,6 +29554,10 @@
      "share": 0.03,
      "median_24h": 852457
     },
+    "3–4m": {
+     "share": 0.048,
+     "median_24h": 1366260
+    },
     "4–8m": {
      "share": 0.026,
      "median_24h": 759393
@@ -29569,10 +29573,6 @@
     "Short (≤3m)": {
      "share": 0.676,
      "median_24h": 749023
-    },
-    "≤4m": {
-     "share": 0.048,
-     "median_24h": 1366260
     }
    },
    "shorts_share": 0.676,
@@ -29642,6 +29642,10 @@
      "share": 0.075,
      "median_24h": 2706
     },
+    "3–4m": {
+     "share": 0.048,
+     "median_24h": 4703
+    },
     "4–8m": {
      "share": 0.148,
      "median_24h": 6049
@@ -29657,10 +29661,6 @@
     "Short (≤3m)": {
      "share": 0.535,
      "median_24h": 18729
-    },
-    "≤4m": {
-     "share": 0.048,
-     "median_24h": 4703
     }
    },
    "shorts_share": 0.535,
@@ -29730,6 +29730,10 @@
      "share": 0.075,
      "median_24h": 26957
     },
+    "3–4m": {
+     "share": 0.052,
+     "median_24h": 1078
+    },
     "4–8m": {
      "share": 0.133,
      "median_24h": 5971
@@ -29745,10 +29749,6 @@
     "Short (≤3m)": {
      "share": 0.434,
      "median_24h": 15845
-    },
-    "≤4m": {
-     "share": 0.052,
-     "median_24h": 1078
     }
    },
    "shorts_share": 0.434,
@@ -29808,6 +29808,10 @@
      "share": 0.039,
      "median_24h": 12140
     },
+    "3–4m": {
+     "share": 0.035,
+     "median_24h": 2680
+    },
     "4–8m": {
      "share": 0.084,
      "median_24h": 13763
@@ -29823,10 +29827,6 @@
     "Short (≤3m)": {
      "share": 0.442,
      "median_24h": 12339
-    },
-    "≤4m": {
-     "share": 0.035,
-     "median_24h": 2680
     }
    },
    "shorts_share": 0.442,
@@ -29883,6 +29883,19 @@
  "calendar": {
   "upcoming": [
    {
+    "date": "2026-09-27",
+    "name": "Pitru Paksha begins (till 10 Oct)",
+    "type": "festival",
+    "channels": [
+     "DEV"
+    ],
+    "note": "Solemn period; mantra/jaap content only, no celebratory framing",
+    "days_left": 1,
+    "stage": "publish window",
+    "production_deadline": "2026-09-22",
+    "urgent": true
+   },
+   {
     "date": "2026-10-02",
     "name": "Gandhi Jayanti",
     "type": "national",
@@ -29919,6 +29932,19 @@
     "urgent": false
    },
    {
+    "date": "2026-10-10",
+    "name": "Mahalaya / Sarva Pitru Amavasya",
+    "type": "festival",
+    "channels": [
+     "DEV"
+    ],
+    "note": "Huge in Bengal: start of Devi Paksha, Durga Puja countdown",
+    "days_left": 14,
+    "stage": "BRIEF + production",
+    "production_deadline": "2026-10-05",
+    "urgent": false
+   },
+   {
     "date": "2026-10-11",
     "name": "Sharad Navratri begins (Ghatasthapana)",
     "type": "festival",
@@ -29930,6 +29956,31 @@
     "days_left": 15,
     "stage": "watch",
     "production_deadline": "2026-10-06",
+    "urgent": false
+   },
+   {
+    "date": "2026-10-15",
+    "name": "UPI MDR on merchant payments above Rs 2,000 starts",
+    "type": "finance",
+    "channels": [
+     "TFN"
+    ],
+    "days_left": 19,
+    "stage": "watch",
+    "production_deadline": "2026-10-10",
+    "urgent": false
+   },
+   {
+    "date": "2026-10-17",
+    "name": "Durga Puja Maha Saptami (Bengal, confirm)",
+    "type": "festival",
+    "channels": [
+     "DEV",
+     "KID"
+    ],
+    "days_left": 21,
+    "stage": "watch",
+    "production_deadline": "2026-10-12",
     "urgent": false
    },
    {

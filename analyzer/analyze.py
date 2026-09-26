@@ -81,7 +81,7 @@ def parse_time(s: str | None) -> dt.datetime | None:
 def length_bucket(sec: int, short: bool) -> str:
     if short:
         return "Short (≤3m)"
-    for lim, name in ((240, "≤4m"), (480, "4–8m"), (900, "8–15m"), (1800, "15–30m"), (3600, "30–60m")):
+    for lim, name in ((240, "3–4m"), (480, "4–8m"), (900, "8–15m"), (1800, "15–30m"), (3600, "30–60m")):
         if sec <= lim:
             return name
     return "60m+"
@@ -298,7 +298,7 @@ def main() -> None:
                                   "failed_sources": failed,
                                   "source_count": sum(1 for v in status.values() if isinstance(v, dict) and v.get("ok"))}))
     docs.append(("patterns", DATE, {"date": DATE, **patterns}))
-    docs.append(("calendar", "upcoming", {"date": DATE, **cal}))
+    docs.append(("calendar", DATE, {"date": DATE, **cal}))
     for coll, doc_id, data in docs:
         dump(DBDIR / f"{coll}__{doc_id}.json", data)
     print(f"analysis done: tracker={len(tracker)} watch={len(watch)} search={len(search)} docs={len(docs)} failed={failed}")

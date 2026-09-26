@@ -1,0 +1,11 @@
+{
+ "blocked": [],
+ "open": [],
+ "expire": [],
+ "learning": {
+  "rejected": [],
+  "published": []
+ },
+ "total_ideas": 0,
+ "existing_ids": []
+}

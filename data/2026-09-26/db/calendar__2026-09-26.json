@@ -2,6 +2,19 @@
  "date": "2026-09-26",
  "upcoming": [
   {
+   "date": "2026-09-27",
+   "name": "Pitru Paksha begins (till 10 Oct)",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "note": "Solemn period; mantra/jaap content only, no celebratory framing",
+   "days_left": 1,
+   "stage": "publish window",
+   "production_deadline": "2026-09-22",
+   "urgent": true
+  },
+  {
    "date": "2026-10-02",
    "name": "Gandhi Jayanti",
    "type": "national",
@@ -38,6 +51,19 @@
    "urgent": false
   },
   {
+   "date": "2026-10-10",
+   "name": "Mahalaya / Sarva Pitru Amavasya",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "note": "Huge in Bengal: start of Devi Paksha, Durga Puja countdown",
+   "days_left": 14,
+   "stage": "BRIEF + production",
+   "production_deadline": "2026-10-05",
+   "urgent": false
+  },
+  {
    "date": "2026-10-11",
    "name": "Sharad Navratri begins (Ghatasthapana)",
    "type": "festival",
@@ -49,6 +75,31 @@
    "days_left": 15,
    "stage": "watch",
    "production_deadline": "2026-10-06",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-15",
+   "name": "UPI MDR on merchant payments above Rs 2,000 starts",
+   "type": "finance",
+   "channels": [
+    "TFN"
+   ],
+   "days_left": 19,
+   "stage": "watch",
+   "production_deadline": "2026-10-10",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-17",
+   "name": "Durga Puja Maha Saptami (Bengal, confirm)",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "KID"
+   ],
+   "days_left": 21,
+   "stage": "watch",
+   "production_deadline": "2026-10-12",
    "urgent": false
   },
   {

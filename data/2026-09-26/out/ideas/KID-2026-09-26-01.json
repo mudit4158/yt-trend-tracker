@@ -1,0 +1,69 @@
+{
+ "channel": "KID",
+ "priority": 82,
+ "verification": "Verified",
+ "kind": "festival",
+ "topic": "Gandhi Jayanti story for kids",
+ "topic_cluster": "gandhi-jayanti-kids-story",
+ "publish_by": "2026-09-30",
+ "upload_slot": "Wed 30 Sep 5:00 PM IST",
+ "why_now": [
+  "URGENT: Gandhi Jayanti is 2 Oct (6 days); production deadline was T-5",
+  "Schools assign Gandhi Jayanti activities every year",
+  "Kids' uploads cluster 5–6 PM in today's data"
+ ],
+ "format": {
+  "type": "Long-form + Short",
+  "length": "4–5 min",
+  "hook": "Ek chhota sa bachcha, jo kabhi jhooth nahi bolta tha — do you know who he became?",
+  "outline": [
+   "Born 2 Oct 1869 in Porbandar — Mohandas",
+   "School story about honesty",
+   "Believed in truth and non-violence (satya, ahimsa)",
+   "Why we celebrate 2 Oct + what kids can do (be honest, keep things clean)"
+  ],
+  "shorts": [
+   "'3 things Gandhi ji taught us' 40-sec Short"
+  ]
+ },
+ "titles": [
+  "Gandhi Jayanti Story for Kids | Bapu ki Kahani",
+  "Who was Gandhi ji? Story for Kids | 2 October",
+  "Gandhi Jayanti for Kids | Truth & Kindness Story"
+ ],
+ "thumbnail": "Friendly illustrated young Mohandas with school slate, bright blue sky, text '2 OCT' only.",
+ "keywords": {
+  "primary": [
+   "gandhi jayanti for kids",
+   "gandhi ji story"
+  ],
+  "secondary": [
+   "2 october speech for kids",
+   "bapu ki kahani",
+   "gandhi jayanti 2026"
+  ]
+ },
+ "description": "Gandhi Jayanti (2 October) story for kids — how little Mohandas learnt honesty, and why we celebrate Bapu.\n\nFor ages 4–8. Made for kids.\n\n#GandhiJayanti #KidsStory #2October",
+ "tags": [
+  "gandhi jayanti for kids",
+  "gandhi ji story",
+  "2 october",
+  "bapu",
+  "kids story hindi english"
+ ],
+ "sources": [
+  {
+   "title": "Mahatma Gandhi — birth 2 Oct 1869, Porbandar",
+   "url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+  }
+ ],
+ "risk_flags": "Mark as 'made for kids'. Keep it factual and non-political.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

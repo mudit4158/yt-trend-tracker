@@ -1,0 +1,76 @@
+{
+ "channel": "TFN",
+ "priority": 84,
+ "verification": "Verified",
+ "kind": "news",
+ "topic": "EPFO wage ceiling ₹15,000 → ₹25,000",
+ "topic_cluster": "epfo-wage-ceiling-25000",
+ "publish_by": "2026-10-01",
+ "upload_slot": "Thu 1 Oct 7:30 PM IST",
+ "why_now": [
+  "Cabinet approved on 16 Sep 2026; 51 lakh more employees to be covered",
+  "Video on this topic is a 55x outlier (Boss Wallah)",
+  "Salaried viewers want to know: will my in-hand salary drop?"
+ ],
+ "format": {
+  "type": "Long-form + Short",
+  "length": "9–11 min",
+  "hook": "Aapki salary ₹15,000 se ₹25,000 ke beech hai? Then your PF just changed.",
+  "outline": [
+   "What the wage ceiling is",
+   "Who is newly covered (₹15k–₹25k)",
+   "Effect on EPF, EPS pension, EDLI insurance",
+   "In-hand vs long-term savings — simple example",
+   "What to check on your payslip"
+  ],
+  "shorts": [
+   "'Is your salary between 15k and 25k?' 40-sec Short"
+  ]
+ },
+ "titles": [
+  "EPFO New Rule: ₹25,000 Wage Ceiling Explained",
+  "PF Limit ₹15,000 to ₹25,000 | Salary par Asar?",
+  "EPFO Wage Ceiling Hike 2026 | Pension & PF"
+ ],
+ "thumbnail": "Payslip graphic with '₹15,000 → ₹25,000' arrow in green, text 'PF RULE CHANGED'.",
+ "keywords": {
+  "primary": [
+   "epfo new rule",
+   "pf wage ceiling 25000"
+  ],
+  "secondary": [
+   "epfo wage ceiling",
+   "eps pension",
+   "pf limit 25000",
+   "epfo 2026"
+  ]
+ },
+ "description": "EPFO wage ceiling raised from ₹15,000 to ₹25,000 — who is newly covered, and what it means for your PF, EPS pension and EDLI insurance.\n\nSource: Cabinet decision, PM India (16 Sep 2026).\nEducational content, not financial advice.\n\n#EPFO #PF #SalaryIndia",
+ "tags": [
+  "epfo new rule",
+  "pf wage ceiling",
+  "epfo 25000",
+  "eps pension",
+  "pf limit",
+  "epfo 2026"
+ ],
+ "sources": [
+  {
+   "title": "PM India: Cabinet approves EPFO wage ceiling ₹25,000",
+   "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-enhancement-of-epfo-wage-ceiling-from-rs-15000-to-rs-25000-per-month/"
+  },
+  {
+   "title": "SCC Times: Cabinet approves EPFO wage ceiling hike",
+   "url": "https://www.scconline.com/blog/post/2026/09/17/cabinet-approves-epfo-wage-ceiling-limit-from-15000-to-25000/"
+  }
+ ],
+ "risk_flags": "Effective date and contribution split not in the Cabinet note; confirm the EPFO notification before stating them.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

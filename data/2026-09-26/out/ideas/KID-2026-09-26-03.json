@@ -1,0 +1,68 @@
+{
+ "channel": "KID",
+ "priority": 72,
+ "verification": "Verified",
+ "kind": "kid_concept",
+ "topic": "Good habits song — wash your hands",
+ "topic_cluster": "good-habits-handwash-song",
+ "publish_by": "2026-10-06",
+ "upload_slot": "Tue 6 Oct 5:00 PM IST",
+ "why_now": [
+  "3 of the top 6 fast-rising kids videos are good-habit songs (3–10K views/hour)",
+  "Evergreen with parents; fits school routines"
+ ],
+ "format": {
+  "type": "Long-form + Shorts",
+  "length": "3–4 min song (+ later 20 min habits compilation)",
+  "hook": "Khana khane se pehle, what do we do? Wash, wash, wash our hands!",
+  "outline": [
+   "Catchy chorus",
+   "6 steps of handwashing shown clearly",
+   "When to wash: before eating, after toilet, after play"
+  ],
+  "shorts": [
+   "30-sec chorus Short",
+   "'When to wash hands' quiz Short"
+  ]
+ },
+ "titles": [
+  "Wash Your Hands Song | Good Habits for Kids",
+  "Haath Dho Lo! Good Habits Song for Kids",
+  "Handwashing Song for Kids | 6 Easy Steps"
+ ],
+ "thumbnail": "Child with soapy hands and big bubbles, bright blue/yellow, no text.",
+ "keywords": {
+  "primary": [
+   "good habits for kids",
+   "wash your hands song"
+  ],
+  "secondary": [
+   "hand washing song",
+   "kids habits song hindi",
+   "good manners kids"
+  ]
+ },
+ "description": "A fun handwashing song for kids — 6 easy steps and when to wash your hands.\n\nMade for kids, ages 2–6.\n\n#GoodHabits #KidsSong #WashYourHands",
+ "tags": [
+  "good habits for kids",
+  "wash your hands song",
+  "hand washing song",
+  "kids song",
+  "good manners for kids"
+ ],
+ "sources": [
+  {
+   "title": "WHO — handwashing steps",
+   "url": "https://www.who.int/campaigns/world-hand-hygiene-day"
+  }
+ ],
+ "risk_flags": "Mark 'made for kids'.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

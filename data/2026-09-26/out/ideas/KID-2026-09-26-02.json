@@ -1,0 +1,65 @@
+{
+ "channel": "KID",
+ "priority": 74,
+ "verification": "Verified",
+ "kind": "kid_concept",
+ "topic": "Bilingual varnamala + ABC phonics",
+ "topic_cluster": "bilingual-varnamala-abc",
+ "publish_by": "2026-10-03",
+ "upload_slot": "Sat 3 Oct 10:00 AM IST (weekend morning)",
+ "why_now": [
+  "'A se Anaar, K se Kabutar' outlier 42x within 18 hours",
+  "'hindi varnamala' and 'phonics song' both active in autocomplete",
+  "15–30 min kids videos have the highest median 24h views in today's kids data"
+ ],
+ "format": {
+  "type": "Compilation + Shorts",
+  "length": "18–22 min",
+  "hook": "A for Apple, अ से अनार! Let's learn ABC and varnamala together.",
+  "outline": [
+   "Side-by-side: English letter + Hindi letter + one picture",
+   "Sing-along chorus every 5 letters",
+   "Quiz round at the end"
+  ],
+  "shorts": [
+   "5-letter mini songs as a Shorts series"
+  ]
+ },
+ "titles": [
+  "A for Apple, अ से अनार | ABC + Varnamala Song",
+  "Hindi Varnamala and ABC Phonics for Kids",
+  "Learn ABC & अ आ इ ई Together | Kids Song"
+ ],
+ "thumbnail": "Big bright 'A' and 'अ' side by side with an apple and a pomegranate, primary colours, no other text.",
+ "keywords": {
+  "primary": [
+   "hindi varnamala",
+   "abc phonics song"
+  ],
+  "secondary": [
+   "a se anaar",
+   "a for apple",
+   "varnamala song",
+   "kids learning hindi"
+  ]
+ },
+ "description": "Learn English ABC and Hindi varnamala together! A for Apple, अ से अनार, and more — with a sing-along and quiz.\n\nMade for kids, ages 2–6.\n\n#Varnamala #ABCSong #KidsLearning",
+ "tags": [
+  "hindi varnamala",
+  "abc phonics song",
+  "a se anaar",
+  "a for apple",
+  "kids learning hindi",
+  "varnamala song"
+ ],
+ "sources": [],
+ "risk_flags": "Original characters/music only (no ChuChu TV/CoComelon look-alikes). Mark 'made for kids'.",
+ "date": "2026-09-26",
+ "status": "Suggested",
+ "history": [
+  {
+   "status": "Suggested",
+   "at": "2026-09-26T11:10:00+05:30"
+  }
+ ]
+}

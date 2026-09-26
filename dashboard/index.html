@@ -162,8 +162,9 @@ async function boot(){
   const db = window.claude?.use ? await window.claude.use("db") : null;
   if(!db){ $("#runChip").textContent="Database not available in this view"; $("#runChip").className="chip bad"; render(); return; }
   S.db = db;
-  db.doc("meta/latest").onSnapshot(snap => {
-    S.meta = snap.exists ? snap.data() : null;
+  db.collection("runs").orderBy("date","desc").limit(60).onSnapshot(snap => {
+    const runs = snap.docs.map(d=>d.data());
+    S.meta = runs.length ? {runs:Object.fromEntries(runs.map(r=>[r.date,r])), dates:runs.map(r=>r.date)} : null;
     const dates = (S.meta?.dates || []).slice().sort().reverse();
     $("#dateSel").innerHTML = dates.map(d=>`<option value="${d}">${dshort(d)} ${d===dates[0]?"(latest)":""}</option>`).join("") || `<option>No runs yet</option>`;
     const want = S.date && dates.includes(S.date) ? S.date : dates[0];
@@ -172,7 +173,7 @@ async function boot(){
   }, err => { $("#runChip").textContent="Could not load: "+err.code; $("#runChip").className="chip bad"; });
   db.collection("ideas").onSnapshot(snap => { S.ideas = snap.docs.map(d=>({_id:d.id, ...d.data()})); render(); },
     err => toast("Ideas could not load ("+err.code+")"));
-  db.doc("calendar/upcoming").onSnapshot(snap => { S.calendar = snap.exists ? snap.data() : null; render(); });
+  db.collection("calendar").orderBy("date","desc").limit(1).onSnapshot(snap => { S.calendar = snap.empty ? null : snap.docs[0].data(); render(); });
 }
 async function loadDay(date){
   S.date=date; S.day={loaded:false};

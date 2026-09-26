@@ -17,8 +17,8 @@ It is written for a fresh session that has no memory of how this was set up. Fol
 
 ## 1. Ledger (no repeats)
 1. Export all ideas: ArtifactData `list`, collection `ideas`, `out_dir` = `data/$DATE/in/ideas`, `query.limit` 1000 (follow `next_cursor` if present).
-2. Export meta: ArtifactData `get` collection `meta` doc `latest` with `out_dir` = `data/$DATE/in` (it may not exist on the first run).
-3. `python3 analyzer/dbsync.py ledger data/$DATE/in/ideas $DATE` → read `data/$DATE/out/ledger.json`.
+   The tool result lists each document with its `version`. Save them as `data/$DATE/in/versions.json` = `{"<idea id>": <version>, ...}` (needed to mark old ideas Expired).
+2. `python3 analyzer/dbsync.py ledger data/$DATE/in/ideas $DATE` → read `data/$DATE/out/ledger.json`.
    - Never suggest a topic cluster listed in `blocked` (unless a *different angle* is allowed and clearly different, or a news topic has a material new development — then label it "Follow-up").
    - Read `learning.rejected` reasons and avoid repeating the same mistake.
 
@@ -73,9 +73,11 @@ Write `data/$DATE/out/run.json`:
 ```
 
 ## 6. Write to the dashboard
-1. `python3 analyzer/dbsync.py plan $DATE data/$DATE/in/meta/latest.json` (omit the path if meta did not exist).
-2. For each `data/$DATE/out/batches/batch_N.json`: call ArtifactData `batch` with `url` = dashboard URL and `writes` = the file's array (entries already carry `file_path`). If a batch fails, retry once; if it still fails, write the documents one by one with `set`.
-3. Spot-check: ArtifactData `get` meta/latest and one idea.
+1. `python3 analyzer/dbsync.py plan $DATE data/$DATE/in/versions.json`
+2. For each `data/$DATE/out/batches/batch_N.json`: call ArtifactData `batch` with `url` = dashboard URL and `writes` = the file's array (entries already carry `file_path`, and `if_version` where needed).
+   All day documents (`tracker/`, `areas/`, `pulse/`, `patterns/`, `calendar/`, `topics/`, `runs/` keyed by date, and new `ideas/`) are new each day, so they need no version. If the batch fails with `version_mismatch` (e.g. a re-run on the same day), `get` the named document, add its `version` as `if_version` to that entry, and resend.
+3. Spot-check: ArtifactData `get` runs/$DATE and one new idea.
+4. **Monthly (on the 1st):** keep the database small (limit 5,000 documents). `list` each of `tracker`, `areas`, `pulse`, `patterns`, `calendar`, `topics`, `runs`; delete documents whose date is more than 30 days old with a `batch` of `delete` entries, each pinned with the `if_version` shown in the listing. Never delete `ideas`.
 
 ## 7. Save to repo
 `git add data/$DATE/out && git commit -m "brief: $DATE" && git push` (skip silently if push is not permitted).
