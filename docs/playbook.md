@@ -1,6 +1,6 @@
 # YouTube Research & Content Playbook
 
-**Version:** v0.2 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
+**Version:** v0.3 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
 **Purpose:** Single reference for the daily research job and for content decisions across three YouTube channels. Every daily run reads this file first. Changes go in the Changelog at the bottom; bump the version on every change.
 **Live copy used by the daily job:** `docs/playbook.md` in the GitHub repo `mudit4158/yt-trend-tracker` (kept in sync with the Project doc).
 
@@ -155,6 +155,17 @@ Each idea gets one of three statuses:
   - Original compositions or traditional public-domain bhajans/aartis only, no covers of label-owned songs.
   - Lyrics and stories taken from authoritative texts.
   - Respectful treatment; no sectarian or divisive framing.
+
+**Cross-channel guardrails (all ideas, including Mudit's own):**
+- **Trending ≠ usable:** ignore coordinated hashtag campaigns and political or sectarian trends, however big (log them in topics notes as avoided).
+- **Cross-check news:** check news-based ideas against the original announcement and the fact-checkers (PIB Fact Check, BOOM, Alt News, Vishvas News). Where reliable reports disagree, say so in `risk_flags`.
+- **No amplifying fakes:** scam/deepfake explainers never replay the fake at length and blur its links and numbers.
+- **No divisive framing:** no communal, caste or sectarian angles.
+- **No fear-selling:** no "dosh"/curse scares, miracle remedies, or health or money claims without evidence.
+- **Honest packaging:** titles and thumbnails never promise what the video doesn't deliver.
+- **No harm stories:** crime, violence and victim stories in the news are not turned into content.
+- **Mudit's ideas are never dropped silently:** if one fails, write the card with `verification: "Avoid"`, the reason, and a safer angle.
+- **Human in charge:** nothing is published automatically; playbook changes are proposed, never self-applied.
 
 ## 8. Idea card format
 
@@ -311,5 +322,6 @@ Private artifact **Roz Trend Desk** (https://claude.ai/artifact/4p6KRtvJrjLDfYiK
 4. Presenter-led (face) or faceless for each channel.
 
 ## Changelog
+- **v0.3 (26 Sep 2026):** cross-channel guardrails (campaign trends, cross-checking, no amplifying fakes, no fear-selling, no harm stories, Mudit's ideas never dropped); Mudit's own ideas researched on demand (`requests` collection, `docs/ADHOC_IDEA.md`); dashboard menu documents sources, logic and guardrails.
 - **v0.2 (26 Sep 2026):** language rule (mostly English + natural Hinglish for videos; English for dashboard), zero-budget free sources with paid items moved to improvements, architecture and run times (collector 04:37, Claude 05:52, brief ~06:15 IST), 7-day expiry for unused suggestions, idea kinds for cooldown, dashboard collections.
 - **v0.1 (26 Sep 2026):** initial playbook — sources incl. global US/China tech and X, calendar lead times (T-14 brief, T-5 hard minimum), artifact dashboard, idea card format, cooldown rules, metadata playbook.

@@ -19,7 +19,7 @@
   --ground:#11141D; --surface:#191D29; --sunk:#222736; --ink:#E7E9F2; --ink-2:#B3B8CC; --ink-3:#848AA3; --line:#2E3446;
   --accent:#F0934A; --accent-soft:#3A2717; --dev:#F0934A; --dev-soft:#3A2717; --kid:#3FC1B0; --kid-soft:#12302C;
   --tfn:#8D98F2; --tfn-soft:#23284A; --ok:#5ACB88; --ok-soft:#163223; --warn:#E3AE48; --warn-soft:#352914; --bad:#EE7B73; --bad-soft:#3B1C1B;}
-*{box-sizing:border-box}
+*{box-sizing:border-box} [hidden]{display:none!important}
 body{background:var(--ground);color:var(--ink);font:16px/1.5 var(--body);padding-inline:16px;padding-block:0 48px}
 .wrap{max-width:1240px;margin:0 auto}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--ground);padding-block:14px 0;border-bottom:1px solid var(--line)}
@@ -100,6 +100,27 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
 .cal .d small{display:block;font:500 11px var(--body);color:var(--ink-3);text-transform:uppercase;letter-spacing:.06em}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--surface);padding:8px 14px;border-radius:8px;font-size:14px;z-index:9}
 @media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}}
+
+.burger{display:inline-flex;flex-direction:column;justify-content:center;gap:4px;width:38px;height:34px;padding:0 9px}
+.burger span{display:block;height:2px;background:var(--ink);border-radius:2px}
+.scrim{position:fixed;inset:0;background:rgba(10,12,20,.45);z-index:20}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(600px,100vw);background:var(--surface);z-index:21;display:flex;flex-direction:column;border-left:1px solid var(--line);
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-shadow:-12px 0 32px rgba(0,0,0,.18)}
+.drawer-h{display:flex;flex-shrink:0;justify-content:space-between;align-items:center;padding:16px 18px 8px}
+.drawer-h button{border:0;font-size:18px;background:none}
+.drawer-nav{display:flex;flex-shrink:0;gap:4px;overflow-x:auto;padding:0 12px;border-bottom:1px solid var(--line)}
+.drawer-nav button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 10px;white-space:nowrap;color:var(--ink-2);font-weight:600}
+.drawer-nav button[aria-current=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.drawer-body{flex:1;min-height:0;overflow-y:auto;padding:16px 18px 32px;display:grid;gap:16px;font-size:15px}
+.drawer-body h3{font:700 17px/1.3 var(--display);margin:0}
+.drawer-body p{margin:0;max-width:62ch}
+.drawer-body ul{margin:4px 0 0;padding-left:18px;display:grid;gap:4px}
+.srcgrp{display:grid;gap:6px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--r)}
+.src{display:flex;justify-content:space-between;gap:10px;align-items:baseline;font-size:14px}
+.src a{color:var(--ink)}
+.rule{padding:10px 12px;border-radius:8px;background:var(--sunk);font-size:14px}
+.rule b{display:block;margin-bottom:2px}
+@media (prefers-reduced-motion:no-preference){.drawer{animation:slidein .18s ease-out}@keyframes slidein{from{transform:translateX(24px);opacity:.6}to{transform:none;opacity:1}}}
 </style>
 
 <div class="wrap">
@@ -111,6 +132,7 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
         <select id="dateSel"></select>
         <span id="runChip" class="chip">Loading…</span>
         <button class="primary" id="addIdeaBtn" type="button">+ Add my idea</button>
+        <button class="burger" id="menuBtn" type="button" aria-label="Open menu: sources, logic and guardrails" aria-expanded="false" aria-controls="drawer"><span></span><span></span><span></span></button>
       </div>
     </div>
     <nav class="tabs" role="tablist" id="tabs">
@@ -136,6 +158,17 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
     <section id="tab-patterns" hidden></section>
   </main>
 </div>
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-label="How Roz Trend Desk works">
+  <div class="drawer-h"><h2>How this works</h2><button type="button" id="menuClose" aria-label="Close menu">✕</button></div>
+  <nav class="drawer-nav" id="drawerNav">
+    <button type="button" data-sec="sources" aria-current="true">Data sources</button>
+    <button type="button" data-sec="logic">Metrics & logic</button>
+    <button type="button" data-sec="guard">Guardrails & filters</button>
+    <button type="button" data-sec="schedule">Schedule & process</button>
+  </nav>
+  <div class="drawer-body" id="drawerBody"></div>
+</aside>
 <div class="toast" id="toast" hidden></div>
 
 <script>
@@ -480,6 +513,114 @@ async function startResearch(id){
   }
 }
 document.addEventListener("click", e=>{ const b=e.target.closest('[data-act="req-run"]'); if(!b) return; b.disabled=true; startResearch(b.dataset.id); });
+
+/* ---------- Menu drawer: sources, logic, guardrails ---------- */
+const FEEDS = {"tech_usa": {"TechCrunch": "https://techcrunch.com/feed/", "The Verge": "https://www.theverge.com/rss/index.xml", "Ars Technica": "https://feeds.arstechnica.com/arstechnica/index", "Wired": "https://www.wired.com/feed/rss", "Hacker News": "https://hnrss.org/frontpage?points=200"}, "tech_china": {"SCMP Tech": "https://www.scmp.com/rss/36/feed", "TechNode": "https://technode.com/feed/", "Pandaily": "https://pandaily.com/feed/", "KrASIA (via Google News)": "https://news.google.com/rss/search?q=site:kr-asia.com+when:2d&hl=en-IN&gl=IN&ceid=IN:en"}, "tech_global": {"Rest of World": "https://restofworld.org/feed/latest/", "Reuters Tech (via Google News)": "https://news.google.com/rss/search?q=site:reuters.com+technology+when:1d&hl=en-IN&gl=IN&ceid=IN:en"}, "tech_india": {"Gadgets360": "https://feeds.feedburner.com/gadgets360-latest", "Moneycontrol Tech": "https://www.moneycontrol.com/rss/technology.xml", "Economic Times Wealth": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms", "Moneycontrol Personal Finance (via Google News)": "https://news.google.com/rss/search?q=site:moneycontrol.com/news/business/personal-finance+when:2d&hl=en-IN&gl=IN&ceid=IN:en"}, "official": {"SEBI": "https://www.sebi.gov.in/sebirss.xml", "PIB (English)": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", "RBI (via Google News)": "https://news.google.com/rss/search?q=site:rbi.org.in+when:3d&hl=en-IN&gl=IN&ceid=IN:en", "NPCI / UPI (via Google News)": "https://news.google.com/rss/search?q=NPCI+UPI+when:3d&hl=en-IN&gl=IN&ceid=IN:en"}, "fact_check": {"PIB Fact Check (via Google News)": "https://news.google.com/rss/search?q=%22PIB+Fact+Check%22+when:2d&hl=en-IN&gl=IN&ceid=IN:en", "Alt News": "https://www.altnews.in/feed/", "Vishvas News": "https://www.vishvasnews.com/feed/", "BOOM (via Google News)": "https://news.google.com/rss/search?q=site:boomlive.in+when:2d&hl=en-IN&gl=IN&ceid=IN:en"}};
+const REDDIT = ["IndiaInvestments", "personalfinanceindia", "india", "developersIndia", "IndianGaming", "technology", "indianparents"];
+const GNEWS = {"DEV": ["mandir", "festival puja vidhi", "navratri", "diwali"], "KID": ["CBSE", "school holidays", "children education India"], "TFN": ["RBI", "SEBI", "income tax", "UPI", "mutual fund", "smartphone launch India", "AI India", "cyber fraud", "gold price"], "GENERAL": ["India trending", "viral video India"]};
+const GROUP_NAMES={tech_usa:"Tech news — USA",tech_china:"Tech news — China",tech_global:"Tech news — global",tech_india:"Tech & money news — India",official:"Official regulators & government",fact_check:"Fact-checkers"};
+let drawerSec="sources";
+function openDrawer(){ $("#drawer").hidden=false; $("#scrim").hidden=false; $("#menuBtn").setAttribute("aria-expanded","true"); renderDrawer(); $("#menuClose").focus(); }
+function closeDrawer(){ $("#drawer").hidden=true; $("#scrim").hidden=true; $("#menuBtn").setAttribute("aria-expanded","false"); $("#menuBtn").focus(); }
+$("#menuBtn").addEventListener("click",openDrawer); $("#menuClose").addEventListener("click",closeDrawer); $("#scrim").addEventListener("click",closeDrawer);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape" && !$("#drawer").hidden) closeDrawer(); });
+$("#drawerNav").addEventListener("click",e=>{ const b=e.target.closest("button[data-sec]"); if(!b) return; drawerSec=b.dataset.sec; renderDrawer(); });
+function srcStatus(key){
+  const run=S.meta?.runs?.[S.meta?.dates?.slice().sort().pop()]; if(!run) return "";
+  const f=(run.failed_sources||[]);
+  return f.includes(key) ? `<span class="chip bad">failed last run</span>` : `<span class="chip ok">OK</span>`;
+}
+function renderDrawer(){
+  document.querySelectorAll("#drawerNav button").forEach(b=>b.setAttribute("aria-current", b.dataset.sec===drawerSec));
+  const el=$("#drawerBody");
+  if(drawerSec==="sources"){
+    el.innerHTML=`<p>Everything is free (budget review on 10 Oct 2026). A GitHub job collects these every morning at 4:37 AM IST. Status is from the latest run.</p>
+    <div class="srcgrp"><h3>YouTube (official Data API)</h3>
+      <div class="src"><span>Most popular in India — 15 categories, up to 200 videos each</span>${srcStatus("youtube_popular")}</div>
+      <div class="src"><span>Channel watchlist — ~220 channels (≈70 per channel area), last 12 uploads each; rebuilt every Sunday</span>${srcStatus("youtube_watchlist")}</div>
+      <div class="src"><span>Keyword searches — 5 rotating keywords per channel, videos from the last 72 hours</span>${srcStatus("youtube_search")}</div>
+      <div class="src"><span>Search autocomplete — 58 keywords (what people are typing)</span>${srcStatus("youtube_autocomplete")}</div>
+      <div class="src"><span>YouTube India weekly music chart (kworb.net)</span>${srcStatus("kworb")}</div></div>
+    <div class="srcgrp"><h3>Search & social</h3>
+      <div class="src"><span>Google Trends — India daily trending searches</span>${srcStatus("google_trends")}</div>
+      <div class="src"><span>X (Twitter) — India trending topics, last 24 hours (trends24.in)</span>${srcStatus("x_trends")}</div>
+      <div class="src"><span>Reddit — top posts today: ${REDDIT.map(r=>"r/"+esc(r)).join(", ")}</span>${srcStatus("reddit")}</div>
+      <div class="src muted small"><span>Not yet: Instagram Reels and curated X lists (paid; decide at the review)</span></div></div>
+    <div class="srcgrp"><h3>Google News searches (last 24h)</h3>
+      ${Object.entries(GNEWS).map(([k,qs])=>`<div class="src"><span><b>${k==="GENERAL"?"General":CH[k]}:</b> ${qs.map(esc).join(", ")}</span></div>`).join("")}</div>
+    ${Object.entries(FEEDS).map(([g,fs])=>`<div class="srcgrp"><h3>${GROUP_NAMES[g]||g}</h3>${Object.entries(fs).map(([n,u])=>`<div class="src"><a href="${esc(u)}" target="_blank" rel="noopener">${esc(n)}</a>${srcStatus("rss:"+n)}</div>`).join("")}</div>`).join("")}
+    <div class="srcgrp"><h3>Calendar</h3><p class="small">Festival, vrat and Ekadashi dates (Dev Aastha, Samvat, India TV; re-checked on Drik Panchang 14 days before), RBI policy dates, tax deadlines, Budget, school exams, national days, deity of each weekday.</p></div>
+    <div class="srcgrp"><h3>Claude's own web search</h3><p class="small">Used every day to verify facts, cover any failed source, check global (US/China) tech, and study competing videos for your ideas.</p></div>`;
+  }
+  if(drawerSec==="logic"){
+    el.innerHTML=`<h3>Metrics we compute</h3>
+    <ul>
+      <li><b>24h views</b> — views gained since yesterday's snapshot. On a video's first day it's estimated as views ÷ age × 24 (marked *).</li>
+      <li><b>Views per hour</b> — total views ÷ hours since upload. Finds fast risers.</li>
+      <li><b>Outlier score</b> — a video's views ÷ the median views of that channel's last 12 uploads (videos ≤14 days old). 5×+ means the topic, not the channel, is pulling views.</li>
+      <li><b>Engagement</b> — (likes + comments) ÷ views.</li>
+      <li><b>New search suggestions</b> — autocomplete phrases that weren't there yesterday.</li>
+      <li><b>X trend strength</b> — hours a topic stayed in India's trending list in the last 24h, and whether it's new today.</li>
+      <li><b>Patterns</b> — which lengths, upload hours, title styles and languages win, for all India and per channel area.</li>
+    </ul>
+    <h3>Top 500</h3><p>All trending videos from 15 YouTube categories, de-duplicated and ranked by 24h views.</p>
+    <h3>From signals to ideas</h3>
+    <p>Claude groups the day's signals into topics per channel, then scores each topic out of 100:</p>
+    <div class="tablebox"><table><thead><tr><th>Factor</th><th class="r">Weight</th><th>What it means</th></tr></thead><tbody>
+      <tr><td>Trend velocity</td><td class="r num">25</td><td>How fast it's rising (YouTube + Google)</td></tr>
+      <tr><td>Cross-platform spread</td><td class="r num">15</td><td>Rising on 2+ of YouTube, Google, X, news, Reddit</td></tr>
+      <tr><td>Channel fit</td><td class="r num">15</td><td>How squarely it suits the channel's audience</td></tr>
+      <tr><td>Competition gap</td><td class="r num">15</td><td>High demand, few good videos yet</td></tr>
+      <tr><td>Timeliness</td><td class="r num">10</td><td>Festival/event inside the 14-day window</td></tr>
+      <tr><td>Evergreen value</td><td class="r num">10</td><td>Keeps earning after the trend fades</td></tr>
+      <tr><td>Earnings potential</td><td class="r num">10</td><td>Finance > tech > education > music ad rates</td></tr></tbody></table></div>
+    <p>The top 3–5 topics per channel that pass every guardrail become idea cards. Weights are hypotheses; the Sunday review proposes changes for your approval.</p>
+    <h3>Festival & event timing</h3>
+    <ul><li><b>30–15 days out:</b> watch</li><li><b>14 days out:</b> full idea cards</li><li><b>5 days out:</b> production deadline (inside 10 days = urgent)</li><li><b>7–1 days out:</b> publish window</li></ul>
+    <h3>No repeats (cooldowns)</h3>
+    <div class="tablebox"><table><tbody>
+      <tr><td>Published — evergreen</td><td>60 days (new angle after 30)</td></tr>
+      <tr><td>Published — festival</td><td>Until next year's festival</td></tr>
+      <tr><td>Published — news</td><td>14 days, unless there's a real new development</td></tr>
+      <tr><td>Kids concept</td><td>30 days, then a new format</td></tr>
+      <tr><td>Rejected</td><td>14 days</td></tr>
+      <tr><td>Suggested, not acted on</td><td>Open 7 days, then Expired</td></tr></tbody></table></div>
+    <h3>Titles, thumbnails, tags, timing</h3>
+    <p>Titles ≤60 characters with the keyword first; thumbnails with ≤4 words; 3 hashtags; 5–10 tags with spelling variants. Upload slots start from: Devotional 5–7 AM / ~6 PM, Kids 4–7 PM (weekends 8–11 AM), Tech+Finance 7–9 PM — adjusted by the Patterns data.</p>`;
+  }
+  if(drawerSec==="guard"){
+    el.innerHTML=`<p>Every idea — daily suggestions and your own — passes these checks. An idea that fails a hard filter is never suggested; one of your own ideas that fails is kept but marked <b>Avoid</b> with the reason and a safer angle.</p>
+    <h3>Verification gate</h3>
+    <div class="rule"><b>✓ Verified</b>Core facts confirmed against an official or reputable source, linked on the card.</div>
+    <div class="rule"><b>⚠ Needs check</b>Plausible but unconfirmed. Must not go into production until verified.</div>
+    <div class="rule"><b>⛔ Avoid</b>False, unverifiable, propaganda, divisive, fear-mongering or harmful.</div>
+    <h3>Regulations</h3>
+    <div class="rule"><b>SEBI — investment advice</b>Tech+Finance is education only: no buy/sell calls on specific stocks or securities, no promised returns, a disclaimer in every description, every money claim cited to RBI, SEBI, NPCI, Income Tax or PIB.</div>
+    <div class="rule"><b>Children's content (YouTube / COPPA)</b>Kids videos are set "made for kids", age-appropriate and genuinely educational; no clickbait aimed at children.</div>
+    <div class="rule"><b>Copyright</b>No label-owned songs or recordings (e.g. no covers of T-Series tracks, no AIR "Mahishasura Mardini"); only traditional public-domain texts or original compositions; no copyrighted or look-alike characters; licensed or original art only.</div>
+    <h3>Propaganda & misinformation</h3>
+    <div class="rule"><b>Trending ≠ usable</b>Coordinated hashtag campaigns, political and sectarian trends are ignored (e.g. on 26 Sep: "#OpenChallengeBy_SantRampalJi" and "सृष्टि रचना" were skipped).</div>
+    <div class="rule"><b>Cross-check before use</b>News-based ideas are checked against the original announcement and fact-checkers (PIB Fact Check, BOOM, Alt News, Vishvas News). Where reports disagree, the card says so.</div>
+    <div class="rule"><b>No amplifying fakes</b>Scam or deepfake explainers never replay the fake at length and blur its links and numbers.</div>
+    <h3>Ethics & tone</h3>
+    <div class="rule"><b>No divisive framing</b>No communal, caste or sectarian angles; devotional content stays respectful.</div>
+    <div class="rule"><b>No fear-selling</b>No "dosh"/curse scares, miracle remedies, or health and money claims without evidence.</div>
+    <div class="rule"><b>Honest packaging</b>Titles and thumbnails never promise what the video doesn't deliver.</div>
+    <div class="rule"><b>No harm stories</b>Crime, violence and victim stories trending in the news are not turned into content.</div>
+    <div class="rule"><b>Your ethics framework</b><span class="muted">Open point — to be formalised together. It will be added here and applied to every run once agreed.</span></div>
+    <h3>Human in charge</h3>
+    <p>Nothing is published automatically. You accept, reject or publish every idea; the model only proposes playbook changes, and you approve them.</p>`;
+  }
+  if(drawerSec==="schedule"){
+    el.innerHTML=`<h3>Every day (IST)</h3>
+    <ul><li><b>4:37 AM</b> — GitHub collects all sources and computes metrics.</li>
+    <li><b>5:52 AM</b> — Claude reads the data and the playbook, checks the ledger, verifies facts, writes topics and 3–5 cards per channel.</li>
+    <li><b>~6:15 AM</b> — this dashboard updates; you get a push and an email.</li></ul>
+    <h3>Your ideas</h3><p>"+ Add my idea" starts research immediately (about 10–20 minutes). If that can't start, it runs in the next morning brief.</p>
+    <h3>Weekly & monthly</h3><ul><li><b>Sunday:</b> the watchlist is rebuilt and Claude proposes playbook changes for your approval.</li><li><b>1st of the month:</b> data older than 30 days is cleared (your ideas are kept).</li></ul>
+    <h3>Where the rules live</h3><p class="small">Playbook v0.2 in your Claude Project and in GitHub (mudit4158/yt-trend-tracker, docs/). Budget review: 10 Oct 2026.</p>`;
+  }
+}
 
 boot();
 </script>
