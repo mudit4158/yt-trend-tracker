@@ -289,7 +289,15 @@ def parse_feed(url: str, limit: int = 40) -> list[dict]:
     """Minimal RSS/Atom parser (stdlib only). Keeps Google Trends' ht:* fields."""
     r = requests.get(url, headers=UA, timeout=25)
     r.raise_for_status()
-    root = ET.fromstring(r.content)
+    try:
+        root = ET.fromstring(r.content)
+    except ET.ParseError:  # malformed feed: lenient fallback
+        soup = BeautifulSoup(r.content, "html.parser")
+        return [{"title": (it.find("title").get_text(strip=True) if it.find("title") else None),
+                 "link": (it.find("link").get("href") or it.find("link").get_text(strip=True)) if it.find("link") else None,
+                 "published": (it.find("pubdate") or it.find("published") or it.find("updated")).get_text(strip=True)
+                 if (it.find("pubdate") or it.find("published") or it.find("updated")) else None,
+                 "summary": ""} for it in soup.find_all(["item", "entry"])[:limit]]
     entries = [e for e in root.iter() if _local(e.tag) in ("item", "entry")]
     items = []
     for e in entries[:limit]:
@@ -348,14 +356,23 @@ def collect_news() -> None:
 
 
 def collect_reddit() -> None:
-    out = {}
-    for sub in CONFIG["reddit_subs"]:
+    """One combined request (Reddit rate-limits GitHub's IPs hard); split posts back per subreddit."""
+    out: dict[str, list] = {s: [] for s in CONFIG["reddit_subs"]}
+    url = "https://www.reddit.com/r/" + "+".join(CONFIG["reddit_subs"]) + "/top/.rss?t=day&limit=100"
+    for attempt in range(3):
         try:
-            out[sub] = parse_feed(f"https://www.reddit.com/r/{sub}/top/.rss?t=day", 15)
-            log(f"reddit:{sub}", bool(out[sub]), "", len(out[sub]))
+            items = parse_feed(url, 100)
+            for it in items:
+                m = re.search(r"reddit\.com/r/([^/]+)/", it.get("link") or "")
+                sub = m.group(1) if m else "other"
+                key = next((s for s in out if s.lower() == sub.lower()), sub)
+                out.setdefault(key, []).append(it)
+            log("reddit", bool(items), "", len(items))
+            break
         except Exception as e:
-            log(f"reddit:{sub}", False, str(e))
-        time.sleep(2)
+            if attempt == 2:
+                log("reddit", False, str(e))
+            time.sleep(20)
     save("reddit.json", out)
 
 
@@ -367,7 +384,7 @@ def collect_x_trends() -> None:
             continue
         try:
             r = requests.get(url, headers=UA, timeout=25)
-            soup = BeautifulSoup(r.text, "html.parser")
+            soup = BeautifulSoup(r.content, "html.parser", from_encoding="utf-8")
             first = soup.select_one("ol.trend-card__list") or soup.find("ol")
             names = [a.get_text(strip=True) for a in (first.select("a") if first else [])]
             # also collect all cards (last ~24h, hourly) to measure persistence
