@@ -1,6 +1,6 @@
 # YouTube Research & Content Playbook
 
-**Version:** v0.3 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
+**Version:** v0.4 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
 **Purpose:** Single reference for the daily research job and for content decisions across three YouTube channels. Every daily run reads this file first. Changes go in the Changelog at the bottom; bump the version on every change.
 **Live copy used by the daily job:** `docs/playbook.md` in the GitHub repo `mudit4158/yt-trend-tracker` (kept in sync with the Project doc).
 
@@ -322,7 +322,48 @@ Private artifact **Roz Trend Desk** (https://claude.ai/artifact/4p6KRtvJrjLDfYiK
 3. Budget for paid data — decided: zero until the 10 Oct 2026 review.
 4. Presenter-led (face) or faceless for each channel.
 
+
+## 15. Interaction model & decisions log
+
+How Mudit works with the system, and the decisions behind it. The daily run and the on-demand research both follow these.
+
+### Dashboard (Roz Trend Desk)
+- Private artifact, UI in English, pinned to the Claude sidebar; the Project doc `00-dashboard-roz-trend-desk.md` links to it. (An artifact can't be placed inside a Project, so the doc + pin are the entry points.)
+- Tabs: Today's Brief · Top 500 · Channel Pulse · Web Pulse · Calendar · My Ideas · Ideas Ledger · Patterns.
+- ☰ menu (top right): Data sources (with live OK/failed status), Metrics & logic, Guardrails & filters, Schedule & process. It is hand-written into the page — update it whenever sources, scoring or guardrails change.
+- Ideas Ledger shows every idea as a row; ▸ on the right of a row opens the full card with all details and actions.
+
+### Card actions
+- **Actions ▾** holds three buttons side by side: **Accept · Reject · Published**. An input appears only after a click: Reject asks for a short reason, Published asks for the YouTube link.
+- **Accept** = "I'll make this" — shown as **Planned**; the idea is reserved and not re-suggested while open. "In production" was removed as a separate step (old data showing it is displayed as Planned).
+- **Reject** reasons and **Published** links are the main feedback: they drive cooldowns and teach the model.
+- **Refine & research again** sits outside the Actions menu, under each card.
+
+### Mudit's own ideas
+- Two entry points: dashboard **+ Add my idea** (idea, channel or "Not sure", optional angle, links, target date) or chat ("Research my idea: …").
+- The dashboard starts the on-demand task "Roz Trend Desk — research my idea" instantly through the Claude Code Remote connector; if that can't start, the request stays Queued and the next morning run picks it up.
+- Each idea is researched like a daily suggestion — demand, top 5 competing videos and the gap, verified facts, timing, guardrails — and saved as a `U` card (`<CH>-<date>-U<NN>`, origin "Mudit", marked "Your idea").
+- Mudit's ideas are never dropped silently: a failing idea is saved as **Avoid** with the reason and a safer angle.
+
+### Refinements
+- **Never override Claude's suggestions with Mudit's ideas.** Refining a daily suggestion ALWAYS creates a new card in My Ideas (`derived_from` the suggestion); the suggestion itself is never modified. It shows "Your variants of this suggestion"; the new card shows "Made from …". (Decision 26 Sep 2026, after the Navratri card DEV-2026-09-26-01 was refined in place — it was restored to its original and the refined version became DEV-2026-09-26-U02.)
+- Refining Mudit's own card updates that same card (revision number, refinement history with what was asked and what changed, `previous` snapshot, and an `original` snapshot on the first refinement).
+- **Alignment check:** a refinement of Mudit's own card must stay on the same subject (angle, audience, depth, length, focus, packaging may change). A different subject fails the refinement with the reason "Not aligned with <card>" and is registered as a new idea automatically — so a card's topic and its metrics can't be quietly rewritten.
+- Refinement notes from the last 30 days feed the daily run as standing preferences (e.g. "shorter", "for beginners").
+- The weekly review scores the model on each card's original suggestion, never on refined versions or variants.
+
+### Research history & statuses
+- Every card shows its **Research history**: each run's input (daily trend data, Mudit's idea text, or his refinement note, plus angle/links) and status — **Queued, Running, Completed, Failed** — with the result or the failure reason.
+- My Ideas lists Mudit's submitted ideas and variants of daily suggestions with the same statuses; refinements of his own cards show on the card itself ("Refining…").
+
+### Data & reliability decisions
+- Claude's workspace can't reach YouTube/Google directly, so collection runs free on GitHub Actions; the YouTube Data API key lives only as a GitHub secret (never in chat). Only the Data API is used; Analytics/Reporting APIs come later for our own channels.
+- Cards must keep fixed field shapes (lists as arrays, `sources` as `{title,url}`, `competition` as `{videos, gap}`); the page also tolerates other shapes and a broken card never blanks the page.
+- Daily documents are new each day (no overwrites); ideas are never deleted; data older than 30 days is pruned monthly.
+- Failing feeds are rerouted through Google News where a site blocks the collector (RBI, BOOM, KrASIA, Moneycontrol PF); Reddit is fetched in one combined request.
+
 ## Changelog
+- **v0.4 (26 Sep 2026):** Section 15 — interaction model & decisions: dashboard layout and ☰ menu, Accept/Reject/Published actions (Planned status), own-idea research, refinements (never override Claude's suggestions — variants become new cards; own cards refine in place with an alignment check), research history statuses, reliability decisions.
 - **v0.3 (26 Sep 2026):** cross-channel guardrails (campaign trends, cross-checking, no amplifying fakes, no fear-selling, no harm stories, Mudit's ideas never dropped); Mudit's own ideas researched on demand (`requests` collection, `docs/ADHOC_IDEA.md`); dashboard menu documents sources, logic and guardrails.
 - **v0.2 (26 Sep 2026):** language rule (mostly English + natural Hinglish for videos; English for dashboard), zero-budget free sources with paid items moved to improvements, architecture and run times (collector 04:37, Claude 05:52, brief ~06:15 IST), 7-day expiry for unused suggestions, idea kinds for cooldown, dashboard collections.
 - **v0.1 (26 Sep 2026):** initial playbook — sources incl. global US/China tech and X, calendar lead times (T-14 brief, T-5 hard minimum), artifact dashboard, idea card format, cooldown rules, metadata playbook.
