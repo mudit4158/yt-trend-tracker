@@ -1,81 +1,200 @@
 {
- "channel": "DEV",
- "priority": 90,
- "verification": "Verified",
- "kind": "festival",
- "topic": "Navratri 2026 Navdurga series",
- "topic_cluster": "navratri-navdurga-series",
- "publish_by": "2026-10-09",
- "upload_slot": "Jukebox: Fri 9 Oct 6:00 PM IST; daily Short each morning 5:30 AM, 11–19 Oct",
- "why_now": [
-  "Navratri 11–19 Oct is 15 days away; production deadline 6 Oct",
-  "'Navratri coming soon 2026' Shorts already at ~8K views/hour",
-  "'navratri bhajan' autocomplete active (dj, new, bhojpuri variants)"
- ],
- "format": {
-  "type": "Compilation + 9 Shorts",
-  "length": "30–40 min jukebox",
-  "hook": "Navratri ke 9 din, 9 roop of Maa Durga — ek hi video mein, day-wise mantra and aarti.",
-  "outline": [
-   "Day 1 Shailaputri (11 Oct, orange) — beej mantra + short stuti",
-   "Day 2 Brahmacharini (12 Oct, white)",
-   "Day 3 Chandraghanta (13 Oct, red)",
-   "Day 4 Kushmanda (14 Oct, royal blue)",
-   "Day 5 Skandamata (15 Oct, yellow)",
-   "Day 6 Katyayani (16 Oct, green)",
-   "Day 7 Kalaratri (17 Oct, grey)",
-   "Day 8 Mahagauri (18 Oct, purple)",
-   "Day 9 Siddhidatri (19 Oct, peacock green)",
-   "Close: Durga aarti 'Jai Ambe Gauri' (traditional)"
+  "channel": "DEV",
+  "date": "2026-09-26",
+  "description": "Navratri 2026 (11–19 October) — Maa Durga ke 9 roop, har Devi ka mahatva (significance), katha aur day-wise mantra, ek hi video mein.\nWatch the significance, then chant along every morning of Navratri.\n\nWhy this video: Navratri ke 9 roop ek journey hain — steadiness (Shailaputri) → discipline (Brahmacharini) → courage (Chandraghanta) → creation (Kushmanda) → mother's love (Skandamata) → victory (Katyayani) → freedom from fear (Kalaratri) → purity (Mahagauri) → fulfilment (Siddhidatri).\n\n00:00 Why Navratri & the 9 roop\n01:30 Day 1 · Shailaputri — mahatva + mantra\n05:30 Day 2 · Brahmacharini — mahatva + mantra\n09:30 Day 3 · Chandraghanta — mahatva + mantra\n13:30 Day 4 · Kushmanda — mahatva + mantra\n17:30 Day 5 · Skandamata — mahatva + mantra\n21:30 Day 6 · Katyayani — mahatva + mantra\n25:30 Day 7 · Kalaratri — mahatva + mantra\n29:30 Day 8 · Mahagauri — mahatva + mantra\n33:30 Day 9 · Siddhidatri — mahatva + mantra\n38:00 Why 9 colours\n40:00 Vijayadashami + Durga Aarti\n\nDates: Navratri starts 11 Oct 2026 (Ghatasthapana), Vijayadashami 20 Oct. Ashtami/Navami timing can vary by city — check your local panchang.\nMantras and aarti are traditional (public domain). Stories as per Devi Mahatmya / popular Puranic tradition.\n\n#Navratri2026 #Navdurga #DurgaMaa",
+  "format": {
+    "type": "Compilation + 9 Shorts",
+    "length": "40–45 min (mantra jukebox with a 60–90 sec significance segment before each Devi)",
+    "hook": "Navratri ke 9 din sirf 9 roop nahi, ek poori journey hain — Shailaputri ki stability se Siddhidatri ki siddhi tak. Aaj jaaniye har Devi ka mahatva, aur saath mein chant kijiye unka mantra.",
+    "outline": [
+      "Intro (60 sec): why Navratri — Durga's 9-night battle and victory over Mahishasura, Vijayadashami on 20 Oct; the 9 roop are the 9 steps of one sadhana (Devi Kavach, Durga Saptashati: 'Prathamam Shailaputri...')",
+      "Day 1 · Shailaputri (11 Oct, orange) — Significance (60–90 sec): daughter of Himalaya (Parvati reborn after Sati); rides Nandi, trident + lotus. Meaning: Foundation and steadiness — the root of the whole Navratri sadhana. Then mantra 'ॐ देवी शैलपुत्र्यै नमः' ×11 + short stuti",
+      "Day 2 · Brahmacharini (12 Oct, white) — Significance (60–90 sec): Parvati's years of tapasya for Shiva, living on bilva leaves and water; japa mala + kamandalu. Meaning: Tapas, discipline and focus — perfect for students and anyone starting a vrat. Then mantra 'ॐ देवी ब्रह्मचारिण्यै नमः' ×11 + short stuti",
+      "Day 3 · Chandraghanta (13 Oct, red) — Significance (60–90 sec): half-moon shaped like a bell on her forehead; rides a tiger, ten arms with weapons, form taken after marriage to Shiva. Meaning: Courage and protection — the sound of her ghanta drives away fear. Then mantra 'ॐ देवी चन्द्रघण्टायै नमः' ×11 + short stuti",
+      "Day 4 · Kushmanda (14 Oct, royal blue) — Significance (60–90 sec): creates the cosmic egg (brahmanda) with her gentle smile; source of the sun's light and warmth. Meaning: Energy, health and fresh creation. Then mantra 'ॐ देवी कूष्माण्डायै नमः' ×11 + short stuti",
+      "Day 5 · Skandamata (15 Oct, yellow) — Significance (60–90 sec): mother of Skanda (Kartikeya), holds him on her lap, rides a lion. Meaning: Mother's love and wisdom — family well-being and blessings for children. Then mantra 'ॐ देवी स्कन्दमातायै नमः' ×11 + short stuti",
+      "Day 6 · Katyayani (16 Oct, green) — Significance (60–90 sec): born in Sage Katyayana's ashram; the warrior form that defeats Mahishasura. Meaning: Victory over negativity; traditionally prayed to for a good life partner. Then mantra 'ॐ देवी कात्यायन्यै नमः' ×11 + short stuti",
+      "Day 7 · Kalaratri (17 Oct, grey) — Significance (60–90 sec): fierce dark form who destroys Raktabija so his blood cannot create new demons. Meaning: Freedom from fear and darkness — fierce outside, protective inside (also called Shubhankari). Then mantra 'ॐ देवी कालरात्र्यै नमः' ×11 + short stuti",
+      "Day 8 · Mahagauri (Ashtami, purple) — Significance (60–90 sec): radiant white form after tapasya; rides a white bull, trident + damaru. Meaning: Purity, peace and a fresh start; Ashtami is the day of Kanya Pujan in many homes. Then mantra 'ॐ देवी महागौर्यै नमः' ×11 + short stuti",
+      "Day 9 · Siddhidatri (Navami, peacock green) — Significance (60–90 sec): giver of all siddhis, seated on a lotus; even Shiva received siddhis from her. Meaning: Completion — the fruit of all nine days of sadhana. Then mantra 'ॐ देवी सिद्धिदात्र्यै नमः' ×11 + short stuti",
+      "Why the 9 colours: a modern popular custom tied to the weekday Navratri starts on (changes every year), not a scriptural rule — say this honestly",
+      "Close: Vijayadashami meaning (victory of good over evil — Durga over Mahishasura, Rama over Ravana) + Durga aarti 'Jai Ambe Gauri' (traditional)"
+    ],
+    "shorts": [
+      "One 45–60 sec Short per day at 5:30 AM: 'Aaj ki Devi' — 1-line story, what she blesses, colour, and the mantra ×3",
+      "Short: 'Navratri ke 9 roop = 9 steps of sadhana' (the journey in 50 sec)",
+      "Short: 'Kalaratri darawni kyun dikhti hain?' — Raktabija story and why she is also Shubhankari",
+      "Colour-of-the-day Short for women's audience (outfit colour, with the honest note that colours are a custom)"
+    ]
+  },
+  "history": [
+    {
+      "at": "2026-09-26T11:10:00+05:30",
+      "status": "Suggested"
+    }
   ],
-  "shorts": [
-   "One 45-sec Short per day: that day's Devi, colour and mantra, posted 5:30 AM",
-   "Colour-of-the-day Short for women's audience (outfit colour)"
-  ]
- },
- "titles": [
-  "Navratri 2026 Day-wise Mantra | 9 Devi Roop | नवरात्रि",
-  "Navratri 2026: 9 Days, 9 Devi Mantras & Colours",
-  "Navdurga Mantra Jukebox | Navratri 11–19 Oct 2026"
- ],
- "thumbnail": "Nine small Devi tiles in a 3×3 grid on deep red, each tile edged in that day's colour; centre text 'NAVRATRI 2026' and '9 DAYS'. Use original or licensed art only.",
- "keywords": {
-  "primary": [
-   "navratri 2026",
-   "navratri mantra",
-   "navdurga"
+  "keywords": {
+    "primary": [
+      "navratri 2026",
+      "nav durga 9 roop",
+      "navratri mantra"
+    ],
+    "secondary": [
+      "navdurga significance",
+      "maa durga 9 roop mahatva",
+      "nav durga katha",
+      "navratri colours 2026",
+      "durga aarti",
+      "नवरात्रि 2026",
+      "नवदुर्गा"
+    ]
+  },
+  "kind": "festival",
+  "priority": 88,
+  "publish_by": "2026-10-08",
+  "risk_flags": "Ashtami and Navami may both fall on Mon 19 Oct in some panchangs (tithi overlap) while colour lists show Day 8 = 18 Oct — don't print dates for Day 8/9 in the video, say 'Ashtami'/'Navami' and tell viewers to check local panchang. Present stories as tradition ('maana jaata hai'), avoid claims like 'this mantra will change your life'. Colours are a modern custom — say so. Use only traditional mantras/aarti or own recordings; original or licensed Devi art.",
+  "sources": [
+    {
+      "title": "Drik Panchang — Shardiya Navratri 2026 Ghatasthapana",
+      "url": "https://www.drikpanchang.com/navratri/shardiya-navratri-ghatasthapana.html?year=2026"
+    },
+    {
+      "title": "Samvat — Sharad Navaratri 2026: Ashtami, Navami & Dussehra",
+      "url": "https://samvat.in/festivals/navaratri-2026/"
+    },
+    {
+      "title": "Samvat — Durga Ashtami 2026",
+      "url": "https://samvat.in/festivals/durga-ashtami-2026/"
+    },
+    {
+      "title": "Brut India — Navratri 2026 dates, significance and colours",
+      "url": "https://www.brut.media/in/articles/india/society/navratri-2026-date-9-days-puja-timing-significance-fasting-and-why-people-wear-different-colours-each-day"
+    },
+    {
+      "title": "Art of Living — NavDurga: the nine forms of Durga Devi",
+      "url": "https://www.artofliving.org/in-en/navratri/nav-durga-the-nine-forms-of-durga-devi"
+    },
+    {
+      "title": "Prokerala — Navadurga: 9 forms and their stories",
+      "url": "https://www.prokerala.com/festivals/the-nine-forms-of-goddess-durga-and-their-stories.htm"
+    },
+    {
+      "title": "Wikipedia — Chandraghanta",
+      "url": "https://en.wikipedia.org/wiki/Chandraghanta"
+    },
+    {
+      "title": "Wikipedia — Navaratri",
+      "url": "https://en.wikipedia.org/wiki/Navaratri"
+    }
   ],
-  "secondary": [
-   "navratri colours 2026",
-   "shailputri mantra",
-   "durga aarti",
-   "नवरात्रि 2026"
-  ]
- },
- "description": "Navratri 2026 (11–19 October) — all 9 forms of Maa Durga with day-wise mantra, colour and aarti.\nChant along every morning of Navratri.\n\n00:00 Day 1 Shailaputri\n03:30 Day 2 Brahmacharini\n... (chapters per day)\n\nMantras are traditional (public domain). Dates as per panchang; local dates can vary by a day.\n\n#Navratri2026 #Navdurga #DurgaMaa",
- "tags": [
-  "navratri 2026",
-  "navratri mantra",
-  "navdurga mantra",
-  "navratri colours 2026",
-  "durga aarti",
-  "navratri bhajan",
-  "नवरात्रि",
-  "nav durga"
- ],
- "sources": [
-  {
-   "title": "Navratri 2026 day-wise colours and goddesses — Dev Aastha",
-   "url": "https://www.devaastha.com/blogs/festivals/navratri-9-colours-meaning-and-use"
+  "status": "Suggested",
+  "tags": [
+    "navratri 2026",
+    "nav durga 9 roop",
+    "navdurga significance",
+    "nav durga katha",
+    "navratri mantra",
+    "maa durga ke 9 roop",
+    "navratri colours 2026",
+    "durga aarti",
+    "नवरात्रि",
+    "नवदुर्गा"
+  ],
+  "thumbnail": "3×3 grid of nine original Devi illustrations on deep red, each tile edged in that day's colour; centre text '9 ROOP · 9 MEANINGS' with 'NAVRATRI 2026' above. Original or licensed art only.",
+  "titles": [
+    "Navratri 2026: 9 Devi Roop, Mahatva & Mantra | नवदुर्गा",
+    "Navratri 2026 Day-wise Mantra | 9 Devi Roop | नवरात्रि",
+    "Nav Durga ke 9 Roop ka Mahatva + Mantra | Navratri 2026",
+    "Why 9 Forms of Durga? Navratri 2026 Meaning & Mantras"
+  ],
+  "topic": "Navratri 2026 Navdurga series",
+  "topic_cluster": "navratri-navdurga-series",
+  "upload_slot": "Long video: Thu 8 Oct 6:00 PM IST (3 days before Ghatasthapana for search to pick it up); daily Short 5:30 AM, 11–19 Oct",
+  "verification": "Verified",
+  "why_now": [
+    "Navratri starts 11 Oct (15 days away); Vijayadashami 20 Oct — script + voice-over by 4 Oct, edit by 7 Oct",
+    "'navratri bhajan' and 'durga maa bhajan' are rising in today's DEV autocomplete; 'Navratri coming soon 2026' Shorts already trending",
+    "Top results split into two kinds — pure mantra jukeboxes OR long katha videos; almost none give short significance + mantra per Devi, which is our gap",
+    "Significance segments make the video useful beyond this Navratri (Chaitra Navratri in spring) — better evergreen value than a plain jukebox"
+  ],
+  "competition": {
+    "videos": [
+      {
+        "title": "नवरात्रि स्पेशल कथा- नौ देवियों की कथा Nav Durga Katha",
+        "channel": "n/a (not captured)",
+        "views": "n/a",
+        "age": "n/a",
+        "url": "https://www.youtube.com/watch?v=g8mW6vc6WiY"
+      },
+      {
+        "title": "चैत्र नवरात्रि स्पेशल 2026- माँ दुर्गा के नौ रूपों की सम्पूर्ण कथा",
+        "channel": "n/a (not captured)",
+        "views": "n/a",
+        "age": "~6 months",
+        "url": "https://www.youtube.com/watch?v=X17JLhkqh1w"
+      },
+      {
+        "title": "नव दुर्गा मंत्र Nav Durga Mantras | Navratri Special | All 9 Days 4-6am",
+        "channel": "n/a (not captured)",
+        "views": "n/a",
+        "age": "n/a",
+        "url": "https://www.youtube.com/watch?v=gUNsNParqrY"
+      },
+      {
+        "title": "Chaitra Navratri 2025 - Nav Durga Mantra | Listen for 9 Days | Audio Jukebox",
+        "channel": "n/a (not captured)",
+        "views": "n/a",
+        "age": "~1.5 years",
+        "url": "https://www.youtube.com/watch?v=rxTu8zhxJzo"
+      },
+      {
+        "title": "नव दुर्गा सम्पूर्ण कथा - Nav Durga Katha | 9 Forms of Maa Durga",
+        "channel": "n/a (not captured)",
+        "views": "n/a",
+        "age": "n/a",
+        "url": "https://www.youtube.com/watch?v=_39TDVnQRyA"
+      }
+    ],
+    "gap": "Existing videos are either long katha narrations or mantra-only jukeboxes; none pair a crisp 60–90 sec 'mahatva' with each Devi's mantra, chaptered day-wise for 2026."
+  },
+  "revision": 2,
+  "refinements": [
+    {
+      "at": "2026-09-26T12:40:00+05:30",
+      "instructions": "Give me some more details about the significance of the video",
+      "changes": "Added a 60–90 sec significance (story + meaning) segment for each of the 9 Devis plus intro on why Navratri and a close on Vijayadashami; length 30–40 → 40–45 min; new significance-led titles, hook, Shorts, keywords, competition gap; Day 8/9 dates removed due to Ashtami–Navami overlap; priority 90 → 88",
+      "request_id": "REQ-20260926-121326"
+    }
+  ],
+  "previous": {
+    "titles": [
+      "Navratri 2026 Day-wise Mantra | 9 Devi Roop | नवरात्रि",
+      "Navratri 2026: 9 Days, 9 Devi Mantras & Colours",
+      "Navdurga Mantra Jukebox | Navratri 11–19 Oct 2026"
+    ],
+    "priority": 90,
+    "verification": "Verified",
+    "format": {
+      "hook": "Navratri ke 9 din, 9 roop of Maa Durga — ek hi video mein, day-wise mantra and aarti.",
+      "length": "30–40 min jukebox",
+      "outline": [
+        "Day 1 Shailaputri (11 Oct, orange) — beej mantra + short stuti",
+        "Day 2 Brahmacharini (12 Oct, white)",
+        "Day 3 Chandraghanta (13 Oct, red)",
+        "Day 4 Kushmanda (14 Oct, royal blue)",
+        "Day 5 Skandamata (15 Oct, yellow)",
+        "Day 6 Katyayani (16 Oct, green)",
+        "Day 7 Kalaratri (17 Oct, grey)",
+        "Day 8 Mahagauri (18 Oct, purple)",
+        "Day 9 Siddhidatri (19 Oct, peacock green)",
+        "Close: Durga aarti 'Jai Ambe Gauri' (traditional)"
+      ],
+      "shorts": [
+        "One 45-sec Short per day: that day's Devi, colour and mantra, posted 5:30 AM",
+        "Colour-of-the-day Short for women's audience (outfit colour)"
+      ],
+      "type": "Compilation + 9 Shorts"
+    },
+    "publish_by": "2026-10-09"
   }
- ],
- "risk_flags": "Use only traditional mantras/aartis or your own compositions; no label-owned recordings. Re-check dates on Drik Panchang before upload.",
- "date": "2026-09-26",
- "status": "Suggested",
- "history": [
-  {
-   "status": "Suggested",
-   "at": "2026-09-26T11:10:00+05:30"
-  }
- ]
 }
