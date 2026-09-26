@@ -293,6 +293,7 @@ Private artifact **Roz Trend Desk** (https://claude.ai/artifact/4p6KRtvJrjLDfYiK
 - `topics/<date>` — trend clusters with scores (written by Claude)
 - `ideas/<id>` — the ledger (cards + statuses); never deleted
 - `calendar/<date>` — events with T-minus stages (latest is shown)
+- `requests/<id>` — Mudit's own ideas submitted for research (see `docs/ADHOC_IDEA.md`)
 - Watchlist and keywords live in the repo (`config/`).
 
 **Views:** Today's Brief (idea cards + urgent calendar), Top 500 (filters: category, language, Short/long, length), Channel Pulse, Web Pulse, Calendar, Ideas Ledger (change status in place), Patterns.
