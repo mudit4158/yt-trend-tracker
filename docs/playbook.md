@@ -273,15 +273,15 @@ These are starting rules based on general best practice. We replace them with wh
 
 ## 11. Dashboard
 
-Private artifact **Roz Trend Desk** (https://claude.ai/artifact/4p6KRtvJrjLDfYiKPvbDPv) with a built-in database (UI in English). Data collections (day documents older than 30 days are deleted):
-- `meta/latest` — run log, dates available, daily summary
+Private artifact **Roz Trend Desk** (https://claude.ai/artifact/4p6KRtvJrjLDfYiKPvbDPv) with a built-in database (UI in English). Data collections (day documents older than 30 days are deleted monthly):
+- `runs/<date>` — run log and daily summary
 - `tracker/<date>_1..5` — Top 500 in 5 parts
 - `areas/<date>` — per-channel outliers, fast-rising videos, autocomplete signals
 - `pulse/<date>` — Google Trends, X trends, music chart, Reddit, headlines
 - `patterns/<date>` — length / upload hour / title / language stats
 - `topics/<date>` — trend clusters with scores (written by Claude)
 - `ideas/<id>` — the ledger (cards + statuses); never deleted
-- `calendar/upcoming` — events with T-minus stages
+- `calendar/<date>` — events with T-minus stages (latest is shown)
 - Watchlist and keywords live in the repo (`config/`).
 
 **Views:** Today's Brief (idea cards + urgent calendar), Top 500 (filters: category, language, Short/long, length), Channel Pulse, Web Pulse, Calendar, Ideas Ledger (change status in place), Patterns.
