@@ -1,0 +1,78 @@
+{
+  "_note": "Free sources only (budget = 0 until the 2-week review). Every fetch is logged in data/<date>/status.json; a failing source never stops the run.",
+  "youtube": {
+    "region": "IN",
+    "popular_category_ids": ["0", "1", "2", "10", "15", "17", "19", "20", "22", "23", "24", "25", "26", "27", "28"],
+    "popular_pages_per_category": 4,
+    "watchlist_recent_uploads": 12,
+    "searches_per_channel_per_day": 5,
+    "search_window_hours": 72
+  },
+  "keywords": {
+    "DEV": ["hanuman chalisa", "bhajan", "aarti", "shiv bhajan", "krishna bhajan", "durga maa bhajan", "ram bhajan", "navratri bhajan", "sai baba bhajan", "ganesh aarti", "bhakti song", "mantra jaap", "khatu shyam bhajan", "sunderkand", "lakshmi aarti", "shani dev bhajan", "diwali puja", "chhath geet", "karwa chauth katha", "devi geet"],
+    "KID": ["nursery rhymes hindi", "bal geet", "kids learning hindi", "abcd song", "hindi varnamala", "ginti 1 se 100", "bachon ki kahani", "moral stories hindi", "animal sounds for kids", "colours name for kids", "hindi kavita bachon ki", "fruits name for kids", "phonics song", "kids gk quiz hindi", "good habits for kids", "tables song", "dinosaur for kids hindi", "festival story for kids"],
+    "TFN": ["sip kya hai", "mutual fund kaise kare", "credit score kaise badhaye", "income tax new rules", "upi new rules", "new phone launch india", "ai tools hindi", "share market basics", "gold price today", "home loan emi", "term insurance kya hai", "online fraud scam", "best smartphone under 20000", "iphone price india", "rbi repo rate", "credit card tips", "fd vs sip", "chatgpt hindi", "budget 2027", "cyber safety tips"]
+  },
+  "watchlist_discovery": {
+    "_note": "Weekly (Sunday) the collector searches these queries, gathers channels behind the top videos and keeps the biggest plus the fastest-growing ones. Manual handles are always kept.",
+    "queries": {
+      "DEV": ["hanuman chalisa", "bhajan", "aarti", "shiv bhajan", "krishna bhajan", "mata rani bhajan", "khatu shyam bhajan", "ram bhajan"],
+      "KID": ["nursery rhymes hindi", "bal geet", "hindi kahani bachon ki", "kids learning videos hindi", "hindi varnamala", "cartoon kahani hindi"],
+      "TFN": ["personal finance hindi", "mutual fund hindi", "tech news hindi", "new smartphone review hindi", "share market hindi", "income tax hindi", "ai tools hindi"]
+    },
+    "max_channels_per_area": 70,
+    "manual_handles": {
+      "DEV": ["@tseriesbhaktisagar", "@ShemarooBhakti", "@SaregamaBhakti"],
+      "KID": ["@ChuChuTV", "@ChuChuTVHindi", "@InfobellsHindi"],
+      "TFN": ["@TechnicalGuruji", "@TechBurner", "@CA_Rachana_Ranade", "@pranjalkamra", "@warikoo", "@labourlawadvisor"]
+    }
+  },
+  "google_trends_rss": "https://trends.google.com/trending/rss?geo=IN",
+  "youtube_autocomplete": "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&hl=hi&gl=IN&q={q}",
+  "google_news_queries": {
+    "DEV": ["mandir", "festival puja vidhi", "navratri", "diwali"],
+    "KID": ["CBSE", "school holidays", "children education India"],
+    "TFN": ["RBI", "SEBI", "income tax", "UPI", "mutual fund", "smartphone launch India", "AI India", "cyber fraud", "gold price"],
+    "GENERAL": ["India trending", "viral video India"]
+  },
+  "rss_feeds": {
+    "tech_usa": {
+      "TechCrunch": "https://techcrunch.com/feed/",
+      "The Verge": "https://www.theverge.com/rss/index.xml",
+      "Ars Technica": "https://feeds.arstechnica.com/arstechnica/index",
+      "Wired": "https://www.wired.com/feed/rss",
+      "Hacker News": "https://hnrss.org/frontpage?points=200"
+    },
+    "tech_china": {
+      "SCMP Tech": "https://www.scmp.com/rss/36/feed",
+      "TechNode": "https://technode.com/feed/",
+      "Pandaily": "https://pandaily.com/feed/",
+      "KrASIA": "https://kr-asia.com/feed"
+    },
+    "tech_global": {
+      "Rest of World": "https://restofworld.org/feed/latest/",
+      "Reuters Tech (via Google News)": "https://news.google.com/rss/search?q=site:reuters.com+technology+when:1d&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    "tech_india": {
+      "Gadgets360": "https://feeds.feedburner.com/gadgets360-latest",
+      "Moneycontrol Tech": "https://www.moneycontrol.com/rss/technology.xml",
+      "Moneycontrol Personal Finance": "https://www.moneycontrol.com/rss/personalfinance.xml",
+      "Economic Times Wealth": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms"
+    },
+    "official": {
+      "RBI Press Releases": "https://www.rbi.org.in/pressreleases_rss.xml",
+      "RBI Notifications": "https://www.rbi.org.in/notifications_rss.xml",
+      "SEBI": "https://www.sebi.gov.in/sebirss.xml",
+      "PIB (English)": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+    },
+    "fact_check": {
+      "PIB Fact Check (via Google News)": "https://news.google.com/rss/search?q=%22PIB+Fact+Check%22+when:2d&hl=en-IN&gl=IN&ceid=IN:en",
+      "BOOM": "https://www.boomlive.in/feeds/fact-check.xml",
+      "Alt News": "https://www.altnews.in/feed/",
+      "Vishvas News": "https://www.vishvasnews.com/feed/"
+    }
+  },
+  "reddit_subs": ["IndiaInvestments", "personalfinanceindia", "india", "developersIndia", "IndianGaming", "technology", "indianparents"],
+  "x_trends_pages": ["https://trends24.in/india/"],
+  "kworb_pages": ["https://kworb.net/youtube/insights/in.html"]
+}

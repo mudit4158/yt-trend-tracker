@@ -1,0 +1,49 @@
+name: daily-collect
+
+on:
+  schedule:
+    # 04:37 IST every day (23:07 UTC the previous day). Off the hour to dodge GitHub's top-of-hour queue.
+    - cron: "7 23 * * *"
+  workflow_dispatch:
+    inputs:
+      rediscover:
+        description: "Rebuild the channel watchlist now"
+        type: boolean
+        default: false
+  push:
+    paths:
+      - "trigger/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Collect
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python collector/collect.py ${{ inputs.rediscover && '--rediscover' || '' }}
+      - name: Analyze
+        run: python analyzer/analyze.py
+      - name: Prune raw snapshots older than 21 days
+        run: python analyzer/prune.py 21
+      - name: Commit data
+        run: |
+          git config user.name "yt-trend-bot"
+          git config user.email "yt-trend-bot@users.noreply.github.com"
+          git add -A data config/watchlist_resolved.json || true
+          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Kolkata date +%F)"
+          git pull --rebase --autostash
+          git push
