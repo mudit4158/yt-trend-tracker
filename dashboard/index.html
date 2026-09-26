@@ -27,7 +27,7 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background
 h1{font:700 26px/1.1 var(--display);margin:0;letter-spacing:-.01em}
 h1 span{color:var(--accent)}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;color:var(--ink-2);font-size:14px}
-select,input[type=text],input[type=url],input[type=search]{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;min-width:0}
+select,textarea,input[type=text],input[type=url],input[type=search]{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px;min-width:0}
 button{font:500 14px var(--body);cursor:pointer;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px}
 button:hover{border-color:var(--ink-3)} button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 button.primary{background:var(--ink);color:var(--surface);border-color:var(--ink)}
@@ -35,8 +35,10 @@ nav.tabs{display:flex;gap:4px;overflow-x:auto;margin-top:12px;scrollbar-width:no
 nav.tabs button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;color:var(--ink-2);white-space:nowrap;font-weight:600}
 nav.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
 main{padding-top:20px}
+#mi-form{align-content:start} #mi-form textarea,#mi-form input{width:100%} textarea{resize:vertical;font-family:var(--body)}
 .chip{display:inline-flex;align-items:center;gap:5px;font:500 12px/1 var(--body);padding:4px 8px;border-radius:99px;background:var(--sunk);color:var(--ink-2);white-space:nowrap;letter-spacing:.02em}
 .chip.ok{background:var(--ok-soft);color:var(--ok)} .chip.warn{background:var(--warn-soft);color:var(--warn)} .chip.bad{background:var(--bad-soft);color:var(--bad)}
+.chip.mine{background:var(--accent-soft);color:var(--accent);font-weight:600}
 .chip.DEV{background:var(--dev-soft);color:var(--dev)} .chip.KID{background:var(--kid-soft);color:var(--kid)} .chip.TFN{background:var(--tfn-soft);color:var(--tfn)}
 .label{font:600 12px var(--body);text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3)}
 h2{font:700 20px/1.2 var(--display);margin:0;text-wrap:balance}
@@ -108,6 +110,7 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
         <label class="small muted" for="dateSel">Day</label>
         <select id="dateSel"></select>
         <span id="runChip" class="chip">Loading…</span>
+        <button class="primary" id="addIdeaBtn" type="button">+ Add my idea</button>
       </div>
     </div>
     <nav class="tabs" role="tablist" id="tabs">
@@ -116,6 +119,7 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
       <button role="tab" data-tab="channels" aria-selected="false">Channel Pulse</button>
       <button role="tab" data-tab="web" aria-selected="false">Web Pulse</button>
       <button role="tab" data-tab="calendar" aria-selected="false">Calendar</button>
+      <button role="tab" data-tab="mine" aria-selected="false">My Ideas</button>
       <button role="tab" data-tab="ledger" aria-selected="false">Ideas Ledger</button>
       <button role="tab" data-tab="patterns" aria-selected="false">Patterns</button>
     </nav>
@@ -127,6 +131,7 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
     <section id="tab-channels" hidden></section>
     <section id="tab-web" hidden></section>
     <section id="tab-calendar" hidden></section>
+    <section id="tab-mine" hidden></section>
     <section id="tab-ledger" hidden></section>
     <section id="tab-patterns" hidden></section>
   </main>
@@ -136,7 +141,8 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
 <script>
 const CH = {DEV:"Devotional", KID:"Kids", TFN:"Tech + Finance"};
 const STATUS = ["Suggested","Accepted","In production","Published","Rejected","Expired"];
-const S = {db:null, meta:null, date:null, ideas:[], day:{}, calendar:null, tab:"brief", chan:"DEV", pscope:"tracker_top500",
+const TRIGGER_ID = "trig_01Ty8RSQjvVLoNjbyzBsyi8J", MCP_SERVER = "Claude Code Remote";
+const S = {mcp:null, requests:[], lastReq:null, db:null, meta:null, date:null, ideas:[], day:{}, calendar:null, tab:"brief", chan:"DEV", pscope:"tracker_top500",
            tf:{q:"",cat:"",lang:"",fmt:"",len:""}, lf:{ch:"",st:"open"}};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -162,6 +168,9 @@ async function boot(){
   const db = window.claude?.use ? await window.claude.use("db") : null;
   if(!db){ $("#runChip").textContent="Database not available in this view"; $("#runChip").className="chip bad"; render(); return; }
   S.db = db;
+  window.claude.use("mcp").then(m=>{ S.mcp=m; render(); }).catch(()=>{});
+  db.collection("requests").onSnapshot(snap => { S.requests = snap.docs.map(d=>({_id:d.id, ...d.data()})); render(); },
+    err => toast("Your ideas could not load ("+err.code+")"));
   db.collection("runs").orderBy("date","desc").limit(60).onSnapshot(snap => {
     const runs = snap.docs.map(d=>d.data());
     S.meta = runs.length ? {runs:Object.fromEntries(runs.map(r=>[r.date,r])), dates:runs.map(r=>r.date)} : null;
@@ -224,7 +233,7 @@ document.addEventListener("click", e => {
 function render(){
   const t=S.tab;
   if(t==="brief") renderBrief(); if(t==="tracker") renderTracker(); if(t==="channels") renderChannels();
-  if(t==="web") renderWeb(); if(t==="calendar") renderCalendar(); if(t==="ledger") renderLedger(); if(t==="patterns") renderPatterns();
+  if(t==="web") renderWeb(); if(t==="calendar") renderCalendar(); if(t==="ledger") renderLedger(); if(t==="mine") renderMine(); if(t==="patterns") renderPatterns();
 }
 const vchip = v => v==="Verified" ? `<span class="chip ok">✓ Verified</span>` : v==="Avoid" ? `<span class="chip bad">⛔ Avoid</span>` : `<span class="chip warn">⚠ Needs check</span>`;
 const schip = s => `<span class="chip ${s==="Published"?"ok":s==="Rejected"?"bad":s==="Suggested"?"":"warn"}">${esc(s||"Suggested")}</span>`;
@@ -244,7 +253,7 @@ function actions(i){
 function ideaCard(i){
   const f=i.format||{}, k=i.keywords||{};
   return `<article class="card" style="--c:var(--${(i.channel||"").toLowerCase()})">
-    <div class="row"><span class="chip ${esc(i.channel)}">${esc(i.channel)}</span>${vchip(i.verification)}${schip(i.status)}<span class="score" title="Priority score">${esc(i.priority)}/100</span></div>
+    <div class="row"><span class="chip ${esc(i.channel)}">${esc(i.channel)}</span>${vchip(i.verification)}${schip(i.status)}<span class="score" title="Priority score">${esc(i.priority)}/100</span>${i.origin==="Mudit"?`<span class="chip mine">Your idea</span>`:""}</div>
     <div class="ttl">${esc((i.titles||[])[0]||i.topic)}</div>
     <div class="small muted">${esc(f.type||"")}${f.length?" · "+esc(f.length):""} · Publish by <b>${esc(i.publish_by||"–")}</b> · ${esc(i.upload_slot||"")}</div>
     <details class="more"><summary>Full card</summary>
@@ -259,6 +268,8 @@ function ideaCard(i){
         <div><span class="label">Description draft</span><pre>${esc(i.description||"–")}</pre><button class="copy" data-act="copy" data-text="${esc(i.description||"")}">Copy description</button></div>
         <div><span class="label">Tags</span>${esc((i.tags||[]).join(", "))} <button class="copy" data-act="copy" data-text="${esc((i.tags||[]).join(", "))}">Copy</button></div>
         <div><span class="label">Verification sources</span>${(i.sources||[]).length?`<ul>${i.sources.map(s=>`<li><a href="${esc(s.url||s)}" target="_blank" rel="noopener">${esc(s.title||s.url||s)}</a></li>`).join("")}</ul>`:"–"}</div>
+        ${i.competition?`<div><span class="label">Competition (top videos)</span><ul>${i.competition.map(c=>`<li>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>`:esc(c.title)} <span class="muted small">· ${esc(c.channel||"")} · ${esc(c.views||"")}${c.age?" · "+esc(c.age):""}</span></li>`).join("")}</ul>${i.gap?`<div class="small"><b>Gap:</b> ${esc(i.gap)}</div>`:""}</div>`:""}
+        ${i.idea_original?`<div><span class="label">Your original idea</span>${esc(i.idea_original)}</div>`:""}
         <div><span class="label">Risk flags</span>${esc(i.risk_flags||"none")}</div>
         <div class="small muted">ID ${esc(i._id)} · Topic cluster: ${esc(i.topic_cluster)}</div>
       </div>
@@ -359,19 +370,21 @@ function renderCalendar(){
 function renderLedger(){
   const el=$("#tab-ledger"), f=S.lf;
   let rows=S.ideas.slice().sort((a,b)=>(b.date||"").localeCompare(a.date||"")||(b.priority||0)-(a.priority||0));
+  if(f.or) rows=rows.filter(i=>f.or==="mine"?i.origin==="Mudit":i.origin!=="Mudit");
   if(f.ch) rows=rows.filter(i=>i.channel===f.ch);
   if(f.st==="open") rows=rows.filter(i=>["Suggested","Accepted","In production"].includes(i.status||"Suggested"));
   else if(f.st) rows=rows.filter(i=>(i.status||"Suggested")===f.st);
   const counts=STATUS.map(s=>[s,S.ideas.filter(i=>(i.status||"Suggested")===s).length]);
   el.innerHTML=`<div class="filters">
+    <select id="lor" aria-label="Source"><option value="">All sources</option><option value="mine" ${f.or==="mine"?"selected":""}>My ideas</option><option value="auto" ${f.or==="auto"?"selected":""}>Daily suggestions</option></select>
     <select id="lch" aria-label="Channel"><option value="">All channels</option>${Object.entries(CH).map(([k,v])=>`<option value="${k}" ${f.ch===k?"selected":""}>${v}</option>`).join("")}</select>
     <select id="lst" aria-label="Status"><option value="open" ${f.st==="open"?"selected":""}>Open (suggested + in progress)</option><option value="" ${f.st===""?"selected":""}>All</option>${STATUS.map(s=>`<option ${f.st===s?"selected":""}>${s}</option>`).join("")}</select>
     <span class="small muted">${counts.map(([s,n])=>`${s}: <b class="num">${n}</b>`).join(" · ")}</span></div>
     ${rows.length?`<div class="tablebox"><table><thead><tr><th>Date</th><th>ID</th><th>Idea</th><th>Status</th><th class="r">Score</th><th>Cooldown until</th></tr></thead><tbody>
-    ${rows.map(i=>`<tr><td class="num small">${esc(i.date)}</td><td class="num small">${esc(i._id)}</td><td class="tt"><b>${esc((i.titles||[])[0]||i.topic)}</b><div class="small muted">${esc(i.topic_cluster)}</div></td>
+    ${rows.map(i=>`<tr><td class="num small">${esc(i.date)}</td><td class="num small">${esc(i._id)}</td><td class="tt"><b>${esc((i.titles||[])[0]||i.topic)}</b>${i.origin==="Mudit"?" <span class='chip mine'>Your idea</span>":""}<div class="small muted">${esc(i.topic_cluster)}</div></td>
     <td>${schip(i.status)} ${vchip(i.verification)}</td><td class="r num">${esc(i.priority)}</td><td class="num small">${esc(i.cooldown_until||"–")}</td></tr>`).join("")}</tbody></table></div>`:`<div class="empty">No ideas.</div>`}
     <p class="small muted">Change status from the cards in Today's Brief. Published and rejected ideas are not suggested again until their cooldown ends.</p>`;
-  $("#lch").onchange=e=>{S.lf.ch=e.target.value;renderLedger()}; $("#lst").onchange=e=>{S.lf.st=e.target.value;renderLedger()};
+  $("#lor").onchange=e=>{S.lf.or=e.target.value;renderLedger()}; $("#lch").onchange=e=>{S.lf.ch=e.target.value;renderLedger()}; $("#lst").onchange=e=>{S.lf.st=e.target.value;renderLedger()};
 }
 function renderPatterns(){
   const el=$("#tab-patterns"), P=S.day.patterns;
@@ -394,5 +407,79 @@ function renderPatterns(){
    <div class="panel"><h2>Language mix</h2>${Object.entries(p.language_share).slice(0,8).map(([k,v])=>`<div class="bar"><span>${esc(LANG[k]||k)}</span><div class="track"><div class="fill" style="width:${pct(v)}"></div></div><span class="num r">${pct(v)}</span></div>`).join("")}</div>
   </div>`;
 }
+/* ---------- My ideas (ad-hoc research requests) ---------- */
+$("#addIdeaBtn").addEventListener("click", ()=>{ setTab("mine"); setTimeout(()=>$("#mi-idea")?.focus(),50); });
+const RSTAT={Queued:"warn",Researching:"warn",Ready:"ok",Failed:"bad"};
+function renderMine(){
+  const el=$("#tab-mine");
+  const keep={ch:$("#mi-ch")?.value, idea:$("#mi-idea")?.value, angle:$("#mi-angle")?.value, links:$("#mi-links")?.value, date:$("#mi-date")?.value};
+  const reqs=S.requests.slice().sort((a,b)=>(b.created_at||"").localeCompare(a.created_at||""));
+  el.innerHTML=`<div class="grid2">
+   <form class="panel" id="mi-form" novalidate>
+     <h2>Add my idea</h2>
+     <p class="small muted">Claude researches it like a daily suggestion — demand, top competing videos, facts, best angle, titles, thumbnail, tags — and adds a full card to your Ideas Ledger. Usually ready in 10–20 minutes.</p>
+     <label class="label" for="mi-idea">Your idea</label>
+     <textarea id="mi-idea" rows="3" required placeholder="e.g. Explain how credit card reward points actually work, and which ones are worth it">${esc(keep.idea||"")}</textarea>
+     <div class="filters" style="margin:0">
+       <div><label class="label" for="mi-ch">Channel</label><br><select id="mi-ch">${[["ANY","Not sure — you pick"],["DEV","Devotional"],["KID","Kids"],["TFN","Tech + Finance"]].map(([v,t])=>`<option value="${v}" ${keep.ch===v?"selected":""}>${t}</option>`).join("")}</select></div>
+       <div><label class="label" for="mi-date">Target publish date (optional)</label><br><input type="text" id="mi-date" placeholder="YYYY-MM-DD" value="${esc(keep.date||"")}"></div>
+     </div>
+     <label class="label" for="mi-angle">Angle or notes (optional)</label>
+     <input type="text" id="mi-angle" placeholder="Who is it for, what should it cover" value="${esc(keep.angle||"")}">
+     <label class="label" for="mi-links">Reference links (optional)</label>
+     <input type="text" id="mi-links" placeholder="Paste any links, separated by spaces" value="${esc(keep.links||"")}">
+     <div class="actions"><button class="primary" type="submit" id="mi-submit">Research this idea</button>
+       <span class="small muted" id="mi-note">${S.mcp?"":"Instant research needs the Claude Code Remote connector; otherwise it runs in the next morning brief."}</span></div>
+   </form>
+   <div class="stack">
+     <h2>My requests</h2>
+     ${reqs.length?reqs.map(r=>{ const card=r.idea_id && S.ideas.find(i=>i._id===r.idea_id);
+       return `<div class="panel">
+         <div class="row" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="chip ${RSTAT[r.status]||""}">${esc(r.status)}</span>${r.channel&&r.channel!=="ANY"?`<span class="chip ${esc(r.channel)}">${esc(r.channel)}</span>`:""}<span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span></div>
+         <div><b>${esc(r.idea)}</b>${r.angle?`<div class="small muted">${esc(r.angle)}</div>`:""}</div>
+         ${r.summary?`<div class="small">${esc(r.summary)}</div>`:""}
+         ${r.status==="Failed"?`<div class="small" style="color:var(--bad)">${esc(r.error||"Research failed.")}</div>`:""}
+         ${r.dispatch_note?`<div class="small muted">${esc(r.dispatch_note)}</div>`:""}
+         ${(r.status==="Queued"||r.status==="Failed")&&S.mcp?`<div class="actions"><button data-act="req-run" data-id="${esc(r._id)}">Research now</button></div>`:""}
+         ${card?ideaCard(card):""}
+       </div>`}).join(""):`<div class="empty">No ideas submitted yet. Add one on the left.</div>`}
+   </div></div>`;
+  $("#mi-form").addEventListener("submit", submitIdea);
+}
+function reqId(){ const d=new Date(), p=n=>String(n).padStart(2,"0");
+  return `REQ-${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`; }
+async function submitIdea(e){
+  e.preventDefault();
+  const idea=$("#mi-idea").value.trim();
+  if(idea.length<8){ toast("Describe the idea in a few words first"); $("#mi-idea").focus(); return; }
+  const btn=$("#mi-submit"); btn.disabled=true; btn.textContent="Saving…";
+  const id=reqId();
+  const doc={idea, channel:$("#mi-ch").value, angle:$("#mi-angle").value.trim(), links:$("#mi-links").value.trim(),
+             target_date:$("#mi-date").value.trim(), status:"Queued", created_at:new Date().toISOString()};
+  try{ await S.db.doc("requests/"+id).set(doc); }
+  catch(err){ toast(err.code==="invalid_argument"?"You don't have edit access":"Could not save. Try again."); btn.disabled=false; btn.textContent="Research this idea"; return; }
+  ["#mi-idea","#mi-angle","#mi-links","#mi-date"].forEach(s=>{ const el=$(s); if(el) el.value=""; });
+  toast("Idea saved"); await startResearch(id);
+}
+async function startResearch(id){
+  const ref=S.db.doc("requests/"+id);
+  if(!S.mcp){ await ref.update({dispatch_note:"Will be researched in the next morning brief."}).catch(()=>{}); return; }
+  try{
+    await S.mcp.callTool(MCP_SERVER,"fire_trigger",{trigger_id:TRIGGER_ID, text:`Research request ${id}`});
+    await ref.update({dispatch_note:"Research started — you'll get a notification when the card is ready."}).catch(()=>{});
+    toast("Research started");
+  }catch(err){
+    const msg={server_not_connected:"Claude Code Remote isn't connected, so it will run in the next morning brief.",
+      needs_reauth:"Reconnect Claude Code Remote in claude.ai Settings → Connectors. Queued for the morning brief meanwhile.",
+      not_in_manifest:"Instant research is turned off for this page. Queued for the morning brief.",
+      blocked_by_policy:"Your organization blocks instant research. Queued for the morning brief.",
+      tool_error:"The research task couldn't start ("+(err.message||"error")+"). Queued for the morning brief."}[err.code]
+      || "Couldn't confirm the research started. If no card appears in 30 minutes, press Research now.";
+    await ref.update({dispatch_note:msg}).catch(()=>{});
+    toast(msg);
+  }
+}
+document.addEventListener("click", e=>{ const b=e.target.closest('[data-act="req-run"]'); if(!b) return; b.disabled=true; startResearch(b.dataset.id); });
+
 boot();
 </script>
