@@ -31,6 +31,8 @@ Every day the job answers:
 3. **What should we make next?** 3–5 ranked idea cards per channel (format in Section 8), each passed through the Verification Gate.
 4. **What is coming up?** Festivals and events on the calendar, with the lead times in Section 4.
 
+Mudit's own ideas and refinements are researched on demand the same way — see Section 15 and `docs/ADHOC_IDEA.md`.
+
 ## 3. Sources
 
 **Budget rule (until the 2-week review on 10 Oct 2026): zero.** Only free sources: the YouTube Data API free quota, public RSS/HTML pages fetched by the GitHub Actions collector, and Claude's own web search / browser. Paid scrapers (Apify, X API) are listed as improvements, not used.
@@ -66,7 +68,7 @@ Every day the job answers:
   - India trending topics — free, from trends24.in (hourly snapshots of the last 24h).
   - *Improvement (paid, after review):* curated X lists of Indian tech/finance voices, US + China tech journalists and founders, official accounts via Apify or the X API.
 - **Instagram:** *Improvement (paid, after review):* Reels by hashtag and tracked accounts via Apify. Until then, Instagram signals come only from what the daily run finds with web search.
-- **Reddit:** r/IndiaInvestments, r/personalfinanceindia, r/india, r/developersIndia, r/IndianGaming, r/technology.
+- **Reddit:** r/IndiaInvestments, r/personalfinanceindia, r/india, r/developersIndia, r/IndianGaming, r/technology, r/indianparents.
 - **Streaming charts:** JioSaavn and Spotify India devotional/kids charts (for DEV and KID).
 - **Not tracked for now:** TikTok (banned in India), ShareChat/Moj/Josh (hard to scrape; revisit in phase 3).
 
@@ -208,7 +210,7 @@ VERIFICATION SOURCES: <links>
 RISK FLAGS: none / …
 ```
 
-**Idea statuses:** Suggested → Accepted → In production → Published (with the video's URL) → or Rejected (with a reason). Unused suggestions become Expired after 7 days.
+**Idea statuses:** Suggested → Planned (Accept) → Published (with the video's URL), or Rejected (with a reason). Unused suggestions become Expired after 7 days. Cards for Mudit's ideas also carry origin "Mudit", his original wording, and the top 5 competing videos with the gap they leave.
 
 ## 9. No-repeat / cooldown rules
 
@@ -223,7 +225,7 @@ RISK FLAGS: none / …
 | KID concept (e.g. "numbers 1–10 in Hindi") | 30 days; later versions must change the format (song vs story vs game) |
 | Rejected | 14 days, then allowed back only if the evidence has changed |
 | Suggested but not acted on | Stays open (not repeated) for 7 days, then marked Expired; the cluster may come back only with fresh evidence |
-| Accepted / In production | Never re-suggested while open |
+| Planned (Accepted) | Never re-suggested while open |
 
 After each upload, Mudit (or the daily job, if it can see the channel) marks the idea as Published with the video's URL.
 
@@ -296,7 +298,7 @@ Private artifact **Roz Trend Desk** (https://claude.ai/artifact/4p6KRtvJrjLDfYiK
 - `requests/<id>` — Mudit's own ideas submitted for research (see `docs/ADHOC_IDEA.md`)
 - Watchlist and keywords live in the repo (`config/`).
 
-**Views:** Today's Brief (idea cards + urgent calendar), Top 500 (filters: category, language, Short/long, length), Channel Pulse, Web Pulse, Calendar, Ideas Ledger (change status in place), Patterns.
+**Views:** see Section 15.
 
 ## 12. Improvement loop
 
