@@ -67,6 +67,7 @@ Stable `topic_cluster` ids matter: reuse the same id for the same subject across
 Titles, thumbnails, descriptions, tags, length, upload slot: follow playbook Section 10, adjusted by today's `patterns` (e.g. if 8–15 min clearly beats other lengths in that channel's area, say so in the card).
 
 ## 4b. Mudit's queued ideas and refinements
+Never edit an existing card's content (daily or Mudit's) in the daily run — only mark stale suggestions Expired. Refinements of daily suggestions always become new cards (see ADHOC_IDEA.md, Refinements A).
 ArtifactData `query` collection `requests` where `status` == `Queued` (instant research didn't start for these). For each, follow `docs/ADHOC_IDEA.md` — new ideas via steps 1–3, `type: "refine"` requests via its Refinements section — and include the result in the notification ("Your idea: …" / "Refined …").
 
 **Learn from refinements:** `ledger.json` → `learning.refinements` lists what Mudit asked to change on cards in the last 30 days. Treat recurring requests (e.g. "shorter", "for first-time investors", "no pension math") as standing preferences when writing today's cards.

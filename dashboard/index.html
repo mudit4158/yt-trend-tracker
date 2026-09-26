@@ -301,10 +301,10 @@ function actions(i){
     ${box==="pub"?`<div class="actions"><input type="url" id="pub-${id}" placeholder="YouTube video link" aria-label="Published video link"><button class="primary" data-act="publish" data-id="${id}">Save</button><button data-act="box" data-box="" data-id="${id}">Cancel</button></div>`:""}`;
   const open=S.requests.find(r=>r.type==="refine" && r.idea_id===i._id && ["Queued","Researching"].includes(r.status));
   const refine = open
-    ? `<div class="small refine-run">${rchip(open.status)} Refining with: “${esc(open.instructions||"")}”</div>`
+    ? `<div class="small refine-run">${rchip(open.status)} ${i.origin==="Mudit"?"Refining":"Making a new card"} with: “${esc(open.instructions||"")}”</div>`
     : `<details class="refine"${S.openRefine===i._id?" open":""}><summary>Refine & research again</summary>
         <textarea id="ref-${id}" rows="2" aria-label="What should change" placeholder="What's off and what do you want instead? Keep it about this same topic."></textarea>
-        <div class="actions"><button data-act="refine" data-id="${id}">Research again</button><span class="small muted">Updates this card. A different topic becomes a new idea instead.</span></div></details>`;
+        <div class="actions"><button data-act="refine" data-id="${id}">Research again</button><span class="small muted">${i.origin==="Mudit"?"Updates this card. A different topic becomes a new idea instead.":"Creates a new card in My Ideas. This suggestion stays exactly as it is."}</span></div></details>`;
   return `<details class="actions-menu"${box?" open":""}><summary>Actions</summary><div class="act-wrap">${inner}</div></details>${refine}`;
 }
 function researchLog(i){
@@ -313,8 +313,11 @@ function researchLog(i){
   if(i.origin!=="Mudit") rows.push(`<li><span class="chip ok">Completed</span> <b>Daily brief</b> <span class="small muted num">${esc(i.date||"")}</span><div class="small">Input: the day's trend data (YouTube, Google Trends, X, news) and the calendar.</div></li>`);
   rs.forEach(r=>rows.push(`<li>${rchip(r.status)} <b>${r.type==="refine"?"Refinement":"Your idea"}</b> <span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span>
      <div class="small">Input: “${esc(r.type==="refine"?r.instructions:r.idea)}”${r.angle?` · Angle: ${esc(r.angle)}`:""}${r.links?` · Links: ${esc(r.links)}`:""}</div>
-     ${r.summary?`<div class="small"><b>Result:</b> ${esc(r.summary)}</div>`:""}${r.status==="Failed"?`<div class="small" style="color:var(--bad)"><b>Why it failed:</b> ${esc(r.error||"")}</div>`:""}</li>`));
-  return rows.length?`<div><span class="label">Research history</span><ul class="rlog">${rows.join("")}</ul></div>`:"";
+     ${r.summary?`<div class="small"><b>Result:</b> ${esc(r.summary)}</div>`:""}${r.new_idea_id&&r.new_idea_id!==i._id?`<div class="small"><b>New card:</b> ${esc(r.new_idea_id)} (in My Ideas)</div>`:""}${r.status==="Failed"?`<div class="small" style="color:var(--bad)"><b>Why it failed:</b> ${esc(r.error||"")}</div>`:""}</li>`));
+  const kids=S.ideas.filter(x=>x.derived_from===i._id);
+  const variants=kids.length?`<div><span class="label">Your variants of this suggestion</span><ul>${kids.map(x=>`<li><b>${esc(x._id)}</b> — ${esc(txt(arr(x.titles)[0])||x.topic)}</li>`).join("")}</ul></div>`:"";
+  const parent=i.derived_from?`<div><span class="label">Made from</span>Daily suggestion ${esc(i.derived_from)} (left unchanged)</div>`:"";
+  return (rows.length?`<div><span class="label">Research history</span><ul class="rlog">${rows.join("")}</ul></div>`:"")+parent+variants;
 }
 function ideaCard(i){
   try{ return ideaCardInner(i); }
@@ -487,7 +490,8 @@ const RSTAT={Queued:"warn",Researching:"warn",Ready:"ok",Failed:"bad"};
 function renderMine(){
   const el=$("#tab-mine");
   const keep={ch:$("#mi-ch")?.value, idea:$("#mi-idea")?.value, angle:$("#mi-angle")?.value, links:$("#mi-links")?.value, date:$("#mi-date")?.value};
-  const reqs=S.requests.filter(r=>r.type!=="refine").sort((a,b)=>(b.created_at||"").localeCompare(a.created_at||""));
+  const isMine=id=>S.ideas.find(x=>x._id===id)?.origin==="Mudit";
+  const reqs=S.requests.filter(r=>r.type!=="refine" || !isMine(r.idea_id)).sort((a,b)=>(b.created_at||"").localeCompare(a.created_at||""));
   el.innerHTML=`<div class="grid2">
    <form class="panel" id="mi-form" novalidate>
      <h2>Add my idea</h2>
@@ -507,7 +511,7 @@ function renderMine(){
    </form>
    <div class="stack">
      <h2>My requests</h2>
-     ${reqs.length?reqs.map(r=>{ const card=r.idea_id && S.ideas.find(i=>i._id===r.idea_id);
+     ${reqs.length?reqs.map(r=>{ const cid=r.type==="refine"?r.new_idea_id:(r.new_idea_id||r.idea_id); const card=cid && S.ideas.find(i=>i._id===cid);
        return `<div class="panel">
          <div class="row" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">${rchip(r.status)}${r.channel&&r.channel!=="ANY"?`<span class="chip ${esc(r.channel)}">${esc(r.channel)}</span>`:""}<span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span></div>
          <div>${r.type==="refine"?`<span class="label">Refine ${esc(r.idea_id)}</span><br>`:""}<b>${esc(r.idea)}</b>${r.instructions?`<div class="small">“${esc(r.instructions)}”</div>`:""}${r.angle?`<div class="small muted">${esc(r.angle)}</div>`:""}</div>
