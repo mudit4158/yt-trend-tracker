@@ -1,84 +1,28 @@
 {
-  "date": "2026-09-26",
   "channel": "DEV",
-  "status": "Suggested",
-  "priority": 71,
-  "verification": "Verified",
-  "kind": "evergreen",
-  "origin": "Mudit",
-  "request_id": "REQ-20260926-114807",
-  "idea_original": "Khatu wale Shyam bhajan.",
-  "topic": "Khatu Shyam bhajan — original song + Sheesh ke Daani story (Janmotsav 2026)",
-  "topic_cluster": "khatu-shyam-bhajan",
-  "publish_by": "2026-11-13",
-  "upload_slot": "Fri 13 Nov 2026, 6:00 AM IST (long-form); Shorts from Tue 20 Oct, 6:00 AM IST",
-  "why_now": [
-    "Channel: submitted as ANY → DEV. It is a devotional song idea; it fits no other channel.",
-    "Huge Short-form demand right now: our collector saw 'Respect zone 111+' Shorts titled 'He Shri Sheesh Ke Daani' at 1.73M views ~10h after upload (published 25 Sep), 1.36M and 1.19M on two more from 24 Sep (all 13–20 sec edits).",
-    "Other small channels are also getting 150–230K views in hours on 'Sheesh ke Daani' Shorts (khatu shayam manona dham, 25 Sep). The phrase 'Sheesh ke Daani' is the hook of the moment.",
-    "YouTube autocomplete today: 'khatu shyam bhajan' → 'new', 'new 2025', 'mandir', 'remix', 'song' — people search for NEW bhajans, so an original has room.",
-    "Key dates (verified): Shyam Janmotsav = Kartik Shukla Ekadashi (Dev Uthani) = Fri 20 Nov 2026 → T-14 brief 6 Nov, publish window 13–19 Nov, T-5 hard deadline 15 Nov. Next Gyaras (Papankusha Ekadashi) = 21/22 Oct (sources differ by a day — check local panchang). Phalgun Lakhi Mela starts 9 Mar 2027.",
-    "Evergreen: Khatu Shyam devotees listen every Gyaras (Shukla Ekadashi) and at the Phalgun Mela, so the video keeps earning after Janmotsav.",
-    "Gap vs competitors: viral Shorts are 13–20 sec clips of existing songs stuffed with unrelated hashtags — no lyrics, no story, no original music. Long-form is mostly live-kirtan re-uploads (e.g. TORANDWAR BHAKTI, 1–19K views each). Nobody pairs an original, clean-audio bhajan with on-screen lyrics and the 60-second Sheesh Daan story."
-  ],
-  "format": {
-    "type": "Long-form (+ Shorts)",
-    "length": "10–12 min",
-    "hook": "Haare ka sahara, Khatu wala Shyam — Jai Shri Shyam! Sing along, lyrics on screen.",
-    "outline": [
-      "0:00 Jaikara 'Jai Shri Shyam' over original Khatu-style art (Baba's shringar, blue horse, nishan flags) — 10 sec",
-      "0:10 The Sheesh Ke Daani story in 60 sec, calm narration in simple Hinglish: Barbarika, grandson of Bhima, his three arrows, Krishna asks for his sheesh, the boon that he will be worshipped as 'Shyam' in Kaliyug — framed 'according to tradition'",
-      "1:10 ORIGINAL bhajan (4–5 min), Rajasthani folk feel (dholak, manjira, harmonium), chorus built on 'Sheesh ke Daani, Haare ka Sahara, Jai Shri Shyam'; Hindi + Roman lyrics on screen",
-      "6:00 Extended chorus / 'Jai Shri Shyam' naam-jaap loop for background listening (morning/Gyaras use)",
-      "11:00 Closing jaikara + end screen to the Gyaras playlist"
-    ],
-    "shorts": [
-      "Short 1 (pilot, before Gyaras 21/22 Oct): 20-sec chorus 'Sheesh ke Daani' with lyrics and original art — rides the current Shorts trend with our own audio",
-      "Short 2: 'Who is Khatu Shyam? Sheesh Daan story in 45 sec'",
-      "Short 3 (19–20 Nov): 'Happy Janmotsav Shyam Baba' chorus clip for WhatsApp status sharing",
-      "Short 4: lyric-only vertical version of the chorus for sing-along"
-    ]
-  },
-  "titles": [
-    "Khatu Shyam Bhajan | Sheesh Ke Daani | खाटू श्याम भजन",
-    "Haare Ka Sahara Khatu Shyam Bhajan with Lyrics | श्याम",
-    "Khatu Shyam Janmotsav Bhajan 2026 | खाटू श्याम जन्मोत्सव"
-  ],
-  "thumbnail": "Original (commissioned or self-made, not copied from temple photos owned by others) artwork of Shyam Baba's shringar face with rose garlands and a blue horse/nishan flag in the background; deep blue + saffron/gold warm palette; text max 3 words: 'Sheesh Ke Daani' (Janmotsav version: 'Janmotsav Special'); high contrast, one focal point readable on phone.",
-  "keywords": {
-    "primary": [
-      "khatu shyam bhajan",
-      "sheesh ke daani",
-      "खाटू श्याम भजन"
-    ],
-    "secondary": [
-      "khatu shyam new bhajan 2026",
-      "shyam baba bhajan",
-      "haare ka sahara",
-      "jai shri shyam",
-      "khatu shyam janmotsav",
-      "gyaras bhajan",
-      "barbarik story",
-      "khatu wale shyam",
-      "shyam bhajan lyrics",
-      "श्याम भजन"
-    ]
-  },
-  "description": "Khatu Shyam Bhajan — Sheesh Ke Daani 🙏 A new original bhajan for Khatu wale Shyam Baba, with the story of his Sheesh Daan and full lyrics on screen.\nJai Shri Shyam! Sing along this Gyaras and on Shyam Janmotsav (Dev Uthani Ekadashi, 20 Nov 2026).\n\nChapters:\n0:00 Jai Shri Shyam\n0:10 Sheesh Ke Daani — the story\n1:10 Bhajan (with lyrics)\n6:00 Jai Shri Shyam naam jaap\n11:00 Jaikara\n\nLyrics: [original lyrics — Hindi + Roman]\nMusic & lyrics: original composition by [channel name].\nStory as per devotional tradition of Khatu Shyam Ji (Khatoo, Sikar, Rajasthan).\n\n#KhatuShyam #ShyamBhajan #JaiShriShyam",
-  "tags": [
-    "khatu shyam bhajan",
-    "khatu shyam",
-    "sheesh ke daani",
-    "shyam baba bhajan",
-    "khatu shyam new bhajan 2026",
-    "jai shri shyam",
-    "खाटू श्याम भजन",
-    "khatu wale shyam",
-    "haare ka sahara",
-    "khatu shyam janmotsav"
-  ],
   "competition": {
     "videos": [
+      {
+        "title": "Haare Ka Tu Hai Sahara Saware — Kanhaiya Mittal, Sanjay Mittal, Mukesh Bagda, Uma Lehri",
+        "channel": "Kanhiya Mittal (official)",
+        "views": "n/a — YouTube rate-limited this run (JioSaavn audio: ~794K plays)",
+        "age": "song released Feb 2022",
+        "url": "https://www.youtube.com/watch?v=KobFeA4cpdQ"
+      },
+      {
+        "title": "Dinanath Meri Baat | Sanju Sharma | Khatu Shyam Ji Bhajan",
+        "channel": "Saawariya Music",
+        "views": "n/a — YouTube rate-limited (JioSaavn: ~150K plays)",
+        "age": "released May 2023",
+        "url": "https://www.youtube.com/watch?v=DNEJ40Gv5Bk"
+      },
+      {
+        "title": "Dinanath Meri Baat | Khatu Shyam Bhajan | Chhani Koni Tere Se",
+        "channel": "(Lakhbir Singh Lakha version)",
+        "views": "n/a — YouTube rate-limited",
+        "age": "n/a",
+        "url": "https://www.youtube.com/watch?v=oKoXo5WyIFA"
+      },
       {
         "title": "हे श्री शीश के दानी #khatushyambhajan … (Short, 20s)",
         "channel": "Respect zone 111+",
@@ -92,31 +36,64 @@
         "views": 1358520,
         "age": "~2 days (24 Sep 2026)",
         "url": "https://www.youtube.com/shorts/rfdwuoZORZc"
-      },
-      {
-        "title": "जय श्री शीश के दानी 🚩 … (Short, 16s)",
-        "channel": "Respect zone 111+",
-        "views": 1191352,
-        "age": "~2 days (24 Sep 2026)",
-        "url": "https://www.youtube.com/shorts/yZ5HFfTk1Bs"
-      },
-      {
-        "title": "shishe ke Dani Ham Delhi se Aaye … (Short, 8s)",
-        "channel": "khatu shayam manona dham",
-        "views": 229077,
-        "age": "~20h (25 Sep 2026)",
-        "url": "https://www.youtube.com/shorts/QoZfh8HQ32Q"
-      },
-      {
-        "title": "अपने दिल का हाल मैं सुनावन आया हां… Kanhiya Mittal Ji | Ardas Bhajan 2026 (15 min)",
-        "channel": "TORANDWAR BHAKTI",
-        "views": 18728,
-        "age": "3 days (23 Sep 2026)",
-        "url": "https://www.youtube.com/watch?v=ubD9EJ9TmBs"
       }
     ],
-    "gap": "Viral Shorts are hashtag-stuffed clips of existing songs with no lyrics or story; long-form is live-kirtan re-uploads — no original, clean-audio Khatu Shyam bhajan with on-screen lyrics + a short Sheesh Daan story."
+    "gap": "The big 'Haare Ka Sahara' and 'Dinanath' songs are label-owned live/studio tracks with no story; the viral Shorts are hashtag clips — nobody explains WHY Shyam is 'Haare Ka Sahara' and pairs it with an original, lyric-on-screen bhajan."
   },
+  "date": "2026-09-26",
+  "description": "Haare Ka Sahara — Khatu Shyam Bhajan 🙏 A new original bhajan for Khatu wale Shyam Baba, with the story of why he is called 'Haare Ka Sahara' and full lyrics on screen.\nJai Shri Shyam! Sing along this Gyaras and on Shyam Janmotsav (Dev Uthani Ekadashi, 20 Nov 2026).\n\nChapters:\n0:00 Jai Shri Shyam\n0:10 Why 'Haare Ka Sahara'? — the story\n1:10 Bhajan (with lyrics)\n6:00 Jai Shri Shyam naam jaap\n11:00 Jaikara\n\nLyrics: [original lyrics — Hindi + Roman]\nMusic & lyrics: original composition by [channel name].\nStory as per the devotional tradition of Khatu Shyam Ji (Khatu, Sikar, Rajasthan).\n\n#KhatuShyam #HaareKaSahara #JaiShriShyam",
+  "format": {
+    "hook": "Haare ka sahara, Khatu wala Shyam — kyun kehte hain? 30 second mein kahani, phir bhajan. Jai Shri Shyam!",
+    "length": "10–12 min",
+    "outline": [
+      "0:00 Jaikara 'Haare ka sahara, Baba Shyam hamara — Jai Shri Shyam' over original Khatu-style art — 10 sec",
+      "0:10 Why 'Haare Ka Sahara'? 60-sec story in simple Hinglish, framed 'according to tradition': Barbarika's vow to fight for the losing side, the three arrows, the Sheesh Daan to Krishna, the boon to be worshipped as Shyam in Kaliyug",
+      "1:10 ORIGINAL bhajan (4–5 min), Rajasthani folk feel (dholak, manjira, harmonium); chorus 'Haare ka sahara, Sheesh ke daani, Jai Shri Shyam'; a verse addressing Baba as 'Dinanath'; our own tune — not modelled on Kanhiya Mittal's or Saawariya's melodies; Hindi + Roman lyrics on screen",
+      "6:00 Extended chorus / 'Jai Shri Shyam' naam-jaap loop for background listening (Gyaras mornings)",
+      "11:00 Closing jaikara + end screen to the Gyaras playlist"
+    ],
+    "shorts": [
+      "Short 1 (pilot, 19–20 Oct, before Gyaras): 'Why is Khatu Shyam called Haare Ka Sahara?' — 45-sec story, original art, our own music bed",
+      "Short 2: 20-sec chorus 'Haare ka sahara, Sheesh ke daani' with lyrics — rides the current 'Sheesh ke Daani' Shorts wave with our own audio",
+      "Short 3 (19–20 Nov): 'Happy Janmotsav Shyam Baba' chorus clip for WhatsApp status",
+      "Short 4: lyric-only vertical sing-along of the chorus"
+    ],
+    "type": "Long-form (+ Shorts)"
+  },
+  "history": [
+    {
+      "at": "2026-09-26T07:00:00Z",
+      "status": "Suggested"
+    }
+  ],
+  "idea_original": "Khatu wale Shyam bhajan.",
+  "keywords": {
+    "primary": [
+      "khatu shyam bhajan",
+      "haare ka sahara",
+      "sheesh ke daani",
+      "खाटू श्याम भजन"
+    ],
+    "secondary": [
+      "haare ka sahara khatu shyam",
+      "hare ka sahara baba shyam hamara",
+      "हारे का सहारा",
+      "dinanath shyam bhajan",
+      "khatu shyam new bhajan 2026",
+      "shyam baba bhajan",
+      "jai shri shyam",
+      "khatu shyam janmotsav",
+      "gyaras bhajan",
+      "barbarik story",
+      "shyam bhajan lyrics"
+    ]
+  },
+  "kind": "evergreen",
+  "origin": "Mudit",
+  "priority": 73,
+  "publish_by": "2026-11-13",
+  "request_id": "REQ-20260926-114807",
+  "risk_flags": "COPYRIGHT — Mudit's two suggested bhajans: (1) 'Haare Ka Tu Hai Sahara Saware' is a modern credited song (Kanhiya Mittal / Kanhiya Mittal Entertainments, 2022; writer's chhap 'Sanju' in last stanza) → AVOID as a cover or remix without written permission from the label. (2) 'Dinanath Meri Baat Chhani Koni Tere Se' has conflicting credits ('Traditional' on hindibhajan.in vs Sanju Sharma as lyricist on Saawariya/JioSaavn) → NEEDS CHECK; don't cover until origin is confirmed or licensed, and never reuse any label's tune or arrangement (Content ID matches melody). 'Sheesh Ke Daani', 'Haare Ka Sahara' and 'Dinanath' as epithets/phrases are fine in an original song. Other rules unchanged: 'Om Jai Shri Shyam Hare' aarti has named authors — leave out; use original/licensed art; tell the Barbarika story 'according to tradition'; no miracle promises ('sunte hi kaam banega'); Papankusha Ekadashi 21 vs 22 Oct — confirm local panchang. No ledger overlap.",
   "sources": [
     {
       "title": "Khatu Shyam Temple — Wikipedia (location, Barbarika legend, 1027 CE temple, Phalgun Mela)",
@@ -157,13 +134,101 @@
     {
       "title": "Our collector data: data/2026-09-26/youtube_watchlist.json + autocomplete.json (repo mudit4158/yt-trend-tracker)",
       "url": "https://github.com/mudit4158/yt-trend-tracker/tree/main/data/2026-09-26"
+    },
+    {
+      "title": "JioSaavn — Haare Ka Tu Hai Sahara Saware: Kanhiya Mittal (lyrics/music), Kanhiya Mittal Entertainments, 18 Feb 2022",
+      "url": "https://www.jiosaavn.com/song/haare-ka-tu-hai-sahara-saware/KgcScCBJblg"
+    },
+    {
+      "title": "Bhaktilok — Haare Ka Tu Hai Sahara lyrics (writer's chhap 'Sanju' in final stanza)",
+      "url": "https://www.bhaktilok.in/2023/02/haare-ka-tu-hai-sahara-saanware-lyrics.html"
+    },
+    {
+      "title": "JioSaavn — Dinanath Meri Baat Chani Koni Tere Sath: Sanju Sharma (lyrics/music), Saawariya Music And Films, 2023",
+      "url": "https://www.jiosaavn.com/song/dinanath-meri-baat-chani-koni-tere-sath/PS4caQ4BAXA"
+    },
+    {
+      "title": "hindibhajan.in — Dinanath Meri Baat: lyrics listed as 'Traditional' (Lakhbir Singh Lakha, Lakhdatar Music)",
+      "url": "https://www.hindibhajan.in/dinanath-meri-baat-chani-koni-tere-se-lyrics/"
+    },
+    {
+      "title": "BhaktiBharat — Dinanath Meri Baat lyrics (no author credited)",
+      "url": "https://www.bhaktibharat.com/en/bhajan/dinanath-meri-baat-chani-koni-tere-se"
+    },
+    {
+      "title": "JaipurKhatu — Barbarika's vow to fight for the losing side; 'Haare Ka Sahara' meaning",
+      "url": "https://jaipurkhatu.com/blog-who-was-barbarika.html"
     }
   ],
-  "risk_flags": "COPYRIGHT: almost every popular Khatu Shyam bhajan (Kanhaiya Mittal, Saawariya, Sonotek, T-Series etc.) is label-owned — do NOT cover or remix them, and do not reuse the audio in the viral 'Sheesh ke Daani' Shorts. Only an ORIGINAL composition passes. The common 'Om Jai Shri Shyam Hare' aarti carries named authors in its last stanza and is sung in versions attributed to 20th-century devotees, so its public-domain status is unclear — leave it out (or treat as Needs check) until rights are confirmed. Use original or licensed art; don't lift temple/shringar photos from other channels. Present the Barbarika story as 'according to tradition'; no miracle/wish-fulfilment promises in title or thumbnail (e.g. no 'sunte hi kaam banega'). Papankusha Ekadashi date differs by a day across sources (21 vs 22 Oct) — confirm with local panchang. No ledger overlap (no earlier Khatu Shyam card).",
-  "history": [
+  "status": "Suggested",
+  "tags": [
+    "khatu shyam bhajan",
+    "haare ka sahara",
+    "hare ka sahara",
+    "sheesh ke daani",
+    "khatu shyam new bhajan 2026",
+    "shyam baba bhajan",
+    "jai shri shyam",
+    "खाटू श्याम भजन",
+    "हारे का सहारा",
+    "khatu shyam janmotsav"
+  ],
+  "thumbnail": "Original (self-made or commissioned) art of Shyam Baba's shringar face with rose garlands, blue horse and nishan flag behind; deep blue + saffron/gold; text max 3 words: 'Haare Ka Sahara' (Janmotsav version: 'Janmotsav Special'); one focal point, high contrast, readable on phone. Do not copy thumbnails or temple photos from Kanhiya Mittal / Saawariya uploads.",
+  "titles": [
+    "Haare Ka Sahara | Khatu Shyam Bhajan | हारे का सहारा",
+    "Khatu Shyam Bhajan with Lyrics | Haare Ka Sahara Shyam",
+    "Sheesh Ke Daani, Haare Ka Sahara | खाटू श्याम भजन"
+  ],
+  "topic": "Khatu Shyam bhajan — 'Haare Ka Sahara' original + Sheesh Daan story; popular bhajans checked for cover rights",
+  "topic_cluster": "khatu-shyam-bhajan",
+  "upload_slot": "Fri 13 Nov 2026, 6:00 AM IST (long-form); pilot Short Mon 19 Oct, 6:00 AM IST",
+  "verification": "Verified",
+  "why_now": [
+    "Refine (Mudit): explore the more commonly heard bhajans 'Haare Ka Tu Hai Sahara' and 'Dinanath Meri Baat' alongside 'Sheesh Ke Daani'.",
+    "Result — 'Haare Ka Tu Hai Sahara Saware': a modern, credited song, not traditional. JioSaavn credits Kanhiya Mittal (singer/composer/lyricist), label Kanhiya Mittal Entertainments, released 18 Feb 2022, ~794K plays; lyric sites note the last stanza carries the writer's chhap 'Sanju'. A cover = label-owned song → fails the copyright hard filter (AVOID as a cover).",
+    "Result — 'Dinanath Meri Baat Chhani Koni Tere Se': sources disagree. hindibhajan.in lists the lyrics as 'Traditional' (Lakhbir Singh Lakha, Lakhdatar Music); JioSaavn credits Sanju Sharma as lyricist/composer (Saawariya Music And Films, 25 May 2023, ~150K plays). BhaktiBharat shows no author chhap. Rights unclear → NEEDS CHECK; do not cover until a folk/traditional origin is confirmed or a licence is obtained — and even then, don't copy any label's tune/arrangement (Content ID matches melody).",
+    "Best way to capture that demand legally: 'Haare Ka Sahara' and 'Dinanath' are traditional epithets of Shyam Baba, not owned phrases. Build our ORIGINAL bhajan's chorus and title around 'Haare Ka Sahara' (the most-heard phrase) with 'Sheesh Ke Daani' and 'Dinanath' in the verses — one song rides all three search phrases.",
+    "Story hook (verified as tradition): Barbarika vowed to fight for whichever side was losing — hence 'Haare Ka Sahara', the support of those who have lost. A 45-sec Short 'Why is Shyam Baba called Haare Ka Sahara?' is a strong, zero-copyright explainer.",
+    "Shorts demand for 'Sheesh ke Daani' still hot: 'Respect zone 111+' Shorts at 1.73M (≈10h), 1.36M and 1.19M views (24–25 Sep) in our collector data.",
+    "YouTube autocomplete today: 'khatu shyam bhajan' → 'new', 'new 2025', 'remix', 'nonstop', 'aarti', 'happy birthday' — searchers want NEW bhajans and Janmotsav songs, so an original has room.",
+    "Key dates: next Gyaras (Papankusha Ekadashi) 21/22 Oct (confirm local panchang) — pilot Short; Shyam Janmotsav = Dev Uthani Ekadashi, Fri 20 Nov 2026 — T-14 brief 6 Nov, publish window 13–19 Nov, T-5 hard deadline 15 Nov.",
+    "Optional (not zero-budget): if Mudit really wants a cover of 'Haare Ka Tu Hai Sahara', ask Kanhiya Mittal Entertainments for written permission / a cover licence first; otherwise the video will be claimed or struck."
+  ],
+  "revision": 2,
+  "refinements": [
     {
-      "status": "Suggested",
-      "at": "2026-09-26T07:00:00Z"
+      "at": "2026-09-26T07:10:00Z",
+      "instructions": "Sheesh ke daani is a good bhajan, but there are more commonly heard bhajans like hare ka tu hai saahara, or denananth meri baat. \nI want to explore those as well.",
+      "changes": "Checked both bhajans: 'Haare Ka Tu Hai Sahara' is label-owned (Avoid as cover), 'Dinanath Meri Baat' has unclear rights (Needs check). Re-centred the original bhajan and titles on the 'Haare Ka Sahara' phrase with Dinanath/Sheesh ke Daani in verses, added a 'why Haare Ka Sahara' story Short; priority 71→73.",
+      "request_id": "REQ-20260926-121032"
     }
-  ]
+  ],
+  "previous": {
+    "titles": [
+      "Khatu Shyam Bhajan | Sheesh Ke Daani | खाटू श्याम भजन",
+      "Haare Ka Sahara Khatu Shyam Bhajan with Lyrics | श्याम",
+      "Khatu Shyam Janmotsav Bhajan 2026 | खाटू श्याम जन्मोत्सव"
+    ],
+    "priority": 71,
+    "verification": "Verified",
+    "format": {
+      "hook": "Haare ka sahara, Khatu wala Shyam — Jai Shri Shyam! Sing along, lyrics on screen.",
+      "length": "10–12 min",
+      "outline": [
+        "0:00 Jaikara 'Jai Shri Shyam' over original Khatu-style art (Baba's shringar, blue horse, nishan flags) — 10 sec",
+        "0:10 The Sheesh Ke Daani story in 60 sec, calm narration in simple Hinglish: Barbarika, grandson of Bhima, his three arrows, Krishna asks for his sheesh, the boon that he will be worshipped as 'Shyam' in Kaliyug — framed 'according to tradition'",
+        "1:10 ORIGINAL bhajan (4–5 min), Rajasthani folk feel (dholak, manjira, harmonium), chorus built on 'Sheesh ke Daani, Haare ka Sahara, Jai Shri Shyam'; Hindi + Roman lyrics on screen",
+        "6:00 Extended chorus / 'Jai Shri Shyam' naam-jaap loop for background listening (morning/Gyaras use)",
+        "11:00 Closing jaikara + end screen to the Gyaras playlist"
+      ],
+      "shorts": [
+        "Short 1 (pilot, before Gyaras 21/22 Oct): 20-sec chorus 'Sheesh ke Daani' with lyrics and original art — rides the current Shorts trend with our own audio",
+        "Short 2: 'Who is Khatu Shyam? Sheesh Daan story in 45 sec'",
+        "Short 3 (19–20 Nov): 'Happy Janmotsav Shyam Baba' chorus clip for WhatsApp status sharing",
+        "Short 4: lyric-only vertical version of the chorus for sing-along"
+      ],
+      "type": "Long-form (+ Shorts)"
+    },
+    "publish_by": "2026-11-13"
+  }
 }
