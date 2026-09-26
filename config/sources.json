@@ -185,7 +185,7 @@
       "SCMP Tech": "https://www.scmp.com/rss/36/feed",
       "TechNode": "https://technode.com/feed/",
       "Pandaily": "https://pandaily.com/feed/",
-      "KrASIA": "https://kr-asia.com/feed"
+      "KrASIA (via Google News)": "https://news.google.com/rss/search?q=site:kr-asia.com+when:2d&hl=en-IN&gl=IN&ceid=IN:en"
     },
     "tech_global": {
       "Rest of World": "https://restofworld.org/feed/latest/",
@@ -194,8 +194,8 @@
     "tech_india": {
       "Gadgets360": "https://feeds.feedburner.com/gadgets360-latest",
       "Moneycontrol Tech": "https://www.moneycontrol.com/rss/technology.xml",
-      "Moneycontrol Personal Finance": "https://www.moneycontrol.com/rss/personalfinance.xml",
-      "Economic Times Wealth": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms"
+      "Economic Times Wealth": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms",
+      "Moneycontrol Personal Finance (via Google News)": "https://news.google.com/rss/search?q=site:moneycontrol.com/news/business/personal-finance+when:2d&hl=en-IN&gl=IN&ceid=IN:en"
     },
     "official": {
       "SEBI": "https://www.sebi.gov.in/sebirss.xml",
