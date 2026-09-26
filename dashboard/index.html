@@ -35,6 +35,7 @@ nav.tabs{display:flex;gap:4px;overflow-x:auto;margin-top:12px;scrollbar-width:no
 nav.tabs button{border:0;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;color:var(--ink-2);white-space:nowrap;font-weight:600}
 nav.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
 main{padding-top:20px}
+.refine-run{margin-top:4px} ul.rlog{display:grid;gap:8px;padding-left:18px;margin:4px 0 0} details.refine{margin-top:2px} details.refine textarea{width:100%;margin-top:6px}
 details.actions-menu>summary{cursor:pointer;display:inline-block;font:600 14px var(--body);padding:5px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);list-style:none}
 details.actions-menu>summary::-webkit-details-marker{display:none} details.actions-menu>summary::after{content:" ▾"} details.actions-menu[open]>summary::after{content:" ▴"}
 .act-wrap{display:grid;gap:12px;margin-top:10px} .act-block{display:grid;gap:6px;padding:10px;border:1px solid var(--line);border-radius:8px} .act-block textarea{width:100%}
@@ -181,7 +182,7 @@ td a{color:var(--ink);text-decoration:none} td a:hover{text-decoration:underline
 const CH = {DEV:"Devotional", KID:"Kids", TFN:"Tech + Finance"};
 const STATUS = ["Suggested","Accepted","In production","Published","Rejected","Expired"];
 const TRIGGER_ID = "trig_01Ty8RSQjvVLoNjbyzBsyi8J", MCP_SERVER = "Claude Code Remote";
-const S = {lopen:new Set(), mcp:null, requests:[], lastReq:null, db:null, meta:null, date:null, ideas:[], day:{}, calendar:null, tab:"brief", chan:"DEV", pscope:"tracker_top500",
+const S = {openBox:{}, openRefine:null, lopen:new Set(), mcp:null, requests:[], lastReq:null, db:null, meta:null, date:null, ideas:[], day:{}, calendar:null, tab:"brief", chan:"DEV", pscope:"tracker_top500",
            tf:{q:"",cat:"",lang:"",fmt:"",len:""}, lf:{ch:"",st:"open"}};
 const $ = (s, el=document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -250,7 +251,7 @@ function runChip(){
 async function setStatus(id, status, extra={}){
   const idea = S.ideas.find(i=>i._id===id); if(!idea) return;
   const history = [...(idea.history||[]), {status, at:new Date().toISOString()}];
-  try{ await S.db.doc("ideas/"+id).update({status, history, updated_at:new Date().toISOString(), ...extra}); toast(`${id} → ${status}`); }
+  try{ await S.db.doc("ideas/"+id).update({status, history, updated_at:new Date().toISOString(), ...extra}); S.openBox[id]=undefined; toast(`${id} → ${SLABEL[status]||status}`); }
   catch(e){ toast(e.code==="invalid_argument" ? "You don't have edit access" : "Could not save. Try again."); }
 }
 document.addEventListener("click", e => {
@@ -265,6 +266,7 @@ document.addEventListener("click", e => {
     setStatus(id,"Rejected",{reject_reason:r}); }
   if(act==="copy"){ const txt=b.dataset.text; navigator.clipboard?.writeText(txt).then(()=>toast("Copied"),()=>toast("Copy blocked. Select the text and copy it.")); }
   if(act==="chan"){ S.chan=b.dataset.v; render(); }
+  if(act==="box"){ S.openBox[id]=b.dataset.box||undefined; render(); setTimeout(()=>document.getElementById((b.dataset.box==="rej"?"rej-":"pub-")+id)?.focus(),30); }
   if(act==="lexp"){ const id=b.dataset.id; S.lopen.has(id)?S.lopen.delete(id):S.lopen.add(id); renderLedger(); }
   if(act==="pscope"){ S.pscope=b.dataset.v; render(); }
 });
@@ -282,21 +284,37 @@ const schip = s => `<span class="chip ${s==="Published"?"ok":s==="Rejected"?"bad
 const arr = x => Array.isArray(x) ? x : (x==null || x==="" ? [] : (typeof x==="object" ? Object.values(x) : [x]));
 const txt = x => typeof x==="string" ? x : (x==null ? "" : (x.title || x.text || JSON.stringify(x)));
 function list(a){ a=arr(a); return a.length ? `<ul>${a.map(x=>`<li>${esc(txt(x))}</li>`).join("")}</ul>` : `<span class="muted">–</span>`; }
+const RLABEL={Queued:"Queued",Researching:"Running",Ready:"Completed",Failed:"Failed"};
+const RCLASS={Queued:"",Researching:"warn",Ready:"ok",Failed:"bad"};
+const rchip = st => `<span class="chip ${RCLASS[st]||""}">${esc(RLABEL[st]||st||"Queued")}</span>`;
+function reqsFor(i){ return S.requests.filter(r=>r.idea_id===i._id || (i.request_id && r._id===i.request_id)).sort((a,b)=>(a.created_at||"").localeCompare(b.created_at||"")); }
 function actions(i){
-  const s=i.status||"Suggested", id=esc(i._id);
+  const s=i.status||"Suggested", id=esc(i._id), box=S.openBox[i._id];
+  let inner;
+  if(s==="Published") inner=`<div class="actions small"><span class="chip ok">Published</span> ${i.published_url?`<a href="${esc(i.published_url)}" target="_blank" rel="noopener">video ↗</a>`:""}</div>`;
+  else if(s==="Rejected") inner=`<div class="actions small"><span class="chip bad">Rejected</span><span class="muted">${esc(i.reject_reason||"")}</span><button data-act="reopen" data-id="${id}">Reopen</button></div>`;
+  else inner=`<div class="actions">
+      ${s==="Suggested"?`<button data-act="accept" data-id="${id}" title="Reserve it: it won't be suggested again while you make it">Accept</button>`:`<span class="chip warn">Planned</span>`}
+      <button data-act="box" data-box="rej" data-id="${id}" aria-expanded="${box==="rej"}">Reject</button>
+      <button data-act="box" data-box="pub" data-id="${id}" aria-expanded="${box==="pub"}">Published</button></div>
+    ${box==="rej"?`<div class="actions"><input type="text" id="rej-${id}" placeholder="Why reject? (short reason)" aria-label="Reject reason"><button class="primary" data-act="reject" data-id="${id}">Confirm reject</button><button data-act="box" data-box="" data-id="${id}">Cancel</button></div>`:""}
+    ${box==="pub"?`<div class="actions"><input type="url" id="pub-${id}" placeholder="YouTube video link" aria-label="Published video link"><button class="primary" data-act="publish" data-id="${id}">Save</button><button data-act="box" data-box="" data-id="${id}">Cancel</button></div>`:""}`;
   const open=S.requests.find(r=>r.type==="refine" && r.idea_id===i._id && ["Queued","Researching"].includes(r.status));
-  const refining=open?`<div class="small"><span class="chip warn">Refining…</span> <span class="muted">“${esc(open.instructions||"")}”</span></div>`:"";
-  const refine=open?"":`<div class="act-block"><span class="label">Refine & research again</span>
-      <textarea id="ref-${id}" rows="3" aria-label="What should change" placeholder="What's off, and what do you want instead? e.g. 'Aim at first-time salaried users, skip pension math, keep it under 8 min'"></textarea>
-      <div class="actions"><button data-act="refine" data-id="${id}">Research again</button><span class="small muted">Updates this same card; earlier versions stay in its history.</span></div></div>`;
-  let status="";
-  if(s==="Published") status=`<div class="small"><span class="muted">Published</span> ${i.published_url?`<a href="${esc(i.published_url)}" target="_blank" rel="noopener">video ↗</a>`:""}</div>`;
-  else if(s==="Rejected") status=`<div class="actions small"><span class="muted">Rejected: ${esc(i.reject_reason||"–")}</span><button data-act="reopen" data-id="${id}">Reopen</button></div>`;
-  else status=`<div class="act-block"><span class="label">Status</span>
-      <div class="actions">${s==="Suggested"?`<button data-act="accept" data-id="${id}" title="Reserve this idea: it won't be suggested again while you work on it">I'll make this</button>`:`<span class="small muted">Planned — you're making this.</span>`}</div>
-      <div class="actions"><input type="url" id="pub-${id}" placeholder="YouTube link (after publishing)" aria-label="Published video link"><button data-act="publish" data-id="${id}">Mark published</button></div>
-      <div class="actions"><input type="text" id="rej-${id}" placeholder="Why reject? (short reason)" aria-label="Reject reason"><button data-act="reject" data-id="${id}">Reject</button></div></div>`;
-  return `${refining}<details class="actions-menu"><summary>Actions</summary><div class="act-wrap">${status}${refine}</div></details>`;
+  const refine = open
+    ? `<div class="small refine-run">${rchip(open.status)} Refining with: “${esc(open.instructions||"")}”</div>`
+    : `<details class="refine"${S.openRefine===i._id?" open":""}><summary>Refine & research again</summary>
+        <textarea id="ref-${id}" rows="2" aria-label="What should change" placeholder="What's off and what do you want instead? Keep it about this same topic."></textarea>
+        <div class="actions"><button data-act="refine" data-id="${id}">Research again</button><span class="small muted">Updates this card. A different topic becomes a new idea instead.</span></div></details>`;
+  return `<details class="actions-menu"${box?" open":""}><summary>Actions</summary><div class="act-wrap">${inner}</div></details>${refine}`;
+}
+function researchLog(i){
+  const rs=reqsFor(i);
+  const rows=[];
+  if(i.origin!=="Mudit") rows.push(`<li><span class="chip ok">Completed</span> <b>Daily brief</b> <span class="small muted num">${esc(i.date||"")}</span><div class="small">Input: the day's trend data (YouTube, Google Trends, X, news) and the calendar.</div></li>`);
+  rs.forEach(r=>rows.push(`<li>${rchip(r.status)} <b>${r.type==="refine"?"Refinement":"Your idea"}</b> <span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span>
+     <div class="small">Input: “${esc(r.type==="refine"?r.instructions:r.idea)}”${r.angle?` · Angle: ${esc(r.angle)}`:""}${r.links?` · Links: ${esc(r.links)}`:""}</div>
+     ${r.summary?`<div class="small"><b>Result:</b> ${esc(r.summary)}</div>`:""}${r.status==="Failed"?`<div class="small" style="color:var(--bad)"><b>Why it failed:</b> ${esc(r.error||"")}</div>`:""}</li>`));
+  return rows.length?`<div><span class="label">Research history</span><ul class="rlog">${rows.join("")}</ul></div>`:"";
 }
 function ideaCard(i){
   try{ return ideaCardInner(i); }
@@ -325,7 +343,7 @@ function ideaCardInner(i){
         <div><span class="label">Verification sources</span>${arr(i.sources).length?`<ul>${arr(i.sources).map(s=>{const u=typeof s==="string"?s:s.url; return `<li>${u?`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(txt(s))}</a>`:esc(txt(s))}</li>`}).join("")}</ul>`:"–"}</div>
         ${comp.length||gap?`<div><span class="label">Competition (top videos)</span>${comp.length?`<ul>${comp.map(c=>`<li>${c.url?`<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(txt(c))}</a>`:esc(txt(c))} <span class="muted small">${c.channel?"· "+esc(c.channel):""}${c.views!=null?" · "+(typeof c.views==="number"?fmt(c.views)+" views":esc(c.views)):""}${c.age?" · "+esc(c.age):""}</span></li>`).join("")}</ul>`:""}${gap?`<div class="small"><b>Gap:</b> ${esc(gap)}</div>`:""}</div>`:""}
         ${i.idea_original?`<div><span class="label">Your original idea</span>${esc(i.idea_original)}</div>`:""}
-        ${revs.length?`<div><span class="label">Refinement history</span><ul>${revs.map(r=>`<li><span class="small muted num">${esc(String(r.at||"").slice(0,16).replace("T"," "))}</span> <b>You asked:</b> ${esc(r.instructions||"")}${r.changes?`<br><span class="small"><b>Changed:</b> ${esc(r.changes)}</span>`:""}</li>`).join("")}</ul></div>`:""}
+        ${researchLog(i)}${revs.length?`<div><span class="label">What changed in each refinement</span><ul>${revs.map(r=>`<li><span class="small muted num">${esc(String(r.at||"").slice(0,16).replace("T"," "))}</span> <b>You asked:</b> ${esc(r.instructions||"")}${r.changes?`<br><span class="small"><b>Changed:</b> ${esc(r.changes)}</span>`:""}</li>`).join("")}</ul></div>`:""}
         <div><span class="label">Risk flags</span>${esc(txt(i.risk_flags)||"none")}</div>
         <div class="small muted">ID ${esc(i._id)} · Topic cluster: ${esc(i.topic_cluster)}${i.revision?` · Revision ${esc(i.revision)}`:""}</div>
       </div>
@@ -491,7 +509,7 @@ function renderMine(){
      <h2>My requests</h2>
      ${reqs.length?reqs.map(r=>{ const card=r.idea_id && S.ideas.find(i=>i._id===r.idea_id);
        return `<div class="panel">
-         <div class="row" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center"><span class="chip ${RSTAT[r.status]||""}">${esc(r.status)}</span>${r.channel&&r.channel!=="ANY"?`<span class="chip ${esc(r.channel)}">${esc(r.channel)}</span>`:""}<span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span></div>
+         <div class="row" style="display:flex;gap:6px;flex-wrap:wrap;align-items:center">${rchip(r.status)}${r.channel&&r.channel!=="ANY"?`<span class="chip ${esc(r.channel)}">${esc(r.channel)}</span>`:""}<span class="small muted num">${esc((r.created_at||"").slice(0,16).replace("T"," "))}</span></div>
          <div>${r.type==="refine"?`<span class="label">Refine ${esc(r.idea_id)}</span><br>`:""}<b>${esc(r.idea)}</b>${r.instructions?`<div class="small">“${esc(r.instructions)}”</div>`:""}${r.angle?`<div class="small muted">${esc(r.angle)}</div>`:""}</div>
          ${r.summary?`<div class="small">${esc(r.summary)}</div>`:""}
          ${r.status==="Failed"?`<div class="small" style="color:var(--bad)">${esc(r.error||"Research failed.")}</div>`:""}

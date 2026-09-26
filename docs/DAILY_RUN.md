@@ -97,4 +97,4 @@ Final message (this is what Mudit gets as the notification), in English, short:
 - "Dashboard: Roz Trend Desk" (no raw data dumps)
 
 ## Sundays — weekly review (extra)
-After step 8, compare the last 7 days: which topic clusters kept rising, which idea statuses changed, which Published videos exist (from ledger `learning.published`). Write `data/$DATE/out/weekly.md` with proposed playbook changes (weights, upload times, title patterns) — **do not edit the playbook yourself**; list proposals in the notification so Mudit can approve them.
+After step 8, compare the last 7 days: which topic clusters kept rising, which idea statuses changed, which Published videos exist (from ledger `learning.published`). When judging how good the suggestions were, use each card's `original` snapshot (if it was refined), not the refined version. Write `data/$DATE/out/weekly.md` with proposed playbook changes (weights, upload times, title patterns) — **do not edit the playbook yourself**; list proposals in the notification so Mudit can approve them.

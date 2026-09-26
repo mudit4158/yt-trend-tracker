@@ -44,6 +44,10 @@ Final message (English, short): idea → verdict (priority, verification), best 
 ## Refinements (type "refine") — Mudit asks to research an existing card again
 A request with `type: "refine"` carries `idea_id` (any card — daily suggestion or Mudit's own) and `instructions` (what was off and what he wants instead).
 1. Set the request to `Researching`. `get` the card `ideas/<idea_id>` and note its `version`.
+1b. **Alignment check (protects the ledger and the model's metrics).** A refinement may change the angle, audience, depth, length, format, facts in focus, titles or packaging of **the same subject**. It may not swap the card for a different subject (e.g. a Khatu Shyam bhajan card → a Hanuman Chalisa video; a UPI-charges card → a credit-card rewards video). Judge by the card's `topic_cluster` and `topic`: would the refined video still answer the same viewer need?
+   - **Aligned** → continue with step 2.
+   - **Not aligned** → do not touch the card. Set this request to `status: "Failed"` with `error: "Not aligned with <idea_id> (<card topic>). Registered as a new idea instead: <new REQ id>."`, then create a new request doc `requests/<new REQ id>` = `{"idea": "<the instructions, rewritten as a standalone idea>", "channel": "<card channel>", "angle": "Split from a refinement of <idea_id>", "status": "Queued", "created_at": now, "from_request": "<this REQ id>"}` and research it straight away as a new idea (sections 1–3 above; it gets its own `U` card in My Ideas). Mention both in the notification.
+   - Borderline (a sibling topic, e.g. "also cover other popular Khatu Shyam bhajans") → treat as aligned only if it widens the same subject; if it would make a clearly separate video, split it as above.
 2. Read the whole card plus all earlier `refinements` on it. **Mudit's newest instructions override the original brief and any earlier choice** — audience, angle, length, channel, facts to focus on or drop.
 3. Research again with those instructions (same steps as section 2 above: demand, competition, facts, timing, guardrails). Re-score priority honestly — it can go down.
 4. Update **the same card** with ArtifactData `update` (`if_version` = the version from step 1; on mismatch re-read and retry once):
@@ -51,6 +55,7 @@ A request with `type: "refine"` carries `idea_id` (any card — daily suggestion
    - `revision`: previous revision + 1 (start at 2)
    - `refinements`: the existing array plus `{"at": now ISO, "instructions": "<Mudit's words>", "changes": "one line: what changed and why", "request_id": "REQ-..."}`
    - `previous`: a snapshot of the old `{titles, priority, verification, format, publish_by}` (keep only the most recent snapshot)
+   - `original`: on the **first** refinement only, a snapshot of the card as first suggested `{priority, titles, topic, topic_cluster, verification, date}`. Never overwrite it later — the weekly review scores the model on the original suggestion, not on refined versions.
    - Do **not** change `status`, `history`, `date`, `origin` or `topic_cluster` (unless Mudit asked to change the topic itself — then say so in `changes`).
 5. Mark the request `Ready` with `summary` (what changed, new priority) and `researched_at`.
 6. Notification: "Refined <ID>: <what changed>".
