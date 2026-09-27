@@ -425,6 +425,9 @@ def collect_kworb() -> None:
 
 def main() -> None:
     print("Collecting for", TODAY)
+    if os.environ.get("GITHUB_EVENT_NAME") == "schedule" and (OUT / "status.json").exists():
+        print("Today's data already collected by an earlier scheduled run; backup run skipped.")
+        return
     if API_KEY:
         try:
             wl = discover_watchlist(force=NOW.weekday() == 6 or "--rediscover" in sys.argv)

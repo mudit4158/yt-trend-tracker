@@ -12,7 +12,7 @@ It is written for a fresh session that has no memory of how this was set up. Fol
 ## 0. Setup (2 min)
 1. `date` in IST → `DATE=YYYY-MM-DD` (Asia/Kolkata).
 2. Get the repo: `git clone https://github.com/mudit4158/yt-trend-tracker.git` (if it fails, call the `add_repo` tool with owner `mudit4158`, repo `yt-trend-tracker`, access `push`, then run the clone command it returns).
-3. Check `data/$DATE/brief_input.json` exists. If not, the collector is late: `git pull` every 5 minutes for up to 40 minutes. Still missing → continue with the latest earlier date, and say so in the run summary ("Today's data did not arrive; used yesterday's").
+3. Check `data/$DATE/brief_input.json` exists. If not, the collector is late: `git pull` every 5 minutes for up to 40 minutes. Still missing → continue with the latest earlier date, set `"stale_data": true` in `run.json`, and say so in the run summary ("Today's data did not arrive; used yesterday's").
 4. Read `docs/playbook.md` fully.
 
 ## 1. Ledger (no repeats)

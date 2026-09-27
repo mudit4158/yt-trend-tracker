@@ -2,8 +2,11 @@ name: daily-collect
 
 on:
   schedule:
-    # 04:37 IST every day (23:07 UTC the previous day). Off the hour to dodge GitHub's top-of-hour queue.
-    - cron: "7 23 * * *"
+    # GitHub starts scheduled jobs late when its queue is busy (27 Sep 2026: 04:37 IST job started ~06:49).
+    # So: main run 01:43 IST (20:13 UTC) with a ~4h buffer before the 05:52 IST brief,
+    # plus a backup at 03:43 IST (22:13 UTC) that does nothing if today's data already exists.
+    - cron: "13 20 * * *"
+    - cron: "13 22 * * *"
   workflow_dispatch:
     inputs:
       rediscover:
