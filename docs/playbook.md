@@ -1,6 +1,6 @@
 # YouTube Research & Content Playbook
 
-**Version:** v0.5 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
+**Version:** v0.5 · **Created:** 26 Sep 2026 · **Updated:** 27 Sep 2026 · **Owner:** Mudit
 **Purpose:** Single reference for the daily research job and for content decisions across three YouTube channels. Every daily run reads this file first. Changes go in the Changelog at the bottom; bump the version on every change.
 **Live copy used by the daily job:** `docs/playbook.md` in the GitHub repo `mudit4158/yt-trend-tracker` (kept in sync with the Project doc).
 
@@ -95,7 +95,7 @@ Multi-day festivals (Navratri, Diwali week) get a content series planned at the 
 
 **Architecture & timing (IST):**
 - **01:43 — Collector**, backup 03:43 (GitHub Actions, repo `mudit4158/yt-trend-tracker`): fetches all sources, computes metrics, commits `data/<date>/`. Runs on GitHub because Claude's workspace cannot reach YouTube/Google directly. The API key is a GitHub secret. Why so early: GitHub starts scheduled jobs late when busy (on 27 Sep the 04:37 job started ~06:49 and the brief had to use the previous day's data), so the collector now runs ~4 hours before the brief, with a backup run that skips itself if data already exists.
-- **05:52 — Daily Claude run** (scheduled task): reads the data + this playbook, applies the ledger, writes topics and idea cards, updates the dashboard, sends the notification. Procedure: `docs/DAILY_RUN.md` in the repo.
+- **05:52 — Daily Claude run** (scheduled task): reads the data + this playbook, applies the ledger, writes topics and idea cards, researches any queued requests from Mudit, updates the dashboard, sends the notification. If today's data is still missing after 40 minutes it uses the previous day's data plus web research and flags the brief as stale. Procedure: `docs/DAILY_RUN.md` in the repo.
 - **~06:15 — Brief ready.** Why this time: the brief is waiting when the day starts; data covers the full previous day; there are ~10 hours before the Kids (4–7 PM) and Tech+Finance (7–9 PM) upload slots; Devotional content for early-morning slots is planned days ahead via the calendar.
 
 Steps:
@@ -360,6 +360,7 @@ How Mudit works with the system, and the decisions behind it. The daily run and 
 
 ### Data & reliability decisions
 - Claude's workspace can't reach YouTube/Google directly, so collection runs free on GitHub Actions; the YouTube Data API key lives only as a GitHub secret (never in chat). Only the Data API is used; Analytics/Reporting APIs come later for our own channels.
+- GitHub runs scheduled jobs late when it's busy, so the collector runs at 01:43 IST with a 03:43 backup (decision 27 Sep 2026, after the 04:37 run started ~2h15m late and the brief used the previous day's data).
 - Cards must keep fixed field shapes (lists as arrays, `sources` as `{title,url}`, `competition` as `{videos, gap}`); the page also tolerates other shapes and a broken card never blanks the page.
 - Daily documents are new each day (no overwrites); ideas are never deleted; data older than 30 days is pruned monthly.
 - Failing feeds are rerouted through Google News where a site blocks the collector (RBI, BOOM, KrASIA, Moneycontrol PF); Reddit is fetched in one combined request.
