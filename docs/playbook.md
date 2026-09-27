@@ -1,6 +1,6 @@
 # YouTube Research & Content Playbook
 
-**Version:** v0.4 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
+**Version:** v0.5 · **Created:** 26 Sep 2026 · **Updated:** 26 Sep 2026 · **Owner:** Mudit
 **Purpose:** Single reference for the daily research job and for content decisions across three YouTube channels. Every daily run reads this file first. Changes go in the Changelog at the bottom; bump the version on every change.
 **Live copy used by the daily job:** `docs/playbook.md` in the GitHub repo `mudit4158/yt-trend-tracker` (kept in sync with the Project doc).
 
@@ -94,7 +94,7 @@ Multi-day festivals (Navratri, Diwali week) get a content series planned at the 
 ## 5. Pipeline (daily job)
 
 **Architecture & timing (IST):**
-- **04:37 — Collector** (GitHub Actions, repo `mudit4158/yt-trend-tracker`): fetches all sources, computes metrics, commits `data/<date>/`. Runs on GitHub because Claude's workspace cannot reach YouTube/Google directly. The API key is a GitHub secret.
+- **01:43 — Collector**, backup 03:43 (GitHub Actions, repo `mudit4158/yt-trend-tracker`): fetches all sources, computes metrics, commits `data/<date>/`. Runs on GitHub because Claude's workspace cannot reach YouTube/Google directly. The API key is a GitHub secret. Why so early: GitHub starts scheduled jobs late when busy (on 27 Sep the 04:37 job started ~06:49 and the brief had to use the previous day's data), so the collector now runs ~4 hours before the brief, with a backup run that skips itself if data already exists.
 - **05:52 — Daily Claude run** (scheduled task): reads the data + this playbook, applies the ledger, writes topics and idea cards, updates the dashboard, sends the notification. Procedure: `docs/DAILY_RUN.md` in the repo.
 - **~06:15 — Brief ready.** Why this time: the brief is waiting when the day starts; data covers the full previous day; there are ~10 hours before the Kids (4–7 PM) and Tech+Finance (7–9 PM) upload slots; Devotional content for early-morning slots is planned days ahead via the calendar.
 
@@ -365,6 +365,7 @@ How Mudit works with the system, and the decisions behind it. The daily run and 
 - Failing feeds are rerouted through Google News where a site blocks the collector (RBI, BOOM, KrASIA, Moneycontrol PF); Reddit is fetched in one combined request.
 
 ## Changelog
+- **v0.5 (27 Sep 2026):** collector moved to 01:43 IST with a 03:43 backup after GitHub delayed the 04:37 run by ~2h15m on 27 Sep; late-data briefs are flagged `stale_data`.
 - **v0.4 (26 Sep 2026):** Section 15 — interaction model & decisions: dashboard layout and ☰ menu, Accept/Reject/Published actions (Planned status), own-idea research, refinements (never override Claude's suggestions — variants become new cards; own cards refine in place with an alignment check), research history statuses, reliability decisions.
 - **v0.3 (26 Sep 2026):** cross-channel guardrails (campaign trends, cross-checking, no amplifying fakes, no fear-selling, no harm stories, Mudit's ideas never dropped); Mudit's own ideas researched on demand (`requests` collection, `docs/ADHOC_IDEA.md`); dashboard menu documents sources, logic and guardrails.
 - **v0.2 (26 Sep 2026):** language rule (mostly English + natural Hinglish for videos; English for dashboard), zero-budget free sources with paid items moved to improvements, architecture and run times (collector 04:37, Claude 05:52, brief ~06:15 IST), 7-day expiry for unused suggestions, idea kinds for cooldown, dashboard collections.

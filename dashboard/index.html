@@ -590,7 +590,7 @@ function renderDrawer(){
   document.querySelectorAll("#drawerNav button").forEach(b=>b.setAttribute("aria-current", b.dataset.sec===drawerSec));
   const el=$("#drawerBody");
   if(drawerSec==="sources"){
-    el.innerHTML=`<p>Everything is free (budget review on 10 Oct 2026). A GitHub job collects these every morning at 4:37 AM IST. Status is from the latest run.</p>
+    el.innerHTML=`<p>Everything is free (budget review on 10 Oct 2026). A GitHub job collects these every night at 1:43 AM IST (backup run at 3:43 AM). Status is from the latest run.</p>
     <div class="srcgrp"><h3>YouTube (official Data API)</h3>
       <div class="src"><span>Most popular in India — 15 categories, up to 200 videos each</span>${srcStatus("youtube_popular")}</div>
       <div class="src"><span>Channel watchlist — ~220 channels (≈70 per channel area), last 12 uploads each; rebuilt every Sunday</span>${srcStatus("youtube_watchlist")}</div>
@@ -669,7 +669,7 @@ function renderDrawer(){
   }
   if(drawerSec==="schedule"){
     el.innerHTML=`<h3>Every day (IST)</h3>
-    <ul><li><b>4:37 AM</b> — GitHub collects all sources and computes metrics.</li>
+    <ul><li><b>1:43 AM</b> — GitHub collects all sources and computes metrics (backup run 3:43 AM, because GitHub sometimes starts scheduled jobs hours late).</li>
     <li><b>5:52 AM</b> — Claude reads the data and the playbook, checks the ledger, verifies facts, writes topics and 3–5 cards per channel.</li>
     <li><b>~6:15 AM</b> — this dashboard updates; you get a push and an email.</li></ul>
     <h3>Your ideas</h3><p>"+ Add my idea" starts research immediately (about 10–20 minutes). If that can't start, it runs in the next morning brief.</p>

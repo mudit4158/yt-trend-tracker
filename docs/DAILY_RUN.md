@@ -4,7 +4,7 @@ This is the exact procedure the scheduled "Roz Trend Desk" task follows every mo
 It is written for a fresh session that has no memory of how this was set up. Follow it step by step.
 
 - **Dashboard:** https://claude.ai/artifact/4p6KRtvJrjLDfYiKPvbDPv (database collections below)
-- **Repo:** github.com/mudit4158/yt-trend-tracker (collector runs at 04:37 IST via GitHub Actions and commits `data/<date>/`)
+- **Repo:** github.com/mudit4158/yt-trend-tracker (collector runs at 01:43 IST (backup 03:43) via GitHub Actions and commits `data/<date>/`)
 - **Rules for content decisions:** `docs/playbook.md` (read it every run; it is the source of truth)
 - **Language:** everything written for Mudit (dashboard summary, topics, evidence, notes, notification) is in **English**. Video copy inside cards (titles, hooks, outlines, descriptions, tags) is **mostly English with natural Hinglish** — English sentences with the everyday Hindi words people actually use ("SIP kya hai? 5 mistakes to avoid"). DEV titles may add the Devanagari name ("Hanuman Chalisa | हनुमान चालीसा") per the playbook.
 - **Budget:** zero. Use only the repo data + your own WebSearch/WebFetch. Never sign up for or call paid services.
