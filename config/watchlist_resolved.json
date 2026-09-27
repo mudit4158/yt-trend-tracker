@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26",
+ "updated": "2026-09-27",
  "channels": {
   "UCaayLD9i5x4MmIoVZxXSv_g": {
    "area": "DEV",
@@ -7,7 +7,7 @@
    "handle": "@tseriesbhaktisagar",
    "title": "T-Series Bhakti Sagar",
    "subs": 83000000,
-   "videos": 32951,
+   "videos": 32955,
    "uploads": "UUaayLD9i5x4MmIoVZxXSv_g"
   },
   "UC7ZivIYRB0fMSGh-THcTYbw": {
@@ -16,7 +16,7 @@
    "handle": "@ShemarooBhakti",
    "title": "Shemaroo Bhakti",
    "subs": 13600000,
-   "videos": 5541,
+   "videos": 5544,
    "uploads": "UU7ZivIYRB0fMSGh-THcTYbw"
   },
   "UC6vQRTCxutg6fJLUGkDKynQ": {
@@ -25,7 +25,7 @@
    "handle": "@SaregamaBhakti",
    "title": "Saregama Bhakti",
    "subs": 8050000,
-   "videos": 8752,
+   "videos": 8753,
    "uploads": "UU6vQRTCxutg6fJLUGkDKynQ"
   },
   "UCq-Fj5jknLsUf-MWSy4_brA": {
@@ -33,7 +33,7 @@
    "source": "search:krishna bhajan",
    "title": "T-Series",
    "subs": 315000000,
-   "videos": 27206,
+   "videos": 27213,
    "uploads": "UUq-Fj5jknLsUf-MWSy4_brA"
   },
   "UCo07fumrTn1w4AxcU4j_uDw": {
@@ -41,8 +41,16 @@
    "source": "search:hanuman chalisa",
    "title": "Times Music",
    "subs": 17900000,
-   "videos": 4328,
+   "videos": 4331,
    "uploads": "UUo07fumrTn1w4AxcU4j_uDw"
+  },
+  "UCDe0DwkMVFfSIoiYdQUPQmQ": {
+   "area": "DEV",
+   "source": "search:khatu shyam bhajan",
+   "title": "Aniruddhacharya ji",
+   "subs": 16500000,
+   "videos": 10443,
+   "uploads": "UUDe0DwkMVFfSIoiYdQUPQmQ"
   },
   "UCigV1clokmoz4LZrGL9fRNw": {
    "area": "DEV",
@@ -57,7 +65,7 @@
    "source": "search:mata rani bhajan",
    "title": "SuperHit Gaane",
    "subs": 10800000,
-   "videos": 5133,
+   "videos": 5136,
    "uploads": "UUfkRsx0z8reL_MOqEoEqj9Q"
   },
   "UCfzYE5p3KDmRQKUpOLz1_tw": {
@@ -65,7 +73,7 @@
    "source": "search:aarti",
    "title": "Bhajan India",
    "subs": 10600000,
-   "videos": 5443,
+   "videos": 5444,
    "uploads": "UUfzYE5p3KDmRQKUpOLz1_tw"
   },
   "UCNvywYiv2rpARNbn2yxvoCw": {
@@ -73,7 +81,7 @@
    "source": "search:ram bhajan",
    "title": "Bollygrad Studioz",
    "subs": 9300000,
-   "videos": 77083,
+   "videos": 77097,
    "uploads": "UUNvywYiv2rpARNbn2yxvoCw"
   },
   "UC05cEmAqCtRwIWwncV2gx2Q": {
@@ -89,15 +97,15 @@
    "source": "search:aarti",
    "title": "Vfx Mantu Barman",
    "subs": 8570000,
-   "videos": 873,
+   "videos": 874,
    "uploads": "UUvLxB2ggSJbdC1upXfXV_rQ"
   },
   "UCewbVCg5R3C9IBVrp-u0VFw": {
    "area": "DEV",
-   "source": "search:bhajan",
+   "source": "search:krishna bhajan",
    "title": "Simpal Kharel",
    "subs": 7890000,
-   "videos": 1392,
+   "videos": 1393,
    "uploads": "UUewbVCg5R3C9IBVrp-u0VFw"
   },
   "UCSgVw2iWODCXSlVZA0SO86g": {
@@ -113,15 +121,15 @@
    "source": "search:aarti",
    "title": "Aarti Sahu",
    "subs": 6010000,
-   "videos": 1965,
+   "videos": 1967,
    "uploads": "UUZT1pSTca3vaev-BoqOisGA"
   },
   "UC_nseD9NYQYCiDMy-AfkZfA": {
    "area": "DEV",
    "source": "search:bhajan",
    "title": "Pujya Rajan Jee",
-   "subs": 4920000,
-   "videos": 3611,
+   "subs": 4930000,
+   "videos": 3614,
    "uploads": "UU_nseD9NYQYCiDMy-AfkZfA"
   },
   "UCx_zbqdLAB18N1C1tjImQGw": {
@@ -129,40 +137,56 @@
    "source": "search:bhajan",
    "title": "Ganga Bhakti",
    "subs": 4560000,
-   "videos": 1445,
+   "videos": 1449,
    "uploads": "UUx_zbqdLAB18N1C1tjImQGw"
-  },
-  "UC8I6YKslhlqun3nTucyWnZQ": {
-   "area": "DEV",
-   "source": "search:mata rani bhajan",
-   "title": "Shahnaaz Akhtar",
-   "subs": 4510000,
-   "videos": 600,
-   "uploads": "UU8I6YKslhlqun3nTucyWnZQ"
   },
   "UCI73Nu5_853_lE48OHCNewQ": {
    "area": "DEV",
    "source": "search:aarti",
    "title": "TrainFun Tv",
    "subs": 3900000,
-   "videos": 423,
+   "videos": 424,
    "uploads": "UUI73Nu5_853_lE48OHCNewQ"
+  },
+  "UC7G7sF9ExNFfYpRg1b6byiQ": {
+   "area": "DEV",
+   "source": "search:bhajan",
+   "title": "Riya Rhymes",
+   "subs": 3720000,
+   "videos": 760,
+   "uploads": "UU7G7sF9ExNFfYpRg1b6byiQ"
   },
   "UCn9WB2Eb1QRSYkFxuPQHkxg": {
    "area": "DEV",
    "source": "search:hanuman chalisa",
    "title": "Times Music Spiritual",
    "subs": 3550000,
-   "videos": 8430,
+   "videos": 8431,
    "uploads": "UUn9WB2Eb1QRSYkFxuPQHkxg"
+  },
+  "UCt778BC2auomivBkbGwGqmQ": {
+   "area": "DEV",
+   "source": "search:aarti",
+   "title": "Kamyavi Soni 🧿",
+   "subs": 3040000,
+   "videos": 556,
+   "uploads": "UUt778BC2auomivBkbGwGqmQ"
   },
   "UCgws5gnS9EFS1DC6eeLN47w": {
    "area": "DEV",
    "source": "search:krishna bhajan",
    "title": "Barsane Ki Bansuri",
    "subs": 1850000,
-   "videos": 1010,
+   "videos": 1011,
    "uploads": "UUgws5gnS9EFS1DC6eeLN47w"
+  },
+  "UC_wiWZDTVN8WuqoV8wLCLTA": {
+   "area": "DEV",
+   "source": "search:khatu shyam bhajan",
+   "title": "Kishan Bhagat",
+   "subs": 1550000,
+   "videos": 90,
+   "uploads": "UU_wiWZDTVN8WuqoV8wLCLTA"
   },
   "UCWXHJY1W-MGeJuuR4iHRNQA": {
    "area": "DEV",
@@ -193,14 +217,14 @@
    "source": "search:aarti",
    "title": "Buzzzooka Spotlight",
    "subs": 999000,
-   "videos": 38603,
+   "videos": 38642,
    "uploads": "UUcNSJyL9hKoLfGj5V7LGHhQ"
   },
   "UCJ41g194IJkoK-uZXAn0iEQ": {
    "area": "DEV",
    "source": "search:hanuman chalisa",
    "title": "Divy Aradhna Bhakti",
-   "subs": 799000,
+   "subs": 800000,
    "videos": 532,
    "uploads": "UUJ41g194IJkoK-uZXAn0iEQ"
   },
@@ -216,8 +240,8 @@
    "area": "DEV",
    "source": "search:aarti",
    "title": "NAVEEN ZONE 94",
-   "subs": 748000,
-   "videos": 325,
+   "subs": 749000,
+   "videos": 326,
    "uploads": "UUUj72ZX4pmF1-MYO-a9Wscg"
   },
   "UC3aUW89zc3A12CLqVQ42oVQ": {
@@ -225,7 +249,7 @@
    "source": "search:ram bhajan",
    "title": "DeeJay Hemant Raj",
    "subs": 600000,
-   "videos": 995,
+   "videos": 996,
    "uploads": "UU3aUW89zc3A12CLqVQ42oVQ"
   },
   "UCw-YgNoYlQQGYUtT0BigY9w": {
@@ -233,24 +257,24 @@
    "source": "search:bhajan",
    "title": "Sangeet Mithas Digital",
    "subs": 591000,
-   "videos": 1287,
+   "videos": 1288,
    "uploads": "UUw-YgNoYlQQGYUtT0BigY9w"
   },
   "UCvuZ5rVMQVlsb9J-VxsdhDg": {
    "area": "DEV",
-   "source": "search:bhajan",
+   "source": "search:aarti",
    "title": "Shemaroo Kids Gujarati",
-   "subs": 543000,
+   "subs": 544000,
    "videos": 730,
    "uploads": "UUvuZ5rVMQVlsb9J-VxsdhDg"
   },
-  "UC8S5jdKOYi0pO952lLB9kmw": {
+  "UCidz1wI2zv2Ts1YDoafpnTQ": {
    "area": "DEV",
-   "source": "search:aarti",
-   "title": "Lalbaugcha Raja",
-   "subs": 536000,
-   "videos": 1249,
-   "uploads": "UU8S5jdKOYi0pO952lLB9kmw"
+   "source": "search:khatu shyam bhajan",
+   "title": "Top Saawariya Bhajan",
+   "subs": 537000,
+   "videos": 379,
+   "uploads": "UUidz1wI2zv2Ts1YDoafpnTQ"
   },
   "UCNqQvAlf1ON_4rSXcF9zJ9g": {
    "area": "DEV",
@@ -260,6 +284,14 @@
    "videos": 104,
    "uploads": "UUNqQvAlf1ON_4rSXcF9zJ9g"
   },
+  "UC6XakxX_iLvCeXRVt87N7Kw": {
+   "area": "DEV",
+   "source": "search:krishna bhajan",
+   "title": "Spiritual Bhakti",
+   "subs": 518000,
+   "videos": 331,
+   "uploads": "UU6XakxX_iLvCeXRVt87N7Kw"
+  },
   "UCAUtk4BxTPZ1rqjclsLlIYw": {
    "area": "DEV",
    "source": "search:ram bhajan",
@@ -268,17 +300,9 @@
    "videos": 683,
    "uploads": "UUAUtk4BxTPZ1rqjclsLlIYw"
   },
-  "UCdS-VUBO--Qf6nrqEf-1zyg": {
-   "area": "DEV",
-   "source": "search:aarti",
-   "title": "joy purkait",
-   "subs": 355000,
-   "videos": 166,
-   "uploads": "UUdS-VUBO--Qf6nrqEf-1zyg"
-  },
   "UCmm115r_kV2j4lT4m9CMN1A": {
    "area": "DEV",
-   "source": "search:krishna bhajan",
+   "source": "search:bhajan",
    "title": "Bhakti Fever",
    "subs": 349000,
    "videos": 360,
@@ -294,7 +318,7 @@
   },
   "UCrSpC3M_-_etYjQ1zB7ajfw": {
    "area": "DEV",
-   "source": "search:krishna bhajan",
+   "source": "search:bhajan",
    "title": "Jai Jai TV",
    "subs": 304000,
    "videos": 520,
@@ -304,48 +328,32 @@
    "area": "DEV",
    "source": "search:mata rani bhajan",
    "title": "Dance in Devotion",
-   "subs": 302000,
-   "videos": 2214,
+   "subs": 303000,
+   "videos": 2218,
    "uploads": "UUQqRVtxNMbn4YfR1DUa2uQw"
   },
   "UCmhmu-R3XLAMcGrUU4n2dNA": {
    "area": "DEV",
    "source": "search:aarti",
    "title": "Raju Bsk Fantasy ",
-   "subs": 299000,
-   "videos": 141,
+   "subs": 300000,
+   "videos": 142,
    "uploads": "UUmhmu-R3XLAMcGrUU4n2dNA"
   },
-  "UC8H_hM6S3QlIaeI-zI4lurA": {
+  "UChjf4OVmCr8x3g0ukUejMoA": {
    "area": "DEV",
-   "source": "search:bhajan",
-   "title": "Ganga Devotional",
-   "subs": 294000,
-   "videos": 1093,
-   "uploads": "UU8H_hM6S3QlIaeI-zI4lurA"
-  },
-  "UC8Bnwgb3PDENX5OVkae4zzQ": {
-   "area": "DEV",
-   "source": "search:khatu shyam bhajan",
-   "title": "TORANDWAR BHAKTI",
-   "subs": 288000,
-   "videos": 761,
-   "uploads": "UU8Bnwgb3PDENX5OVkae4zzQ"
-  },
-  "UCPqchkTlVcxeNxZiDehWGIQ": {
-   "area": "DEV",
-   "source": "search:bhajan",
-   "title": "Swag style",
-   "subs": 284000,
-   "videos": 154,
-   "uploads": "UUPqchkTlVcxeNxZiDehWGIQ"
+   "source": "search:mata rani bhajan",
+   "title": "Feroz Khan",
+   "subs": 293000,
+   "videos": 70,
+   "uploads": "UUhjf4OVmCr8x3g0ukUejMoA"
   },
   "UCiOAt3glUB-WrLM6ZGAM89g": {
    "area": "DEV",
    "source": "search:bhajan",
    "title": "Madhu Dixit Bhajans",
    "subs": 284000,
-   "videos": 3600,
+   "videos": 3602,
    "uploads": "UUiOAt3glUB-WrLM6ZGAM89g"
   },
   "UCvpnUPCzdD3BARf1yhEb2hQ": {
@@ -353,7 +361,7 @@
    "source": "search:hanuman chalisa",
    "title": "🧿जय अंजनी के लाल🧿",
    "subs": 266000,
-   "videos": 5704,
+   "videos": 5707,
    "uploads": "UUvpnUPCzdD3BARf1yhEb2hQ"
   },
   "UCr2eCSgqY8eYgiZAZQzv4tA": {
@@ -368,15 +376,23 @@
    "area": "DEV",
    "source": "search:khatu shyam bhajan",
    "title": "Annu Bhajan HD",
-   "subs": 244000,
-   "videos": 3998,
+   "subs": 245000,
+   "videos": 4002,
    "uploads": "UUlBordOvhdSGVbTv7Syf2Kw"
+  },
+  "UC7F4yDqkyZ_o2Rse2zPvWHg": {
+   "area": "DEV",
+   "source": "search:krishna bhajan",
+   "title": "SIRF FACTS 0.2",
+   "subs": 240000,
+   "videos": 188,
+   "uploads": "UU7F4yDqkyZ_o2Rse2zPvWHg"
   },
   "UCVkQbxt0EqlWrgb39XkwZUQ": {
    "area": "DEV",
    "source": "search:shiv bhajan",
    "title": "Keertan Bliss",
-   "subs": 232000,
+   "subs": 233000,
    "videos": 328,
    "uploads": "UUVkQbxt0EqlWrgb39XkwZUQ"
   },
@@ -385,14 +401,22 @@
    "source": "search:shiv bhajan",
    "title": "Bhajan Mala Bhakti",
    "subs": 227000,
-   "videos": 832,
+   "videos": 833,
    "uploads": "UUlRGLeuPLG-N73SL0HkBOkg"
+  },
+  "UCon_13LYJYj5wqdo1LGWQ3Q": {
+   "area": "DEV",
+   "source": "search:shiv bhajan",
+   "title": "Sunita lok geet official",
+   "subs": 217000,
+   "videos": 5090,
+   "uploads": "UUon_13LYJYj5wqdo1LGWQ3Q"
   },
   "UCKtOheiQdJB8cZadGtf-PLQ": {
    "area": "DEV",
    "source": "search:mata rani bhajan",
    "title": "Abhimayu kumar ",
-   "subs": 210000,
+   "subs": 213000,
    "videos": 167,
    "uploads": "UUKtOheiQdJB8cZadGtf-PLQ"
   },
@@ -416,24 +440,16 @@
    "area": "DEV",
    "source": "search:bhajan",
    "title": "BUNDELI DUNIYA",
-   "subs": 194000,
-   "videos": 1596,
+   "subs": 197000,
+   "videos": 1599,
    "uploads": "UUt_XoSLuVusyNAvSjrFWBow"
-  },
-  "UChSRNbjE8RqcaarKbuuNAng": {
-   "area": "DEV",
-   "source": "search:mata rani bhajan",
-   "title": "Darshan Farswan Official",
-   "subs": 193000,
-   "videos": 44,
-   "uploads": "UUhSRNbjE8RqcaarKbuuNAng"
   },
   "UCc8RQJ9HZAy6tOhQbnOTXJg": {
    "area": "DEV",
    "source": "search:aarti",
    "title": "Enjoy Life Care",
    "subs": 180000,
-   "videos": 1281,
+   "videos": 1285,
    "uploads": "UUc8RQJ9HZAy6tOhQbnOTXJg"
   },
   "UCvm04N0iL8JTDGyr6_9ZHiw": {
@@ -441,40 +457,32 @@
    "source": "search:khatu shyam bhajan",
    "title": "Shining with Harman",
    "subs": 173000,
-   "videos": 1969,
+   "videos": 1970,
    "uploads": "UUvm04N0iL8JTDGyr6_9ZHiw"
-  },
-  "UCoJL5kE0aDF2gp-tKI0n7Wg": {
-   "area": "DEV",
-   "source": "search:bhajan",
-   "title": "MrinmayMS",
-   "subs": 169000,
-   "videos": 88,
-   "uploads": "UUoJL5kE0aDF2gp-tKI0n7Wg"
   },
   "UCDUtypnATozNE48Sv_zEk0A": {
    "area": "DEV",
    "source": "search:aarti",
    "title": "Kashi Archan Foundation",
-   "subs": 169000,
-   "videos": 218,
+   "subs": 170000,
+   "videos": 219,
    "uploads": "UUDUtypnATozNE48Sv_zEk0A"
-  },
-  "UCi4Nq9un6djYPLLq92A8EDw": {
-   "area": "DEV",
-   "source": "search:krishna bhajan",
-   "title": "Jolly Toons Nursery Rhymes & Kids Songs",
-   "subs": 169000,
-   "videos": 417,
-   "uploads": "UUi4Nq9un6djYPLLq92A8EDw"
   },
   "UCNO_fCgHy_Og-3ErSJ17H-w": {
    "area": "DEV",
-   "source": "search:bhajan",
+   "source": "search:shiv bhajan",
    "title": "Gyanjyoti Bhakti ",
    "subs": 168000,
    "videos": 216,
    "uploads": "UUNO_fCgHy_Og-3ErSJ17H-w"
+  },
+  "UCtJe0RYzgPddQXKtWduxz_w": {
+   "area": "DEV",
+   "source": "search:ram bhajan",
+   "title": "A. R. Rahman - Topic",
+   "subs": 167000,
+   "videos": 4157,
+   "uploads": "UUtJe0RYzgPddQXKtWduxz_w"
   },
   "UCxp652ViUzgRLKcj8_O7vxQ": {
    "area": "DEV",
@@ -492,20 +500,12 @@
    "videos": 311,
    "uploads": "UUvnfeTM5hEdgbfmZbhlkOhg"
   },
-  "UC-41xhhdqlpDqqh21jDLZQg": {
-   "area": "DEV",
-   "source": "search:mata rani bhajan",
-   "title": "DJ LNS",
-   "subs": 146000,
-   "videos": 112,
-   "uploads": "UU-41xhhdqlpDqqh21jDLZQg"
-  },
   "UCDXwbpMMtcq0s1AdDmv56CQ": {
    "area": "DEV",
    "source": "search:hanuman chalisa",
    "title": "Bollywood Song Hinde",
-   "subs": 142000,
-   "videos": 2122,
+   "subs": 145000,
+   "videos": 2155,
    "uploads": "UUDXwbpMMtcq0s1AdDmv56CQ"
   },
   "UCT_Ht6Bl0eGVmPVu7pqWtuw": {
@@ -513,80 +513,80 @@
    "source": "search:bhajan",
    "title": "KDM Digital Bhajan",
    "subs": 141000,
-   "videos": 505,
+   "videos": 511,
    "uploads": "UUT_Ht6Bl0eGVmPVu7pqWtuw"
   },
   "UC2Soas1gxPHvz1X1k7CTs6Q": {
    "area": "DEV",
    "source": "search:khatu shyam bhajan",
    "title": "Respect zone 111+",
-   "subs": 136000,
-   "videos": 178,
+   "subs": 141000,
+   "videos": 183,
    "uploads": "UU2Soas1gxPHvz1X1k7CTs6Q"
+  },
+  "UCM1_4dVQHjMmWCmzlnvTFrg": {
+   "area": "DEV",
+   "source": "search:aarti",
+   "title": "SantoshBhaktiSagar-x9n",
+   "subs": 130000,
+   "videos": 683,
+   "uploads": "UUM1_4dVQHjMmWCmzlnvTFrg"
   },
   "UCW7BstkHlZdoDxLtPAm9log": {
    "area": "DEV",
    "source": "search:bhajan",
    "title": "Vk Bhakti Geet",
    "subs": 129000,
-   "videos": 500,
+   "videos": 508,
    "uploads": "UUW7BstkHlZdoDxLtPAm9log"
-  },
-  "UCM1_4dVQHjMmWCmzlnvTFrg": {
-   "area": "DEV",
-   "source": "search:aarti",
-   "title": "SantoshBhaktiSagar-x9n",
-   "subs": 129000,
-   "videos": 680,
-   "uploads": "UUM1_4dVQHjMmWCmzlnvTFrg"
   },
   "UCW_v8OtZkAfhqOzSuecQ2eQ": {
    "area": "DEV",
    "source": "search:krishna bhajan",
    "title": "Rachna Jha Official ",
-   "subs": 126000,
-   "videos": 1353,
+   "subs": 127000,
+   "videos": 1360,
    "uploads": "UUW_v8OtZkAfhqOzSuecQ2eQ"
+  },
+  "UCZba2Rtc70wG1XmpOwoMMUA": {
+   "area": "DEV",
+   "source": "search:krishna bhajan",
+   "title": "Susheel9236facts_",
+   "subs": 126000,
+   "videos": 400,
+   "uploads": "UUZba2Rtc70wG1XmpOwoMMUA"
   },
   "UC5KcMQvkA-wz7yf5mgitfwQ": {
    "area": "DEV",
    "source": "search:mata rani bhajan",
    "title": "swati maurya",
-   "subs": 119000,
+   "subs": 120000,
    "videos": 43,
    "uploads": "UU5KcMQvkA-wz7yf5mgitfwQ"
   },
   "UC68SAaHW_0uJ32KZfLRC3vw": {
    "area": "DEV",
-   "source": "search:bhajan",
+   "source": "search:krishna bhajan",
    "title": "Lokdhun Spiritual ",
    "subs": 114000,
-   "videos": 1134,
+   "videos": 1135,
    "uploads": "UU68SAaHW_0uJ32KZfLRC3vw"
   },
-  "UCYRL6B9LJi80jP2AvBNwXaA": {
+  "UCxSQ0-2ZLB10zU1mb11ZbzQ": {
    "area": "DEV",
-   "source": "search:bhajan",
-   "title": "THE HK INDIA ",
-   "subs": 107000,
-   "videos": 1272,
-   "uploads": "UUYRL6B9LJi80jP2AvBNwXaA"
+   "source": "search:khatu shyam bhajan",
+   "title": "Kanak Music",
+   "subs": 112000,
+   "videos": 345,
+   "uploads": "UUxSQ0-2ZLB10zU1mb11ZbzQ"
   },
   "UCnZnnyR5iennfeJZSt00JuA": {
    "area": "DEV",
    "source": "search:khatu shyam bhajan",
    "title": "khatu shayam manona dham",
-   "subs": 107000,
-   "videos": 326,
+   "subs": 109000,
+   "videos": 327,
    "uploads": "UUnZnnyR5iennfeJZSt00JuA"
-  },
-  "UC_5g9peHsRJFU_LfKXaHQbg": {
-   "area": "DEV",
-   "source": "search:shiv bhajan",
-   "title": "Bhajan Diary",
-   "subs": 106000,
-   "videos": 357,
-   "uploads": "UU_5g9peHsRJFU_LfKXaHQbg"
   },
   "UCBnZ16ahKA2DZ_T5W0FPUXg": {
    "area": "KID",
@@ -611,7 +611,7 @@
    "source": "manual",
    "handle": "@InfobellsHindi",
    "title": "Azan ke vlogs",
-   "subs": 4,
+   "subs": 5,
    "videos": 0,
    "uploads": "UU7bKRDg9f6WTQgNNr62tlRA"
   },
@@ -620,7 +620,7 @@
    "source": "search:kids learning videos hindi",
    "title": "Vlad and Niki",
    "subs": 151000000,
-   "videos": 1056,
+   "videos": 1059,
    "uploads": "UUvlE5gTbOvjiolFlEm-c_Ow"
   },
   "UCJplp5SjeGSdVdwsfb9Q7lQ": {
@@ -636,7 +636,7 @@
    "source": "search:bal geet",
    "title": "Infobells - Hindi",
    "subs": 72800000,
-   "videos": 1008,
+   "videos": 1009,
    "uploads": "UU1ciY6kR3yj3kaKZ6R7ewAg"
   },
   "UC4NALVCmcmL5ntpV0thoH6w": {
@@ -668,7 +668,7 @@
    "source": "search:nursery rhymes hindi",
    "title": "ZappyToons - Hindi Nursery Rhymes and Stories",
    "subs": 33600000,
-   "videos": 1034,
+   "videos": 1035,
    "uploads": "UUcryiZdagSR9M-Oii_Y4OfQ"
   },
   "UCLbyJSPEe2lx3jY-G0CFR3g": {
@@ -676,7 +676,7 @@
    "source": "search:kids learning videos hindi",
    "title": "VaniMani",
    "subs": 32900000,
-   "videos": 1860,
+   "videos": 1861,
    "uploads": "UULbyJSPEe2lx3jY-G0CFR3g"
   },
   "UC5ma-WCc8jNCV0WyRnfbHTg": {
@@ -692,7 +692,7 @@
    "source": "search:kids learning videos hindi",
    "title": "BabyBillion",
    "subs": 22200000,
-   "videos": 1047,
+   "videos": 1048,
    "uploads": "UUNG1X6SGHtlCtKtMKbg_ZpA"
   },
   "UCVi_GtP-1stDmhPuWCCQ5KA": {
@@ -700,23 +700,15 @@
    "source": "search:kids learning videos hindi",
    "title": "Eli Kids - Cartoons & Songs",
    "subs": 20500000,
-   "videos": 1303,
+   "videos": 1304,
    "uploads": "UUVi_GtP-1stDmhPuWCCQ5KA"
-  },
-  "UC5H9MzrMkJ5iuN11vV2PLhA": {
-   "area": "KID",
-   "source": "search:hindi varnamala",
-   "title": "Rojgar with Ankit",
-   "subs": 19700000,
-   "videos": 36082,
-   "uploads": "UU5H9MzrMkJ5iuN11vV2PLhA"
   },
   "UCepBxbSrGZkgjgGJuY04c-Q": {
    "area": "KID",
    "source": "search:cartoon kahani hindi",
    "title": "Professor Of How",
    "subs": 15800000,
-   "videos": 611,
+   "videos": 612,
    "uploads": "UUepBxbSrGZkgjgGJuY04c-Q"
   },
   "UCaYWUAgBX49rvWdt4OW1SNg": {
@@ -724,7 +716,7 @@
    "source": "search:nursery rhymes hindi",
    "title": "Ding Dong Bells",
    "subs": 9160000,
-   "videos": 598,
+   "videos": 599,
    "uploads": "UUaYWUAgBX49rvWdt4OW1SNg"
   },
   "UCfWkV0bCY3ZNguxtk4eP3ag": {
@@ -732,7 +724,7 @@
    "source": "search:nursery rhymes hindi",
    "title": "Zappy Zoo",
    "subs": 7440000,
-   "videos": 578,
+   "videos": 579,
    "uploads": "UUfWkV0bCY3ZNguxtk4eP3ag"
   },
   "UCG5EDwLe-x4ZDhxTVy0hpRQ": {
@@ -740,7 +732,7 @@
    "source": "search:hindi varnamala",
    "title": "ChunChun TV",
    "subs": 7030000,
-   "videos": 8081,
+   "videos": 8084,
    "uploads": "UUG5EDwLe-x4ZDhxTVy0hpRQ"
   },
   "UCz67TNWBqU38S8VRvjDO2wg": {
@@ -756,7 +748,7 @@
    "source": "search:cartoon kahani hindi",
    "title": "Yellow Helmet",
    "subs": 4510000,
-   "videos": 929,
+   "videos": 930,
    "uploads": "UUMpA2I9-FMlgoyo3kkCXg9A"
   },
   "UCxF1KQ8QKeNmKqMG-BUyTkg": {
@@ -796,8 +788,16 @@
    "source": "search:kids learning videos hindi",
    "title": "Study K Videos",
    "subs": 2620000,
-   "videos": 939,
+   "videos": 940,
    "uploads": "UU2HyanUUwXGFRMfR7qydyqw"
+  },
+  "UCRlkZIZ7NFXQ2o93iBLAO7Q": {
+   "area": "KID",
+   "source": "search:cartoon kahani hindi",
+   "title": "Zh Toonz",
+   "subs": 2590000,
+   "videos": 2344,
+   "uploads": "UURlkZIZ7NFXQ2o93iBLAO7Q"
   },
   "UCt0YfPvcx9yuUl4C0wOp5CQ": {
    "area": "KID",
@@ -812,23 +812,15 @@
    "source": "search:kids learning videos hindi",
    "title": "WATRstar - The learning hub",
    "subs": 2210000,
-   "videos": 464,
+   "videos": 465,
    "uploads": "UUYIJ4sWyxQEbWwsGKb9gIpg"
-  },
-  "UCfoXnBwIziztUFvGsx_AxTg": {
-   "area": "KID",
-   "source": "search:hindi varnamala",
-   "title": "ABC Kiddie Rhymes",
-   "subs": 2080000,
-   "videos": 267,
-   "uploads": "UUfoXnBwIziztUFvGsx_AxTg"
   },
   "UC-sj1v3LgczXhz6ExdDpjEg": {
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "ABS kids TV",
    "subs": 1970000,
-   "videos": 2883,
+   "videos": 2884,
    "uploads": "UU-sj1v3LgczXhz6ExdDpjEg"
   },
   "UCAH_yo5TltlS2VGcUfyKTIA": {
@@ -843,7 +835,7 @@
    "area": "KID",
    "source": "search:bal geet",
    "title": "Doctora Sophia Español",
-   "subs": 1450000,
+   "subs": 1470000,
    "videos": 261,
    "uploads": "UUVTZ2187GM-shv3cvqvmJ0g"
   },
@@ -851,7 +843,7 @@
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "Bacha Bola - Kids Songs And Nursery Rhymes",
-   "subs": 1370000,
+   "subs": 1380000,
    "videos": 3094,
    "uploads": "UUgFwxpTm34eRwkLMck2CgXQ"
   },
@@ -868,16 +860,8 @@
    "source": "search:hindi kahani bachon ki",
    "title": "Magic Land Hindi",
    "subs": 1190000,
-   "videos": 1010,
+   "videos": 1011,
    "uploads": "UUDgUU7o5mVnpL-A5BGU_5Bw"
-  },
-  "UCHCl8ZtXh213Jp9Lmpzg_6w": {
-   "area": "KID",
-   "source": "search:kids learning videos hindi",
-   "title": "Anaya Rhymes",
-   "subs": 1170000,
-   "videos": 587,
-   "uploads": "UUHCl8ZtXh213Jp9Lmpzg_6w"
   },
   "UCGfouVdf2zy2HU2IOoXSEIw": {
    "area": "KID",
@@ -892,7 +876,7 @@
    "source": "search:nursery rhymes hindi",
    "title": "Monal Kids Hindi Nursery Rhymes and Stories",
    "subs": 1090000,
-   "videos": 191,
+   "videos": 192,
    "uploads": "UUk9ImujjbROTJ_88xHuL29g"
   },
   "UChngkPfSWeOX9DtmMHfAGoA": {
@@ -900,7 +884,7 @@
    "source": "search:cartoon kahani hindi",
    "title": "ABUNDANCE SAAS BAHU TV",
    "subs": 993000,
-   "videos": 705,
+   "videos": 706,
    "uploads": "UUhngkPfSWeOX9DtmMHfAGoA"
   },
   "UC2s3EbaJt5wkXJmpCbQnlGw": {
@@ -915,15 +899,15 @@
    "area": "KID",
    "source": "search:hindi kahani bachon ki",
    "title": "Monu world",
-   "subs": 963000,
-   "videos": 156,
+   "subs": 971000,
+   "videos": 157,
    "uploads": "UUXyya9eoCi5HsaElZymy97A"
   },
   "UC_mYRZNO1Y87dhS2xzBRsPg": {
    "area": "KID",
    "source": "search:cartoon kahani hindi",
    "title": "The Enderman Official",
-   "subs": 907000,
+   "subs": 908000,
    "videos": 41,
    "uploads": "UU_mYRZNO1Y87dhS2xzBRsPg"
   },
@@ -939,7 +923,7 @@
    "area": "KID",
    "source": "search:cartoon kahani hindi",
    "title": "Chichu Tv Bird",
-   "subs": 773000,
+   "subs": 774000,
    "videos": 93,
    "uploads": "UUW0cTGVWyoKOig_SDZaa2iQ"
   },
@@ -947,15 +931,15 @@
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "Sam TV",
-   "subs": 757000,
-   "videos": 351,
+   "subs": 758000,
+   "videos": 352,
    "uploads": "UUEEOBptlpa3WLiaAFmt6eAQ"
   },
   "UCMf9h-8uCDQCPvackomN9QA": {
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "Aayu Rhymes",
-   "subs": 741000,
+   "subs": 742000,
    "videos": 524,
    "uploads": "UUMf9h-8uCDQCPvackomN9QA"
   },
@@ -963,7 +947,7 @@
    "area": "KID",
    "source": "search:cartoon kahani hindi",
    "title": "Spicy SAS BAHU Stories",
-   "subs": 698000,
+   "subs": 699000,
    "videos": 778,
    "uploads": "UUn9jy4bTc1v6PbSWE8KknoQ"
   },
@@ -972,7 +956,7 @@
    "source": "search:hindi varnamala",
    "title": "AP Education",
    "subs": 614000,
-   "videos": 947,
+   "videos": 949,
    "uploads": "UUaJTauZi8bVyup7gv2brt6g"
   },
   "UCkUZjk3At10whRu6HDpLDCw": {
@@ -987,7 +971,7 @@
    "area": "KID",
    "source": "search:kids learning videos hindi",
    "title": "Ashu Kids Academy",
-   "subs": 499000,
+   "subs": 500000,
    "videos": 71,
    "uploads": "UURHzBEkR0bsiJ7t8xxvCG9w"
   },
@@ -1003,7 +987,7 @@
    "area": "KID",
    "source": "search:bal geet",
    "title": "Kids Study Park",
-   "subs": 449000,
+   "subs": 450000,
    "videos": 842,
    "uploads": "UUslloTIJEi9RGxfn_L_A72g"
   },
@@ -1014,14 +998,6 @@
    "subs": 408000,
    "videos": 419,
    "uploads": "UUT2g5lCTG4DCv-bWmpmqNiw"
-  },
-  "UCgCR5ea8B9lAEVJs-a-ADfQ": {
-   "area": "KID",
-   "source": "search:hindi varnamala",
-   "title": "gunmun TV",
-   "subs": 397000,
-   "videos": 1648,
-   "uploads": "UUgCR5ea8B9lAEVJs-a-ADfQ"
   },
   "UCvh8w4cH8s4wCh1Tg04NFyg": {
    "area": "KID",
@@ -1051,8 +1027,8 @@
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "RooRoo Monkey Songs",
-   "subs": 330000,
-   "videos": 64,
+   "subs": 333000,
+   "videos": 65,
    "uploads": "UUp9D6wTRIGkqZTUYVUrd0Gw"
   },
   "UCnSyQMKvE9NZxjz0R1Cn80g": {
@@ -1060,31 +1036,31 @@
    "source": "search:hindi varnamala",
    "title": "Akanksha kids Tv ",
    "subs": 330000,
-   "videos": 2581,
+   "videos": 2585,
    "uploads": "UUnSyQMKvE9NZxjz0R1Cn80g"
+  },
+  "UCaVa5OT59uyVmQ2DH5LFM3Q": {
+   "area": "KID",
+   "source": "search:hindi varnamala",
+   "title": "Easy Learn",
+   "subs": 302000,
+   "videos": 2426,
+   "uploads": "UUaVa5OT59uyVmQ2DH5LFM3Q"
   },
   "UCFzvlZIWjzul0jcMij0i3FQ": {
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "Gulabo Kids Rhymess",
-   "subs": 250000,
-   "videos": 533,
+   "subs": 251000,
+   "videos": 534,
    "uploads": "UUFzvlZIWjzul0jcMij0i3FQ"
-  },
-  "UCAQEgW0aB_b73XiA8GddSAw": {
-   "area": "KID",
-   "source": "search:hindi kahani bachon ki",
-   "title": "Dream World",
-   "subs": 240000,
-   "videos": 59,
-   "uploads": "UUAQEgW0aB_b73XiA8GddSAw"
   },
   "UCEZzT2Bm2NhGT6OPctowz7A": {
    "area": "KID",
    "source": "search:hindi kahani bachon ki",
    "title": "शॉर्ट फिल्म इंडिया",
    "subs": 217000,
-   "videos": 369,
+   "videos": 371,
    "uploads": "UUEZzT2Bm2NhGT6OPctowz7A"
   },
   "UC6s8A2xeiOPlhWEEAQbKv2w": {
@@ -1095,19 +1071,27 @@
    "videos": 162,
    "uploads": "UU6s8A2xeiOPlhWEEAQbKv2w"
   },
+  "UCi4Nq9un6djYPLLq92A8EDw": {
+   "area": "KID",
+   "source": "search:bal geet",
+   "title": "Jolly Toons Nursery Rhymes & Kids Songs",
+   "subs": 169000,
+   "videos": 417,
+   "uploads": "UUi4Nq9un6djYPLLq92A8EDw"
+  },
   "UC6ovvEsCBBGT_sdmLIpmFqA": {
    "area": "KID",
    "source": "search:nursery rhymes hindi",
    "title": "Bumble Berry Kids TV ",
    "subs": 138000,
-   "videos": 255,
+   "videos": 256,
    "uploads": "UU6ovvEsCBBGT_sdmLIpmFqA"
   },
   "UCKfGfSfq8grBgdbNEzbRGsw": {
    "area": "KID",
-   "source": "search:bal geet",
+   "source": "search:nursery rhymes hindi",
    "title": "Toons Angel Tv",
-   "subs": 130000,
+   "subs": 131000,
    "videos": 287,
    "uploads": "UUKfGfSfq8grBgdbNEzbRGsw"
   },
@@ -1131,8 +1115,8 @@
    "area": "KID",
    "source": "search:cartoon kahani hindi",
    "title": "S.R CREATORS",
-   "subs": 117000,
-   "videos": 81,
+   "subs": 118000,
+   "videos": 82,
    "uploads": "UUL33dYG9bsMdLaD6x-vWc2Q"
   },
   "UClqimvGL_ahYrFzdPfwpDcw": {
@@ -1140,7 +1124,7 @@
    "source": "search:hindi kahani bachon ki",
    "title": "SURAJ STAR KIDS ",
    "subs": 115000,
-   "videos": 107,
+   "videos": 108,
    "uploads": "UUlqimvGL_ahYrFzdPfwpDcw"
   },
   "UCd2la5ui3dB5bj5s62AWyxw": {
@@ -1155,8 +1139,8 @@
    "area": "KID",
    "source": "search:hindi kahani bachon ki",
    "title": "AI cooking ",
-   "subs": 111000,
-   "videos": 33,
+   "subs": 112000,
+   "videos": 34,
    "uploads": "UUWG3mUapQC48FxXmuyiHqjw"
   },
   "UCAbT9ks47_EXOf4MdzA324A": {
@@ -1175,13 +1159,29 @@
    "videos": 552,
    "uploads": "UUHLCZiH9dioUeeGfUtc4OWA"
   },
+  "UCgRCtHdT8u3wTaOPqIXSSMA": {
+   "area": "KID",
+   "source": "search:kids learning videos hindi",
+   "title": "Nitu Learny",
+   "subs": 94900,
+   "videos": 407,
+   "uploads": "UUgRCtHdT8u3wTaOPqIXSSMA"
+  },
+  "UCyu1l_YnEksOADs1i-Vn-Lw": {
+   "area": "KID",
+   "source": "search:cartoon kahani hindi",
+   "title": "Uvaid Creators 07",
+   "subs": 92300,
+   "videos": 112,
+   "uploads": "UUyu1l_YnEksOADs1i-Vn-Lw"
+  },
   "UCOhHO2ICt0ti9KAh-QHvttQ": {
    "area": "TFN",
    "source": "manual",
    "handle": "@TechnicalGuruji",
    "title": "Technical Guruji",
    "subs": 23700000,
-   "videos": 6357,
+   "videos": 6358,
    "uploads": "UUOhHO2ICt0ti9KAh-QHvttQ"
   },
   "UCXUJJNoP1QupwsYIWFXmsZg": {
@@ -1208,7 +1208,7 @@
    "handle": "@warikoo",
    "title": "warikoo",
    "subs": 7150000,
-   "videos": 2507,
+   "videos": 2509,
    "uploads": "UURzYN32xtBf3Yxsx5BvJWJw"
   },
   "UCVOTBwF0vnSxMRIbfSE_K_g": {
@@ -1217,7 +1217,7 @@
    "handle": "@labourlawadvisor",
    "title": "Labour Law Advisor",
    "subs": 5470000,
-   "videos": 2227,
+   "videos": 2228,
    "uploads": "UUVOTBwF0vnSxMRIbfSE_K_g"
   },
   "UCyoXW-Dse7fURq30EWl_CUA": {
@@ -1225,7 +1225,7 @@
    "source": "search:income tax hindi",
    "title": "Goldmines",
    "subs": 110000000,
-   "videos": 14159,
+   "videos": 14164,
    "uploads": "UUyoXW-Dse7fURq30EWl_CUA"
   },
   "UCMgapddJymOC6MBOiOqia1A": {
@@ -1233,7 +1233,7 @@
    "source": "search:mutual fund hindi",
    "title": "आचार्य प्रशान्त - Acharya Prashant",
    "subs": 61000000,
-   "videos": 22485,
+   "videos": 22503,
    "uploads": "UUMgapddJymOC6MBOiOqia1A"
   },
   "UCx8Z14PpntdaxCt2hakbQLQ": {
@@ -1241,7 +1241,7 @@
    "source": "search:tech news hindi",
    "title": "The Lallantop",
    "subs": 35000000,
-   "videos": 89738,
+   "videos": 89772,
    "uploads": "UUx8Z14PpntdaxCt2hakbQLQ"
   },
   "UClQ3NafOy_42dJ0toK3QUKw": {
@@ -1265,7 +1265,7 @@
    "source": "search:income tax hindi",
    "title": "BBC News Hindi",
    "subs": 22000000,
-   "videos": 41226,
+   "videos": 41238,
    "uploads": "UUN7B-QD0Qgn2boVH5Q0pOWg"
   },
   "UCGdPm5Aq081vVD7ih9jZf6Q": {
@@ -1273,7 +1273,7 @@
    "source": "search:tech news hindi",
    "title": "FactTechz",
    "subs": 21600000,
-   "videos": 2666,
+   "videos": 2671,
    "uploads": "UUGdPm5Aq081vVD7ih9jZf6Q"
   },
   "UCzwCEE_PchiBULMnAJqhGVg": {
@@ -1281,7 +1281,7 @@
    "source": "search:personal finance hindi",
    "title": "Raj Shamani",
    "subs": 19600000,
-   "videos": 2567,
+   "videos": 2571,
    "uploads": "UUzwCEE_PchiBULMnAJqhGVg"
   },
   "UC1tVU8H153ZFO9eRsxdJlhA": {
@@ -1289,7 +1289,7 @@
    "source": "search:tech news hindi",
    "title": "Technology Gyan",
    "subs": 16100000,
-   "videos": 1481,
+   "videos": 1482,
    "uploads": "UU1tVU8H153ZFO9eRsxdJlhA"
   },
   "UCEPL07qzVsOcHd3sMUws65g": {
@@ -1297,7 +1297,7 @@
    "source": "search:tech news hindi",
    "title": "Trakin Tech",
    "subs": 15500000,
-   "videos": 4630,
+   "videos": 4631,
    "uploads": "UUEPL07qzVsOcHd3sMUws65g"
   },
   "UCEAAzv2OBqxsSczKJ2QZyGQ": {
@@ -1305,7 +1305,7 @@
    "source": "search:share market hindi",
    "title": "Pushkar Raj Thakur: Stock Market Educator 📈",
    "subs": 15400000,
-   "videos": 2860,
+   "videos": 2866,
    "uploads": "UUEAAzv2OBqxsSczKJ2QZyGQ"
   },
   "UCWFKCr40YwOZQx8FHU_ZqqQ": {
@@ -1313,23 +1313,15 @@
    "source": "search:new smartphone review hindi",
    "title": "JerryRigEverything",
    "subs": 10100000,
-   "videos": 1606,
+   "videos": 1607,
    "uploads": "UUWFKCr40YwOZQx8FHU_ZqqQ"
-  },
-  "UCeVMnSShP_Iviwkknt83cww": {
-   "area": "TFN",
-   "source": "search:ai tools hindi",
-   "title": "CodeWithHarry",
-   "subs": 9970000,
-   "videos": 2483,
-   "uploads": "UUeVMnSShP_Iviwkknt83cww"
   },
   "UCP_wvXToU5ohFLbTAkatvsw": {
    "area": "TFN",
    "source": "search:new smartphone review hindi",
    "title": "Amar Ujala",
    "subs": 9930000,
-   "videos": 163292,
+   "videos": 163354,
    "uploads": "UUP_wvXToU5ohFLbTAkatvsw"
   },
   "UCrkP7L7oieiejXdQHWLqYIg": {
@@ -1345,7 +1337,7 @@
    "source": "search:mutual fund hindi",
    "title": "Switch",
    "subs": 8820000,
-   "videos": 10849,
+   "videos": 10855,
    "uploads": "UUjFKMoAk3qhRkW4eOqNm6dw"
   },
   "UCPgfM-dk3XAb4T3DtT6Nwsw": {
@@ -1353,7 +1345,7 @@
    "source": "search:mutual fund hindi",
    "title": "CA Rahul Malodia",
    "subs": 6960000,
-   "videos": 1465,
+   "videos": 1467,
    "uploads": "UUPgfM-dk3XAb4T3DtT6Nwsw"
   },
   "UCsDTy8jvHcwMvSZf_JGi-FA": {
@@ -1361,7 +1353,7 @@
    "source": "search:personal finance hindi",
    "title": "Abhi and Niyu",
    "subs": 6690000,
-   "videos": 1237,
+   "videos": 1238,
    "uploads": "UUsDTy8jvHcwMvSZf_JGi-FA"
   },
   "UCKZozRVHRYsYHGEyNKuhhdA": {
@@ -1377,7 +1369,7 @@
    "source": "search:personal finance hindi",
    "title": "Zee Business",
    "subs": 6440000,
-   "videos": 189624,
+   "videos": 189740,
    "uploads": "UUkXopQ3ubd-rnXnStZqCl2w"
   },
   "UCQIycDaLsBpMKjOCeaKUYVg": {
@@ -1385,8 +1377,16 @@
    "source": "search:share market hindi",
    "title": "CNBC Awaaz.",
    "subs": 6390000,
-   "videos": 218226,
+   "videos": 218262,
    "uploads": "UUQIycDaLsBpMKjOCeaKUYVg"
+  },
+  "UCZDCqcWZVNyvTSsoc-chKJg": {
+   "area": "TFN",
+   "source": "search:ai tools hindi",
+   "title": "Spreading Gyan",
+   "subs": 5820000,
+   "videos": 448,
+   "uploads": "UUZDCqcWZVNyvTSsoc-chKJg"
   },
   "UCdoDYkupTElV62K7ttA_E4w": {
    "area": "TFN",
@@ -1401,31 +1401,23 @@
    "source": "search:new smartphone review hindi",
    "title": "Next Univerz",
    "subs": 5660000,
-   "videos": 1383,
+   "videos": 1384,
    "uploads": "UUq30pSBD9tX6d5_xT5aNPoA"
-  },
-  "UCrCvnCuOe0zJ5BF88UetbuQ": {
-   "area": "TFN",
-   "source": "search:new smartphone review hindi",
-   "title": "Semyon Rezchikov",
-   "subs": 5610000,
-   "videos": 927,
-   "uploads": "UUrCvnCuOe0zJ5BF88UetbuQ"
   },
   "UCb-xXZ7ltTvrh9C6DgB9H-Q": {
    "area": "TFN",
    "source": "search:tech news hindi",
    "title": "Prasadtechintelugu",
    "subs": 5180000,
-   "videos": 5445,
+   "videos": 5446,
    "uploads": "UUb-xXZ7ltTvrh9C6DgB9H-Q"
   },
   "UCTR1Tk8SaMO9qw930kIOMHQ": {
    "area": "TFN",
    "source": "search:personal finance hindi",
    "title": "Sagar Sinha ",
-   "subs": 5120000,
-   "videos": 742,
+   "subs": 5130000,
+   "videos": 741,
    "uploads": "UUTR1Tk8SaMO9qw930kIOMHQ"
   },
   "UCGaOkbpMXx4j07kxQYpxFDA": {
@@ -1433,7 +1425,7 @@
    "source": "search:income tax hindi",
    "title": "CAPITAL TV",
    "subs": 5010000,
-   "videos": 32305,
+   "videos": 32318,
    "uploads": "UUGaOkbpMXx4j07kxQYpxFDA"
   },
   "UCD3CdwT8lTCe5ZGHbUBxmWA": {
@@ -1441,7 +1433,7 @@
    "source": "search:share market hindi",
    "title": "ET Now Swadesh",
    "subs": 4990000,
-   "videos": 133347,
+   "videos": 133434,
    "uploads": "UUD3CdwT8lTCe5ZGHbUBxmWA"
   },
   "UCLLJt2t6WYpxWktsl1e429Q": {
@@ -1457,7 +1449,7 @@
    "source": "search:ai tools hindi",
    "title": "WsCube Tech",
    "subs": 4480000,
-   "videos": 6124,
+   "videos": 6125,
    "uploads": "UU0T6MVd3wQDB5ICAe45OxaQ"
   },
   "UCtsetVYMkX8iPFS2oUOcXEw": {
@@ -1465,7 +1457,7 @@
    "source": "search:income tax hindi",
    "title": "Sarkari DNA",
    "subs": 4290000,
-   "videos": 1884,
+   "videos": 1885,
    "uploads": "UUtsetVYMkX8iPFS2oUOcXEw"
   },
   "UC8vlDm5xvbxOrCvdu9UNOiA": {
@@ -1473,7 +1465,7 @@
    "source": "search:tech news hindi",
    "title": "Techno Ruhez",
    "subs": 4230000,
-   "videos": 5870,
+   "videos": 5872,
    "uploads": "UU8vlDm5xvbxOrCvdu9UNOiA"
   },
   "UCS261lQDXjMvc8Jck-2CQEg": {
@@ -1481,7 +1473,7 @@
    "source": "search:tech news hindi",
    "title": "Gyan Therapy",
    "subs": 4220000,
-   "videos": 1791,
+   "videos": 1792,
    "uploads": "UUS261lQDXjMvc8Jck-2CQEg"
   },
   "UCrYpceU8cvXNSqaiYC-8hJA": {
@@ -1489,23 +1481,31 @@
    "source": "search:income tax hindi",
    "title": "Satya Hindi सत्य हिन्दी",
    "subs": 3780000,
-   "videos": 37995,
+   "videos": 38008,
    "uploads": "UUrYpceU8cvXNSqaiYC-8hJA"
   },
   "UCqtMrF1ZSr5sPX1vgoPIefw": {
    "area": "TFN",
    "source": "search:ai tools hindi",
    "title": "Raj Photo Editing and Much More",
-   "subs": 3620000,
+   "subs": 3630000,
    "videos": 1104,
    "uploads": "UUqtMrF1ZSr5sPX1vgoPIefw"
+  },
+  "UCvpfclapgcuJo0M_x65pfRw": {
+   "area": "TFN",
+   "source": "search:new smartphone review hindi",
+   "title": "Beebom",
+   "subs": 3560000,
+   "videos": 2160,
+   "uploads": "UUvpfclapgcuJo0M_x65pfRw"
   },
   "UCWHCXSKASuSzao_pplQ7SPw": {
    "area": "TFN",
    "source": "search:mutual fund hindi",
    "title": "Anant Ladha",
    "subs": 3110000,
-   "videos": 3735,
+   "videos": 3734,
    "uploads": "UUWHCXSKASuSzao_pplQ7SPw"
   },
   "UCkm0j0CQdElEFtWw7agfOlA": {
@@ -1524,12 +1524,20 @@
    "videos": 1290,
    "uploads": "UUb25kwWi-DQkdWIfi7eGEtw"
   },
+  "UCJsptLfnA0JQUU8Hs0Qqakw": {
+   "area": "TFN",
+   "source": "search:share market hindi",
+   "title": "Umar Punjabi",
+   "subs": 2230000,
+   "videos": 124,
+   "uploads": "UUJsptLfnA0JQUU8Hs0Qqakw"
+  },
   "UCzx33jhpf711MTGGGPano6g": {
    "area": "TFN",
    "source": "search:personal finance hindi",
    "title": "XY- Axis Education",
    "subs": 2190000,
-   "videos": 1745,
+   "videos": 1747,
    "uploads": "UUzx33jhpf711MTGGGPano6g"
   },
   "UCcanCrgSWVYW7ZFNKQZso0g": {
@@ -1537,7 +1545,7 @@
    "source": "search:mutual fund hindi",
    "title": "Abhishek Kar",
    "subs": 2130000,
-   "videos": 1470,
+   "videos": 1471,
    "uploads": "UUcanCrgSWVYW7ZFNKQZso0g"
   },
   "UCdzwwEKa1rfQcPHhk8uIhmw": {
@@ -1545,16 +1553,8 @@
    "source": "search:income tax hindi",
    "title": "aviraj dobriyal",
    "subs": 2120000,
-   "videos": 1151,
+   "videos": 1153,
    "uploads": "UUdzwwEKa1rfQcPHhk8uIhmw"
-  },
-  "UCwDfgcUkKKTxPozU9UnQ8Pw": {
-   "area": "TFN",
-   "source": "search:income tax hindi",
-   "title": "Mrunal Patel Unacademy",
-   "subs": 2110000,
-   "videos": 1349,
-   "uploads": "UUwDfgcUkKKTxPozU9UnQ8Pw"
   },
   "UCHtrI4TzNgpka8t6WGfgbhQ": {
    "area": "TFN",
@@ -1569,7 +1569,7 @@
    "source": "search:tech news hindi",
    "title": "Gupta Information Systems",
    "subs": 1840000,
-   "videos": 1956,
+   "videos": 1957,
    "uploads": "UUqOLFDSLrYKJUuSS0tQqvcw"
   },
   "UCky9S0h7LjbqZQZ1SiuqPKg": {
@@ -1577,15 +1577,23 @@
    "source": "search:income tax hindi",
    "title": "Sainik Welfare News",
    "subs": 1640000,
-   "videos": 3055,
+   "videos": 3056,
    "uploads": "UUky9S0h7LjbqZQZ1SiuqPKg"
+  },
+  "UCltuKUCkE82ojAtPJy9rFQA": {
+   "area": "TFN",
+   "source": "search:tech news hindi",
+   "title": "Venom's Tech",
+   "subs": 1630000,
+   "videos": 1474,
+   "uploads": "UUltuKUCkE82ojAtPJy9rFQA"
   },
   "UCvqttS8EzhRq2YWg03qKRCQ": {
    "area": "TFN",
    "source": "search:mutual fund hindi",
    "title": "Sanjay Kathuria ",
    "subs": 1410000,
-   "videos": 1555,
+   "videos": 1557,
    "uploads": "UUvqttS8EzhRq2YWg03qKRCQ"
   },
   "UCm7xZ9sbqhuARuDDcckh8Jg": {
@@ -1593,7 +1601,7 @@
    "source": "search:personal finance hindi",
    "title": "INDmoney",
    "subs": 1400000,
-   "videos": 2023,
+   "videos": 2024,
    "uploads": "UUm7xZ9sbqhuARuDDcckh8Jg"
   },
   "UCNen1ALOwScHhT6AAO9Dk2g": {
@@ -1601,15 +1609,23 @@
    "source": "search:tech news hindi",
    "title": "South Ke Khiladi",
    "subs": 1310000,
-   "videos": 1034,
+   "videos": 1035,
    "uploads": "UUNen1ALOwScHhT6AAO9Dk2g"
+  },
+  "UCAKzWEGVBuLM1s8i6HwINOQ": {
+   "area": "TFN",
+   "source": "search:ai tools hindi",
+   "title": "Aditya Gautam",
+   "subs": 1200000,
+   "videos": 861,
+   "uploads": "UUAKzWEGVBuLM1s8i6HwINOQ"
   },
   "UCkHwyHnzIZC8BKOAFNalM3g": {
    "area": "TFN",
    "source": "search:income tax hindi",
    "title": "CA Guru Ji",
    "subs": 1170000,
-   "videos": 2834,
+   "videos": 2835,
    "uploads": "UUkHwyHnzIZC8BKOAFNalM3g"
   },
   "UCghwm6uwnvbjyQtZ8Az-Ivg": {
@@ -1628,21 +1644,21 @@
    "videos": 1113,
    "uploads": "UU-RePsOrv62H7p5ZPpo05Vg"
   },
+  "UCwqRacmwxLNuYunk_sI8gIQ": {
+   "area": "TFN",
+   "source": "search:ai tools hindi",
+   "title": "Yt Aman Tech",
+   "subs": 1060000,
+   "videos": 873,
+   "uploads": "UUwqRacmwxLNuYunk_sI8gIQ"
+  },
   "UCSYbjDgZx0au48cvI6RUSAg": {
    "area": "TFN",
    "source": "search:ai tools hindi",
    "title": "Arvind zone",
    "subs": 1060000,
-   "videos": 1619,
+   "videos": 1620,
    "uploads": "UUSYbjDgZx0au48cvI6RUSAg"
-  },
-  "UCwqRacmwxLNuYunk_sI8gIQ": {
-   "area": "TFN",
-   "source": "search:ai tools hindi",
-   "title": "Yt Aman Tech",
-   "subs": 1050000,
-   "videos": 873,
-   "uploads": "UUwqRacmwxLNuYunk_sI8gIQ"
   },
   "UC2MU9phoTYy5sigZCkrvwiw": {
    "area": "TFN",
@@ -1673,14 +1689,14 @@
    "source": "search:income tax hindi",
    "title": "Coffee With Sumeet Jain",
    "subs": 812000,
-   "videos": 5606,
+   "videos": 5610,
    "uploads": "UUcnwa6E4BwDJKeATB6tqmsQ"
   },
   "UC5rlwkY3KorhN8a3t2EtrHw": {
    "area": "TFN",
    "source": "search:income tax hindi",
    "title": "MyOnlineCA",
-   "subs": 777000,
+   "subs": 778000,
    "videos": 1910,
    "uploads": "UU5rlwkY3KorhN8a3t2EtrHw"
   },
@@ -1689,7 +1705,7 @@
    "source": "search:personal finance hindi",
    "title": "UPSC Unstoppables by Unacademy",
    "subs": 753000,
-   "videos": 6619,
+   "videos": 6622,
    "uploads": "UUVOyyXupdtEblFbno_4ibLQ"
   },
   "UC8AhWQSB09yTlNVp6Y4aACw": {
@@ -1700,20 +1716,36 @@
    "videos": 255,
    "uploads": "UU8AhWQSB09yTlNVp6Y4aACw"
   },
+  "UCLKvIYLsQISgd0FTl6OdF0A": {
+   "area": "TFN",
+   "source": "search:ai tools hindi",
+   "title": "Science and Fun Motivation",
+   "subs": 686000,
+   "videos": 174,
+   "uploads": "UULKvIYLsQISgd0FTl6OdF0A"
+  },
+  "UCk0jZcRvAxV7NaKodQzjGIg": {
+   "area": "TFN",
+   "source": "search:personal finance hindi",
+   "title": "Aakash Garg",
+   "subs": 640000,
+   "videos": 537,
+   "uploads": "UUk0jZcRvAxV7NaKodQzjGIg"
+  },
   "UCAqXP_RB9gZFxwKDeBtj8gA": {
    "area": "TFN",
    "source": "search:personal finance hindi",
    "title": "Manveer Singh",
-   "subs": 599000,
-   "videos": 425,
+   "subs": 600000,
+   "videos": 426,
    "uploads": "UUAqXP_RB9gZFxwKDeBtj8gA"
   },
   "UCcO8c5xCPYHQtst3X56ufsQ": {
    "area": "TFN",
    "source": "search:income tax hindi",
    "title": "Applause Entertainment",
-   "subs": 567000,
-   "videos": 2426,
+   "subs": 568000,
+   "videos": 2427,
    "uploads": "UUcO8c5xCPYHQtst3X56ufsQ"
   },
   "UCNGJbo2_p9NhrgnxGZs8Zsw": {
@@ -1721,7 +1753,7 @@
    "source": "search:income tax hindi",
    "title": "CA Sumit Sharma",
    "subs": 551000,
-   "videos": 3143,
+   "videos": 3147,
    "uploads": "UUNGJbo2_p9NhrgnxGZs8Zsw"
   },
   "UCbWW7i7KnwQfqp6HFg1diFw": {
@@ -1729,7 +1761,7 @@
    "source": "search:mutual fund hindi",
    "title": "Mutual Funds with Groww",
    "subs": 524000,
-   "videos": 1810,
+   "videos": 1811,
    "uploads": "UUbWW7i7KnwQfqp6HFg1diFw"
   },
   "UCvgu3umoosQwH-1LJpu-iEQ": {
@@ -1737,48 +1769,16 @@
    "source": "search:income tax hindi",
    "title": "Banking Baba",
    "subs": 498000,
-   "videos": 456,
+   "videos": 455,
    "uploads": "UUvgu3umoosQwH-1LJpu-iEQ"
   },
   "UCCZFE8t-7VXHUBwBY9R9fww": {
    "area": "TFN",
-   "source": "search:ai tools hindi",
+   "source": "search:personal finance hindi",
    "title": "Invisible Gyan",
    "subs": 496000,
-   "videos": 178,
+   "videos": 177,
    "uploads": "UUCZFE8t-7VXHUBwBY9R9fww"
-  },
-  "UC1g3ZGQhS2TlofMl0qhAsJg": {
-   "area": "TFN",
-   "source": "search:income tax hindi",
-   "title": "MySimpleGuide",
-   "subs": 442000,
-   "videos": 867,
-   "uploads": "UU1g3ZGQhS2TlofMl0qhAsJg"
-  },
-  "UCwZ_ilsAreXB4JE-R7P9ctw": {
-   "area": "TFN",
-   "source": "search:mutual fund hindi",
-   "title": "Alak Wealth ",
-   "subs": 441000,
-   "videos": 2370,
-   "uploads": "UUwZ_ilsAreXB4JE-R7P9ctw"
-  },
-  "UCpG4iNQEYH4iVlVpMYvWT8A": {
-   "area": "TFN",
-   "source": "search:personal finance hindi",
-   "title": "Boss Wallah (Hindi)",
-   "subs": 437000,
-   "videos": 2691,
-   "uploads": "UUpG4iNQEYH4iVlVpMYvWT8A"
-  },
-  "UCsBWgLNM3kUfEIH7PUrPCRQ": {
-   "area": "TFN",
-   "source": "search:share market hindi",
-   "title": "Jagran Business",
-   "subs": 433000,
-   "videos": 15070,
-   "uploads": "UUsBWgLNM3kUfEIH7PUrPCRQ"
   }
  }
 }
