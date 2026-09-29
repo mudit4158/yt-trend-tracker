@@ -1,0 +1,1807 @@
+{
+ "date": "2026-09-30",
+ "google_trends": [
+  {
+   "q": "usa vs chile",
+   "traffic": "200+",
+   "news": "Starting XI & Lineup Notes: USMNT vs. Chile"
+  },
+  {
+   "q": "manchester city",
+   "traffic": "200+",
+   "news": "Premier League Statement: Manchester City FC"
+  },
+  {
+   "q": "dots",
+   "traffic": "200+",
+   "news": "Introducing dots"
+  },
+  {
+   "q": "rizwan",
+   "traffic": "100+",
+   "news": "Rizwan asks NCCIA to return phone and specify nature of inquiry"
+  },
+  {
+   "q": "scotland national football team vs switzerland national football team standings",
+   "traffic": "2000+",
+   "news": "Scotland vs Switzerland LIVE: UEFA Nations League TV & radio coverage, updates, stats, reaction & match report"
+  },
+  {
+   "q": "marc pubill",
+   "traffic": "1000+",
+   "news": "Marc Pubill pushes back after unexpected Spain role at Wembley"
+  },
+  {
+   "q": "somalia vs côte d'ivoire",
+   "traffic": "500+",
+   "news": "Somalia vs Ivory Coast: Africa Cup of Nations Qualification stats & head-to-head"
+  },
+  {
+   "q": "spain vs croatia",
+   "traffic": "200000+",
+   "news": "Nations League highlights: Spain 4-1 Croatia"
+  },
+  {
+   "q": "czechia vs england",
+   "traffic": "50000+",
+   "news": "Czech Republic 0-2 England: Anthony Gordon, Harry Kane net to give Three Lions first Nations League win"
+  },
+  {
+   "q": "saudi arabia vs iraq",
+   "traffic": "2000+",
+   "news": "Saudi Arabia with a perfect record: they beat Iraq 2-0 to knock them out of Gulf Cup 27"
+  }
+ ],
+ "x_trends": [
+  {
+   "topic": "दिव्या मित्तल",
+   "rank_now": 10,
+   "hours_trending": 15,
+   "new_today": true
+  },
+  {
+   "topic": "Neeru Dhanda",
+   "rank_now": 13,
+   "hours_trending": 13,
+   "new_today": true
+  },
+  {
+   "topic": "Omega",
+   "rank_now": 7,
+   "hours_trending": 12,
+   "new_today": false
+  },
+  {
+   "topic": "भारतीय सेना",
+   "rank_now": 22,
+   "hours_trending": 12,
+   "new_today": true
+  },
+  {
+   "topic": "7 ICONIC YRS OF SID IN BB",
+   "rank_now": 47,
+   "hours_trending": 12,
+   "new_today": true
+  },
+  {
+   "topic": "Iowa",
+   "rank_now": 32,
+   "hours_trending": 11,
+   "new_today": true
+  },
+  {
+   "topic": "Vithya Ramraj",
+   "rank_now": 21,
+   "hours_trending": 10,
+   "new_today": false
+  },
+  {
+   "topic": "VOTE FOR QAZI ON JIOHOTSTAR",
+   "rank_now": 26,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "YAARON KA YAAR SCOUT",
+   "rank_now": 31,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "Kiran Pahal",
+   "rank_now": 36,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "Mohit Sharma",
+   "rank_now": 45,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "Indian Army",
+   "rank_now": 46,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "#AI_Multibagger_Stock",
+   "rank_now": null,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "AI Development Centres",
+   "rank_now": null,
+   "hours_trending": 10,
+   "new_today": true
+  },
+  {
+   "topic": "Croatia",
+   "rank_now": 29,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "CISF",
+   "rank_now": 44,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "400m Relay",
+   "rank_now": null,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "4x400m",
+   "rank_now": null,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "Himesh Reshammiya",
+   "rank_now": null,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "Maa Ambe",
+   "rank_now": null,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "Congress Working Committee",
+   "rank_now": null,
+   "hours_trending": 9,
+   "new_today": true
+  },
+  {
+   "topic": "200 Cr",
+   "rank_now": null,
+   "hours_trending": 9,
+   "new_today": false
+  },
+  {
+   "topic": "BELIFT END EXTREME SCHEDULING",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "Jai NTR",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "Poovamma Machettira",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "विधान परिषद चुनाव",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "Yogis UP Builds Global",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "54,500 PE",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "77.55 Cr",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "140.22 Cr",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "4.36 Cr",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "78.35 Cr",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": false
+  },
+  {
+   "topic": "Line of Control",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "97.29% YoY",
+   "rank_now": null,
+   "hours_trending": 8,
+   "new_today": true
+  },
+  {
+   "topic": "Dots",
+   "rank_now": 11,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "#Dragon",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "Shivaji Park",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "Spotify",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "LINGORM BA DIOR AT PFW",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "Pradesh 24 Gujarati",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "Mohammed Zubair",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "#ShehzadOnRise",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "दिनेश गोयल",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "Priyanka",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "बेटी नीरू",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "The 54,500",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "#HimalayanSolarIPOFinalDay",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "272.4% YoY",
+   "rank_now": null,
+   "hours_trending": 7,
+   "new_today": true
+  },
+  {
+   "topic": "GPT-6.1 Sol",
+   "rank_now": 16,
+   "hours_trending": 6,
+   "new_today": true
+  },
+  {
+   "topic": "Decisions API",
+   "rank_now": 35,
+   "hours_trending": 6,
+   "new_today": true
+  }
+ ],
+ "headlines": {
+  "DEV": [
+   {
+    "title": "Shri Ram Mandir, Ayodhya, Inauguration Celebrations at BAPS Mandir - BAPS Swaminarayan Sanstha",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2I2bWRZb0pmOWRld0FVanVkZzhkcVlZUXFadjJUbWhDSVN1OFhtT0kzNTh3Q3VTbEdjNGljRTVvRjRNTDU5ODNxemU2Y05kZUhTNzE3cWsxMTZBLV9oN2JocDd5ckpSZnRCbkd2ZVA1UTd3YVdOR1ZFR3RvSTRlU2YzemVfZmREcG5qQ1ZQRmlzU2tVVG53WDBaMkR0eUJmcU1CUUVFNEstQQ?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Uttar Pradesh’s Rich Heritage and Modern Milestones on Display at the Prime Minister Mementos e-Auction 2026 - PIB",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQZTdZZEhWdFhZOFBfS2JyY3BOdnZBanRFMHk5TDNYLTJhOHFsREJvN3lJTVdld0E1eTBYT1RGb3BoTDN4bDh6dW10TEZ4czdPYnFYTzVMTkNhcWxtSnkyQmFyNTBaZjFXRmp2X3R5ZjhTbURaTm9SQUpR?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Tata Vs Tata: The iPhone, Ram Mandir Connection That Could ‘Rescue” Tata Sons - Business Today",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0p5UkFOTTlvM3FGOU5xWnBsOGFTQk9MYUtMdjIyLVBZQUg2eVdRTDBFRDR0SVNwLWVMUVhmdkk5RWRSSnNRdE4tQ2ZXdm1LZ0dwWmhpeXVkblZneVRNM21ZZmhBSGJTa1VVM05wSGdyekFIMl9TSllEX2hQZ0pzb3l0OHdPaUJYMHpEMXB0UXJ4by1VZVlOejJBMHZKNW9icFhPTUY4SUo1ZkNRN3YwTTBOTEdsT2VGMDFGY2pUcUdrUGhrM0ZyczhhbE5wcTdvYTJzcWFsQ1N6QdIB3wFBVV95cUxOMDI4enpyNUpfNTJGNHN5ZzM4ajNiSWM1VzE3TUpuSlN4WjhwakYtbjZneS1COXRYZG9ZWFBhcng1U0dGUW5mMGtiOGFPWTRWTFdveWJBVll3dExxaHNtRHpwUjZqRU16ZWl2NEZNSm1mcEhKSjZuUjRnYlVXMkhiaEhXQ2ZETmoxbFZBQmZ1bHFKNXhFQ2ZhTlpkR2ZyMm1YTGllaGxyMHdGVnpTQ0tzWmZFektCWkU4U0Z4czdydDdlRFExYVRWU1pZdnhIalFYdzg4Rkt3V1F3SVdfbnE4?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "A rescued iPhone factory and engineering consultant for bullet train, Ram Mandir: The companies that may... - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQRzBGZ0tsLXVFRXd4RWxGaTd3WWRuWFZBX3UwbTQzQmVHb3AtZmxzZEc0ZkVDejB6R2FtZ2tGdmxtZzF3d0tpQkdTOTN0MTFZcUROcmVaYUNETUdOaHJraHJoa0NtMW1abHBHRlVBSF9LalBzSi0zblBsZk1oZ3FzR1QzMkpERHNxSURzNW1DbTNmWjVRTHRvNllpaGJpUUhlN3ZfNDVVOTViaWg5SlpYc3ZnVXNfeThQMjd2S3ZxOFBueUV3Vl9ZWnNfZnlzcklYbm53b1g0Y2NhbkxldWkwemNNNFl4eTJ3ZmNtQTJ3bEkyRWNhcFA5bVNnWnFfYlA3NjYwN1RvUXFQVVkyY2lJbEZxckp0Y2Iy0gGeAkFVX3lxTFBpWWotRGdpU1hHV0VlbUhfeF96eUFMUnZlT3ZCUWtMWVVIX0hNVnRWZmxKX0d4YTV1ZDFlc0lCanhnV05VZ2VRMkNtSjBxTFhzQTdQNzZxRmRYOVNQYWU5aW5Pc1pRR0pUTW9TZUMySnJzdDRDbi01RVBoSkpqYkdncEJCMTlDSDZEY3lNLVg0Uml5eFZoOC1ORWs0UFl0VkdFOXNfa0paXzI5Smg2aEotYUhUM0JyS2pKVlVfWTl1VGlNd1daU0g0ZkJMdWxxQzFhTzNwSXhMc01sb2c4b3ZtU0F3RGpsRWhVcUw1NW5aQjIwdVdDcWprc2FDb29tRG1Ra2ZPcFdEOEtFbWNqeC1GOS1CeUg4NnRCRVJUMVE?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "India’s Election Crisis and the Erosion of Public Trust - Frontline Magazine",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY1paTmp0SXA2R1EyUHFsNlczS0JfandPZG9ZQ0ZRVGZWdkd6M0dDdERfZXQ1OGlUUVRfek9qd3RVRDROTmdRUXJRWThBdGNJb2ZZV1NEMzdJVXNoTDRvR2oyZE1Wdko5YzVfb294bVlZZVFqX2NYMEx5VXNYUXNiS0x6OHpwM0VLa3pxTnFscl9nTWZSOEZTeHdTZl8tb2h3aURhSFJ1V2hJa3R3RWhBZHBNOFpETmU5VlIxaTBZZlJrMTgtRGpad0tyd2ZQTUnSAdYBQVVfeXFMTkZuVHhfbVR5RFhYYTIxNWl1M05mSEFpOXJNbHRJZTFaZVBPYmlGSXJvb0VVLWFWUU5ia0J2N0gtYTBhbFlNdkwtcE93VWF4T3BzcFZ6RXl3VkpQcTdoejhscUx5LXcwbzN3UTNFTzg5TkxfYnV3ancybGFnTEN2MEt1R0x3MTlhU2Nzbk02VUc1VWxwNktvdktlcnAydHU4UWYwd2l0V2JfeFkzOUhCRGdmalRiaDFKS29KYXdaeGVjdVJEYWxnTDRpS1F1Z3Y1ZHB6YnhmZw?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "This Durga Puja Ram Mandir to come up at Netaji Play Forum - tripuratimes.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmtYdS1WME9BUnJ5MHZBbjZfekJheU9YQTE0TXZGUDJING55NHRUXzVCYTZBREtia0RuUG1GMVdQT0xWMTFwV190ak1TcGx4WFdadEU2NFJOMU1xb2swNEszUi1GdGp1NFM4V1RHLXN5MHp1Skx2VVlhekp2ZlFnMjdUc1E5TGpubVBlcUplR05wMmFvTTczR2lrT2d0YXo3V1E?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Amit Shah performs mangala aarti at Ahmedabad’s Jagannath Temple ahead of 149th Rath Yatra - DD News",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYUZ1NnBSRFh1VzBJUVQ1alZjMUhtVEVRUGQ1cmJaS2xSUzNtRnh5SndiZWhXbmlnUUdrdm1RX0ZSUzJWdUNiWmRvc2tGSmpsSE1QMmtxZ2pSZlZzaDM1WThIVjM2cklHaVZKbHFRQnN6RTRaSm1JRjhMbXRWMTlrYUdCTlQtV2E4VkVEREpmWEE0X3VsUkNuN1d2bXg4dHBSR0t3RFdrX3Jjck1tdmFoU3JqYVBhZw?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "DU’s North Campus is full of poorly lit, unsafe stretches. Students demand sturdy solutions - ThePrint",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSDMwQUZWckM5YjFxSnQwdDBqdjhuS1JLOVc0TjBURGdlSDBJaThicjdLZ3cyUnl4MEdfM2N1WWtaQWliVjA1ZjA3SDljNDFOS18xbUgwYUYxLXFoWnZodjhiSXdXejMwalV5MDUtY2ZEcm9qdWJtQkNVYzdsZFY5X25UQ1hPWjFxdndnQlNMUWRQTm5sWjJPM0ZWd3BWUkowSkdGYl9OYTd2QlhVZXVDbEw4YnFVZzBERUJJejNpYW1lai03WDdSdUFHWDbSAdIBQVVfeXFMTTFyQ2FpMzlrbWoteHBQRlNwelJNS1k0NFZab0s1eU9CTnNFT2t1bzlKTUdCempUbzVnaHIzTS1GMThqcDBWY2JVTFFoSlUwcTR5MGllX2ozaGJuZmNyQmp6SWR0NjBGMXAyOURzZjcwUXpfQ3ZhVXM4STl5VVFDYlVadml3clBuT2Y4QnVMVGFqMFFlcUNLdjVsNnhhcDhUUExFMzE5Y0RqX05hV0REdkdGRk16SzZGWXZpY0J3U0tPWmg4TnNuUE1PXzR2bHlNQnFn?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Mumbai: Veer Savarkar flyover to shut for traffic on Saturday night - Mumbai Mirror",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZXlhSGlZWlA1OVRha2VLY194ZXExOTlOdzVQVlc2UURIVWc5cmM5RVhmRTdjclpZS0pZQkd4a0pxdjVFSUh3amxRSzhNcTJ6cWgyaktPeFZRVllEMjhUMDNVTHBMcVFvdmtOUzNoOVBZdVpnLXN4azRTbmFSTnQ5ZjhPcjN0cnotUDltSUpRYnpEdDVEU1VldW1qVEpwZXFGY0EzU0V4Yzl4aTdTMjJB?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Inside Pandit Jasraj’s home: From a ‘Wall of Honour’, zardozi peacock wall, to a 65-year-old tanpura - The Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPSXN2OW9Sc2w1MV9wRlZvRTlFWHJXWm8yZy16NUk5aDRwZEZsNFR1d0ZHVGJnVnJmNVNpdjh6T2I3WkdpSVhsQ2ptclFFWXd6OWxvX0F0UURwc1V3aGRYOFQ3RHNmQ0hXVXFFelRNRktNVDJQVmRqOWxPeVlrNHdxelBlSDhuTXVMblVtTjkyYno5NEp2VDBUamZ1dmtYdFZIbG9jeVVlX05JUDVIQVBnNFFiMkZnZFRudzREUDViOFhmTHBPSHlnSmRDbzQwSTZDbDNyQnlTbEROeFNLb0JzN1E2a2JZcmNfSUp4NktiMHpFN1U0MzVacnVJanJnV2pTZ0HSAYgCQVVfeXFMUFB6LTdLTXVPR3c4UXpaRFVWZk1rb0ZyVy1tY2UtS0tsQk42MUgyeTRJbXhXVnBMdWJ0bU1takJlMFladEd4YWNxdlBsVWI0UFpLX3g2RlFUNmJ6OXBsdndiR1QzTjNlWUM0ZHp1NmxzblF5TWhveXZmZFh4OFlxU3Jqc2VXT1k4c3VldldlUnp6UkZMZi1ORGxkYTByNWFpR0dIMjd0a2FiUXZNUmRLcjlDZE9NZ21Db2QxWDlaLUZqWG50STF3MHdiRHZiWEFfWXhEU2I1WEJHNUE0d3ZLTVdKZVl4ZW9Sa05tanBZUUlRUDlDR0VBV1NCLVJ3ckFnMTZCbjM4MEcy?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "SAMALEI project: October 5 house demolition looms over 50 families - The New Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWm44NENjaW01TGRBNTdTWGxqWnhBeTlfRUtwTG9Sak8yMDJxWVFVZGpTUlJ4eVNaYmRTTlUxaGlQV1lLUjRtTlJnaTVacjhCeGJlNkNZVTBFX1oyZndBa0Z0WVZ0eXRqa0lubEFwd2NzQzhFNGZwQ01iVVVBaUwtY0RzbnF4WFNNenV4RkJjNUVzdFplOXI3YUcwc0RZY29NdjdBMl91SFkzVGZHczlQT1h2Tll1d2ZZYU5uel9PNjdtd9IBzwFBVV95cUxOMVhpSUIwYjRLclJ2YVBLZWh3cXFfX3RrUnRNZm9nVFNIdlMweFhFZlNwYS1fQnhHSEt2d0RmWVdrMWtMZ1NJQVptT3NCV2Rja1pLelVVQlk4Y1Rrc1hodnB3RmxvUzFFUG9wcUxzcWUyakJFLVNTWEVqc1hIYWtpWWNWTnhTTUQ1UjB6dU43Ukdyc2ZpdjZjcmNKSDVETGs4VHNBd3RjN0lraEtYWUNnWGJCdHYwTmVTSllIM1NTM043bURQRUYtLXR1WEpmdk0?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Poona Merchant Chamber approaches PMC to expedite flyover plan in Market Yard - The Times of India",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQU1E5bldId3hjQ2lfZlZreG9qYUQ1WVJRcUY2dU9oQXRHbDFTdmJkTlJGZEhHSnlJbjFEdTFsbzhHZC1FVHlsR1R6WkRMOEt0ejhnQTRkcWtFS0hRQlV3bzUwb0hUNTMtUDBCM3d0NFJyalRfcGVsZXY5RDhrWkF6RWl4R0s3cUh6QnZxMUlOTlFKT3g0Q0ZkWXhqYzFQQ1AtbEw1Vzh0ODU1OWVsSzhzOFRIUWE0c3BIVGtuVEVkWDE5SThVWWtJbXIyam9FeFpfclR4QWM1UFJTOGljRDEwVmE4YjJtR0pp0gHoAUFVX3lxTFBTUTluV0h3eGNDaV9mVmt4b2phRDVZUlFxRjZ1T2hBdEdsMVN2YmROUkZkSEdKeUluMUR1MWxvOEdkLUVUeWxHVHpaREw4S3R6OGdBNGRxa0VLSFFCVXdvNTBvSFQ1My1QMEIzd3Q0UnJqVF9wZWxldjlEOGtaQXpFaXhHSzdxSHpCdnExSU5OUUpPeDRDRmRZeGpjMVBDUC1sTDVXOHQ4NTU5ZWxLOHM4VEhRYTRzcEhUa25URWRYMTlJOFVZa0ltcjJqb0V4Wl9yVHhBYzVQUlM4aWNEMTBWYThiMm1HSmk?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Cousin tipped off assailants; man stabbed to death during robbery - MillenniumPost",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOEc2c0V2RmY1YlktbkpWOW5GWm5QZUZMa2JhWlUyM2dQM2M3dDBCcElhY1NreFZtR1NRYzBMZ0tDTDNEQWx2Ni1BWjdnQllvZ1p6S25ITFRMcV9ydUlNMmRoZTE2azIyaV9sMlpBZkNqQXNrWDdLalhIRDhyV18zSmRCM0hacmdsYkdHZ1p3NFZFQjZQa1ppT092b1RjTTFLd1ozcHYwa1NyWE3SAbABQVVfeXFMTXhqVTBoSW9Ub1VXS2hMZUl4clZmYWJrTXRRUmdLcXYzanJwaEdUcGRJVk9QZ2N3TU5zN29KOVN3d3g0bmsyMkEwVGxtckhWZXVYNXAwelc3UGYxOVAzenQtT2g2UkRWaWtRNHJ4MVdYRWw2c0I5MGhla3gxc25oVi1uRUJWTlNUY25iNzFiekRFZjdJb2FPWlZvMnlHNmhCeVltb1VqS0VGQ0Q5ZmtqSzY?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Video | Smriti Irani Hits Back At Congress Over EC Criticism | SIR Row Explained - NDTV",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVHd0Wlo5djhmNXk0X0l6THZWWWRkd05hRVJjc1did28wR19uT1FpOXZvc3hmV3NaT1pxbGNoRFFRR25GN0dmM2JEUGhUdDc2OGY3RzJXSTl6a1hBYjlZVnZPcElBbHlQMUo0YUpSM1VGcUcyWVhjeUplM0J1Q2R3a05NMnFHZEQtREhYS1lOS1BBTmxxQUpzRmQ2VDI1YTRpTTcwa0hBNDY?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "Jodhpur youth dies after attack over dog-walking row: Uncle and nephew drag him from home; thrash him and f... - Bhaskar English",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM3JfMmU1aThyRkdBTW1LYmdNUnEtb2wwY2RURlZYQmlNYUhILWo1VkozM2EzbU9RYkJjU0pVUU9tNk9SQnNGeGtCT0RIYkFkNjdhLWY0QjIxZktvbHRuRkxkZk5nOWR1bkJfeV9zRjRjM25nOWpiV3dHWVVlOU94OUhwVjhGTC0yZngyOG5oZndqT2E2d2hfTGUwdy1WVXZKVTVpWlBJQVkwWnNIYkxqcHJGeXhyYmYxdjJZNXhKUdIBxAFBVV95cUxQanE2WFdmM0Q5TXhaa2FYbVRTVWRGUUZSTndKdFM4VC1NbTZUbWNNUFNWQW1yc19DQk9nam9OYTd6cHQtZHFYcklsVkJENEFFbUNydTl3WUZINGVza3pZaUdLc1B2VHBjQzNmRFVSVTdiQnlPWEhkUmpyRERhY1luM0ZjRkNPa241NFlHTU11SFNDMUtmUGFkWGFtQVo3SWNMOVpZOXdLV2ZEQXVvUy1URmQ3blFteEVBb3M0SEVOU2hUWUlk?oc=5",
+    "source": "DEV:mandir"
+   },
+   {
+    "title": "ଆସୁଛନ୍ତି ମା' | Cuttack Durga Puja 2026 | Preparations Underway Across 170+ Puja Mandaps - Kanak News Odisha",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOQnVpVS0wTEd2Smwwa1FLaVE5akJLWllrNWdJSnJrMGpNNFl5S0RuYU1leExpRXZlOEFnMy00a3k2bm9sOW1ndHBLenRfWndDX2pxckNYMVIwMHlpUlhKdE1rYWc2SXZtSUFneFBmMjZEbnN6U0tTaDFWYUtZbkNkMC1jSzl3NGxpcHQyVDFrX1NLMld4NlA0LXltMVJQMnJZMS1lZ2JRVy1LRWRhdjdkc0FfcGd5Yy0yc2YtRGUtQWZsamZ6X185aWdjR0E1M1ZJLXRoc2xaYkRwWWlnbnAyVEx3Rl9rdXZWX0hybUNmeHVVeEl0eGJiN1pRaHJjTkFmUlV2c1p30gGGAkFVX3lxTE5CdWlVLTBMR3ZKbDBrUUtpUTlqQktaWWs1Z0lKcmswak00WXlLRG5hTWV4TGlFdmU4QWczLTRreTZub2w5bWd0cEt6dF9ad0NfanFyQ1gxUjAweWlSWEp0TWthZzZJdm1JQWd4UGYyNkRuc3pTS1NoMVZhS1luQ2QwLWNLOXc0bGlwdDJUMWtfU0syV3g2UDQteW0xUlAyclkxLWVnYlFXLUtFZGF2N2RzQV9wZ3ljLTJzZi1EZS1BZmxqZnpfXzlpZ2NHQTUzVkktdGhzbFpiRHBZaWducDJUTHdGX2t1dlZfSHJtQ2Z4dVV4SXR4YmI3WlFocmNOQWZSVXZzWnc?oc=5",
+    "source": "DEV:festival puja vidhi"
+   },
+   {
+    "title": "Bigg Boss Telugu 10: Apoorva lays down rules as ‘Total Dominion’ task begins - The Times of India",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNb2U3dHc3WndTQjBXa0haVzE2emltTVp3SC11M1R2STJESWhUeWhLUFdrVjhVVU1pVlVHc2dJcFFSV3NZczhpMWtWZzVtb0M3Z2RRUG1UanBkMXNGdGF1YS1xcjlkNXpSa0NGdHZSdXdvQUZiZ3VZMXNzMFQ1OHNiZ0o2YmoxTXFJT3FiZDMwZU1vNlNhOUJ4OFFCU3lkejdXdjZTRnllUDNuVl9QZ0QySktxWUFNbTBiQ2JwMVhOTVVndDBoQjBfY3dwNFFPczhmOXVwZjdBamN1V0Q5cmJOUjFaSDkwb1U2QlHSAeoBQVVfeXFMTW9lN3R3N1p3U0IwV2tIWlcxNnppbU1ad0gtdTNUdkkyREloVHloS1BXa1Y4VVVNaVZVR3NnSXBRUldzWXM4aTFrVmc1bW9DN2dkUVBtVGpwZDFzRnRhdWEtcXI5ZDV6UmtDRnR2UnV3b0FGYmd1WTFzczBUNThzYmdKNmJqMU1xSU9xYmQzMGVNbzZTYTlCeDhRQlN5ZHo3V3Y2U0Z5ZVAzblZfUGdEMkpLcVlBTW0wYkNicDFYTk1VZ3QwaEIwX2N3cDRRT3M4Zjl1cGY3QWpjdVdEOXJiTlIxWkg5MG9VNkJR?oc=5",
+    "source": "DEV:festival puja vidhi"
+   },
+   {
+    "title": "Festivals & Events News | ⚡From Shailputri to Siddhidatri, What are The Nine Forms of Maa Durga? - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMzhpZzNJbWxpVW03M1Q0UG5xMlhzZzZtY3Q2TXlDUVpGaXlpdkc1OHFMYlc5anpaMUNwYk84c1JhVVNYU3dibEZrSzRNN2VreVdHbW10em4xdEt4aTNnNXVEU0ZESEFvZzVpUk5uR09kQTFOS3d3djJRTzlYaEFrTmN5LVliNXM1N2MwNXh3UzdNM3BPcTdCc3REa3dOdzV0MzR2SGk3ejRkajhyZnpELWFlN1hEdl8zUldOSzdCTWhJOUxVQmFyS2lR0gHKAUFVX3lxTE0zOGlnM0ltbGlVbTczVDRQbnEyWHNnNm1jdDZNeUNRWkZpeWl2RzU4cUxiVzlqeloxQ3BiTzhzUmFVU1hTd2JsRmtLNE03ZWt5V0dtbXR6bjF0S3hpM2c1dURTRkRIQW9nNWlSTm5HT2RBMU5Ld3d2MlFPOVhoQWtOY3ktWWI1czU3YzA1eHdTN00zcE9xN0JzdERrd053NXQzNHZIaTd6NGRqOHJmekQtYWU3WER2XzNSV05LN0JNaEk5TFVCYXJLaVE?oc=5",
+    "source": "DEV:festival puja vidhi"
+   },
+   {
+    "title": "October 2026 Festival Calendar: Navratri, Dussehra, Karwa Chauth And More, Check Full List - NDTV",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMFFDYUU5bWRMQjFXNHZzdzZpUHQxeUhTamJxMmE3bmFpM1M0bmdGQnJCRldhLWowRTZ1SER1dEdkWG81ZzZoMnJpdWozd1FMa1o3UG9XYVN0RXhMaXVDTWtTY1Ffdm5aY05xQVNqZU1Xck5jSmhxeWhJcnM4MTBDa2RhWHRGSE1pSHlVOUt6UXhicFNQX0RFODZvRUZmTWZhaU9Ga1hZcG5CUTFJeXZaaW5RS2JIWm04cjNnTkNQWDlwQdIBygFBVV95cUxNSms3dm9oZi1aX21ScER1VWYzZ3pqVUZMUU9uZkhwcWhyTVk3NzNmNHB3YTlaUllFaTdTekVTU19NcVpLTURRbXFldzZCdGlNVHJmSmdUYkFSdy1ETkxmS3RNQkVxdEF4SnN0czRpUGdPV2RidzNFRzllNjNaMVNxTGgtRXBfdTdJZS1IS2tvTHk5NTF3dDZmOXdKOW1sMWhXQTdXTF9UVFRFZUtDZ1ctWGxRTk4xWVA4b2c3SU12SGlCckU3R2JaMnN3?oc=5",
+    "source": "DEV:navratri"
+   },
+   {
+    "title": "Sadhguru on Navratri: Why he says the feminine needs to be consciously supported after the autumn equinox | Hindustan Times - Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQVk1hVEZBS3IxQmpGT1dBRzA3WnpLLW9OUEFZUUFXUDFOR21rSE91LVAyWHBKcjVGNEhZZjZyUWJJOUxBVjFjV09yd18zMHBTSTR5bXlEUG5wQzVfdUJWY25CZzE3RzJxYU5rdGhTV3BDc0YzQ1VCNFFhUGR5SkpwdnRoM3R2RE5oVGxxSGNlUW1KWm90WnlnUzktQmJuRWJLZks5Rm8tWmlxcEp3cFlwd3hjdjNRekE3cm11aFJyNVFEU0pWdFFHSHMza21kVDY0MXJDX2hFQWlxVnQ2WjBQdVZyN05lUFNrWGY2OWtOSHduZnoxeE1UMldqMUhwTlFpcXkyRm1JMXh6enFT0gGMAkFVX3lxTFBWTWFURkFLcjFCakZPV0FHMDdaekstb05QQVlRQVdQMU5HbWtIT3UtUDJYcEpyNUY0SFlmNnJRYkk5TEFWMWNXT3J3XzMwcFNJNHlteURQbnBDNV91QlZjbkJnMTdHMnFhTmt0aFNXcENzRjNDVUI0UWFQZHlKSnB2dGgzdHZETmhUbHFIY2VRbUpab3RaeWdTOS1CYm5FYktmSzlGby1aaXFwSndwWXB3eGN2M1F6QTdybXVoUnI1UURTSlZ0UUdIczNrbWRUNjQxckNfaEVBaXFWdDZaMFB1VnI3TmVQU2tYZjY5a05Id25mejF4TVQyV2oxSHBOUWlxeTJGbUkxeHp6cVM?oc=5",
+    "source": "DEV:navratri"
+   },
+   {
+    "title": "In this place in Gujarat men wear sarees and perform garba to lift a 200-year old curse - Indulge Express",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVEhaaGIxOHJBZnhHbTZ4M2RSczJGWVBfZldUZ3FLcDlKSHVHWW1yY056V1JtT29oNW5jb01fMkpfTllGTllwbmp1dFJoTEhZUlB2WVowRWttclpEU3h1S1VOcW1XODdzSHNXMWhURmQyTTFjTXBWU0MySlVxeDVjYzF6UllGMGRxczlVWGJ3c0ZRUS13cXFWSUVrY1dDb0I1ZHhUQmx0cG80OWcwZWN3Y1V3M2ZGRFdJN3VSLVBhOHpMZDhaS3RyUkNaSl93cjhqakhMNdIB4gFBVV95cUxPU0tFNW1kNzZUTENYNV9FMmo2dWg1VHpqNFBXd3F3UWVmekxtdWNyOVpxejdDa3pSOGJPTE1rNGZtZjJvX1UyakhkR2hKYnF6SFNSUUswNUMyV2VtYllST2RucWhzVXF1SjZFX2VJWTNEWHNqWmdzenQxRW5OX1FXMW9admdTR1hzekl1ZDNrYUdZT28xd2lfTmVjVFVEb0EzT3FKNHc3QzVRMmRwMXlZUXphdHkxaDZfR212c1dSWURtX2xqS2s5akVYRU12WUdHSWlqZnRmTVdLcnZVRjhtUHJn?oc=5",
+    "source": "DEV:navratri"
+   },
+   {
+    "title": "Monthly Panchanga for October 2026: Navratri, Dussehra, Karwa Chauth, Mercury Retrograde, Jupiter Transit - The Times of India",
+    "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPU0FKb01vdWxVR3pVNW9MekxOSEhQOXEtb194RkVBOUVGdU42N25qMnFxWGtRbGtzN1FWN3gtVUlIc3FmMFBqTnNHdDRXT1FraUl3Mkpsc1FLLVIyQWZtUXByb2wtSW50ZWxBQ3gtZG5KVGNmZ2tiWTVRMUowdWNVRU1nUm5ueGVHYTd6Q2kyenpjM0dveDlFTGU0Qmo4ckgxRFQ2Z1VsaDNKZmZDbUwzSTVmenVweU5QeDVrWGJBQ21WOGQxX0p1TkJoRlhPcEltRFFLOE1PUXpEdXJXbjhHOWxmSjB2OXQ3RjlPQTZaWEF0d2IxZ21CUXl5aTVySWNCNmxxV0FKU0Nnc2w1MUEwbjJMS0g3RkRxOUFWQUN2Q2hxY1htS1RlSnhR0gGvAkFVX3lxTFBUaG5DS2h2eXZXNlZfbW00WmRNcHNBcEdERzM1MndFQzB0Z3ZDUFVzX2xUN0FibmJRbWRBMFdFajgtM2xTLWNGVUM0MldUQXY2S0pkOUxSYkItQmp4d0VtTGFCX0tfMUVld2lyQ3VHdUU3eUpvc2g2UW1SUFYwSG4yZ3FNeU15emwtQW9rMFA1N013V2s4QnpyYjRBM25DY0NWaXZDaWJudzVGU2NYMjF2YnFVT0pjdjZ5a1RkY19ENnh0NEF0ZUZuQ2oxYTJQOUVGRHBLc3gtRzNtdEt4QWF1Q015NEJ5WDRRdGhBamVaRk84ck9jRzlhcGwyZXNjanpLb1laTDBkUnFTX2xIQ25HYkx4X0gyNmlmZUw3Qy1qcnBxMGYzb0VfNXY5UGItSQ?oc=5",
+    "source": "DEV:navratri"
+   },
+   {
+    "title": "'Yeh Prem Mol Liya': Himesh Reshammiya, Shreya Ghoshal bring Navratri beats with ‘Jai Ambe Bol’ - ANI News",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONDJKR1FPVHRoQ0hvaTNlUW45QTNWTFVMZXhMWWdQSXA5d2pPaGc3aW0wYmhYNUQyZ0VKVnFxbks5M1lJUC1ZbHJtRnU3d1ZDelAzNVo3R1FUd2NBY2NPNHlqZDVxeWNPd1ZmZEprZl9EaWdRV0FYZDRTNDcwWXhwbVNLb2JCc3dqS01DWmdLMDFzUVk3NHJycndkOW9abEFZTUxCVWxkWk1qM3lqZkZzczVXaVFqWW1HUy1XUk8tcGRnYTdWSGk0ZThvWjRiWFRmRDJSc1M0V1NORnJHSWJ5VHdlVzlKSXFKMnNvYXJGY2NMLXpiRFE?oc=5",
+    "source": "DEV:navratri"
+   },
+   {
+    "title": "Himesh Reshammiya and Shreya Ghoshal release Navratri song ‘Jai Ambe Bol’ for ‘Yeh Prem Mol Liya’ - The News Mill",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXp3bFV2TnVlTVhENTJiM0k3aC1LeFVCd1dwdnFXWWVYTVhrWHZQMmRRSG03Q2pwekYtR084Q3RJaTBDU1NsMnVZU2ZTcG5nMUk1MW1KU1hvNnRmYTBYczJPWVUzRklFRDhnYWhJWUVmTk5Md1E5cGh4WjF5ZXYtX0NtSUlBUlJjMXoxYmE1RFdsMW1DTmw5MmNpZ3dTN2lmMU5pQlZMcEFQOGpEbC1zNWIxdkNSbWpkMzIzdjRUeDFpZVFs?oc=5",
+    "source": "DEV:navratri"
+   },
+   {
+    "title": "Sacred Ambaji Dhaja brought to London for Siddhashram’s Navratri celebrations - EasternEye",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1fcUxMM1hjd2E3VWtwMHNFOTNZMERFY3RtYkRFUjVaeXozNURzZU9td1N4Y0ZiY3V6M2xOU1ZhSlZmanlyOHRSdnFOZUthYlk2UnRoTGVyYUlhV2ZzcTk3WndwcU1NZw?oc=5",
+    "source": "DEV:navratri"
+   }
+  ],
+  "KID": [
+   {
+    "title": "CBSE Class 10, 12 Date Sheet 2027 Expected Soon - BW Education",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbVNfdDVWUXlnZFMwa2U3MEg0STJkeWZ0SFN5TE5KbUd5a2piQlNLdEpKTmlNcl84bHJRUFpDLXExZXFmU0J2dnFzNE1Oc1ZITmY1X194ZFFyWEV6VnB3UlREUzBRaDAwX2FJakdCWjAyUVRRV0lSTHdESzJaQTUyYmJMYmhPY3pNOFBoS1VjNGlKMVk?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "SC asks Centre to consider exempting Class 6 students from CBSE’s three-language policy - News On AIR",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWFEblZlZXAtWlFINkNybktyWlQ0ZXVHUUtYaEJuY0JockV5d1ZnZHNFdDFmcVNYb2hDMTdEOGlnWlk2elFEWXZOcGpvM2JKVnVPbjZZZUxhYTFXMHdjbzdQNHFDNGdCdjBXaVlJbXI3ZVE0ZFIwdzNrbmYwcTRXNmlaT0xYY19tZTVUWDd2d0drSGsyTUpueDJYaEZ0U2pCSjhzSVhhNGxyM2lHdHNjMXZB?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "Exempt Class 6 Students From Three-Language Policy: Supreme Court Directs CBSE - LawBeat",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFQ4Ukp2ZThkM2RRXzFuZ2FiTVlDMlFBUjV3Q2ZxVzlzMmNjdDZlRktUOFJJeWNKdnN1NkoxN0xTei12VjN0WDhPeE1ma1RkSXRHRFYtLXRHTkI2QVlPX19mSk9zSzVxSV9PWndERmZPR3o5NmNlSmFxM1lNb2NHa1FuVloyUWdONk5Zc0ZTRTlXOUxCSktBVWNvY09XcW4tNFg0YWhKZTNNSU93eGpuVnk2dkVwRDDSAbwBQVVfeXFMUENZbEF1QTRtaGsyMlNJeDdLcG5XRUs4Y1VGRldJV0xHX1hHcWZWdXlwdTJxQkxZVWZ6UlAtZVhqak83OWk0T1ktQ0NfWFBZVURfVUVKZG1jNWEzY3ZvOUZJcm8ybjFjX25BLUpJdjk0ZC01RnpxYVhRQlhtOERJeG5NZVU4ZVRMa2JsYWdtN3ZfbFl6NlBaXzZxdElTUmt2TEJvTnFfMG1FSExKdm12YUU1eE43RnRfS2pmR0w?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "Ranchi student becomes CBSE Class 12 topper after re-evaluation raises score to perfect 500 - DD News",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNUhsa1ZKUnMwc3h0OXpyYjYtTlJLUFZ2MER3czZmNlBqc1JpT0g5MXRlVVc5UFloR1lZTkM0SkxsSHI1Z2l5WmFkYV9aSGdqRUNBV25kSGVEazEzeUNLSUVqSDd0ZWZRNnY4bmE0TFMzTS1yQjZTSFNBVG9BODFVMHVLbG1HaGJkUWhsN1BNX1FhYXVRZWVnQVNickotN1JFVTVpalpYX1BSQW5GUFRfZ2I0ZFdaNFFL?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE Private Candidate Form 2027 vs Regular Student LOC: What Is the Difference? - PW",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUlRJdzROYko2SVdHVGFrYXduNUx5U3BEZEVZMUg1aGFrOVdjc01Icm40eDJBdmsyUm5HMzI1MkFzX294RGkwajhuLW9rUDItV0syMnlEdFFZTi1qTmlINTN6R1BHeXRtcXptZEhyUk1YN1gwRUw0TUczdjZQY2FRaDgxUzBJS3M?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE clarifies registration, List of Candidates process for 2027 board exams - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb1lVd2hrck4xUGNoNmpiNkhsb0xTSTJSUXBQanVDSURUVTB2MURtUGxmWnU4TUN4Rl83MkNocmFVaFVTY3NiYU9KYzdfUzdyZHBYaDJ2ZF9wMTYzOW9jZVJWbVRxTzJ5NXlsa1diZnpLMUswNVpXSDJsTHR5aDFQREt4Zk5ualRPdDR2SEZJZnU3UmZoU0hIRHhSSmhIYjRjRkI5U0U1aUUzbFhfbDFRMlcxaGJjMXfSAbsBQVVfeXFMT2NLYW1KbEh0OVhad2h3X1NXU1NXTEtMU0hUQkNFNF9qeWJRbmVvR0k4N1ZwUEdpS1NpQ1ZnTlhDX0plVUh4Wm9YWU1JR2lfT0hqaWsxMGx5NElYMHFfcy1rMUMwMlhHdS1TeFVWY3FrMV9RQmNJd0ZNaU00OVJzMjhiUjR4RkhHLWV2dnEyVHdaTE44OTJfQ1pheU5vVF9aSFVJMlhzLXVkUkd6ZnlhdnduQjVQVTdndlV5dw?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "Centre asked to consider exempting CBSE Class 6 from 3-language policy - thehitavada.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWk5FYW93cDN5cWlEM3o3OVdIQU9GWmZOMS0wMU9FX0tfc1NGTEZfbC1Nc2FFVThJSU90ZUZ0T1dZdlY2NHlhalJ3Y3RKMHh5WkFvRm1wenBEWk02RllXcHBDZWhtRWZ4ejY2SWQ0ejdUOHlBVnROM080OWVmN0JoOTBJNFFuRzdobkxpa0MzRlQwbGU2RC1EOUozcTduMkZWdl9YSFFxcW5aMlNsZmc4eFZRcXBHNUg2Vmg0?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE Class 12 Maths Marks Distribution 2026-27: Unit-wise weightage, exam pattern and important details - EdexLive",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNWpVZHlLZTZ5cEVVa3BZckpwVVpoQlhNalJBY3FJMUxMbG9rbklONEJCSUhWQW5nTFdxN2dhQm52R2ZnX1ROQkJuWVJvUURUdnNqd3FQS0F3RkRJYTRhZFZWWnV6bHFPcjByMy1hMGhzaElrUjZ6RG1CLVpKVG5SN0xYa3VPcGc2QjhualpxRkhhNVVDMmFOU0NPb3BfaVprczhnbEtMcjNaaTJtMmU4bWkxdGp1V3BoYU5CbHpSTm1kZF9yNWdJYkVCclfSAdoBQVVfeXFMTVB4RTlQcGxBVVBZR2V4bm9KaTVtQ3hvNlRDTmVERFVQTlloN2FkY0J1UDNtRTUxWllhTFdFdGF2YVJQS2RtZVFQU1NhSFdvU0xHVlIzcFBFdUJxNG1RekJ0RXpHUUJITFZLS1FjSFJwSnppbmpVZjRTZHdXREpGS2x1UWE1a3VNRGpwdWNFT0NYWGdFQzRPbFh5WHRDWXdvUjRBR3RYNnBjVmxUaVlhWF9yYlQzNzNzdmJEVXl6QjYwNmVDeUVLcXdWRDF0QTFVczhEZnRheFFuRXc?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE organises webinar on LOC registration, correction queries for Class 10, 12 board exam 2027 - Careers360",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNYTE3U3JjNEZIR1daYVYxWUVTQ214Ny1PRlZxc2gtNnBoRjI4cTNJV2lKNll6Mmxzdms3ZUNxNm9EQzc2V01IWFQ4bmdVdVlTbmpER2dBX21ZTlQ3cXR5ay1rSWlvLUJoeklENWozeXcxSkUxSnVsaVdUYnY4WDhxc2lLTkxrcVNzUEJETGNfMHd2WkdUWWh0bC10c2Z2bmN6bHY1WGt0ak53aFN6Tzg1MG5OR3NGa0hrRnVYM2M4a3dfbGZYcHVyX0NqZjZFZ1BhTEM1NUJkT1E5aF9KTWFyZ2lTbml4T2lZVnZBLVBRMNIB9AFBVV95cUxQamVibExDZUlWVXFzaDF5WlgwZlQ4VW4zQVpmQjlqUG1xMTJ5UHNtQkJ4SEJ0STJJbWZfZFB5eDhKTDN3YUd2T1EzYmhrMXNsN0ZPMmVVZ1NXOVNCTTA1bFNJY0h6bnNYaF9rUXdaaGxTYkxKUEs2VWJmX3Q0VjJqVVNIelllM2oxbUNBRm1EQmxRNXY3VmFCV0xwREFZSHdMR3ZRTWJScl9pUDB4TDlySS15QXNjT3RTd0tnMG9zNGI4QzB3VHVtU3pfUkswcnpsQndVVF9ZcHRSMzJFX2ppSFE2dGIxNlFfTlBhV2tyZWV3S1pW?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE addresses school queries on Registration, LOC for 2027 board exams - education.economictimes.indiatimes.com",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPbzhvc1p0NmczU1luTEZ2NEZscFluakRVVDlYa1B5NXFsS1lvZUJ1bDhNX1R5UktzbzNPR0RYeWtWU0lra2IzLUt0LU03RV9xV1doTDd0QXhoMU5rTHp5TnRBYkd1NkJybEdxZkZXUGdxSmtFMTloRGc5MlVEZWE5NFEtRDBVYlJlMkVfNk9HeWJZdnFjT0tCc3pHTDFta1h5TXVXZlRCTVdBZVpTT1d4bF90MG5lWllRY09DR3ZTSWRMRzVPYnAteEE1d0ZnaFhRLVozVHlFeTRSbFE5TFRQRzVtQdIB6AFBVV95cUxQa3JWaFRReW8xNHJYLThuUEVzWjhabktLbDBYbUFZRjVELUI1cEc2Z3JrSHExalhfR3FlVEpkbTVtbVJmYlZLT2ZUWVNHbFh3RHVxeWFOUDJqMnl5RUREN3IzZDhIVkJQVElkQVU2UGpfMEQ2RzNqM3lhUl92d05qM250SHg0UjJqckhWYXBlTlkyd2F2LTVJazdfaW1HN01XYTlHaGdqZ3lQS2xRS25fNVlJWnh6TXNKaVNuLWE0bVBMZnNIVlNub2h5UndodkdfRDd6eHVzbW5oaGp1akttMTZqSG42T1lQ?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE Date Sheet 2027: Class 10, 12 PDF Download, Exam Dates - PW",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa2pzd1htdDg4S3pBU3d5U0k0WkRJNjJSUDhfSVE4b1pOUXpkbkx1X3V4VnZzdk1RQmp1MmtZNjFnMndCRUx3dEhOVFZyWUQwRTRETWxISEoyLWladUJDZnltZ25EZktRZDlKdXRMRVVWUEpBNGJaMDhIRVZtdy1TVEI3RXlvZHhl?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "Ludhiana swimmer Ojas Sund crowned best & fastest at CBSE national meet - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdFBCaUlDNzRBVzN6RXVaWERYTFpfdVp2M2N1VG5BbGJibE5zQThFY19FMmRjMl9SeXM5Q1NTQmNsRnl3RC1JNEx6YUs0d1AtTzlkSk9kMXJQZUxHMzVqZjYwcWVPcXhQY3RWZmZ0c0RLWEM1bzBmQlpHWXVDRUJQbnEyWTZILVdhU2oxTjhKU0JTMER6THI0bGNJcV9kVEpWc1J0eHRyY0xJNTFKMUxSU2R2Y9IBtwFBVV95cUxQbnJhNHBBTlpjU3dOazBmZzlYcjNTNDlGeXdQWjlncm1rZnM4TXVRcDQyS21kWFUzcnhQaUpWQ1NUb2tXV0FPZk9INFc4Q1R3SnZPUmhoQmQxY1lyT3ozY0UwQ3hNTDZJdXVjNXRUX1haVWtGYXV6NUM1ZXdGUTdsN1ZQakp1QmFQZVVZQWRxbUpRUnpuOENpTTNuWnJXSk5PUUxLeVRtRjZob0lMalVTSkhoZndReVU?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE exam schedule 2027: Class 10, 12 date sheet soon, LOC submission portal opens - India Today",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNTI2TWdCUmZMeTFnQkw4OGlKQ1FVazVSVzBZeTE4VVNPWVBpWjlXX2ZDTlNtMVlnMklOYl9PSWEyTWxjMExYVFY1SDAxVm9tMjlSamZZNmstb1pRNlN5OTlob2pGV3ByN2VMVEYyeEp3QmV6dXY2UWJ4b3hRUmY2RThJWWNhY2o2NlNwQmcwYXdIR0drQU1yRERZOUdoZ2Q3WlNGV25kTE5QSElFOTVyb0FnbVVkQ2V4clEzX1JxaWVYTDQ3VHl1X2dDV08?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE Class 12 Compartment Exam 2027: Eligibility, dates, application process and passing Rules - Education Times",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPT21oeTREbTZkUUd5SEtNZGlCXzJfcDlqRG83QzJkb1dGU0NCT3c1eUtMMzVpaTdxaS1VTDhGVVJ5UWkxd2NPSHdJbmRTWWJxUWVocU1jeFFZUENwaWRLX3pYSDA1NEJmOExybXV4d2Jfdm5PRmdYcm9uTU5jTGk1LXp5ZlIyWjMwSl9lcXhka2RSRVI3cE9YamRkMnRLbGJXYTR3LWItQlFxRzE1X2hrQ2pWWU0tcnJTTzlxcFpyM1NvdGxTSWt6YXdzM3Q4YjNMdk56anNyZ2Nhb1B2MVRtcGpnMXFGbWJm?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "CBSE Class 10 date sheet 2027: When will timetable be released? Check dates, exam details and download... - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNM1JMVFZ6RnVjMFdVRzBxQUNUZHhKQUU0cWNNaHdHdkgyZWZhT29vSEwzVWcySjRaWndNbVloenV4bHJfMFRBOVB5VVdDYy1PanJvRVRTOVhxT0JaRFhLRVRKUTlnYUdfdG54ODltZllDNmRXS0s5SWJXTXFhd2ZIcjlYUDlDenVqZkRkekhvT012RUY3TnYwcW16M1EyZmdrLW44dnpsdkFnYm1PUl9ONV9ENE5IbDFYb0k2R0t1VWUtMlRYRnVMcjg5cVBpQTJ4V0NfX3VTZ1VXc09PZGo2NTljMXZKU1RwbF9KVjYzRFpBSjg0alBtTHdB0gH_AUFVX3lxTE40VExUbUpRSThkVVVla2xwYzFtZVZUcTNDRmNuU203RXJTMWpmQ201TWtyRnZXaXVIQ1FPQldBaFEwSm5BNGx2bGhPRmFBUVkyQnktYUNjVnFRc1oxRGtHeDV5R0NZVEF3Mkhnai0yLTMxNTBIWWN3djhwMnV2TE5UclpDbFpDd08zT1Q3R0tYamtRVFBzWjYzU0N4enZBWXdNVWQyVGJiSmg2enJ2c1NHSVBRc0NISno4d0JlakFDeHRZcEJmeGItMUFPYVBLM2lNNHZLY05vcm5uZ0dTUFVQMVZMSzNjZFZoODVBTGdRdmZfb25FTG9DNWtsb3k5VQ?oc=5",
+    "source": "KID:CBSE"
+   },
+   {
+    "title": "Being a working parent is a logistical nightmare. Imagine if school holidays were something we looked forward to - theguardian.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMV96UmUzYUI2WkVVVVVLeDUwSnNQcDR1M28xRUZQSnpjcmZqcXh3WGZaMTZEaVUtUHhrT0dfVEtSdEVsdUdRczE1TjlucEcxejFNcWUxUFdHQjhWcFRWdHdYWDBrc24tc1k5c2JSM3g1NndGUTBmS2JVd0N2ekQyRVNacTc1ZG85TG1aa1p1RDBfOUdobnZLd3U5N0tlYTNWVGNudWpXX1NGdkVWcXVnODZBWjE?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Telangana Schools to Remain Closed for 13 Days for Dasara - Deccan Chronicle",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa2NxTlRZaEVFdTBFeTlZWW0zRXlEVEhVbzRNU3BhUDBxTkxybVJ6ejQ1VlZRNEdBRVhsSHZTLVlOM2pSQzlVTFdRcDZSakVZTy0zbW9oRXZSMTYxYUpYVUpOWG44SmhhTGFqTThUYUFWeXdfbGNibGsyMGhhbld5LTdkcE93YzRsSFFVUnV2eS1JSmowcGpkSWtlRW5WOGFVOWtESTlxR3ZTR3hjNjRvUG5KeHNaWmV6dE1Qalg2eWRUZFlGU0HSAcYBQVVfeXFMUGtjcU5UWWhFRXUwRXk5WVltM0V5RFRIVW80TVNwYVAwcU5Mcm1Seno0NVZWUTRHQUVYbEh2Uy1ZTjNqUkM5VUxXUXA2UmpFWU8tM21vaEV2UjE2MWFKWFVKTlhuOEpoYUxhak04VGFBVnl3X2xjYmxrMjBoYW5XeS03ZHBPd2M0bEhRVVJ1dnktSUpqMHBqZElrZUVuVjhhVTlrREk5cUd2U0d4YzY0b1BuSnhzWlplenRNUGpYNnlkVGRZRlNB?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Air New Zealand Prepares for 850,000 Holiday Travellers - safariindia.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93aHk2ckZfelk5T2Y3TUVFWXBQUHF0emRyc1dVWmFiM05RRVdSNHRsclhrdjBpQVJBcHJFenNubzJZdndObWpyZzNKaVotWGJMSkZrZzBRYTFncFR5R1ZONGNDaUx6TDR1ZTEyZ2VZbzFkMG94?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Mumbai Rains: BMC Declares Schools Holiday In Mumbai On July 6 As IMD Issues Red Alert For Heavy Rainfall - Goodreturns",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOVNUVFdOR1N4ekJkbzg2ZUhyeTd2STF3X2R1cDVCUUNpT1BLS0l5d01BREFqeDU2ellta3llRUliOHV4ZmNxd2lVWVRNUXNQZTM4YXIzR0RlcUd2eE9IOHlLRXpUSmwzRE50clEwZTZtdVFaLXcyVFhGbGhEbnB2ZXNoSlBKbWVtM2l1c1U3N3VocXJkZWpwcWw5dEo1SlpoeFNqUENWNm0xTmxpa2xlWnNWU0xtRV9tZW1ZVTVGZm1iWjJUT3FnaU44TFZJbG5pMVAzMDg5eV9EdjAx?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "October 2026 School Holiday Calendar: How Many Days Will Schools Be Closed Next Month? - news18.com",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOMFBNdjJFU1FNNUdoNGJJMHlwWDNRbWxWRWlxazY1SXg1dTRGbV9iTDJSMGxaYlVvMm9sdGN4ZkUydFBnZXRzS0l4d3RoYjNaWDJGTTBDSXI5R1lXMHVHVmJvRTUyYkVneFhrQ19sbzJUWGJySUlUT1l4YUQyaVlHX2o4dmowc2F0bjRNVWQ3NlRNUFpmR2g4aW56bS1OVm9oOUo1dmU2bk5qN1ZsczFQVEktc2laMEVTYTFJOW5obXpuRXVJaUtnMThlVEQ2bXh4NG1GT0Fva1B6OEhYZGZBLXJBWHF0UzJtZWVxT3BZbjQtbE5haXZRZmF4eFZUd3RwMmtr?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Café Inc to return for the October holidays - Fife Council",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbmYxWWMzTWg5WUJLckhGa3NxbnhNRWdmM1oybjJXd1M4dEFPY29sSFFGaGlPQ1dpLWxBSTZ6UnM4eUZHNDRmQjFaTTlMOVFVbk01aHluSS1TSzNGZElpYmgzVGsyQkZsVUdKOEZPRk1nNS0wQjRES2R1cFJUZWRNMXlUSQ?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Petition launched for major rule change on kids’ school holidays - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM2Z4RlJfRzdkZ0UtMUZ2Z3gxTjY1S2s3YTlKMXZRUmFIN2p2blIxeGZ4NWxEa3pWVmEtc0VVVlBaWlVUZXFHUUdHVzNOeF9OVVp4SXpaTGhSeERJVVNBMUUxTERFSGc3UHh3SmlwbjJIdng0Z0dVSmdiZUJXU1M4WFVPNDJOLXc0?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Is it ever okay to miss school for vacation? The answers can be controversial. - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ0hjOHhLOWVDUEhUcUcyU2NwTlR2cmUxWnhBSDlzanZ3WUJyTFJhblhOa2dSTEF3RE9TNkZKVFJYLW13Vm9jQlM0dVFNV0Vib0ZfWEZCSXc5WWcydWhRX0xwQXdialJXcnhMNzk0d2xUZ3hDS2RqMUxvZ2lwbmZKYUhyakVnTTYxOTVvQ1BpdGFYU21VbFZ2SDNjN2gxc0ZLV2gzSFdaS1NsNGN6aHc?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "Why passengers are being barred from rear train carriages - ABC News & Headlines – Australian Broadcasting Corporation",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdV85VU5GZWhPWS1nTEUyOWVRVXhDSm1femYxN3dTQUlTMDNOSEVHRWRJMExYbkxnb0FMQmVKenYycXlrV2VYWmNONUFJQkVUX3B3OVllVGJjNi01ZTdBbUVaNXRrak0zNnBXd2VSUlIxYnp1VGxlYXJMQUQ1RDRXY3VKVHY5aUdrRTZXRFVfR3pFb3liTEdRMGdRdw?oc=5",
+    "source": "KID:school holidays"
+   },
+   {
+    "title": "'I still saved £4,000' - mum calls for school holiday fine reform - Yahoo",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORHhxcDNCb25QTGY4enpBNDJYa1ktNklNSzk3bTBoNERkNTlWcFJzSWhxc1VMZnlYSlFuYU9OZ25EdHBIQzkydHlpbW93cmxxT2RaNVFjTTZ6YWZjc29NMGIybkdWSDBnWEg4Q3VNeE53N1lmV0sxVWo2N2piLWJaYQ?oc=5",
+    "source": "KID:school holidays"
+   }
+  ],
+  "TFN": [
+   {
+    "title": "Technology is increasingly becoming part of banks’ risk architecture: RBI Deputy Governor - News On AIR",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU09Tdi1XZmhCNGtqM2tnSXEtYXZEUEVZRFlBVlYtRENwVE5wX1Rwa29qNnVQUjJRdE1CbnRpbXowZDNvLXN4YWl1Q2UwR0JZajlFZklnUi1hMG10eEV5TFQ3eXlfU1VQazVmaF9aRXBfbm0tRk9yTEZ6WjhDY3NPVl9VcFhTUlNCUlg2OXVwMlhWZ0NmNHY0RTUzYmhRcnlvbW5pdVY4Y2dyTlUxTDM5aHN3NA?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "Noel Tata hopes Tata Sons, RBI find common ground; says merger proposal can help avoid listing - BusinessLine",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcUhBak42dEc2cmE1V25tREFhRHF1czB2dG5qM3pVd2ZYdmpzMjlZSDFSbGl0WnhIZzM5SEJXTHZuUEJRRWZHVWpsSTZ0U0JZM1Bjc0pNdnVDaEVrNHNSRHdadGg0eTdoSUZtU1M2ZHRjcEtHT0g1WXZkUmVDNjd3cDlVYkh0a0xYSzlySFppMXpkd2xCZmQ3UmczbVNhUGxOdDE4S3R1T0F1QVV1blJHNWVHeTJfdFVObWZLVDVPaDhkekNRekNJMDd0VGllQ2hoYTRqWlJrUDZDLWdlNy1JMzZuTGdaYTNqdVd1djN1RlfSAfcBQVVfeXFMUE5pV3g3VFIzdUthTmdEUTZQYWEyTENFa3cyM3V0V0d4X1ZiQXI4WlJOb2tCWHZpejVlaHRFa19ZQy1fR3pQdTZoWFh6WDRSWVpVbndoc0hPRm1sZ29VMzFaaUpxS0ZGV1NfWVFEdlhKa3ItT2M4QU1taGZBRmkwNWIxaWJfV25kSFF5clNLYi1KQkRBM0FhcVdfY2ltSzhhVVpMN2RiQXJiUEdqQXA2R3ZxNHBIelg1MDBrcmxHd2lTS1d1STZBUXZTQ193MWRFRlRPeTVQYThBMXlqUzl5cjlXQmFNcHZSYks4TGlXY1NxN2stSHBncw?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUtsNnBXN3BFb1pqRHQ0ZkpIVGNickIzQXk0UWNDdV9DSlBsbEc5QTlZZ05sQkYwOUlJbGZLNmJNS3cxWmNqXzN6ZkdQblFkUDAyY0E0UG5ZYTBrRnd5blJwdEJyMTdQTTFGUTJpY1hOZDhkSGxJa2F0LUotZ1J2LXEzZmNaMEcwMlZFaHZwZkpKR1RHNF96d2EzSUlLek5kcGtpNQ?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI Panel Recommends 11.2% Increase In States' WMA Limit To Rs 67,839 Crore - NDTV Profit",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcGt6SGRoUEV0VmxHaGFZQ3Y5eVJLcnBMWlVFTVdBRUYzMGd4bXVZRzc5ODU1T1AxdWxQTFM0VnZsenAzTzVtR3FMRUsyUGNqUnI5RkVaeXZpeXZXTWRhck93NjVZMEpaSC1pRzc2Zm5ldkhDMF84bkZGNjI4VDRsN2twd3dtMlJ3VXVxN0JSYlpITW1JZWJVYmRjWFpkandlMFg2REZiaGEzWTg0am1nd1NLX0ZyUkZz0gHAAUFVX3lxTFBRNmVuTVM4RjVWdUU3bVdIUXQxNXJzZmpfTFpWTTF2bnJjYVF0dUhOYnRXeGtPV1VaMk1MU2pzTzNVZDR1SDlqdXVPNDQ2VUtzbzBsNlNub1otaDA5X0hLWHdSREpmdXNkZTRGX2Utb0lWa2hINVZMZG80NGtTNmMwQV9rTDF0Ul83M1NBaDN4QjVZMEtIak94Q3dYd1RmbF9wei16eGRhYlVjOXp2V3dsWE9vcjY5UThKczN0VzQ3Nw?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "Can RBI make a private holding company go public? The Tata Sons question - Bar and Bench",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVZxTFBLOFVQN1JFS25uRzdERzZxOER2ejh4bWpmeEMzcmVGXzI0bkZHcHNkNl82Y09mTXhaMjR0MkdpWHNWM1Itc24tcnVESVcwYmxkc2tnN0NoSHFDS0x6LVU0RTZjZGNFYTBxNnVZUG1NR0cyWlVRckN2QTdhOThjR0FRSEdTdG1ld1VsRHFuNlQxemlwV2VRdGt2X3JrMHpZUlJSNnhyekHSAbgBQVVfeXFMUE5qeE5vdWpoZHFHMDJxd0dKNUhMa0VFOGZaTUJmT0QyUzM3RVJCMnRxU1J3SFhVOGNIdk9GaTNqQ0thTmdmdHhCY3RJeFdjRHhOT1hvZ0VBTUtDSnkzNFhDRmhQYkEyZktFSlVQSDZ5cVR6UmlXdXBpY3lrSUlxZUMzV1BlU3lKNEszcE1HYmNXaU1OeVgxcFlOYjNWV2dVVUQ5Qk5wTU5FVzVQUWpWczdIbzNsR2xBag?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI Panel Proposes Raising States’ Short-Term Cash Limit to ₹67,839 Crore - The Policy Edge",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb1BJRkJmUlZLUjVXS1l1M2FIaUlyQ25NM3VNUHZIT3VZVzlyUm1jQ0NBdFg4ZGFXLVZqdjhVWC1oeEp4R0IzSzBjMXRfSDRyWC01Vm4zOUsweFFtVkRTZ0ZTZTJHTVFQTFZ4aHk1NU9hV1Jmdnc4b0xzUkE3MGctQ2IwN0hSUGl3STB6SU5lYzlGd3Q3RGtrYkwwSzdvZnM?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI proposes simpler FDI compliance regime, seeks stakeholders comments - DD News",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSEtiNWNPVlp0bFdCbzdKRzY4N1FZdEZZZ2dDVzAxRUpqOVZYX2JLOVJ5a2ZYMXhkNllOYVNnYlNNSENWTS0xa0dadXl6MnBWdEp3VEZsTkFJcG83R0JGcF9aZG5lWXRRNzdvOXRTa091ZWp5UUJndGNjaVdaa2hlVEpTQnVDMVcySHBJcWJGR3VfUVRpRlpHR1FMYS0?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI New FD Rules: What Depositors Need to Know from Oct 1; Check Details? - APAC Media",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zLUdXYXhxSElja040a3IyZjVsMXdUR1BzYmgwMmRNZWJPbWJxM1daZW51VFc5aWNYb2l2eG1hUXdtUkdhYmYtSVdDVlJzREJDTTNJXzVVY1Vmd2FGQ2J1SlFxVjhObmE1NC1NRTctZXNzTHlaVWc?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI's new deposit rate rules kick in from 1 October: 3 changes FD investors should know - Upstox",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOEcxVVZYb3pZNlRDU3E2VEJ5VDF5aGpQdC0yZFVyRWVTUTJMbWZROUJjRm1YSlA2ZzBfc1U2LVk5ZTVwZXZYc1lkUXQ1cDlpd0NEWU5aZEJQeTE3bjNsSVZnRE1PdkRvUWRlN3hkSFBQeU16c3RXVXEtb1dIY2tKbTJQcngwTEd6NXJLQWxQbEFsbmxHZXZIRGdRVTNJSE9PSDlvS2tma0FoeW9PWE1WbFFId1JUbndsbzlTNFY3cF9xbXBLbWo4a2p2aS1xU3ZONGNWVXNIdGVlUUhaU3R6NVJVc0JEQQ?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI panel proposes 11.2 percent hike in states’ WMA limit, warns against Q4 borrowing rush - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNaVM2OG1JXzY4NFM1VGxvUDhpZk1yRlRNRUpfYUhrT280blBBY29FazNqeGttV1VYNGxwSEdmWjhsUmF1SXVWVjN0WU9nZUlNeEpPZG1vTTZLMTF5bkd0VUNFYnJxNEZqNWRud3NINHBQU2t6RkkzRDRqc2YzaW14NWlqOHlEOW0wczBKWWdqdXVvQ0tMNkJjYUtRRmUxNlZ6YmV2RGkwMlBpc2ZmRmJGelFJaU5uajViZXd5ZkNiY0RFRUFrNEJJOHpmTkpJZGZNbUR4UG44X2JpZGNKX2tuc3pMSGdyQdIB6wFBVV95cUxNQTBEakJwVU1EOXF5R09vRmlad3RHLXdRNlF5Y3NjX2tCd0k2cndRd2tfaXR4bFJMM2pybFNDX1ByMzhZQ1R1cmVfYm1JUW12Nnk0Nk1TMW4yVFlWeWlWRnJCeWZ2SGcyZjYyajRmdFBfZDNiVHBTaHc1eEVGQktWc0picW54dG5jQklORzBWcDNmUmVUbnFJSThuVUNBNG5qVFVGaDNyR1ZYNkl6eEkyZ1hqMDZhc25aRWc4MTllU08tX3REQ05NLTRRMEpvUUlBM085ajVGYmhlRHBMMS0zU2FBVkZnb1dzeXA0?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI panel warns states' Q4 borrowing rush may raise debt costs - bfsi.economictimes.indiatimes.com",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTzMtUk5UMWRHcnlBYmowMmRBc3BRWFRjYXFzMklfcVgtVU1wV0J3VFFadUw0aXVBOXR3dDVDc2k0aEVqTnMtUVZuVUEyN2ZGLUNldUkyOTQzcTZqX09mSng1Z2NoNTdoa1F2S1lfdHk3Y0xkdlEyNV9aTmdLMU5sZUhFS2lWUExHdVdJWDJfRnZsYzFPVG1jMkhwTjhNd3NDNTlKZFc0V3k3YWNRY21PMDhaRGd3Q2ZQQnNmZDUtVzBfRXczTG5YS3p6ZUpfYW9QM3hj0gHYAUFVX3lxTE91d0kybkZxTHJJV0xQOWxhdEdNMWk5MlFmWWZYS3dRdTFQMWJoSHlxRUpiY3lteThlZ0g1SEhuZS1jZnA2OFdXeHlRTzBMTHZFUlZyMHpLdFg4LUluWnNqV1NzdkRocHVBbkdGWVdSeG1RTTRTT2hEdkJzQXRFTXFrRXVrbEtNb0pOVjVSd010aHF1LVNBZS1zTDhxcjBSYlRTa3JZNVJCa1Y4aTNuMVN6Slc3R0dHOFNRcll0d3UxSWllQjdhczhhSGZSdXBqVzBYcmg3T1JSTw?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "Noel Tata says Tata Sons' proposed restructuring complies with RBI rules, could avoid listing - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPWlZoRzJESUlib0dmRzdjSGhwNVNZTGRqMlBRWUNicEhYdjg1b0wycGtuMzZiMDZZZEFEdURhY2g1RmhqdGVZbWVnQWlYVk1KNTlUaWVJbmtHcUd3c2JvZF9Vd3pkNEhiVUlIR1JjYUN1TVVScFJoTWJCTUIxUDZldXRCQVZKcl84WW9VWUxQMXlQdFFmUDNmUWpSR0JXUGNEeHcwSDdaUDRXSUhLSEdvTHVxZ0FLR1NkZlJuYklHWm53UVVJM1JhcUxZYmxDSzhvaXluLXNTYjI4cUllWmV6bFpVRXlWY04wUjZiWU9uejl3YWF2YU1DWHRn0gH_AUFVX3lxTE1OVkNnbzl5dE9YZ1pjWmJGYi1mTkt2V25qYk1TcjN5VHMyQUlwVG5LUU1SMG5Oek9WU3RQd2NzUkhfZXRMYzB2c0Y4aFU0MVdzY1pxRllGenVmMTZ6UXhpM29ldl91TWw0MnE1Zm1TVHhvOGxDQ2ptM3JZNFYwZkhTd3dmN0JCa01XenBpMlBwYXhpNGl4bXdObk9TQXZTNHA3bFc2VmxGTFlSZXNSdUFHZmVsZExKZkFqSWo2Qjk2M0hnTXNoNmNsUE9OSzVvLURueGVQS0duOWJDSGtGdnpoMG9MQmxTdlhXU0J1YW52OUdBWm9FcEdTR0k3WXVTYw?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "RBI amends FEMA Regulations on export proceeds and trade transactions - SCC Online",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM1JEM25iVzM5WEM2UEdoV18tekx1MnR3YjdEX2hJc3hWa0FiTUlUZWlJcGo3QmpLV09Wbzg2VHk4akN1VXhTUThDd1pJUUNPNG9zSlBpNWlTYnhSSmgzWnFLTzNmb2tNZnBjMlBKRU9zb3hpNWxXMW5tZ25YQ2ZTUVA2U1l3ODVWWFU4RWMtQnBWaDlnTDRKV1o2QVNOSjVpLUZJcWlNaXVVb29GcVE?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "Debt mutual funds: Axis MF suggests where to invest as RBI may raise rates by 50-75 bps over next 6 months - Livemint",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQTUpNYkYyU2x5WnI1OUYzNnNJYnpYZEJmdFowcFl1aURJcE1PMVljU1R2dkVSc0NKWm9zZkQ2MXFZUEVwaVZYbUtka0g5NVJvV2FwMEM5SzY2OWFQSzBQOGE2TkpKekhqSTk5bTRWYkFQZzMwTFpsekRQSjY4anVGdDlLMGYyV1RoNUs4Vm91cVlvd0plRUhiOGN2UlRaVEFwWHpnbnFnZ0V1M3YwalRNYXNoMGFSWGFUa2lYV0JNZVBLajF5Rk1RSzhya0xaaHB3T01NMWNZZHNiQlMtMm5yUWtJZHZ5cVFvOHRrMUZPVTBzQ25hNVRlMk9EeC1SZl9wQ0xlbFl4R1LSAY4CQVVfeXFMTkM2RXlkUXdETnhOdkZlRmVqUTF1Q0FNTEJNakVGT2F5UDFlNmlLNU1FRTc4TEo4b0pDa204SFJTemZKbVVteVRqcWs4U29tbDFGejctUVZGaEtSYUdBWVVBR3NHNXZGS2xVcHhlaTVWVG9fcEREbnN0bmVrcGN1WjgydGdSSGVrZGNTM3RjQklfSm9nc09mdlU5NFE5dHZNNlVjWk9jdjViRjdlOGFNRmY3VjVGNkJMOS1jWEhpWVVWUnlNR1J1bnRCU1BwMkpNallZWTlKZTdiX24zcFJRMjJXNEJjYXkweTlJT3I0MjR5NXpiYS1MUE9WZTdtejFOeVJaa09iUGNhZE5UX0N3?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "New RBI FEMA rules from October 1: What will change for exporters, importers - CNBC TV18 - LinkedIn",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU2lLRDBmS3NlXzBhVDFSYzRmaXlOTmwyTFF6NUpMS2JNeV9kZ3BKMTlIU19fU2FlQXp3OGM2SEZGODJ4dHZ3NFRQeUsxR0Q2Rml1VmItekFMeWxOYlh0NTN5YVVTNG9RV1E1aGNGZm9wN0tHWHVrZFdLSEg0cXliRms3amNCYks2aE9vX0VqUjBVeThwM0hfejFmU1llVUotUzdkdlB4bkJwbkFBM1RzbUo5SkdDbkc4OFE?oc=5",
+    "source": "TFN:RBI"
+   },
+   {
+    "title": "SEBI drops shareholding case against Vinod Adani, finds no proof he controlled offshore funds - The Hindu",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMGxKblhFWGgzWEVZVTJ3UDlsVld0N0lVQzl6am1SVW1lcE1yUEQ3QnhrbUdrR1k1QklrYUtNUWp5U0lrWmFLNVBlQlVGeEVQMy14U2FFajhwSklZUmlpcERTckc2TU01MGNDRlpIemdnUnhXUlFBSllFR0liVHlJMF8wN3Izd05TWW4yTzhPa3VpNXVZSm04SkJWakQwOXBxbEktMzZRRldmSExPN1FoejFxd2o3OXpVbmxZdmpVWW5xeXBDTE1RVWpwQ2dvVnRUcW1GdFJESFBSelNZd0k40gHmAUFVX3lxTE9Uc1hvUVdpSkpsVEloR0ZLdy1Yaks4XzR0MWlSZmpsNXIyMGJ4VWZFbVY0MlhSa2hRZjNNUUdGNVpMbm5ySXdZQXlaMFhrS2hRS2dQQk9kSUN1LXRPa1hQdE83MWdNVC1LYVJIcEtlYzlQRWdSMHZJRUNDZUVDUXlyTHdGU2pKd3pLcDVSb1pPNjlFSU0zQ2xDbVdXcURGazhKWTByTEVoNUJWaWNEQXJWbUpVMFE4Q1lhbllJM2RlZGJwNS1SenVDNVlaUnRzcjU5UXdnVW9ST3pfMXVEMEZVMnJsNHhn?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "PMS industry requests SEBI to make Rs. 50 lakh threshold applicable across the industry - Cafemutual",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVRSeDZYZHR3OGdtWEItSWppM01Odlh2UmVOWko5NTBIdlhuUGVtQVZHaHBXd285YU1CdU9fSUJfdDdWZHlzdDUySEFfQVFOM3VXdHJFZlV6Q2ZoODg3TW1ZblpWMFppMWF6cmpVSDhma0h0aE1Ra09LMWd5X00ySHlWdFZ1d1pEZFM0TEFpRk5UNWUwdDJjTTc2bXY2RkxDNGU2YUxoV0RGZkFUakIwcjQ2eEpucW9tVFlBQ2pOaUxRSU9sVkVabw?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "SEBI Approves PMS Overhaul Including Overseas Investments - Hubbis",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0NydzJ5X2tDNDVBem9LV1hBb3Z5WG5YOVhDREUtSk5YQmx6Q3hxbEhEaVF4X2ZzSEhaVk1aSHZUQk1jZ3FnZWRlNW0zYU94RmlLOFNDSHlTMUxoeUZ0eDB1VnJvSWVVWGZDWktYUGUtTFlGZmYzYVJvVzVVRkRDcVFnUmFtU2xIV1lpNTB3?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "Billionaire Gautam Adani Settles Long-Running Shareholding Case - bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWUVCLXZUNjlEbFJCLXNpS1BUN21YblFFOExhTll0NTd6bjNUS2xreWxzVVg4aUx6ZmFhV0ZRRmlMMld2Z25qaXBOTXlkUWx0dUFNdm1QYkRMU19FTVctMGQ1akM5aGt6dXpHVlY2NjAtNVV4TGwzVmowZS1ONUFhVGZLN3hKdE1mTTg4bUFGd3JVU0hFeFYwWUZwUWxUcmpZamJpbGo5ZWF0MlVreXFRT21pWmtYdw?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "Sebi drops shareholding case against Vinod Adani amid lack of evidence - MillenniumPost",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZGpjdnpKTkhmdXhPakdPM2x6Z05rckloQzUtNGFpQ1FzRXZ5dm9IMk5iRm5zdXM1aUtTQmR0REo3WnJmb2Q2S2tJS294eEtIUWhkUE1LTlNmcS12OWFPQWZCdVByemZDbUpONEZhMHFhNUZrbW9UNzNXbG00Wm00c21HODNCNnFobHFaYk5PY3pEYV80WTZ5aU93aEYzRnBuamhoSlR3VEttQ2hVb2JkRGlyNDd4bzDSAbwBQVVfeXFMUHBnSWNObThab0tXSGdKN2FJNzZGWk54TEE0akNOcWNZbUtYLXJxdnE1LWxjSEdvdTVST1Y1LUcweVY1RWZvS1JYQV9ISGtIeHdVc2lySmx1eVNFaDB6eWJJaUxFbFI2bE1hZDBKQ0VuaVo5LWNvdXptaGFmb0NETDMycUhjWXBRelI3eGZMb0R5Z3BWd3VGQkI0UTA1bDRWT0VqNDIwZVBWWGFVRlU4VVVROWJycHZyVnJQQmU?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "Adani Group Settles Six-Year SEBI Shareholding Probe for $154,100 - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5WZmFWZXc0aFdQYXVVa05tVmgtd2E4aEFld2gxa1ZqdFNrQi1wdWg5NFBBcEx5aDN5Z01nNWxwZlR5UHhKVkNhV0NKdk9ZMG1pZldLem0tdkk3TlNZbzJ0Qm1iemM4SGNIMkFqdGVPbkhkd3hSb3c?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "Lloyds Enterprises Settles SEBI Case: The ₹4.16 Cr vs ₹144.82 Cr Gap Explained - NiftyTrader",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaWlNMzc2TkxlMW9CYXk3ZXgzdzk0d01SeGRuaW9xc3BkSktOdVFiZnJEX3pPdS1iTlRZaEVtNDlSWFUxRlJFUldFZERGZk9GS1B3ekVJSkFuSE5DbmFGdUtja2pMR1EwcTFPWFNyM3dtSnFjR0RhNHdNaE00ZmxxM3BIQzRSUQ?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "M K Sons Fine Jewels receives SEBI approval for its upcoming IPO, plans retail expansion - The Retail Jeweller India",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUWVIamh6VTNpWXZwcVFmSTVyc2MwM1U4WllsbDZicVNRelIyaXlCOG9Na21oRnBDd3ltaUhINGNxT2ZZVGxmMjhtcFEwWDhZOFVIblN6WlBqQkY5VExGU2Fwcm5ocGc3Yl91bGpwb0M1a0g2T0U3SU9rOVdHNkU0c21UR0wyT1dzeXhSclhCWGhSLVlJSzJOSUlyQ0h6TDJ4LWVMZ0FTWndFUGhIS3JGRURiSjJFdWp1UndHVQ?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "Self-Listing Buzz: SEBI's Conflict Concern Or Conservative Regulatory Model? - outlookbusiness.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc0N6OGdzTFZNRC1aZDM5dGY0bDBnaTllU2ZaTTRPTTBySmtUZno3WUxPeGNTM2ptNDg0NGN5YUpoeFVFMlNWWFRLUVV0QV9MWjZMQXQxcnlmUDZnM19HbnpDMTlVMmpnaXBpMkdmbFVnN21FcG05RGpKZ1ZxS05wbkltdGExaVNUX0I4UWdUUUo0NXpKMmVBQTdjbk1Na2lVbXNqT0dXTWVfVF9zbEpIeEpnZ9IBwAFBVV95cUxPUlI2ZmhyNFhoM3oxN0k2c2daT3ROREJ1UWFHTkhlQWktVE1tOUh4ZEFkdXVhcThaaVY2MHJwRUI4Q0ZMUnZ4TmlYVnhwSFZWTFJUVjNleFRFX20xd29yVFNwZ3Z5UjVZamRnSlFyWEo2dUYxTHpNQ3l3bExBcVNpc2Z0N0t6S1hhN19ScEJ5eFcyNXZFNmR1b2V0TGE2MnpvRVdYdnd2UVlKMXlLYTJxNmMzbEJKd3NtdjBybnJkaHY?oc=5",
+    "source": "TFN:SEBI"
+   },
+   {
+    "title": "Growpital Scam: SEBI Orders ₹192.88 Crore Refund to Investors, Slaps ₹25.10 Crore Penalty on 28 - Moneylife",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbTVIbFJpbG5XUGw4amNpcm96bFVqZUtZaEpleERUaGZ1aU1NQWVFdEZ5SGxNWThOLXJiNzlrWENsSTZSUVdmM2U5WlB1MzJ2QU40OU5rdldUdkxyVmZqRXFIc0hYaHdZaGFzbmoyd2J2SGZPMElNZjBWdEEzZ0paWUZ4UWVaSktxNmFjdDNmMjJlOFNYUGVPaVVIaUNmc3hQOTdPVHdWbVJzNVpZVDZtVG01bGtiYmV4a2tlSEZ4SnJ3NUhFaFhiMjRIRG1MQQ?oc=5",
+    "source": "TFN:SEBI"
+   }
+  ],
+  "GENERAL": [
+   {
+    "title": "Australian man amazed by India’s diversity, challenges Western perception: ‘Each state is like its own entity’ | Trending - Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMnZQQ09lQWhHMktvcUNzeUFjbHlWX1VFV3lTZTlESGRTWmhwRXZsclZzTUJpUS16VC1KWGh3UGE5ZlF5cHFLa3p4S01DTDJlb1dMd1lIcXlCWlpQM0tuNF85VkxtdUFEWmlKN0xTOG9wb3F2Y3FIZU5VNm9ING5OVHo0TktlRndSLWphWE1PSVlrVGtGT09Xci0xRlBSd0JTU0FEMUMxQzZWazJsd1BKQkNRM1dLc0x4S1BibTk5QVZEQjd2aU96dkNHY2ZQV2hHR3lOZ3daX2lJOVd3V1lZcVhLU3kzRzUtTkRZZ2lFZ1JPQXpRTS1EYUh1WdIBgAJBVV95cUxQN2dBT2JucTEyYW1QLTJuYkJUZ2xVQjczMmdJZXUyNUNxTXR3UV9fWUx0Ykt2T3REMWhRUFJETDlSazRrdlVIX3Q3UE9jSkhZSWtfT09mY0M3OGNoOE9yMjFIY2NiODljUlAtX0lhZlNfS2NBVTU0cmJDZ3N3Z0FGR1FKVlNwa3VKNHNqSVhZUEV6RGplNURCanY1RG95VEZ6TkVDRVV2Y1JxMmRacTI3TS1FZDZpQTFTbmt3dmpTcjZ2ZThEa0t6ZmM4UzBZOTV0M1lyRDdXUzQzbExXeUc4cTJ4bHB4Z21Wb1RYZWJKeTZuVEZwOWpYdEE3aHVkY0w0?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "India in talks with China for alternate air route amid Pakistan airspace ban: Sources - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEpLSndMcUM3QWM1Y0NEQTlWaG1JU1d6ZmVIYnJOcGtYSVFIazgwcnVWdVJpMzNCb2ZqOGRjUWVGOTFFWW1yN2Iza2tKRlQzUTR6em9EelZkTXZBWlUxbFhJdENtbmNwSTZpeDZPM2N0QzNENnBPRjYyRXhtdVktR0h0NHpaYVR5a0F6X0hXM19TckhkUnN3eXRKVVJxbFlYdEdWLUx1OUxnQjd1VnJNbUpDOGNpMGtwblYxRktyaGY0allFanV30gHHAUFVX3lxTFBUSktKd0xxQzdBYzVjQ0RBOVZobUlTV3pmZUhick5wa1hJUUhrODBydVZ1UmkzM0JvZmo4ZGNRZUY5MUVZbXI3YjNra0pGVDNRNHp6b0R6VmRNdkFaVTFsWEl0Q21uY3BJNml4Nk8zY3RDM0Q2cE9GNjJFeG11WS1HSHQ0elphVHlrQXpfSFczX1NySGRSc3d5dEpVUnFsWVh0R1YtTHU5TGdCN3VWck1tSkM4Y2kwa3BuVjFGS3JoZjRqWUVqdXc?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Indian creator shows how Japan's public bathrooms make life easier for mothers - India Today",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOGM0TnJjeV8tUVNQQm80ZlJJVnZmNG1hSHVaNWNqRnNkMmxtQlZ4N0JrMnNHcHozTWp6ZlA3cjQzVExBWjhWZlJYV1haeVNPSWZ4aXJhQU1ra3pEbXZYQXEtM25WcXZGb2UzUzBpd0NFaHdVamt1S19lX1BZUURrMW9ZYzB6djh2cU9oN1dJcTRucjZXVEFtYjUteWw0R3hwa2JGSkd4UDg5bi0wUkFNT3czanVRUkNNQl8zSXFmbjVNT0RmVWZPVlB4cUNsOEpRV3BBREdWazNUeENUOWRN0gHfAUFVX3lxTFA4YzROcmN5Xy1RU1BCbzRmUklWdmY0bWFIdVo1Y2pGc2QybG1CVng3Qmsyc0dwejNNanpmUDdyNDNUTEFaOFZmUlhXWFp5U09JZnhpcmFBTWtrekRtdlhBcS0zblZxdkZvZTNTMGl3Q0Vod1Vqa3VLX2VfUFlRRGsxb1ljMHp2OHZxT2g3V0lxNG5yNldUQW1iNS15bDRHeHBrYkZKR3hQODluLTBSQU1PdzNqdVFSQ01CXzNJcWZuNU1PRGZVZk9WUHhxQ2w4SlFXcEFER1ZrM1R4Q1Q5ZE0?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "‘They call us 7-Eleven’: Indian man on racist attack during Las Vegas trip - The Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZk5JdjRMNklKdl9rSHR2WUpMeGRTNDJ0Vkx6WDZBaHp6MmhaY2V3dWw3VWxLaFBkS0xibFdnUW9ZT3NzRHdZalcwSndvMmhXNU96YnI0eVVpNXdqeDhudnVHV1NWeUluZXNEMDhEbHY5NVBaMkNGaWNrNlVocEM3MWd1OWtFVTMyWDR6SGZoQ0czS0xQVnVuUHh6OVFaQnVuanlScVN4TWZsNVRfay1QbTFWMU9WSUg4TnpfRGZuRHNhN0cyUjZycjBsLWRqcjU0ZklPWjJQSWrSAdgBQVVfeXFMUGZOSXY0TDZJSnZfa0h0dllKTHhkUzQydFZMelg2QWh6ejJoWmNld3VsN1VsS2hQZEtMYmxXZ1FvWU9zc0R3WWpXMEp3bzJoVzVPemJyNHlVaTV3ang4bnZ1R1dTVnlJbmVzRDA4RGx2OTVQWjJDRmljazZVaHBDNzFndTlrRVUzMlg0ekhmaENHM0tMUFZ1blB4ejlRWkJ1bmp5UnFTeE1mbDVUX2stUG0xVjFPVklIOE56X0RmbkRzYTdHMlI2cnIwbC1kanI1NGZJT1oyUElq?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Dog sits atop vegetables on truck in Bengaluru, hygiene debate follows - India Today",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVzBsVzVKYmdscXBQMHM1ak9oUmZCNm15NVNnSmlWVUdvb2Q2LU1GMi1XQ1VMOG9kS0s4b1hnRUh4bUpFaEpvNjJFS2dGYklvRTA4U21EQVcxVmVUdnM5Y2NxLXBQRUM1cFlPVDNacG1pcjdYZk5uZlpZSGNZV2dTSmlmb0Qwc3lQZHVncUlIY0hHTC0zRG5la2F2YWNNT1hGV1hPSFN4R003bEhiODhsOW5MQnp2d2Fpbmt2eEtfaE9ESXp3ZzZLdmxhWkZWS21D0gHQAUFVX3lxTFBXMGxXNUpiZ2xxcFAwczVqT2hSZkI2bXk1U2dKaVZVR29vZDYtTUYyLVdDVUw4b2RLSzhvWGdFSHhtSkVoSm82MkVLZ0ZiSW9FMDhTbURBVzFWZVR2czljY3EtcFBFQzVwWU9UM1pwbWlyN1hmTm5mWllIY1lXZ1NKaWZvRDBzeVBkdWdxSUhjSEdMLTNEbmVrYXZhY01PWEZXWE9IU3hHTTdsSGI4OGw5bkxCenZ3YWlua3Z4S19oT0RJendnNkt2bGFaRlZLbUM?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Mumbai Metro's 'touchless spit bin' sparks discussion: 'India has modern problems' | Trending - Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNLW04Wmt4YnFXZnZjQXpLV05HOXppR0g0Y3c1YV8ySThJWTZ2Z0hROXBIWG5HUjhzRkZtbzk1RlRLTTRXWnlzRXFRUWR5cG8zTTJiQ0E4NVVMTkFxRmZlUzhRd2ZXSWpvTE5WVU5XRXRNY1JDc0NwQ0FQa2gzcDNUeU00WWt1NXpabERBdTY1VmhuZXNfSDM0VXpPTHBzSC1ubk9kWGdya0pPemF2ampVcjVoU1d2cVRMNWdOLXFhRUFEbXl6dHp4MzJNSlIwaDdaRWl1MGFJVHHSAdgBQVVfeXFMTS1tOFpreGJxV2Z2Y0F6S1dORzl6aUdINGN3NWFfMkk4SVk2dmdIUTlwSFhuR1I4c0ZGbW85NUZUS000V1p5c0VxUVFkeXBvM00yYkNBODVVTE5BcUZmZVM4UXdmV0lqb0xOVlVOV0V0TWNSQ3NDcENBUGtoM3AzVHlNNFlrdTV6WmxEQXU2NVZobmVzX0gzNFV6T0xwc0gtbm5PZFhncmtKT3phdmpqVXI1aFNXdnFUTDVnTi1xYUVBRG15enR6eDMyTUpSMGg3WkVpdTBhSVRx?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "INDIA bloc to discuss Election Commission-related issues today - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHRyU1BwQm5qWXZ0dDBmQlJyNnYwUGdUYVVpaktLTXJ3NmJUV2dPY3BEMGZqWnpNV0RxREItSHJYUmVSY3oyZEtlQXNzY3RSY0ZtNWpKUEhfaUNnUlFqQnhneW9KcXRFZkZZdkI0UGdOanZoQVFHZDNRZC1aamdqaFk2bGlROGpIam1kX1NvZzdGVnBU0gGUAUFVX3lxTE9QdHJTUHBCbmpZdnR0MGZCUnI2djBQZ1RhVWlqS0tNcnc2YlRXZ09jcEQwZmpaek1XRHFEQi1IclhSZVJjejJkS2VBc3NjdFJjRm01akpQSF9pQ2dSUWpCeGd5b0pxdEVmRll2QjRQZ05qdmhBUUdkM1FkLVpqZ2poWTZsaVE4akhqbWRfU29nN0ZWcFQ?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Delhi man calls cops over 'collapsing' house, but the scene leaves them puzzled - India Today",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMHpwbTBUc2RWalZKWDlOM2xXdU1xdVR1YUVyRk5qTUpNQ18tQkV4MXByNGJrSXdzYWJLYlJCTGFjX3p4SmZuejk3dXYxSl9FZlpZd0tsZlVrOFNtWjRydUZBeksySXh5dU5Cd25OTEh2UXN1enNZU0RrdnRaa3NSZDEwR284ZGxjMVNpTnBoUTBPd1dsM05qRFZQV25PTjdvXzlKN2NEUjhHZlBzWXJZQjg0RUkwa0lyY3ZOSnNYN2VaZXk1WVV3TXhjMGFXdGlCYmdoek5qQjDSAd4BQVVfeXFMT2p2SEFFMXc5MEVKdkxMRDU5VDcwVUx2bjRVb0N5bTQycUpMRER3X0EwWHRDYWFfTDQxeDlHUWFDVDBkSXQ0NnMwakJyUUt4Zlp5bjI5dkdFZHZlTmM1NW9oRFFuRGpVeWltWnJzYXhGNTc4OUJkYnprOERBR0VEdXBZN2ZYVVhfampFMnhZWlFPaTBIRjl4SFJTWm5XaFhwVUM2MTBXYXFDdnA4SzhvbDc4QldqV2dQQUpoRDR0bXdqc1NaRWItSnhxZ0lUMko1eUprWFVYYm1oUy1fX29B?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Why Chinese trader thinks Indian clients are ‘hard’ to work with - The Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOejI4RTFhZjBrZEVCYWljaGpBZVFuUEY0MFJ4YjZFYlN1Z1dMRExLcmNwcDdIN3FEeElvZUFRQjZMSW9mYnVBU0JiTW92M2NvNTUzeWJ5QW92VmN1Y0VZZG9fdFJtV0dHUE5ZRGpjOU41d1RjT3k2Y1dtVTE1bndiMmg1RWhRZXdKVlphNmRNS2JpX0VHOW5GU2NOM2t3VTZxTzZibEVFR1U2TTRzZHc2RE5CWW5Xck40TFJIWUNxMHlPaWRyUDZketIBzwFBVV95cUxQMm5SSlFJN3J5eUoyeTdVN25Hc0hTcU80TldmeEdUaUVPTEZJVmJkOWctYVh2RmJpOUp4NkxyZE9MS1pPOXk4Nk82RldzbnBWNndELUNpdFJfSDM3dFJkSC1nR2lrRDhFdnZQWWJwY2FLUnI2ekc4eUg3YjcwOTN1WDEta1BDeTNyVURSZVdwS1dMVWw5eDExMWFINjY1T0lfc3VLeGFZb3ZjSEdBTGxxaWFWdjhyTk1jM0Z5M293V0J1Yk9jNkxSR3FaWlRyc0E?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "India reiterates two-state solution amid IBSA stand on Palestine - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkdqeEhlNGVJTUVjWEx6V0JKVlpOVWxwTk1CNXNqdXl3RFFsdE51czZJRTlUX2tPTVNjVS1YQ3AtazRUOTBIeVktVE1XRVJzNHg1MC11azYwWlJ6QVg2ZUI5OWZiLWxxc1NCVWUyaXF0Uy16NlNCcEo0eXJlSUNCdGZmZ0xGbkhpdGlrUGxla0Y4NlhKY0JjTVVfRTJfQURSNkNYQkhwN0NfNDNq0gGsAUFVX3lxTE92R2p4SGU0ZUlNRWNYTHpXQkpWWk5VbHBOTUI1c2p1eXdEUWx0TnVzNklFOVRfa09NU2NVLVhDcC1rNFQ5MEh5WS1UTVdFUnM0eDUwLXVrNjBaUnpBWDZlQjk5ZmItbHFzU0JVZTJpcXRTLXo2U0JwSjR5cmVJQ0J0ZmZnTEZuSGl0aWtQbGVrRjg2WEpjQmNNVV9FMl9BRFI2Q1hCSHA3Q180M2o?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Tom Cruise walks over to check on a 'distressed' worker, her reaction is priceless - India Today",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUnRNS3BjXzdlQ2tLTzJaZDR6QW4zZzR4S0RhQ29GSjQ5ejlGTUZmaDEwU0R4a0dXQ2pJWXpEd19Fdm85SjREYThSS183MHBMczlpdHpuelE1NHFQT0RBZzVfSlhjdXhvREd3VXRvVVZqNVE3eGxXUm9EZWFWOHRQZmJpUk54SFNaSjByNlN0VUJXRTRIS0M1WXNGN19VYTFMUXdlcEg1VTVGWHZpLVVyTHJsQ3JTc0Y0MkhPWVBiZmVrTG92QjlXelBFTDktNEN5X1hMcWFTbFNnZnFIaTFiQkFn0gHiAUFVX3lxTE5SdE1LcGNfN2VDa0tPMlpkNHpBbjNnNHhLRGFDb0ZKNDl6OUZNRmZoMTBTRHhrR1dDaklZekR3X0V2bzlKNERhOFJLXzcwcExzOWl0em56UTU0cVBPREFnNV9KWGN1eG9ER3dVdG9VVmo1UTd4bFdSb0RlYVY4dFBmYmlSTnhIU1pKMHI2U3RVQldFNEhLQzVZc0Y3X1VhMUxRd2VwSDVVNUZYdmktVXJMcmxDclNzRjQySE9ZUGJmZWtMb3ZCOVd6UEVMOS00Q3lfWExxYVNsU2dmcUhpMWJCQWc?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "India rejects Erdogans Kashmir remarks, says no third party has locus standi - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaEtTV0dGYnFOODNpeHgtSGRPY19TRFhHMkhGREUySllITUlOSHU4MllFX0E4cFVPUFVnanpRdGRVcGdkUFdOVWFJRkN4QlRPSEpRRzFXNTNjQmxCRDdkNVd6Z3d5MnBRZUdFN0p6WXlDQ3FsRTk0di1ka2pmeVE1YzZfckNjRk14N1dHTG8zSmdpRDNENFFuc1lGV00xa3FpbWcwQ2dYcU1kRFdSSU54NXVQOVZjTDZhMkdn0gG7AUFVX3lxTE9oS1NXR0ZicU44M2l4eC1IZE9jX1NEWEcySEZERTJKWUhNSU5IdTgyWUVfQThwVU9QVWdqelF0ZFVwZ2RQV05VYUlGQ3hCVE9ISlFHMVc1M2NCbEJEN2Q1V3pnd3kycFFlR0U3SnpZeUNDcWxFOTR2LWRramZ5UTVjNl9yQ2NGTXg3V0dMbzNKZ2lEM0Q0UW5zWUZXTTFrcWltZzBDZ1hxTWREV1JJTng1dVA5VmNMNmEyR2c?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Why Uber CEO sends emails to employees on weekends: ‘We are really demanding’ - The Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaE5xRkcyMERqMnFfcUFhMm0zUkEtWDJ6N2tvM01BZ0czeE1xdkVNd1laTlJxLWYxVGFrNzNqMWNvYlVlWEFJX3liVHc4RkpSckdyX2NodnotSERTY255aU9Jc19hQm1MN0lLTGZ0SU12aFNnNGZOeFFUbHBUY1Z4VGdpQzRGdHVNNlIwNVNhbFdtTzdMSUxQb0ZYRHcwSUdqclJwNGZ4Y0F0RDEzRllCN25XVGFJUS10V2NmMHJaUjBSanpCYkMzUkRR0gHKAUFVX3lxTFBoTnFGRzIwRGoycV9xQWEybTNSQS1YMno3a28zTUFnRzN4TXF2RU13WVpOUnEtZjFUYWs3M2oxY29iVWVYQUlfeWJUdzhGSlJyR3JfY2h2ei1IRFNjbnlpT0lzX2FCbUw3SUtMZnRJTXZoU2c0Zk54UVRscFRjVnhUZ2lDNEZ0dU02UjA1U2FsV21PN0xJTFBvRlhEdzBJR2pyUnA0ZnhjQXREMTNGWUI3bldUYUlRLXRXY2YwclpSMFJqekJiQzNSRFE?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Mumbai creator's 'safest, smoothest ride' with woman Rapido rider has 2 million views - India Today",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVEExQk5SVDRtSmdYRDZiakdNYTAzWUFub2czMGZicXR3RnFHbUkxR1dSWDl5MGpydkNyc1k5ZDd3WHBNcWlCamlISEhWY0JqZlNpdVVadGZpUmQzNVBSU3hZWlViSS01TTRsV2o5bU95LUlMLTFnMnVlSndvdWtrUkJJTXA5THRldTlud2huNmdMTDgzTnFtS1hyTVFCNmQ2Njh3cFNZVEVGWHczSVE1bnVkQ1dJRHZDMkJYbTRkbk9TUWtqdHRNMnRzU3J3UEJobHloZHpIX2M1OWVGVlBzMnZEc9IB4wFBVV95cUxPVEExQk5SVDRtSmdYRDZiakdNYTAzWUFub2czMGZicXR3RnFHbUkxR1dSWDl5MGpydkNyc1k5ZDd3WHBNcWlCamlISEhWY0JqZlNpdVVadGZpUmQzNVBSU3hZWlViSS01TTRsV2o5bU95LUlMLTFnMnVlSndvdWtrUkJJTXA5THRldTlud2huNmdMTDgzTnFtS1hyTVFCNmQ2Njh3cFNZVEVGWHczSVE1bnVkQ1dJRHZDMkJYbTRkbk9TUWtqdHRNMnRzU3J3UEJobHloZHpIX2M1OWVGVlBzMnZEcw?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Chennai man reveals hack to get free flight upgrades. It costs zero money - India Today",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSnpVUnM1R3ZBaUZGWnlnRUlUdEdyYjJGTkNzR1FzaFhHRExIb0pZOWxOT1YyRGZieTBPaUNnamJCUm9LcFlxS18wNWJVOHc2UVo0Vkt3Y0NoM0xidDBabk16N1lSaWZHbm5OY3R1S3BiYkY4Q1FjYUp2MS1JQjlfMWVtSzZ0SEdXZTVoc2Vlajh4eUh4dlJUUXFPcGhwVE1iYVFJcmlzZElKQXQ3RlJLNUpJZXlEQ3M1TkFSQlZJMmRnTXZVM2EzbTdOR19QMmVxdE5xQmRoX27SAdgBQVVfeXFMTUp6VVJzNUd2QWlGRlp5Z0VJVHRHcmIyRk5Dc0dRc2hYR0RMSG9KWTlsTk9WMkRmYnkwT2lDZ2piQlJvS3BZcUtfMDViVTh3NlFaNFZLd2NDaDNMYnQwWm5NejdZUmlmR25uTmN0dUtwYmJGOENRY2FKdjEtSUI5XzFlbUs2dEhHV2U1aHNlZWo4eHlIeHZSVFFxT3BocFRNYmFRSXJpc2RJSkF0N0ZSSzVKSWV5RENzNU5BUkJWSTJkZ012VTNhM203TkdfUDJlcXROcUJkaF9u?oc=5",
+    "source": "GENERAL:India trending"
+   },
+   {
+    "title": "Israeli woman harassed in Rajasthan's Ajmer, 4 arrested - India Today",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNzc0MEI0RnA3NE5SaWt0eGgwa1d5NDdaTW1iUmhDNlNTNWhma0hhcE1kay1xaWtYYmdfVm9JVlIxSjQta0pQTmxxVnpoUGo1Y2Y3ZjhkbFJILTMtdkl0QTZYMUpQMzZ0WnNZLXZWUlFxNExTcjh2cFd3UllHU19FZnBQdmVHbko4SGNpeFZBTTh0YzRuVVN6V2dyUk1jeEZ3OExpbVZDQXhJUndic1N5VmF3Rzl5TTd3ekJOdDFLb004Mm_SAcgBQVVfeXFMT0tQNGdSbHo4a1pXVER1VmMyaXNicFA4Vlpac0Z0MEhIektvR3FhMG5BZmtXS1FtbmlhOHBkUVBoalE1ZWItc2Q4TWZsSlZfV0Vpa3dNVDRUcU9NanBiZjdDUi1yYXY4OHJtQjZBVEh3OHhVWXlyWFFWOW5oTkc1c2ZQb0gyQlVsTWlGN25JdEVTcHJoc09laE4tUGZXX1pwa2pybmUtWXpxWHFyclN3NUZscUNZTnlMSDI0aTBPWGVabGZxSUVVUzQ?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Ukrainian Tourists Spark FURY In Oman: VIRAL Turtle Video Triggers Legal Action - The Times of India",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdmVRanc3N2s1Sy1ySHFXMnJkdG1ZUzBNYnV4OFc3R0VTb3FlZ2hIUmw1SjNUV2p5aXJuaGE4ZUNydllCd3BnXzN4OGdVRzJOcW9sZVZjZGpDZ0kwS2FYQVo0SnBHeFRpREx6aFNoQWQ4dUpYVjNpdG9IaXBSeWJna0hNOEpNbF9wUDJJUndBYTBkTDB5QjlXSzdNX2ZIdzEwVnpic0xmeGhZMWpzQVIyOFNic2NqbTgzeHBFZ1VudVctYWVraWpGYlNaYXVSX25KWWhLTDlSRVBvSzNxbXZBYlRMQWZtS2pxbkQyU2pKLW_SAfYBQVVfeXFMTkZhQmNKZ196U3U0a3JwM3o1a2ZFcmFYenp6a0tVYnBnak56alNCQTIyQjdxdFVDeHkwa0xTcXZNd0lvVGVybkRZbjZZWXJ3VG5HUXBBVTBURERZTVVQMUJKdW9PMDNKRmNwRUtkelFsZGRyUWtVX3g3S3NMTER1UHNpdEMyMkM1TmRzeENXRlRqUkpaNTh4TTYxWDB2YW9vek1rNW5MajVVMGFfVUlRM21oUFhDYWRNdzV5N2h0SzkxM0Nib2wxRGZkRlQ4WTFnOGZjUmRwdGs2SzlLbG90QmJxQzNEWllBM05ESmJ5SGRBMTZENVNB?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Video Claiming To Show Shashi Tharoor Calling Mecca Pact A Threat To India Is Altered - Newschecker",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTk03RG04SzdwMEFDSkxYUDF0Z3RmX202ejg3aE1OVV9vd3ktVDJEQUVJaGFQRWRkbTMwOFRhb0FzSnBwb1pOY2pWb2o2bWhzSXUzcFRGWGRzZ3U1TmwtaGIwQmRWdTVVX0t2enBQMk1XTkxRcVlLS3VqX2ZEYmQwMXhUT3RaWTdVT08xeTdxOXZkN2lCbk55UEdsRlhkMWlLcUFuSjJBZUJNVjdWLUtuYVZuRWs3YlA3YjNN?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Quitting Indian food helped me get into the best shape: Delhi man's viral video in Canada triggers debate - Greater Kashmir",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdnBXQnBDbHlGN3dCNldJQlhfSVpHYXRnSnB6RnhxMUNLX0lleTJfWlBYcExNdGZNNWlDN2xmTjVzS0hqS2RXaUFQT2N0Si1KR3dwYnpuZjkzdXZYenMxeWY5eWZtLWpHQnRNLVFKaFpWOHFFV29PNUNLajZyWVphT05PeVVCcVpVTTI0MTNXVGVtczVIWWVyazVvMUthcHVtM2VKSjNkbldZbzF4NTJxSzctTGV1NW80WVQ2bUlmWGdJZ2xFNWlQX3VrWFQ2TE8xQnN3ajI3eE5wb1N6VXFoSl81Y9IB6AFBVV95cUxPdUNyS1NqcnJtWi1XcmpFX0hCbmxoS2hlcmxWVkx1OGgxbFZFR2hCbXNrbGZXalJkMjJ5YlNDdUVseWQ4X1AzTjFaeXlwcjNpeEJQeVBsZEEtVTJoaC1VQnNKQWpRVVFUaUpRd2lHWTRTU1dnQmJETmU0bHZVdVBQNXlYYXhNR2h4eUtnTTAxNU90OUU1WGkxZ0NLbjZjOEFvODdJZl9scU53T2JYeENqVl9ZdG16ZFFFQXNlTlpqalpSSGZYMlNzZnUyeXUybk0xZjdnaVlmSk1YTjBJVThiQXdhSFRoVms2?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Vulgar dance viral video at temple AI generated: Varanasi police - ThePrint",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV19qOS1LaWRyRUNGb0FrVnc1UGJqc0gxQkdWZ2p6eVZvZ1dBbjhiR1lmRThPN01NOVNKelNjdWZCSERweWVVTWVVUFFTZFFjMHpHWTNkSmRvZG9sZ0kxUlBUb29mTHplVXNHQzM2Y2FZbzlTazBVeEdOcGhldmJQUjU2SGI3Z3lEZzFwQkZabEVWOTJZYWUtTGxTZHZuQnfSAaQBQVVfeXFMTnE4OHFTZ0JYN1BHdk5JOWpUOVlGQ25XZmJfRkxCZDVZVHRwaVRid25vcV9XekhBdFFNczUwOG1LRGx4Z3pFVlR3bnp5eUlqQjB5QVB6NjJqa21ld09wcHFibTRhcmRtbzBzRzl4YS1wdVlDNHJZZFZFUmRZQnNzbWJBVnQtVUpFdjExWUR0RXdtZjRKODVjMzA5emVaNG5ESjFBdTA?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Bengaluru auto driver detained after roadside scuffle with women goes viral - The Indian Express",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNE1UdHRhTTVNaGZBWnRBTTNPNi1NV2NDWXVONjFpMGpIQzZpYzFZZG5qT3poSGgtbUtmUFQ4Y0NwMzNLZU5fUWc0bnc0Vk9seHlyM1l5cFpLNnl5NmJpcDU4eHJjWDl3clAtNE85X0VTSlpCdUFyMThBSGN4TWViZ0lEWmtDN0kwbXliRjhObFhOSGFZcnYwZXdGOVFGVDlJN0pYMTJJLXdlMGtUQU9NV2dmc9IBugFBVV95cUxNRlNTNmViY0ppeWRUZ3pNbU1uUW84SHdZeU9uUzJ1RGVfV1BYSmIyT0NXbWJNWGNrUFFXOTdaTTQ2N1BWc3pPa0ZLRUdXY1FZQ0pIWWdSVmRZRVRoaWh1VWdaNWFwVG8wRjdGMmF6MnVHcmVidlZPc0FTVXBXV1BmaTRSVlNMeFMxc0dENE5UQXB0Znhoal9HSXpVTWJUUzNEUlBGRmRIX2Q3V3NnRUhRclZvZXRyazhmN3c?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Israeli Tourist Harassed In Rajasthan: Police Arrest 4 Men After Video Goes Viral - news18.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOXzQyVEdMckgtNFJkQ243Wjl2MEtrSGZpY29jMU1JY29YZ0g2cTZiS3Fuby1UQ0xvUVRKMy02VHU2cklZUk5NYTNDXzFpTmplY0JWblVqZkZVT0x3U3BuLWJIN0d3UzZiMjByUDM4N21KZFpYVjdscmpLSlltaFBpSkduY1J1UlVxNFZWc3k1ZEFlSmM4SHlZOVBrd2hORjU1VUpsY25CYWZSYzJkWGZkdFhUeGprTUZJRjk5bnFLd0JiM3M5UU5R0gHMAUFVX3lxTE9PbUxURjYySXlIY3dCTk9JRmlpY293Q09vZ2drNlZBWklZcnJpbDFPbXdZMENKX2k5M0lFXzhOV3lCVENQd3ltalJjdEIyRG9kSGp4SVlMcTJTOFB1VlhSeV9PaUxlTklJMVVzLUN1LWlzcWJSeWh2WjlUVVNtQWpTSHQzcDBFeXc3VmFGSnpLaU1QQ1dyTUJ5MmRubmwtNXcwY2JmTEk4b0ptR05vcmtsVUVlalpFQVFPcXpPWkdlSnhuUDdCdm9FbXB0LQ?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Video: Indian Creator Shows The Reality Of Making Parathas In America - NDTV Food",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbUl4dFVpSzhyeUQ1M0VHS0tZY21UX29uVFdUSEdsUHp3ZFRwSExNaGxSOExGdkdUdWNnbmlha2Z0T3JhMWwxMHV3cHp6ekY2VkhJM214WG11QVJYZDlRUzdMOFRxTzFxb3h1TGxKSktydWd2ZTZkQmdHREVydVE1R3RkVkFIRkk3Y3o0b0x1endLLTNzUl84Ti03TXg2RndZZlFWeWI0SdIBrwFBVV95cUxQdmR1cDhnc3FLUWxIakZ5cTluVUlRZzFiMWJJZ05nRnNvRFBHOGVhMURZV2FZNDJfN0twS2d3aDNzNndGdkFLVkozb0dPbzhSdnFWN0ZjSGd6R1EwX0JhZnd3blI0THl4ZE9PbHBNUlFreVJGbWN6ZEl2WWJ4NGdnY0c3X2ZXU3ljMXJadm1fbU45bU8za2RzTXV6TDliUFpkZS1iTFZnQTRPQXh2NXI4?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Fact Check: Is Army Chief Dhiraj Seth dancing with a major's wife? This video is AI-edited - India Today",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd21pb1pvaEFyVVNzVGoxbkZtdHRCM3VZWU5JRnZ4WHoyNi1nRXFVekU3Q1FtejY4VHlIU3FHRnd3a0FBektWeE9mRkJQNzdJSE11dDJ4R1UzNnZNejZ5WXRCZnhWNVFlek1PeXRmeTAweGQySVcwbEtpSW05SmI3dGVQVjZXVVltQzgwRTY5SWUySklvQkhpcXlTV2w5VmxwclR1SG5zbUJTakpFeFIyYlU3ckxraHZLdlRuWjllMnZDTi1oTnNWUtIBzgFBVV95cUxPMzlrMEJVY3Nuanh3YVNTdDNPX3BJVDd4Q2Vjd1JNZHNhTXdGb1QzOWFPaXl6eUhheU9HLUdlSFl6VUVqQkdZVXpwRFdkZnRpSmJLeld4UzdyblExd1EwUGxtSlIzZDJ6QTZNd3ltS1V5TGdXQ0k4NlJNRkpDeXhTRF9IRGQzNkRjRzhkTjExWW5hQ2NLUzEzS2VaV3k2aENZa2drQ3p1T25YQnd5UnNkTkdyU0h0S3JDZlZEM1pTUkZhNGhsZUtXNVkwZ2xTUQ?oc=5",
+    "source": "GENERAL:viral video India"
+   },
+   {
+    "title": "Viral stunt video: Panchkula police issue Rs 45,000 challans, impound bike and scooter - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWHdaTGtOUUFHa3ZDelB1SVlUVGt6T3VnNDVhVG9kMEhXYjg0RDdBMHdrU2hJZGJHcm1LcUhlUWNiSEFyb0FqZVVYYm9zajhSOUxEQmVWcnJuOXlqNk1aLXBQaDYxSWhRR0VMd2VWZUxwMFJ1bG54bXh2dURXTlZCcjE3c0tPd3gwS2VCdjBOYmZubzBXS09iREtuQ3RLQ2ctMUZINEx0NWY5ZHl4aGd6WmY4V2hOVEJfMWtEVTMxSC1jT2VxaENmWHhCYmzSAcwBQVVfeXFMTVh3WkxrTlFBR2t2Q3pQdUlZVFRrek91ZzQ1YVRvZDBIV2I4NEQ3QTB3a1NoSWRiR3JtS3FIZVFjYkhBcm9BamVVWGJvc2o4UjlMREJlVnJybjl5ajZNWi1wUGg2MUloUUdFTHdlVmVMcDBSdWxueG14dnVEV05WQnIxN3NLT3d4MEtlQnYwTmJmbm8wV0tPYkRLbkN0S0NnLTFGSDRMdDVmOWR5eGhnelpmOFdoTlRCXzFrRFUzMUgtY09lcWhDZlh4QmJs?oc=5",
+    "source": "GENERAL:viral video India"
+   }
+  ],
+  "tech_usa": [
+   {
+    "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+    "link": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+    "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Your car and its mobile app are probably handing over all kinds of data to tech companies",
+    "link": "https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "a16z-backed EliseAI raises $350M, doubles valuation to $4B",
+    "link": "https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Tesla secures $30B in new credit lines as it looks to scale Cybercab, Optimus",
+    "link": "https://techcrunch.com/2026/09/29/tesla-secures-30b-in-new-credit-lines-as-it-looks-to-scale-cybercab-optimus/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI’s latest features take direct aim at the app store model",
+    "link": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+    "link": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "More Ways to Disrupt: New 2026 Side Events from KOTRA, WayFounder, Enterprise Ireland, SafetyWing + Descope",
+    "link": "https://techcrunch.com/2026/09/29/more-ways-to-disrupt-new-2026-side-events-from-kotra-wayfounder-enterprise-ireland-safetywing-descope/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Apple Pay set to launch in India with Axis Bank today, sources say",
+    "link": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+    "link": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+    "link": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Dutch police arrest ShinyHunters hacker accused of planning two murders",
+    "link": "https://techcrunch.com/2026/09/29/dutch-police-arrest-shinyhunters-hacker-accused-of-planning-two-murders/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "AI-powered app maker Wabi pivots to a messaging experience",
+    "link": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI launches Dots, its bubbly agentic avatar",
+    "link": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+    "link": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+    "link": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
+    "link": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Can a chatbot fix the government maze? The White House is about to find out",
+    "link": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Instinct founder said more than 50% of transactions on the platform are travel-related",
+    "link": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "After losing his voice to cancer, this founder is building ‘glasses for voice’",
+    "link": "https://techcrunch.com/2026/09/29/after-losing-his-voice-to-cancer-this-founder-is-building-glasses-for-voice/",
+    "source": "TechCrunch"
+   },
+   {
+    "title": "Trump orders US government to call AI ‘Super Intelligence’",
+    "link": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+    "source": "The Verge"
+   },
+   {
+    "title": "BMW’s revamped i3 boasts up to 468 miles of range",
+    "link": "https://www.theverge.com/transportation/1002173/bmws-revamped-i3-boasts-up-to-468-miles-of-range",
+    "source": "The Verge"
+   },
+   {
+    "title": "Suspected ShinyHunters leader arrested in the Netherlands",
+    "link": "https://www.theverge.com/tech/1002410/shinyhunters-hacking-suspect-arrested",
+    "source": "The Verge"
+   },
+   {
+    "title": "Elon Musk&#8217;s AI-powered Grokipedia is updating again",
+    "link": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+    "source": "The Verge"
+   },
+   {
+    "title": "AI researchers put out videos saying superintelligence is ‘exactly as dangerous as it sounds’",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+    "source": "The Verge"
+   }
+  ],
+  "tech_china": [
+   {
+    "title": "Nvidia and AMD chiefs join Tsinghua advisory board as US-China chip tensions persist",
+    "link": "https://www.scmp.com/tech/big-tech/article/3369237/nvidia-and-amd-chiefs-join-tsinghua-advisory-board-us-china-chip-tensions-persist?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "China’s generative AI user base crosses 700 million, covering over half the population",
+    "link": "https://www.scmp.com/tech/tech-trends/article/3369231/chinas-generative-ai-user-base-crosses-700-million-covering-over-half-population?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "Hong Kong firms lag mainland China on AI adoption amid legacy-system burden: Accenture",
+    "link": "https://www.scmp.com/tech/policy/article/3369205/hong-kong-firms-lag-mainland-china-ai-adoption-amid-legacy-system-burden-accenture?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "China’s CXMT to favour domestic suppliers in US$5.2b memory-chip capacity push: source",
+    "link": "https://www.scmp.com/tech/tech-trends/article/3369192/chinas-cxmt-favour-domestic-suppliers-us52b-memory-chip-capacity-push-source?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "AstraZeneca, Merck, Novo deals boost Chinese biotech as global interest grows",
+    "link": "https://www.scmp.com/business/china-business/article/3369187/astrazeneca-merck-novo-deals-boost-chinese-biotech-global-interest-grows?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "It’s the end of the world – and I don’t feel fine",
+    "link": "https://www.scmp.com/opinion/world-opinion/article/3369007/its-end-world-and-i-dont-feel-fine?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "AMD acquires ‘godmother of AI’ Li Fei-Fei’s start-up as battle with Nvidia intensifies",
+    "link": "https://www.scmp.com/tech/big-tech/article/3369141/amd-acquires-godmother-ai-li-fei-feis-start-battle-nvidia-intensifies?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "Shein drops 14% to record low after profit misses in first results since Hong Kong IPO",
+    "link": "https://www.scmp.com/tech/article/3369136/shein-drops-14-record-low-after-profit-misses-first-results-hong-kong-ipo?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "Alibaba deepens sports tech push with new Brooklyn Nets partnership",
+    "link": "https://www.scmp.com/tech/article/3369124/alibaba-deepens-sports-tech-push-new-brooklyn-nets-partnership?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "In the US-China AI race, the real fight is keeping humans in control",
+    "link": "https://www.scmp.com/opinion/china-opinion/article/3368932/us-china-ai-race-real-fight-keeping-humans-control?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "Chinese chip foundry CanSemi’s IPO oversubscribed 2,360 times as investors chase AI boom",
+    "link": "https://www.scmp.com/tech/tech-trends/article/3369074/chinese-chip-foundry-cansemis-ipo-oversubscribed-2360-times-investors-chase-ai-boom?utm_source=rss_feed",
+    "source": "SCMP Tech"
+   },
+   {
+    "title": "smart previews all-electric #2 engineering at Beijing workshop ahead of Paris debut",
+    "link": "https://technode.com/2026/09/29/smart-previews-all-electric-2-engineering-at-beijing-workshop-ahead-of-paris-debut/",
+    "source": "TechNode"
+   },
+   {
+    "title": "Kimi K3.1 identifier reportedly surfaces in Moonshot API registry",
+    "link": "https://technode.com/2026/09/29/kimi-k3-1-identifier-reportedly-surfaces-in-moonshot-api-registry/",
+    "source": "TechNode"
+   },
+   {
+    "title": "Xiaomi promotes MiMo team lead Luo Fuli to its top job level",
+    "link": "https://technode.com/2026/09/29/xiaomi-promotes-mimo-team-lead-luo-fuli-to-its-top-job-level/",
+    "source": "TechNode"
+   },
+   {
+    "title": "AMD agrees to acquire Fei-Fei Li’s World Labs for $8.2 billion",
+    "link": "https://technode.com/2026/09/29/amd-agrees-to-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+    "source": "TechNode"
+   },
+   {
+    "title": "Tencent tests AI gaming companion that responds to live gameplay",
+    "link": "https://technode.com/2026/09/29/tencent-tests-ai-gaming-companion-that-responds-to-live-gameplay/",
+    "source": "TechNode"
+   },
+   {
+    "title": "China accounts for 77.9% of global humanoid robot shipments in H1, IDC says",
+    "link": "https://technode.com/2026/09/29/china-accounts-for-77-9-of-global-humanoid-robot-shipments-in-h1-idc-says/",
+    "source": "TechNode"
+   },
+   {
+    "title": "Insta360 explores smart glasses and mirrorless cameras",
+    "link": "https://technode.com/2026/09/29/insta360-explores-smart-glasses-and-mirrorless-cameras/",
+    "source": "TechNode"
+   },
+   {
+    "title": "SenseTime Launches SenseMart OS to Bring Embodied Intelligence Into Retail",
+    "link": "https://technode.com/2026/09/29/sensetime-launches-sensemart-os-embodied-intelligence-retail/",
+    "source": "TechNode"
+   },
+   {
+    "title": "How Drones and Robots Are Reshaping Renewable-Energy Operations",
+    "link": "https://technode.com/2026/09/29/how-drones-and-robots-are-reshaping-renewable-energy-operations/",
+    "source": "TechNode"
+   },
+   {
+    "title": "Zhipu’s ZCode deletes data and announces compensation after data upload controversy",
+    "link": "https://technode.com/2026/09/29/zhipus-zcode-deletes-data-and-announces-compensation-after-data-upload-controversy/",
+    "source": "TechNode"
+   },
+   {
+    "title": "Knowin Details GLOW Embodied Learning Framework for One-Shot Robot Teaching",
+    "link": "https://pandaily.com/knowin-glow-generative-embodied-learning-framework-one-shot-teaching",
+    "source": "Pandaily"
+   },
+   {
+    "title": "Xiaomi HyperOS 4 Stable Rollout Starts October 15 With Xiaomi 17 and REDMI K100 Pro",
+    "link": "https://pandaily.com/xiaomi-hyperos-4-stable-rollout-october-15-first-wave-devices",
+    "source": "Pandaily"
+   },
+   {
+    "title": "Kling AI Previews Kling 4.0 With 30-Second Native Clips and Multi-Reference Control",
+    "link": "https://pandaily.com/kling-ai-kling-4-0-30-second-native-video-multi-reference-control",
+    "source": "Pandaily"
+   },
+   {
+    "title": "Alibaba's 27B XekRung Model Tops CyberGym Model Leaderboard at 88.9%",
+    "link": "https://pandaily.com/alibaba-xekrung-27b-cybergym-model-leaderboard-88-9",
+    "source": "Pandaily"
+   }
+  ],
+  "tech_global": [
+   {
+    "title": "The open-source AI platforms vying to become China’s Hugging Face",
+    "link": "https://restofworld.org/2026/china-open-source-ai-hugging-face-modelscope-moark/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+    "source": "Rest of World"
+   },
+   {
+    "title": "AI startup EliseAI valued at $4 billion in latest funding round - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWFRUkROTGVjTWZvMUlUcWRxdWJ0Q3ZDcTFKMzdpLWRTRVJweTZwSkM0UGIzdHhab212OEhmQXRzSlhucTVsV3J5S2VFcEFhWVQyZ2U4NWZDcGY3NTNsa1c5THRCb3hMa3lIcmJlYXI0dWRaSGNGdkY2WmhKaGVLeC0zM09QTE1ZU2NRN0hKR3YxQVA0Y0lmdkVvMnQ3and1cHc?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Anthropic's $518 billion AI buildout hinges largely on deals that cannot be canceled, filing shows - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNazVCbjhpLXhaZU5LbGk2TENxV0NHbXdFSS03bVpudXJnOE84Y2ItOGxEdHRHRHYwNG80SlRsZEVLNDN4eDJNaDJJRmlxbWpyNDU4Uk9scjNCQXVzelhERzZzZUZOS1c0M3JEMFpMWjFuRGU2cHhqQk1ZSDlIMFRwZmtCYXJZajFpcEM4cFRIUF9tUWljSVRzRFN4akQyLWdaNVltTDY3anJJUkRHbWctVkNRbzNQV3FBejF4UldtcXA2QQ?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "EXCLUSIVE: Anthropic warns AI may pose 'existential risks to humanity' in IPO filing - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVndoU28yRmZKcU1nd1MtOThsNXYtejlvampCQXFwRXIxcUJWdWZ5R0twWnM2czMyMmt3cERxQmhEYk5pWVh0UExTMVEzU3k0Tk5wa3Zkdkxkc0E3aTIzbEhOVmZrWmZPajJJaFRBb2JxUElza0puQW56MGpXM21lMDBSR1BDTkY3Ullja3pTQW1mQ20wWVhDTnMxRHB1MkFyUFQySkoxQldxNmFkNmp1dG95dndFUmZOb2c?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "China's AI agents can lie and scheme - just like their US rivals - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcV91dFhINlctVXNLUDJtUDE4SFRwdTBUVUJLYW9Ed09WSXlhZzB0RWFqRldma2FjVGd5NXBFWkMyQldUMGVPcTd5MjM0VjJ1TERaY0dfZkF5VklnbTZ6VzNBcmJkTmROUTJWVWkzRGhMbkZ1RktfX1BfNVBTUzFGMEljaElSUHU5Vnd6S25NZGVCUXpYYnJocnBPTG9Na0VxSnpLbGlWclk2TmlMRjcyelFhT0pIc0NpRFE?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Trump, AI CEOs sign voluntary safety pact, back data center expansion - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbnRqUzdYZGRGeF82aU9Kc3BzNk9rLWZwTjJBNWhVNTRfcXU1UEtWWC1XNndCWGNHZDZhekREX2k4bUg1VjNNLUpMSV82U281RTJqMUZjMjFVRzhXaGZ1Q1B0TG9XWG9OVFBHSGZlZnZmX3lBcHp0a2Nrb3daZGliamtZY2kwNUEtRm9Mb092bDVxemtaVGlRME5WM2xXRHZOX25IQWk2cURXc09paHJVNEdmT1Q4UTg?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Apple's Ternus eyes engineering-led overhaul, Bloomberg News reports - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVS1iZU1pQXkzLXgxVDY2UVRGRUUtQTROZkFDbDFDZWgyalpCczN6U3F5Wm9rVmJqSlVQbVJGNkN2WVEwVEZEQ3VFWmlqNmpUSmZxSGtDU25LdUlVUWhXem9HYWI3V3N0c2wtRDVlSmpZVlVWWF9SMVAxbnMyYUY3ckFKakI1NnUtdk1JY1EyaTFFNTBUSUZmZU04S1ozNGlnYWh3cWpXQkpCdGI4ZFJrN09HS3FfODZjZGVDa3JzR20zRWs?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "China unveils rate cut, mortgage subsidies to spur growth - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSGZMSndvRHFuSzN1ZnJCbHNuYmlzalpvVTc3Y3JTU3lCYjc4X1I1VHdnVmQzUUV4M2JwSEdvMGF3TnFFTVp1NHFaTkJ3a01XY1lSWTNkaVRhZHBDajZkN1VZOGEyN3lsT3JiV1BibE9wSG5taEZPUjVLR0djeTJGcGtORWYtd1FZaUZMQ215RkhLekVDUkJ1U3BEQ3BmTWc5TF9ubUZoNXNWRGFa?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "EXCLUSIVE: AI researchers warn companies rushing self-improving systems despite safety risks - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWXBiMU9va2F1QUVhR0RCUk1DQm10d2g3MFJiblhXa2JuTHBEZG04TjMtUVpqeldtbW9LcVZ4SVdhMzBlcllVNEtsTVE3OGJZMVpYWTZtYUtfLXBkOFlEWHpZNDFFQTBnc3J1QXl3Q3k1ZWNvU1JNZ0hSUXo1aGJVY2J1YUItZ1MzVXNqYzNrM20xTWtsYWJQSmxxbC1WNkRIdVFmVGtTZmZFNGtIMURxa0w0dVV5ZC1m?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Morning Bid: Our products could end all human life, buy our shares - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOanhoMllQbDFxVzFvMjVzbU13c0VNZEhRUUw1UXR4ZFp3UW1aZlkxV0xLeXBDWS1OLW9SY0pSdnpQMkRJZWFsRXVEN0dReHRxRlJtbnIxSXNHRHBoVWJkSmFfMEZRZEdTemVIUHhFcW1vdjZXTlRHZUp2WmtaU2I0blJBaw?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "SpaceX's Starship engine failure could impact NASA's moon mission objectives - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVG5vYVlQYmlYam04bTNfSlhBTW1fLVBOVXkwXzBIS3BCYXRBUnZOM05NUVE5dk1aU2tQYmNnTkZWa2l1U0dNNVBINGF1NkpTQjBfQzVseDRCakFkeGs5XzYtMVFtMzFZZXFESmtZR0F3dDN3VTJZNEE0aHAwOWpUVUlqZEMzQ2packNhMkFMNTJEYnJNZ2pfNWszOWw3NFBhSDM1STZOQ1NuY2g5bGhxM3BwTW1BT0dGY1c2dkw5a1ZxVEdickVlU2ZfMmtRUQ?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Trump denies offering Iran sanctions relief for nuclear concessions - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVF4LWZMa3hVb1J2cTVXVjRXdmh0RkFkMkY4MHVWVTVhQmZCQjJpT1l2QmExeFBXd3FRa256Z1Z1Z3k3UFQzOGY5VW1OSHBrcFVGQjkzVkdRaG1rc3FkR19CY3dhajI3cy0zOFZUb2tkTkRLUDN1aHdYd0tRMHM2ZVZiMk1Ld0dvZEhzX0JsblduWjdGa0dfZ3pzSDRqejRRdWZUY0RQUzA?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "OpenAI takes on Meta with dots agent in enterprise AI push - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdHpSWDN2U2FHZk9uM2NIZVVkQjVWQXBudENFN09DM3ZWdWlBdVdCdndKTFlQa2duMmpYcDVYamdOSGNhTnBkQmQ1dG01T3ZYU2Zyb2VEXzg1VG05N1dwR0FWZlNqWDlNNldWS2VEcGlDby1TQ1JUMy1La1R1TncwQkN1OVRIN2lEeDJpQTQ2VkNXZ2lmVG12bHBPOU5sZW9sX2FvSlk5VGhTU3c?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Thai Airways to clear 5,000 bags stranded at Bangkok airport, CEO says - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX2pmeXhHUUtMLWlNRFlHZGNoek0yNG5hSzFIVEdMSnliUzQwSE1heXdMY1hGaWZZWi01aE52clZaaW5yaDY0OXgxbVFsSmF3V2pDZGs4RkVNZWdFMzU0QmM2VEdtYzYxNEx0aUllSGhqN3BVZFdENW9uUXh4UlZFN2V0YjJybnVOVkdkdWVYNU80Y19ZRy1fT2JXRTZIQWI4WkVGaDVFTnMyYTJGanN5Uk1PaENIOTdq?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Spotify and Claude recover after brief outage in US - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUZGeHhCUUctV3ZXZmpFV1NheVhYbFZYZkRPNjY0SWpRMFZGVjg1Zk9HYjRUM2NtRVc0SlVZbE00a1RDT283S1h4NGp3dFlkWUlDMzJKQmZldl9pY2VKejhhaFJBQUk0VGR1NTRoN2tJZ19PaFNoVEJvd3RwTkNoVUNidXM1VGVzTDUwcDQ4MDk0YklLdm5Ia1Bmbw?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Target lowers prices on nearly 2,000 items ahead of holiday season - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT1E3TENhdEd6akVBdHFQcFpWREh5Q2luV05JZXFZT0RNZkwwamZHZWZhWUxKWW9aUmttQ19PZGdDQ085TEJKV1prRGx1bUJtRUdDSm44MlFGcWUtUzc1QkxqU0otVnpiR2RIdmRLNThqREhJTFp3OUVSSlI0TUlGOTJLaDlnMk96RldwLVlTMHZPeldvRGtnNG5nTVMtWHJoT0FtMzVENGVlU1ljcldyZnZBZWZ2Y25BNDZpbQ?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Toyota August sales, production fall for second straight month - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN0JWMm45cGNpZDBBU0lKdkctZDduazlMMWZXRV9nT3JtOTExZ3prSkFxeXR3b1pYN1g2ZHM5d3hVeFl0Z05iQ0lMRFFBb3FpdEZaLVNvNmpXbDQzX0tpaGRhcHJHVF9taEx2MXdIV0Nxb3hkWTI5YXU1YmVSbEdib1o5TTdDaXBYS3hxM01Lc05tWDJVNEtUeC1GV1V6eWJJSHBHenU0LUZmYUxJc1VRMzBlUThGTDNySTRJNTZXR1Q?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Lindt cuts sales forecast as heatwaves dampen demand for chocolate - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZExBSEJBdEFmLUZ4WVZLSVI2YTNRU09NRVBGZEpTS2VyMkJ2Rk92ZHMyd3d6UVJPbExsUWcwLWxoNmlSUTJ4V25UMGJmX2lvSjNhQlBseW9RbGxsUm00OHJCbVY5VDY4clNKSGNWeFVjX1h3cUxJOThaQjVHbFE5MXBvckU4ZWFna3Job1p0a3JNVmpDaDZveGZwSjBTV1BqeVE4eVFxMDdlT3FQUTZ0YzViWVJGSV9pY2xpZEJGZXRmVmc?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "India central bank's FX blitz drains nearly $20 billion from surplus liquidity, bankers say - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOendrSklRRFZheU4yanhoYXdMV2ZfaThOcy1oMlRRNDFZLTB1NVgycVNlQXF3bmYzZlkwZ1k0NEJTZXlhOGpTcWlyR3VGd2s0Sjg5N3VCR3FMWXJUMG02eEZFZmNibXhDcUNFOXZxOVhKWTV4YU9scWlZaFRkU0ZOZHZiTEFEY3BuLVcwSDJHWEVZczJ5Zlh0N0k2OExiMF9tdl8xUEw5dHFwY05BWmtEQXlCbEN4T2RNR1VKWktBVndub3Y1Qmc?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Indonesia to inject $1.1 billion into health insurer BPJS Kesehatan - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTjRrcjVmcVItQV95Vzl4VTk4bE5TN1J3ekxvcHc3MmV0SWlMdy1PRlJnaHhpMTBEZDIxeUpMQ0xTUnZ3Ny04cER4VXlWYkZkVEI0b3RqTnBESW9HTzBYNDJaM3JPdngzUXVyQ2VCVmIzd2RicjduZGJ4NDRrTU8yVlZyWlJfZG1mSW5uTTNlbzB1bC1KRWxBdDBWS0RDZjIzYko3d2RyTFY3ZGllS01jWUlLUmVfNzJSaHBfdGIwR3Y2cXZGU3M0bE9aZGxKV28?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Dangote says Kenya court ruling won't halt refinery launch but may affect site activities - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2tXbElSZ0o1NEJfOU9USnJrMVJpZDRBT0g2SmVoRU9SY2ZPV0JtSEJrT3drR2FGNzBtek9Vakk1SVZsbEdQSWRxa183ZWNsd3doNHVnb3BTLVpxMGtTUW82aEhPcUdUd091U3B6WlJjUWRKN3NVTGlVWnMxNXFiOTVoWG4yQ1FZUjZlNXh0SEdLcVFFenVtUWVtYjNBalprUVdweTdQdktpbUxNeHNZeEhIcEJGa0JHMkY4dlZQb3dwcUU?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Oil prices settle down 2.5% on signs Middle East exports recovering - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPalFIekNtR2pWcEdaNDNsUElsMTRodXZvOVBPbFJnSFlhbDlqbldRbE1TTGVUeTJGN2NRTk4zUGFlWG1NTl9PUkVjNHVzbnZ4YVJxbXg5aVZfZXJzYWhDa3FfZl92OG5Ic3ZNWEluX0N5ZV9aRlRYYXVYeUNUR3lXVGo1dHp4dmdzaF9pZDVGMjVCUGptMU5YcmlzcEhBa2t1NTZMMmsyeFVBWnNPLVJxS2NoM0FIUEQ0Q2ZF?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "BP proposes six-year labor contract at Whiting refinery - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTGtVd1JkUU5KbFVSbXI4R2puZjBrZG5kVTBENGtpVFNwb1VFcnpHaWNLRHJvZjJmalhRSDYyVThGdUJpRndiUC1xWm1fOGtqbS1IODJDTFF1YXFJVGg1bVlFRE8wVHNLWkFZNnI2UDQtQjBTQUdlRE1CWVNLX0U2NU96cGUyV3JLR1pqTEZmLVJvVFRBbEwycXpWMGk3bi04ZEQ2WHdCWnNKUGd4Q1hzTw?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "With national holidays approaching, Chinese workers demand a proper break - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRU8zUzdFYnVEV29ZVzBNYVM5NUg4OTExUUhtNFFFcktpaXRRWEE5QS1NdmYzcGVHeUtYT3BzNW95SlNkeFI1cDJGeURfZ1V6MVBvMURxVkU4X3JoaDBLVTg2bEtLSDlwNTlKUm43ZUtURS1HSVRKeWxhckxpQVB1QTNUNkY2Q2dNeWk2djIzMzIxYlc1ZDdpc0lOSWxqbUlvV2FwckFJMmhiMGo5X2VNczVaanJMaEtONzhNaGhzTGpzQVgxWkluaQ?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   },
+   {
+    "title": "Rupiah breaches 18,000/dlr for first time since August on rising yields, oil - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObG95OTdTOEdjcENjeWlQcm5IVTBoVlpWWkwxUEhDb3FTYS11dEU4ellNN2M1VDJJc2Q3RUlJVGVmUDU1MVlqWkRackE3MTNsQkpXWG9iNTNva3RVM1VweUgtMGhMTGkzdHc0YUpxRkExU3JveThCQTlTSHBYd0xrYlVvSGVZQjV2MTdiRF9ZcXJ3eTJ6SWR3X05LdnZoMmxJV1AzSDJLd05CRmR2clU2SjlrVW50Z0tMeDdmaTZ3?oc=5",
+    "source": "Reuters Tech (via Google News)"
+   }
+  ],
+  "tech_india": [
+   {
+    "title": "iQOO Pad Ultra Launched With 165Hz OLED Display, 9,020mAh Battery: Price, Specifications",
+    "link": "https://www.gadgets360.com/tablets/news/iqoo-pad-ultra-price-launch-availability-specifications-features-12115863",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Ethereum Network to Undergo Major Speed Upgrade Test on October 6",
+    "link": "https://www.gadgets360.com/cryptocurrency/news/ethereum-network-to-undergo-major-speed-upgrade-test-on-october-6-crypto-markets-crypto-networks-eth-adoption-12114787",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Galaxy S27 Ultra Camera Processing May Change From Galaxy S26 Ultra; Might Drop Dedicated 3X Telephoto Lens",
+    "link": "https://www.gadgets360.com/mobiles/news/samsung-galaxy-s27-ultra-rear-camera-telephoto-specifications-features-leaks-12114785",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Noise Homestage Soundbar Series Launched in India With Dolby Atmos, Up to 700W Output: Price, Features",
+    "link": "https://www.gadgets360.com/audio/news/noise-homestage-5-2-4-3-1-series-price-in-india-launch-dolby-atmos-specifications-12115252",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Indian Rhythm Action Game Suri: The Seventh Note Will Launch on October 30; Pre-Orders Now Live",
+    "link": "https://www.gadgets360.com/games/news/suri-the-seventh-note-indian-rhythm-action-game-launch-date-announced-pre-orders-live-ps5-pc-12115416",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Smart TV OS in India, Compared: Where webOS Pulls Ahead",
+    "link": "https://www.gadgets360.com/tv/sponsored/smart-tv-os-in-india-compared-where-webos-pulls-ahead-12115143",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "iQOO 16 Launched With Snapdragon 8 Elite Extreme Gen 6 Chipset, Samsung M16 AMOLED Display: Price, Features",
+    "link": "https://www.gadgets360.com/mobiles/news/iqoo-16-price-launch-sale-date-specifications-features-12115121",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Why LG NU885 Is a 4K TV to Buy if You're Not Spending Flagship Money",
+    "link": "https://www.gadgets360.com/tv/sponsored/why-lg-nu885-is-a-4k-tv-to-buy-if-youre-not-spending-flagship-money-12115108",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "LG Channels: 150+ Free Channels, Zero Extra Hardware",
+    "link": "https://www.gadgets360.com/tv/sponsored/lg-channels-150-free-channels-zero-extra-hardware-12115028",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Google Pixel 11 Pro XL Review: The Best Pixel Yet",
+    "link": "https://www.gadgets360.com/mobiles/reviews/google-pixel-11-pro-xl-review-12091851",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "OpenAI Sets Up Australia Task Force After AI Models Accessed Government Websites Without Authorisation",
+    "link": "https://www.gadgets360.com/ai/news/openai-australia-task-force-after-unauthorised-ai-models-breach-government-systems-12114644",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "NEAR Intents Blocks Over $50 Million Linked to $387.5 Million Bitget Hack",
+    "link": "https://www.gadgets360.com/cryptocurrency/news/near-intents-says-it-intercepted-usd-50-million-bitget-laundering-attempt-crypto-scams-exploits-recovery-withdrawals-12114401",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Samsung One UI 9 Update Rolls Out With New Features for Galaxy S26 Users in the US: Report",
+    "link": "https://www.gadgets360.com/mobiles/news/samsung-one-ui-9-update-galaxy-s26-roll-out-new-ai-features-report-12114258",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "OpenAI Reportedly Scraps GPT-6.1 Astra Release Due to Safety and Alignment Issues",
+    "link": "https://www.gadgets360.com/ai/news/openai-gpt-6-1-astra-model-cancels-ai-safety-concerns-report-12114206",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "CD Projekt Red Details All Improvements in The Witcher 3: Wild Hunt – Remastered Ahead of Launch",
+    "link": "https://www.gadgets360.com/games/news/the-witcher-3-wild-hunt-remastered-all-improvements-features-launch-date-cd-projekt-red-12114319",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "HMD Vibe 2 Pro First Impressions",
+    "link": "https://www.gadgets360.com/mobiles/reviews/hmd-vibe-2-pro-first-impressions-12114017",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Anthorpic’s Claude Sonnet 5.5 AI Model Launched With Performance and Cost Efficiency Upgrades",
+    "link": "https://www.gadgets360.com/ai/news/anthropic-claude-sonnet-5-5-ai-model-launch-performance-cost-availability-12113998",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Motorola Reportedly Calls Its Upcoming Wide-Folding Phone ‘Razr Flex’; Key Specifications Surface Online",
+    "link": "https://www.gadgets360.com/mobiles/news/motorola-razr-flex-foldable-name-specifications-features-report-12113509",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Coinbase Secures CFTC Clearinghouse Approval to Enable 24/7 USDC Settlement",
+    "link": "https://www.gadgets360.com/cryptocurrency/news/coinbase-secures-cftc-clearinghouse-approval-to-enable-24-7-usdc-settlement-crypto-regulations-crypto-markets-crypto-adoption-12113846",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Samsung Galaxy Tab S12+, Galaxy Tab S12 Ultra Design Revealed in New Leak; Spotted in EPREL Database",
+    "link": "https://www.gadgets360.com/tablets/news/samsung-galaxy-tab-s12-plus-ultra-design-specifications-eprel-database-features-leaks-12113626",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "HMD Vibe 2 Pro 5G Launched in India With 64-Megapixel Sony Camera, 6,000mAh Battery: Price, Features",
+    "link": "https://www.gadgets360.com/mobiles/news/hmd-vibe-2-pro-5g-price-india-launch-availability-specifications-features-12113536",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Bitcoin Holds Near $84,000 as Rising Yields and Oil Weigh on Market",
+    "link": "https://www.gadgets360.com/cryptocurrency/news/bitcoin-holds-near-usd-84000-as-rising-yields-and-oil-weigh-on-market-crypto-markets-prices-bitcoin-ethereum-btc-eth-12113422",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "OnePlus 15 Security Flaw Could Give Malicious Apps Full Root Access Without User Permission",
+    "link": "https://www.gadgets360.com/mobiles/news/oneplus-15-root-access-flaws-could-let-apps-gain-full-device-control-report-12113412",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Amazon Fire TV Stick 4K 2026 Design Renders Leaked Ahead of Launch",
+    "link": "https://www.gadgets360.com/smart-home/news/amazon-fire-tv-stick-4k-2026-design-remote-renders-report-12113230",
+    "source": "Gadgets360"
+   },
+   {
+    "title": "Oppo K14 Plus Launched In India With Dimensity 7360 Max SoC, 8,000mAh Battery: Price, Specifications",
+    "link": "https://www.gadgets360.com/mobiles/news/oppo-k14-plus-price-in-india-launch-sale-date-specifications-features-12113282",
+    "source": "Gadgets360"
+   }
+  ],
+  "official": [
+   {
+    "title": "Settlement Order in the matter of Lloyd Enterprises Limited",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/settlement-order-in-the-matter-of-lloyd-enterprises-limited_104811.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Adjudication Order in the matter of Shares Bazaar Pvt. Ltd. - Research Analyst",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/adjudication-order-in-the-matter-of-shares-bazaar-pvt-ltd-research-analyst_104810.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "SEBI Order for Compliance - Release Order for Recovery Certificate No. 9252 of 2026 against Chiranggi Irish Shah (PAN: CACPS1824G) in the matter of Front Running by Navnit Gadoya, Chiranggi Irish Shah and Surbhi Aggarwal.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/sebi-order-for-compliance-release-order-for-recovery-certificate-no-9252-of-2026-against-chiranggi-irish-shah-pan-cacps1824g-in-the-matter-of-front-running-by-navnit-gadoya-chiranggi-irish-shah-_104808.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Remittance Order dated September 29, 2026 issued under RC No. 9222 of 2026 drawn against Ankit Ajitbhai Panchal in the matter of Trading activities of certain entities in the scrip of DU Digital Technologies Limited (now DU Digital Global Limited)",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/remittance-order-dated-september-29-2026-issued-under-rc-no-9222-of-2026-drawn-against-ankit-ajitbhai-panchal-in-the-matter-of-trading-activities-of-certain-entities-in-the-scrip-of-du-digital-techn-_104807.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Corrigendum to the final order in the matter of Adani Group Companies for alleged MPS violation",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/corrigendum-to-the-final-order-in-the-matter-of-adani-group-companies-for-alleged-mps-violation_104795.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "General Remittance dated 29.09.2026 against Dheeraj Wadhawan (PAN: AAOPW4517G) [Defaulter] in the matter of trading activity in the scrip of Dewan Housing Finance Corporation Limited. under Recovery Certificate No. 9214 of 2026",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/general-remittance-dated-29-09-2026-against-dheeraj-wadhawan-pan-aaopw4517g-defaulter-in-the-matter-of-trading-activity-in-the-scrip-of-dewan-housing-finance-corporation-limited-under-recovery-c-_104793.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Order for Remittance of Attached amount issued against Narayan Shivram Kotnis under RC No. 8927 of 2025 in the matter of Royal Twinkle Star Club Private Limited.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/order-for-remittance-of-attached-amount-issued-against-narayan-shivram-kotnis-under-rc-no-8927-of-2025-in-the-matter-of-royal-twinkle-star-club-private-limited-_104791.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Notice of Attachment of Demat account of Navnit Gadoya in RC No. 9286 of 2026.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/notice-of-attachment-of-demat-account-of-navnit-gadoya-in-rc-no-9286-of-2026-_104805.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Notice of Attachment of Bank account of Navnit Gadoya in RC No. 9286 of 2026.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/notice-of-attachment-of-bank-account-of-navnit-gadoya-in-rc-no-9286-of-2026-_104803.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Remittance Order dated 28.09.2026 issued in RC No. 9249 of 2026.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/remittance-order-dated-28-09-2026-issued-in-rc-no-9249-of-2026-_104801.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Remittance Order dated 28.09.2026 issued in RC No. 9248 of 2026.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/remittance-order-dated-28-09-2026-issued-in-rc-no-9248-of-2026-_104799.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Remittance Order dated 28.09.2026 issued in RC No. 9241 of 2026.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/remittance-order-dated-28-09-2026-issued-in-rc-no-9241-of-2026-_104797.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Notice of Demand under Recovery Certificate number 9299 of 2026 dated September 28, 2026, issued to Fingravy Wealth Creation Services Private Limited (PAN: AADCF2427Q), Dhiraj Gupta (PAN: CMVPG2518N), Sumit Kumar (PAN: CSIPK7343G), Hemanchal Singh (PAN: FPBPS3962E), Ravindra Singh (PAN: FOIPS5131B) and Ashutosh Sharma (PAN: CBVPS2287K), [Defaulters], jointly and severally, in the matter of Fingravy Wealth Creation Services Private Limited.: under Recovery Certificate No. 9299 of 2026.",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/notice-of-demand-under-recovery-certificate-number-9299-of-2026-dated-september-28-2026-issued-to-fingravy-wealth-creation-services-private-limited-pan-aadcf2427q-dhiraj-gupta-pan-cmvpg2518n-_104789.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Final order in the matter of Adani Group Companies for alleged MPS violation",
+    "link": "https://www.sebi.gov.in/https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/ORDER_1790584774.pdf",
+    "source": "SEBI"
+   },
+   {
+    "title": "Settlement order in the matter of Adani group companies",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/settlement-order-in-the-matter-of-adani-group-companies_104779.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "General Remittance order September 28,2026 in Recovery Certificate No. 9275 of 2026 issued in the matter of Kunnamkulam Paper Mills Ltd",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/general-remittance-order-september-28-2026-in-recovery-certificate-no-9275-of-2026-issued-in-the-matter-of-kunnamkulam-paper-mills-ltd_104778.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Prohibitory Order -  Recovery Certificate No. 6959 and 6965 of 2023 against Sandeep Tulsiram Agrawal in the matter of Kushal Limited",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/prohibitory-order-recovery-certificate-no-6959-and-6965-of-2023-against-sandeep-tulsiram-agrawal-in-the-matter-of-kushal-limited_104776.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Prohibitory Order - Recovery Certificate No. 6958 and 6969 of 2023 against Namrata Sandeep Agrawal in the matter of Kushal Limited",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/prohibitory-order-recovery-certificate-no-6958-and-6969-of-2023-against-namrata-sandeep-agrawal-in-the-matter-of-kushal-limited_104774.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Prohibitory Order - Recovery Certificate No. 6956 and 6968 of 2023 against SUDHA MAHENDRA AGRAWAL in the matter of Kushal Limited",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/prohibitory-order-recovery-certificate-no-6956-and-6968-of-2023-against-sudha-mahendra-agrawal-in-the-matter-of-kushal-limited_104772.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Prohibitory Order - Recovery Certificate No. 6955 of 2023 issued against Mr. Manoj Tulsiram Agrawal in the matter of Kushal Limited",
+    "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/sep-2026/prohibitory-order-recovery-certificate-no-6955-of-2023-issued-against-mr-manoj-tulsiram-agrawal-in-the-matter-of-kushal-limited_104770.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Adjudication Order in the matter of Alankit Assignments Limited",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/adjudication-order-in-the-matter-of-alankit-assignments-limited_104768.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Adjudication Order in respect of Madhukar Dubey and its proprietorship firm viz. Magnum Industrial Corporation in the matter of IPO of Channel Nine Entertainment Ltd.",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/adjudication-order-in-respect-of-madhukar-dubey-and-its-proprietorship-firm-viz-magnum-industrial-corporation-in-the-matter-of-ipo-of-channel-nine-entertainment-ltd-_104766.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Summary Settlement Order in the matter of Harbourfront India trust AIF",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/summary-settlement-order-in-the-matter-of-harbourfront-india-trust-aif_104764.html",
+    "source": "SEBI"
+   },
+   {
+    "title": "Final Order in the matter of Growpital Platform",
+    "link": "https://www.sebi.gov.in/https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/ORDER_1790589438.pdf",
+    "source": "SEBI"
+   },
+   {
+    "title": "Settlement order in the matter of Growpital Platform",
+    "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/settlement-order-in-the-matter-of-growpital-platform_104747.html",
+    "source": "SEBI"
+   }
+  ],
+  "fact_check": [
+   {
+    "title": "LPU Alleged Rape Case: Viral Video Of Punjab Police Officer Saying Amit Shah’s Nephew Involved Is Doctored - Newschecker",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZkJJeG9vQkVzTFNFMUlsdlZKeFdaZUxWcU5QM3M0N0tMTGx2OVlxWTVIRmdHOGF5ZFgwZ0JESGJFcHotRER5WDFVbmlrVm1UamZmd0xtaGVpdE4zOXBFZ2VrRkpsaFJ6d09pT3dKUVpCSHltWmFHZ2VocmJObUxuem9qUURYZTQ3UUJFc1NWcGdaNnVRUl9KRmtCc2MtQVBaaDNEWDRmVmJjNlFhWnUyMkRHVUNCU0NwNW8xODJVRlhkaF9yaGFiRGV3VklJMFNXVGRNSGhKMkJKZw?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡PIB Fact Check Reveals the Truth Behind Fake Beti Bachao Beti Padhao Yojana's Website - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObTNQS2lyTEI5U2xyREZ6eXZrUTNjU3pOd2RqLTh2Q1lYczBrdHotQVFVNGkyU3lBVUlRX0R6ZDFRWGo3ZEw0U3dkdDNieDhtcGdFOG9wQmRvYTk3eUxHX2p1YVBWeTZSUkJNN0o3LUE1anF2ZnRMaUk1d3Q1MS1sX0liekUtMVdqSjJ5WTRLZnBmMXhuTERmM1JnNm5PQlR6YlVYZHp6T3Aza3VZNXViNEMydjlacV9ybnppWmk3Z2pVZkFkWDNiUTNCQVhJNDFOZlMyQ3RnVHBLZ9IB2gFBVV95cUxObTNQS2lyTEI5U2xyREZ6eXZrUTNjU3pOd2RqLTh2Q1lYczBrdHotQVFVNGkyU3lBVUlRX0R6ZDFRWGo3ZEw0U3dkdDNieDhtcGdFOG9wQmRvYTk3eUxHX2p1YVBWeTZSUkJNN0o3LUE1anF2ZnRMaUk1d3Q1MS1sX0liekUtMVdqSjJ5WTRLZnBmMXhuTERmM1JnNm5PQlR6YlVYZHp6T3Aza3VZNXViNEMydjlacV9ybnppWmk3Z2pVZkFkWDNiUTNCQVhJNDFOZlMyQ3RnVHBLZw?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡PIB Says Clip Showing PM Narendra Modi and CEC Gyanesh Kumar Is AI-Generated Fake Video - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc0N2dEpJT1RCWExHWUcyRlhfZGRaM2oxRnB5LWdKUUoxVnZqQjN3U3RRMWNYWTVxMTFZU191LXRGSnJfaXRaOTFDeXBydVVJQTBMY2JyTC1DX0UzMXJwUVdVQ1JUOGZiR0hHYWxvM0llX052eDA4NTRCaXJVMWJua0c3X0ZvZEtRV3oyempDMHJzeWhhU1BlZDBzZV9oSUd4R0YzblRBZDFvTXUwTzg5eVU5SHpBRXR4OTk1VVRaa1hGcFFfX0htMjlKX1dzN0otV2UxTHd1ZkFUOHVk0gHcAUFVX3lxTE1zQ3Z0SklPVEJYTEdZRzJGWF9kZFozajFGcHktZ0pRSjFWdmpCM3dTdFExY1hZNXExMVlTX3UtdEZKcl9pdFo5MUN5cHJ1VUlBMExjYnJMLUNfRTMxcnBRV1VDUlQ4ZmJHSEdhbG8zSWVfTnZ4MDg1NEJpclUxYm5rRzdfRm9kS1FXejJ6akMwcnN5aGFTUGVkMHNlX2hJR3hHRjNuVEFkMW9NdTBPODl5VTlIekFFdHg5OTVVVFprWEZwUV9fSG0yOUpfV3M3Si1XZTFMd3VmQVQ4dWQ?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡Remdesivir Being Sold by the Name ‘COVIPRI’ Is Fake News! Know Truth Behind Fake Posts - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTlBiQmZCazRhZ2NtVkUwaG9QM0pra0RORm02U1pmdU1uV2c4WklEbnFaRmZtLWUxZXRNWVFsTGVQN1AyeFdQNW0tNGVnenJ0SHhfNmRRVXNrMEo2VEQ1c01NMjVLWFRXeTRId1pqU19BMldMVkVyTmFGcGZTOVB0ckRNUzlQWnJiWWlSLXRTdnYyODJOX2hscjdqVWdENks5VmZvMWpia2hpSVZHaWFBMFhBZ0VIa1A0Njc2YjJBaGtQNFA3eWU2Ql9mQUVrTjVITXU1bV9id9IB1wFBVV95cUxNTlBiQmZCazRhZ2NtVkUwaG9QM0pra0RORm02U1pmdU1uV2c4WklEbnFaRmZtLWUxZXRNWVFsTGVQN1AyeFdQNW0tNGVnenJ0SHhfNmRRVXNrMEo2VEQ1c01NMjVLWFRXeTRId1pqU19BMldMVkVyTmFGcGZTOVB0ckRNUzlQWnJiWWlSLXRTdnYyODJOX2hscjdqVWdENks5VmZvMWpia2hpSVZHaWFBMFhBZ0VIa1A0Njc2YjJBaGtQNFA3eWU2Ql9mQUVrTjVITXU1bV9idw?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡PM KUSUM Yojana Beneficiaries Have to Deposit Registration Fee for Enrollment? Know the Truth - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTlpPMTlWSU95T25Fa3R6cHpSNmEyZ3hfZ3BjS1lOUFFLZWF2SjdOSUdtR2dkenByNHJZd2Q5VVRaQXhTOEFaM3dlakd4RU5WNmVHVEVRZk9vZ1I4X3NwMUhpRG1TbE5RX2txUG5zQWZtei0tVERxMnA3Zk9TV2U3X1daNjVtTWktTl9LeVRfVzQ1MGViTzhiMmRVa3ZnNEVmbVUwZnYySzkwVnZBNFRsbGFEZkN3UnlCa2ppX0k1WEN0Yld4eWJQb1VhWVowLTV4czN0Wm1wMXduMGZoTHdGRW8xNNIB4wFBVV95cUxNTlpPMTlWSU95T25Fa3R6cHpSNmEyZ3hfZ3BjS1lOUFFLZWF2SjdOSUdtR2dkenByNHJZd2Q5VVRaQXhTOEFaM3dlakd4RU5WNmVHVEVRZk9vZ1I4X3NwMUhpRG1TbE5RX2txUG5zQWZtei0tVERxMnA3Zk9TV2U3X1daNjVtTWktTl9LeVRfVzQ1MGViTzhiMmRVa3ZnNEVmbVUwZnYySzkwVnZBNFRsbGFEZkN3UnlCa2ppX0k1WEN0Yld4eWJQb1VhWVowLTV4czN0Wm1wMXduMGZoTHdGRW8xNA?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡DoPT Postponed Wage Hike of Central Government Employees Until Next Year? Check The Truth - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONjJmRndlTnZSS3dhQ09pVE11OVhxVnpVeUFpMW53NU1ZeS0wSHBhOXJaalpoa2gtRkJrZlZtM0J1REg5QjR6Wk9IZk4yYU1CUGRFSHlDdWlSbEhHTllyM0d0cjdvejJlS1EtVHBhS3huVmZjNXpVNkk1M2UzWFV4cktBaklvQXBTSWZwQWxXWFZkeDAtTWNrczhJSUlzMFlRSjItbnpTNUZRX1l3ZWV3ZnhPbzJCcWhRZ2hObGRaZ29wRDV1djlpbjlRRnhWSnhZQnN0RGJaLUpmN1RHLVHSAd4BQVVfeXFMTjYyZkZ3ZU52Ukt3YUNPaVRNdTlYcVZ6VXlBaTFudzVNWXktMEhwYTlyWmpaaGtoLUZCa2ZWbTNCdURIOUI0elpPSGZOMmFNQlBkRUh5Q3VpUmxIR05ZcjNHdHI3b3oyZUtRLVRwYUt4blZmYzV6VTZJNTNlM1hVeHJLQWpJb0FwU0lmcEFsV1hWZHgwLU1ja3M4SUlJczBZUUoyLW56UzVGUV9Zd2Vld2Z4T28yQnFoUWdoTmxkWmdvcEQ1dXY5aW45UUZ4Vkp4WUJzdERiWi1KZjdURy1R?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡President Ram Nath Kovind Visited Showroom Without Convoy on Wife’s Invitation? Know Truth - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQnZHTGJuUnd2Nk8yVXh5NldxSEFvUGxUbWlRM2pucmEtdXo5bVNGNEx1SWY0RmdqcjZhcEMzN0JidXZUbjUtclVyR1ktUmV2Vm9RcE9QakdiVjVSTldXQ0dNc1VBZVJUZ1dGYmdhQ0djQjNrcGg4cGo4c1VJMldXck51elV3cTBFaS1UbGNDVUxKWjNabUZTOF9JTlRwaF9PaHNNb2dMUEdIRGZsNEM0N3B1cmhnM1hKZjVqVTlaSjRST3I2WlZXWTNRdGVxd1h4eTlqMURVaGVzbF9KWDNZ0gHfAUFVX3lxTE5CdkdMYm5Sd3Y2TzJVeHk2V3FIQW9QbFRtaVEzam5yYS11ejltU0Y0THVJZjRGZ2pyNmFwQzM3QmJ1dlRuNS1yVXJHWS1SZXZWb1FwT1BqR2JWNVJOV1dDR01zVUFlUlRnV0ZiZ2FDR2NCM2twaDhwajhzVUkyV1dyTnV6VXdxMEVpLVRsY0NVTEpaM1ptRlM4X0lOVHBoX09oc01vZ0xQR0hEZmw0QzQ3cHVyaGczWEpmNWpVOVpKNFJPcjZaVldZM1F0ZXF3WHh5OWoxRFVoZXNsX0pYM1k?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡Arunachal Pradesh Villagers Vacate Village Amid Rising India-China Tensions? PIB Reveals Truth - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRDFhcl9IZkJ2U2dCSm84eEs3VUhNZ3E5WTJHUTBlcW9VcEVOdUpaQjdHaTVHR2o0eUlEWS1GbV9JaFBuVWhvdWgwcW5ZNXRmVFB3cEg0Y3d1cmIxVG5qNFZjeVZ3MF8zanlzOE1wQVpSZTRvaXdNNkxjMTYta2dBZVRfRHhBOW9UWmJQcGx2THhQTkRaUXRka1hsVlVhamUySTlWY1RkYmxVODktUWtWODZyd25IVlZRZjdZaWxyN1piUXVWZGg3Qm55Z2FpTWZYUXlDd2hqUE56Z3ZpemxLdlBZcEHSAeQBQVVfeXFMTUQxYXJfSGZCdlNnQkpvOHhLN1VITWdxOVkyR1EwZXFvVXBFTnVKWkI3R2k1R0dqNHlJRFktRm1fSWhQblVob3VoMHFuWTV0ZlRQd3BINGN3dXJiMVRuajRWY3lWdzBfM2p5czhNcEFaUmU0b2l3TTZMYzE2LWtnQWVUX0R4QTlvVFpiUHBsdkx4UE5EWlF0ZGtYbFZVYWplMkk5VmNUZGJsVTg5LVFrVjg2cnduSFZWUWY3WWlscjdaYlF1VmRoN0JueWdhaU1mWFF5Q3doalBOemd2aXpsS3ZQWXBB?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡All Women to Get Rs 2,000 Every Month Under Pradhan Mantri Mahila Samman Yojana? Know The Truth  - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeDAwSHdRQzZFQXFFNW5BcE9Na1FISEI2LXJQWTRreExxVEw4UzlMS0RrZlhzS2hpZW5Wbm05NXE3cXF6UlBCemE4UzE2cl9pcWZYWDBhZ2dFUlFMVVBFUHVsaXJYaFZYS1NBOGFsS21TVmhqWEFNNzFwNHRqTTg3Smhucy00UHM2Sm5Va21hSE5NcmpzS083ODdIMmpKeGVqQ2wxVGdnY014LVJRRUdoZzh4UVFfejBUR2dzZ05JNWZhSUU4dTNMVERtTWdqSmdTNkhZejFmMklTa2dfa2J4SklPYkF1d9IB5gFBVV95cUxPeDAwSHdRQzZFQXFFNW5BcE9Na1FISEI2LXJQWTRreExxVEw4UzlMS0RrZlhzS2hpZW5Wbm05NXE3cXF6UlBCemE4UzE2cl9pcWZYWDBhZ2dFUlFMVVBFUHVsaXJYaFZYS1NBOGFsS21TVmhqWEFNNzFwNHRqTTg3Smhucy00UHM2Sm5Va21hSE5NcmpzS083ODdIMmpKeGVqQ2wxVGdnY014LVJRRUdoZzh4UVFfejBUR2dzZ05JNWZhSUU4dTNMVERtTWdqSmdTNkhZejFmMklTa2dfa2J4SklPYkF1dw?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Did a Punjab Police Officer Claim Amit Shah's Nephew Was Involved in the LPU Incident? Fact Check Calls - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRjdRYW0tMUprTFRNeUZoYkVNNlNEZ0tsRW8xUDVHMEdfM3ctQmtHMWhIZk00YTBDbUwzS0ViOGVQRWNnQjB5QzVXVmV2MWs5ZWJpb3JjNFB6ZjNXWmp4MmpCQWtFSDZ2RFVaUFNVcGJFSFhMQUY3NW1JUms4YlJKRTRlUTFFOVM5anNGempKRDREMGlVcFV4U2wzYUI5VHFBSnJ1ZUxNVGdSeTVTNXpfWEZDY191NnFnal8tOFJBTGhQOVRmUUlKR3dSUnc5TzRrc2EzcGpiSDFIU0hreWFxVG9kX3ZEaEt1MHpTWWl4TzNnNUdSUkpOTNIB-AFBVV95cUxNRjdRYW0tMUprTFRNeUZoYkVNNlNEZ0tsRW8xUDVHMEdfM3ctQmtHMWhIZk00YTBDbUwzS0ViOGVQRWNnQjB5QzVXVmV2MWs5ZWJpb3JjNFB6ZjNXWmp4MmpCQWtFSDZ2RFVaUFNVcGJFSFhMQUY3NW1JUms4YlJKRTRlUTFFOVM5anNGempKRDREMGlVcFV4U2wzYUI5VHFBSnJ1ZUxNVGdSeTVTNXpfWEZDY191NnFnal8tOFJBTGhQOVRmUUlKR3dSUnc5TzRrc2EzcGpiSDFIU0hreWFxVG9kX3ZEaEt1MHpTWWl4TzNnNUdSUkpOTA?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "Fact Check News | ⚡Fact Check: Viral Video Claiming Shaktikanta Das Supports High-Return Scheme Is Fake, Says PIB - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbmxCa25IUnBCR1ZYUlJIdThVbW1RZnI1SW9hSnZzdXFMSWJsV29Qd3pOOEtiNDlqZnR3WnV3WUUwV3VyOEpMRERaeTRDTXIxVWFRdzdSdHdKLVZlMmhQOHQtUldhYklERkNQRTliZHZCbFBNTkhKUTJjV2dPRzJxTjNkOTRSN1dWOVI3ZXFqSnFlX3QzdVJEQURMU0c2WThQRS1nX21EN3N0YWNVaTNYWnE0MlRVSVBULXpKODBEYmhrNHZqQzRSdTktMGFlbEZSZGZCUUNTamNhc1dtTGROampyWdIB4wFBVV95cUxQbmxCa25IUnBCR1ZYUlJIdThVbW1RZnI1SW9hSnZzdXFMSWJsV29Qd3pOOEtiNDlqZnR3WnV3WUUwV3VyOEpMRERaeTRDTXIxVWFRdzdSdHdKLVZlMmhQOHQtUldhYklERkNQRTliZHZCbFBNTkhKUTJjV2dPRzJxTjNkOTRSN1dWOVI3ZXFqSnFlX3QzdVJEQURMU0c2WThQRS1nX21EN3N0YWNVaTNYWnE0MlRVSVBULXpKODBEYmhrNHZqQzRSdTktMGFlbEZSZGZCUUNTamNhc1dtTGROampyWQ?oc=5",
+    "source": "PIB Fact Check (via Google News)"
+   },
+   {
+    "title": "In 24 Delhi constituencies, SIR draft roll has fewer names than 2025 voter turnout",
+    "link": "https://www.altnews.in/in-24-delhi-constituencies-sir-draft-roll-has-fewer-names-than-2025-voter-turnout/",
+    "source": "Alt News"
+   },
+   {
+    "title": "Fact Check: सपा के वर‍िष्‍ठ नेता श‍िवपाल स‍िंह यादव का सात साल पुराना बयान अब झूठे दावे के साथ वायरल",
+    "link": "https://www.vishvasnews.com/politics/old-shivpal-yadav-video-calling-sp-party-of-thieves-and-mafias-goes-viral/",
+    "source": "Vishvas News"
+   },
+   {
+    "title": "Fact Check: जयपुर में पुजारी की पिटाई के वीडियो को छेड़खानी के झूठे दावे के साथ क‍िया गया वायरल",
+    "link": "https://www.vishvasnews.com/society/video-of-priest-being-beaten-in-jaipur-was-circulated-with-false-claim-of-molestation/",
+    "source": "Vishvas News"
+   },
+   {
+    "title": "Fact Check: LPU केस में आरोपी और अमित शाह के कनेक्शन का दावा करता एसपी का वीडियो डीपफेक है",
+    "link": "https://www.vishvasnews.com/ai-check/fact-check-lpu-student-protest-case-sp-phagwara-viral-video-amit-shah-relative-deepfake/",
+    "source": "Vishvas News"
+   },
+   {
+    "title": "Fact Check: मुख्य चुनाव आयुक्त ज्ञानेश कुमार के खिलाफ जंतर-मंतर पर प्रदर्शन के दावे से 2024 का वीडियो वायरल",
+    "link": "https://www.vishvasnews.com/politics/fact-check-2024-jantar-mantar-protest-video-falsely-shared-as-demonstration-against-cec-gyanesh-kumar/",
+    "source": "Vishvas News"
+   },
+   {
+    "title": "Fact Check: गुजरात और इंडोनेशिया के हैं राजस्थान में भारी बारिश और तूफान से मची तबाही के दावे से वायरल वीडियो",
+    "link": "https://www.vishvasnews.com/viral/fact-check-rajasthan-rain-video-truth-gujarat-and-indonesia-videos-misleadingly-shared/",
+    "source": "Vishvas News"
+   },
+   {
+    "title": "Video Of Punjab Police Linking Amit Shah’s Nephew To LPU Case Is A Deepfake | BOOM - BOOM Fact Check",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRzlDTDhXLXRBNVQ0dm01SHh1QnF4bnFTUVNqVlM1R1M1aC1jSEZfaXBBZ1Fhc2xlU1BhSEJGeHBVT3pxUktGSTJVaW9jZUNLeF9zbjViSVJCcWR1blNaZFdNMDBZcVR4bFI2b015YUFQX281eVV4QzYyZFZlTXRhOWxCNTIxV1JOTjFVVmR0UXgzbFZDTDZBTkpsNkFhM0xITUl4VEpjNld3MWxobnBjTXRJNFg1QdIBuwFBVV95cUxOc3lKWlo2Y3g1cV9vX0UzY2RlUzk1M3FvZTZsWVJvR3JfRksyS2J2QXp3NVFKdGZnc2QyNm5SMDlmc09IOXRPUHRKSjJDdmM1bHZBYWQwMHNBTHlDVzJaRXA0YnVkdVpnVXM4UEZyUVdEdTZiRkFIRmY0OEhsY2NmSUc2NUt1MGJBZXB4S0RHekkzakJiY1BKRjJCdUxxZTBSUzJWTDBtZ2FSTUJ2QlR2cmNwSW5Lbi12UXJn?oc=5",
+    "source": "BOOM (via Google News)"
+   }
+  ]
+ },
+ "reddit": {
+  "IndiaInvestments": [],
+  "personalfinanceindia": [
+   "Gf has 15L in savings account, where should she invest?",
+   "Does keeping your salary and savings in the same account actually hurt you?",
+   "Spent 3 years dumping everything into mutual funds without even thinking about bonds"
+  ],
+  "india": [
+   "As A Supreme Court Justice, He Ruled On Vantara, The Ambani Private Zoo. After Retirement, He Joined It",
+   "BJP leader dies of electrocution in Bhopal: Got electric shock after touching divider pole; woman also inju...",
+   "Conflict of interest concerns follow CEC Gyanesh Kumar from Sambhal to the Supreme Court | The Election Commission dismissed complaints of voter suppression in Sambhal based on a report by returning officer Manish Bansal, Gyanesh Kumar’s son-in-law.",
+   "Stock market crash today: BSE Sensex crashes over 1,100 points, investors lose Rs 8.92 lakh crore - top reasons for fall - The Times of India",
+   "‘US won't let India become next China’: Russian envoy claims ‘Freudian slip’ revealed Washington's concerns",
+   "Our PM seems kinda Dumb or unaware of the state of the country",
+   "Election Commission row: Supreme Court to hear plea against CEC Gyanesh Kumar next week",
+   "India's Essar Group to invest $18 billion in 'largest' US steel plant, Trump announces"
+  ],
+  "developersIndia": [
+   "Got laid off on bday, even with a lot of dependency",
+   "Working on a File Sharing Application between Desktop and Mobile irregardless of Distance or Network",
+   "I built a job tracker that helped me get shortlisted at HackerRank!",
+   "To all the low academic scorers , where are you now in life?",
+   "Might get laid off in the next 1-2 months,looking for advice",
+   "I built a paid reel maker, then decided nobody should pay for it",
+   "I analysed 12,215 resumes from Indian job seekers. Only 15.8% of experience bullets had a single number in them.",
+   "AI was suppose to reduce grunt work, right? RIGHT?"
+  ],
+  "IndianGaming": [
+   "Finally purchased oled monitor",
+   "Tell me a game more relaxing than Bodycam.",
+   "2 hours left to enter the witcher world..",
+   "2026 has been such an amazing year for gaming. Which game is your favorite so far?",
+   "41GB free upgrade -- CD Project you are my love",
+   "Hope everyone is having a blast",
+   "ALAN WAKE: Master Piece",
+   "Playing wardogs like a true punjabi"
+  ],
+  "technology": [
+   "AI industry needs to earn $6 trillion by 2031 to justify data centres",
+   "Grandmother falsely accused of bank theft after alleged AI facial recognition match sues for $10M",
+   "McDonald's Is Reportedly Using AI To \"Dynamically\" Price Its Burgers",
+   "U.S President cuts fuel economy standards back to 2014 levels | In 2020, U.S President cut CAFE to 40 mpg. Now he’s cut it again to just 35 mpg.",
+   "Your car’s data privacy problems are worse than you think / A team of researchers tested 21 vehicles and found that all of them transmitted data to a third-party domain. And over half were pinging advertising companies.",
+   "Apple pressured to explain U.S President role in ICE-tracking app removals | Lawmaker U.S Rep. Jamie Raskin rejects Apple excuse for banning ICE-tracking apps as unconstitutional.",
+   "Sony Japan tries an anti-scalper lottery system for PS5 Pro orders, locks systems behind a 60-hour playtime requirement — strict lottery system blocks scalpers and tourists in Japan, requires a domestic account to buy",
+   "'Gaming pays me double what I earned as a teacher'"
+  ],
+  "indianparents": []
+ },
+ "kworb_top20": [
+  {
+   "pos": "1",
+   "track": "Sadhu Tiwari - Parvati",
+   "weeks": "4",
+   "peak": "1",
+   "weekly_views": "47,266,182",
+   "change": "-3,986,840"
+  },
+  {
+   "pos": "2",
+   "track": "ARJN - KALYANI (Remix)",
+   "weeks": "29",
+   "peak": "1",
+   "weekly_views": "35,146,838",
+   "change": "-4,817,613"
+  },
+  {
+   "pos": "3",
+   "track": "Prabha Bangarigalla - Yeshanagula",
+   "weeks": "4",
+   "peak": "1",
+   "weekly_views": "29,721,275",
+   "change": "+387,268"
+  },
+  {
+   "pos": "4",
+   "track": "Yo Yo Honey Singh - Casa Tupka Anthemo",
+   "weeks": "1",
+   "peak": "4",
+   "weekly_views": "24,924,053",
+   "change": ""
+  },
+  {
+   "pos": "5",
+   "track": "G.V. Prakash Kumar - Mallepoola Pallaki",
+   "weeks": "6",
+   "peak": "4",
+   "weekly_views": "21,239,058",
+   "change": "-5,605,193"
+  },
+  {
+   "pos": "6",
+   "track": "Banjaare - Barsaat",
+   "weeks": "8",
+   "peak": "4",
+   "weekly_views": "20,991,884",
+   "change": "-1,753,682"
+  },
+  {
+   "pos": "7",
+   "track": "G.V. Prakash Kumar - Irumudi Kattu",
+   "weeks": "6",
+   "peak": "4",
+   "weekly_views": "17,775,160",
+   "change": "-5,283,485"
+  },
+  {
+   "pos": "8",
+   "track": "Swamy Naresh - Basinga Balaalu",
+   "weeks": "12",
+   "peak": "5",
+   "weekly_views": "15,956,676",
+   "change": "-980,569"
+  },
+  {
+   "pos": "9",
+   "track": "Shashwat Sachdev - Shararat",
+   "weeks": "42",
+   "peak": "1",
+   "weekly_views": "14,935,841",
+   "change": "-1,779,522"
+  },
+  {
+   "pos": "10",
+   "track": "Shweta Mohan - Endhayya Saami",
+   "weeks": "2",
+   "peak": "10",
+   "weekly_views": "14,505,581",
+   "change": ""
+  },
+  {
+   "pos": "11",
+   "track": "Shashwat Sachdev - Gehra Hua",
+   "weeks": "43",
+   "peak": "1",
+   "weekly_views": "14,072,557",
+   "change": "-1,764,789"
+  },
+  {
+   "pos": "12",
+   "track": "G.V. Prakash Kumar - Neno Butterfly",
+   "weeks": "9",
+   "peak": "8",
+   "weekly_views": "12,861,509",
+   "change": "-3,314,624"
+  },
+  {
+   "pos": "13",
+   "track": "Anand Bhaskar - Vaaroon Forever",
+   "weeks": "4",
+   "peak": "13",
+   "weekly_views": "12,079,747",
+   "change": "-1,502,677"
+  },
+  {
+   "pos": "14",
+   "track": "Shilpi Raj - Barbadi Hoi",
+   "weeks": "11",
+   "peak": "1",
+   "weekly_views": "11,872,529",
+   "change": "-1,915,428"
+  },
+  {
+   "pos": "15",
+   "track": "Jyotica Tangri - Ishq de Fanniyar",
+   "weeks": "19",
+   "peak": "6",
+   "weekly_views": "11,577,517",
+   "change": "-571,360"
+  },
+  {
+   "pos": "16",
+   "track": "Banjaare - Bairan",
+   "weeks": "29",
+   "peak": "1",
+   "weekly_views": "11,543,138",
+   "change": "-811,377"
+  },
+  {
+   "pos": "17",
+   "track": "G.V. Prakash Kumar -  YAALALO YAALALO",
+   "weeks": "5",
+   "peak": "8",
+   "weekly_views": "11,495,031",
+   "change": "-5,936,246"
+  },
+  {
+   "pos": "18",
+   "track": "Sai Abhyankkar - Radhimaa",
+   "weeks": "4",
+   "peak": "13",
+   "weekly_views": "10,743,668",
+   "change": "-1,004,855"
+  },
+  {
+   "pos": "19",
+   "track": "Krsna - Boom Shaka",
+   "weeks": "17",
+   "peak": "9",
+   "weekly_views": "10,245,989",
+   "change": "-1,258,117"
+  },
+  {
+   "pos": "20",
+   "track": "Raj Mawar - Fortuner (feat. Gulshan Music & Jaat Nia)",
+   "weeks": "51",
+   "peak": "2",
+   "weekly_views": "9,549,950",
+   "change": "+27,212"
+  }
+ ],
+ "failed_sources": [],
+ "source_count": 50
+}
