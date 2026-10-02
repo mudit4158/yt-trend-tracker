@@ -1,0 +1,252 @@
+{
+ "youtube_popular_errors": {
+  "ok": true,
+  "detail": "cat 19: videos 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"; cat 27: videos 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"; ",
+  "count": 0
+ },
+ "youtube_popular": {
+  "ok": true,
+  "detail": "1073 unique videos",
+  "count": 1073
+ },
+ "youtube_watchlist": {
+  "ok": true,
+  "detail": "2639 videos from 221 channels",
+  "count": 2639
+ },
+ "youtube_search": {
+  "ok": true,
+  "detail": "362 videos",
+  "count": 362
+ },
+ "youtube_autocomplete": {
+  "ok": true,
+  "detail": "58/58 keywords",
+  "count": 58
+ },
+ "google_trends": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "gnews:DEV:mandir": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:DEV:festival puja vidhi": {
+  "ok": true,
+  "detail": "",
+  "count": 6
+ },
+ "gnews:DEV:navratri": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:DEV:diwali": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:KID:CBSE": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:KID:school holidays": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:KID:children education India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:RBI": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:SEBI": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:income tax": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:UPI": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:mutual fund": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:smartphone launch India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:AI India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:cyber fraud": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:TFN:gold price": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:GENERAL:India trending": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "gnews:GENERAL:viral video India": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "rss:TechCrunch": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:The Verge": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "rss:Ars Technica": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:Wired": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Hacker News": {
+  "ok": true,
+  "detail": "",
+  "count": 4
+ },
+ "rss:SCMP Tech": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:TechNode": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Pandaily": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:KrASIA (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 15
+ },
+ "rss:Rest of World": {
+  "ok": true,
+  "detail": "",
+  "count": 12
+ },
+ "rss:Reuters Tech (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Gadgets360": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Moneycontrol Tech": {
+  "ok": false,
+  "detail": "502 Server Error: Bad Gateway for url: https://www.moneycontrol.com/rss/technology.xml",
+  "count": null
+ },
+ "rss:Economic Times Wealth": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:Moneycontrol Personal Finance (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:SEBI": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:PIB (English)": {
+  "ok": true,
+  "detail": "",
+  "count": 20
+ },
+ "rss:RBI (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:NPCI / UPI (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 25
+ },
+ "rss:PIB Fact Check (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 22
+ },
+ "rss:Alt News": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "rss:Vishvas News": {
+  "ok": true,
+  "detail": "",
+  "count": 10
+ },
+ "rss:BOOM (via Google News)": {
+  "ok": true,
+  "detail": "",
+  "count": 3
+ },
+ "reddit": {
+  "ok": true,
+  "detail": "",
+  "count": 100
+ },
+ "kworb": {
+  "ok": true,
+  "detail": "",
+  "count": 100
+ },
+ "_meta": {
+  "date": "2026-10-03",
+  "finished_ist": "2026-10-03T05:17+05:30",
+  "youtube_quota_units": 1819
+ }
+}
