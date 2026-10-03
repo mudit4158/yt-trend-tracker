@@ -1,0 +1,302 @@
+{
+ "date": "2026-10-04",
+ "upcoming": [
+  {
+   "date": "2026-10-06",
+   "name": "Indira Ekadashi",
+   "type": "ekadashi",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 2,
+   "stage": "publish window",
+   "production_deadline": "2026-10-01",
+   "urgent": true
+  },
+  {
+   "date": "2026-10-07",
+   "name": "RBI MPC policy decision",
+   "type": "finance",
+   "channels": [
+    "TFN"
+   ],
+   "days_left": 3,
+   "stage": "publish window",
+   "production_deadline": "2026-10-02",
+   "urgent": true
+  },
+  {
+   "date": "2026-10-10",
+   "name": "Mahalaya / Sarva Pitru Amavasya",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "note": "Huge in Bengal: start of Devi Paksha, Durga Puja countdown",
+   "days_left": 6,
+   "stage": "BRIEF + production",
+   "production_deadline": "2026-10-05",
+   "urgent": true
+  },
+  {
+   "date": "2026-10-11",
+   "name": "Sharad Navratri begins (Ghatasthapana)",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "KID"
+   ],
+   "series_days": 9,
+   "days_left": 7,
+   "stage": "BRIEF + production",
+   "production_deadline": "2026-10-06",
+   "urgent": true
+  },
+  {
+   "date": "2026-10-15",
+   "name": "UPI MDR on merchant payments above Rs 2,000 starts",
+   "type": "finance",
+   "channels": [
+    "TFN"
+   ],
+   "days_left": 11,
+   "stage": "BRIEF + production",
+   "production_deadline": "2026-10-10",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-17",
+   "name": "Durga Puja Maha Saptami (Bengal, confirm)",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "KID"
+   ],
+   "days_left": 13,
+   "stage": "BRIEF + production",
+   "production_deadline": "2026-10-12",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-19",
+   "name": "Durga Ashtami / Maha Navami",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 15,
+   "stage": "watch",
+   "production_deadline": "2026-10-14",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-20",
+   "name": "Dussehra (Vijayadashami)",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "KID"
+   ],
+   "days_left": 16,
+   "stage": "watch",
+   "production_deadline": "2026-10-15",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-22",
+   "name": "Papankusha Ekadashi",
+   "type": "ekadashi",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 18,
+   "stage": "watch",
+   "production_deadline": "2026-10-17",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-25",
+   "name": "Sharad Purnima",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 21,
+   "stage": "watch",
+   "production_deadline": "2026-10-20",
+   "urgent": false
+  },
+  {
+   "date": "2026-10-29",
+   "name": "Karva Chauth",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 25,
+   "stage": "watch",
+   "production_deadline": "2026-10-24",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-05",
+   "name": "Rama Ekadashi",
+   "type": "ekadashi",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 32,
+   "stage": "upcoming",
+   "production_deadline": "2026-10-31",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-06",
+   "name": "Dhanteras",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "TFN"
+   ],
+   "note": "TFN angle: gold/silver buying, digital gold vs physical, prices",
+   "days_left": 33,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-01",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-07",
+   "name": "Naraka Chaturdashi (Choti Diwali)",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 34,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-02",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-08",
+   "name": "Diwali (Lakshmi Puja)",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "KID",
+    "TFN"
+   ],
+   "note": "TFN angle: Muhurat trading, festive offers/scams, bonus investing",
+   "days_left": 35,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-03",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-10",
+   "name": "Govardhan Puja",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 37,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-05",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-11",
+   "name": "Bhai Dooj",
+   "type": "festival",
+   "channels": [
+    "DEV",
+    "KID"
+   ],
+   "days_left": 38,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-06",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-14",
+   "name": "Children's Day (Bal Diwas)",
+   "type": "national",
+   "channels": [
+    "KID"
+   ],
+   "days_left": 41,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-09",
+   "urgent": false
+  },
+  {
+   "date": "2026-11-15",
+   "name": "Chhath Puja",
+   "type": "festival",
+   "channels": [
+    "DEV"
+   ],
+   "days_left": 42,
+   "stage": "upcoming",
+   "production_deadline": "2026-11-10",
+   "urgent": false
+  }
+ ],
+ "next_7_days_deity": [
+  {
+   "date": "2026-10-05",
+   "weekday": "Monday",
+   "deity": "Shiv ji",
+   "channels": [
+    "DEV"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "weekday": "Tuesday",
+   "deity": "Hanuman ji",
+   "channels": [
+    "DEV"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "weekday": "Wednesday",
+   "deity": "Ganesh ji",
+   "channels": [
+    "DEV"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "weekday": "Thursday",
+   "deity": "Vishnu ji / Sai Baba / Guru",
+   "channels": [
+    "DEV"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "weekday": "Friday",
+   "deity": "Maa Lakshmi / Santoshi Maa / Durga Maa",
+   "channels": [
+    "DEV"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "weekday": "Saturday",
+   "deity": "Shani Dev / Hanuman ji",
+   "channels": [
+    "DEV"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "weekday": "Sunday",
+   "deity": "Surya Dev",
+   "channels": [
+    "DEV"
+   ]
+  }
+ ]
+}
